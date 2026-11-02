@@ -6,6 +6,7 @@ import {
   count,
   emptyFilters,
   filterRegionalWorkspace,
+  precisionOf,
   safeUrl,
   useAtlas,
   type Filters,
@@ -23,6 +24,7 @@ import {
   SourceLinks,
 } from "@/components/atlas/Primitives";
 import { AtlasMap, MapLegend } from "@/components/atlas/AtlasMap";
+import { coverageText, defaultAerialId, regionPresentation } from "@/lib/regionPresentation";
 import {
   CityCompanyIndex,
   CompanyFilters,
@@ -52,8 +54,8 @@ export default function AtlasHub({
       query.data?.aerials.length &&
       !query.data.aerials.some(a => a.id === aerialId)
     )
-      setAerialId(query.data.aerials[0].id);
-  }, [query.data, aerialId]);
+      setAerialId(defaultAerialId(regionId, query.data.aerials));
+  }, [query.data, aerialId, regionId]);
   const aerial = query.data?.aerials.find(view => view.id === aerialId);
   const workspaceFilters = useMemo(
     () => ({ ...filters, frame: tab === "aerial" ? aerialId : undefined }),
@@ -91,16 +93,15 @@ export default function AtlasHub({
     );
   if (!query.data || !region) return null;
   return (
-    <>
+    <div className="hub-page">
       <Link className="breadcrumb" href="/">
         <ArrowLeft size={12} />
-        ALL HUBS<span>/</span>
-        {region.country}
+        All hubs
       </Link>
       <PageHeader
-        eyebrow="REGIONAL OCCUPIER INTELLIGENCE"
-        title={region.name}
-        description={region.geography}
+        eyebrow="REGIONAL WORKSPACE"
+        title={regionPresentation(region).label}
+        description={regionPresentation(region).subtitle}
       >
         <DownloadLink url={safeUrl(region.pdfUrl)}>
           Regional exhibit PDF
@@ -118,8 +119,11 @@ export default function AtlasHub({
           note="Not independently verified"
         />
         <Metric
-          label="ADDRESS-LEVEL RECORDS"
-          value={region.preciseSites}
+          label="ADDRESS-MATCHED"
+          value={
+            query.data.sites.filter(site => precisionOf(site) === "address")
+              .length
+          }
           note={`${count(region.sites)} total site records`}
         />
         <Metric
@@ -161,7 +165,16 @@ export default function AtlasHub({
         </div>
         <div className="workspace-live">
           <span />
-          {count(companies.length)} MATCHING PROFILES
+          {count(
+            companies.filter(
+              company => company.kind !== "institution_reference"
+            ).length
+          )}{" "}
+          companies
+          {companies.some(
+            company => company.kind === "institution_reference"
+          ) &&
+            ` · ${count(companies.filter(company => company.kind === "institution_reference").length)} references`}
         </div>
       </div>
       <CompanyFilters
@@ -258,29 +271,46 @@ export default function AtlasHub({
             </DownloadLink>
           </div>
         </section>
-      ) : (
-        <div className="regional-context">
-          <ShieldCheck size={17} />
+      ) : null}
+      <details className="coverage-details">
+        <summary>
+          Coverage details <span>Geography, evidence & source boundaries</span>
+        </summary>
+        <div>
+          <h3>{region.country}</h3>
+          <p>{coverageText(region.geography)}</p>
+          {region.description && <p>{coverageText(region.description)}</p>}
           <p>
-            {region.description}
-            <span>
-              City-reference coordinates do not locate occupied premises.
-              Unchecked imports remain a separate research layer; analytical
-              frames are not official JLL submarket boundaries.
-            </span>
+            The retained release contains {count(region.sites)} site records and counts {count(region.preciseSites)}{" "}
+            address-level records, including campus reference addresses where
+            present. Campus references are not counted as address-matched
+            company sites in the workspace metric.
+          </p>
+          <p>
+            City-reference coordinates do not locate occupied premises.
+            Unchecked imports remain a separate research layer. Analytical
+            frames are not official JLL submarket boundaries. Counts describe
+            retained research, not a complete company census.
           </p>
           {safeUrl(region.macroUrl) && (
             <External url={region.macroUrl}>Source hub map</External>
           )}
+          <DownloadLink url={safeUrl(region.pdfUrl)}>
+            Regional exhibit PDF
+          </DownloadLink>
+          <Link className="text-link" href="/methodology">
+            Methodology & full coverage <ArrowUpRight size={14} />
+          </Link>
         </div>
-      )}
+      </details>
       <CompanyMatrix
         regionId={regionId}
         filters={workspaceFilters}
         companies={companies}
+        sites={sites}
         onCompany={onCompany}
         onReset={() => setFilters({ ...emptyFilters })}
       />
-    </>
+    </div>
   );
 }

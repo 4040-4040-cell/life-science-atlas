@@ -11,6 +11,7 @@ import {
 } from "lucide-react";
 import type { OverviewResponse } from "@shared/atlas";
 import { useAtlas, count } from "@/lib/atlas";
+import { regionPresentation } from "@/lib/regionPresentation";
 import { Loading } from "./Primitives";
 
 export function AtlasShell({
@@ -24,7 +25,9 @@ export function AtlasShell({
   const [location] = useLocation();
   const [menuOpen, setMenuOpen] = useState(false);
   return (
-    <div className={`atlas-shell ${profileOpen ? "profile-open" : ""}`}>
+    <div
+      className={`atlas-shell ${profileOpen ? "profile-open" : ""} ${location.startsWith("/hub/") ? "is-hub" : ""}`}
+    >
       <div className="mobile-topbar">
         <Link href="/" className="mobile-brand">
           LIFE SCIENCE{" "}
@@ -59,7 +62,7 @@ export function AtlasShell({
           <span className="brand-main">
             ATLAS<span className="brand-arrow">↗</span>
           </span>
-          <span className="brand-sub">OCCUPIER INTELLIGENCE</span>
+          <span className="brand-sub">Companies, sites, capital</span>
         </Link>
         <div className="rail-rule" />
         <nav aria-label="Atlas navigation">
@@ -88,8 +91,11 @@ export function AtlasShell({
                   {String(index + 1).padStart(2, "0")}
                 </span>
                 <span className="hub-name">
-                  {region.name}
-                  <small>{region.geography}</small>
+                  {regionPresentation(region).label}
+                  <small>
+                    {regionPresentation(region).navSubtitle ||
+                      regionPresentation(region).subtitle}
+                  </small>
                 </span>
                 <span className="hub-link-arrow">↗</span>
               </Link>
@@ -105,29 +111,20 @@ export function AtlasShell({
           </Link>
         </nav>
         <div className="rail-bottom">
-          <div className="rail-status">
-            <span />
-            RETAINED RESEARCH
-          </div>
-          <p>
-            Evidence before inference.
-            <br />
-            Place before companywide metrics.
-          </p>
           <span className="rail-release">
             {overview.data?.asOf
-              ? `DATA RELEASE / ${overview.data.asOf}`
-              : "PRIVATE RESEARCH WORKSPACE"}
+              ? `Release ${overview.data.asOf}`
+              : "Private research workspace"}
           </span>
         </div>
       </aside>
       <main className="atlas-main" id="main-content">
         <div className="topline">
           <span>
-            <Compass size={13} /> LIFE SCIENCE / LOCATION INTELLIGENCE
+            <Compass size={15} /> Companies, sites, capital
           </span>
           <Link href="/methodology">
-            Evidence & coverage <ArrowUpRight size={12} />
+            Coverage & sources <ArrowUpRight size={14} />
           </Link>
         </div>
         {children}

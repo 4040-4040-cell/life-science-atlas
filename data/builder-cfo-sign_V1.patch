@@ -1,0 +1,15 @@
+--- build_company_cards_V5.py (retained archive; do not modify in place)
++++ build_company_cards_CFO_CORRECTED_V1.py (new working copy)
+@@ -1612,6 +1612,6 @@
+-        is_cash_use = operating.field in {"operating_cash_use_usdm"} or "cash use" in (operating.notes or "").casefold()
+-        final_value = -abs(operating_value) if is_cash_use else operating_value
++        is_cash_use = operating.field == "operating_cash_use_usdm"
++        final_value = -operating_value if is_cash_use else operating_value
+         prefix = operating_note
+         if is_cash_use:
+-            prefix = "Positive source-stated operating cash use is represented as negative operating cash flow. " + (prefix or "")
++            prefix = "Signed operating cash use is converted to operating cash flow by inversion; native CFO retains its sign. " + (prefix or "")
+         operating_measure = measure_from_candidate(operating, resolver, unit="USD millions", value=final_value, notes_prefix=prefix)
+@@ -1628,1 +1628,1 @@
+-        raw_is_use = operating.field == "operating_cash_use_usdm" or "cash use" in (operating.notes or "").casefold()
++        raw_is_use = operating.field == "operating_cash_use_usdm"

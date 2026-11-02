@@ -1,0 +1,1128 @@
+{
+  "asOf": "2026-11-02T19:15:29.828Z",
+  "version": "atlas-web-v5-20261102",
+  "liveCfoVerified": 91,
+  "financialCorrectionsAdded": 91,
+  "financialSkips": [],
+  "repeatImport": "completed version no-op; verified during upgrade",
+  "profiles": 1276,
+  "sites": 1648,
+  "originalProfilesAndObservationsPreserved": true,
+  "priorV4ClinicalAndFinancingObservationsPreserved": 1361,
+  "versions": [
+    {
+      "version": "atlas-web-v1-20261102",
+      "status": "complete"
+    },
+    {
+      "version": "atlas-web-v2-20261102",
+      "status": "complete"
+    },
+    {
+      "version": "atlas-web-v3-20261102",
+      "status": "complete"
+    },
+    {
+      "version": "atlas-web-v4-20261102",
+      "status": "complete"
+    },
+    {
+      "version": "atlas-web-v5-20261102",
+      "status": "complete"
+    }
+  ],
+  "verified": [
+    {
+      "companyId": "gco_e2dfe3f6013a3ea81210",
+      "name": "10x Genomics, Inc.",
+      "value": 43.094,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "biotech-bay:SEC_FACT_1770787_000162828026054491"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_1da902a853cb493cceab",
+      "name": "908 Devices",
+      "value": 4.376,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "genetown:SEC_FACT_1555279_000110465926093731"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_3ab2fef92c7c1d8d6997",
+      "name": "AbbVie",
+      "value": 7265,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "biomidwest:SEC_FACT_1551152_000155115226000026"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_0d62f5a9a6604c3ba1fd",
+      "name": "Acadia Pharmaceuticals",
+      "value": 134.762,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "biotech-beach:SEC_FACT_1070494_000119312526333243"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_6f304971a651f8ae0210",
+      "name": "AdaptHealth",
+      "value": 239.024,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "pharm-country:SEC_FACT_1725255_000162828026052646"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_0e3bd1fb072a94039794",
+      "name": "Agilent Technologies, Inc.",
+      "value": 1064,
+      "unit": "USD millions",
+      "periodStart": "2025-11-01",
+      "periodEnd": "2026-07-31",
+      "sourceIds": [
+        "biotech-bay:SEC_FACT_1090872_000109087226000064"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_2420b7e937e1471be817",
+      "name": "Alnylam Pharmaceuticals",
+      "value": 397.228,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "genetown:SEC_FACT_1178670_000117867026000062"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_c2161b2fb3b090b9d9ee",
+      "name": "Alphatec Holdings",
+      "value": 21.803,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "biotech-beach:SEC_FACT_1350653_000119312526333051"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_48272715346d6e3b4674",
+      "name": "Amgen",
+      "value": 6191,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "bio-nc:SEC_FACT_318154_000031815426000126"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_352ff76df7abb1e053ad",
+      "name": "AptarGroup",
+      "value": 222.18,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "biomidwest:SEC_FACT_896622_000089662226000168"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_1158ade37657d8433653",
+      "name": "Arcutis Biotherapeutics",
+      "value": 14.878,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "biotech-beach:SEC_FACT_1787306_000178730626000051"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_d2602cf168327bf22658",
+      "name": "AtriCure",
+      "value": 18.196,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "biomidwest:SEC_FACT_1323885_000132388526000035"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_d17a164aaf6ce660b81a",
+      "name": "Avantor",
+      "value": 432,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-09-30",
+      "sourceIds": [
+        "pharm-country:SEC_FACT_1722482_000162828026067751"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_37c46347c3797dcc3747",
+      "name": "Baxter International",
+      "value": 498,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "bio-nc:SEC_FACT_10456_000162828026051118"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_5e657ff6158d3e2a6d23",
+      "name": "BD",
+      "value": 657,
+      "unit": "USD millions",
+      "periodStart": "2025-10-01",
+      "periodEnd": "2025-12-31",
+      "sourceIds": [
+        "pharm-country:SEC_FACT_10795_000001079526000005"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_4df80e9d7ecd48b49e72",
+      "name": "BillionToOne, Inc.",
+      "value": 24.566,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "biotech-bay:SEC_FACT_2070849_000207084926000050"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_24541c996caf62a4570c",
+      "name": "Biogen",
+      "value": 1735.2,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-09-30",
+      "sourceIds": [
+        "bio-nc:SEC_FACT_875045_000087504526000096"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_188152b5332b2214de95",
+      "name": "Biomarin Pharmaceutical Inc",
+      "value": 388.76,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "biotech-bay:SEC_FACT_1048477_000104847726000016"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_41426245161e6c00f407",
+      "name": "Bio-Rad Laboratories, Inc.",
+      "value": 206.8,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "biotech-bay:SEC_FACT_12208_000001220826000048"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_3587d9f0ba282df85f31",
+      "name": "Bio-Techne",
+      "value": 292.073,
+      "unit": "USD millions",
+      "periodStart": "2025-07-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "biomidwest:SEC_FACT_842023_000110465926100322"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_9394d747417bbca0fb2e",
+      "name": "Boston Scientific",
+      "value": 1822,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "biomidwest:SEC_FACT_885725_000088572526000053"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_45ab8969e18b2e13fd4b",
+      "name": "Bristol Myers Squibb",
+      "value": 4497,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "pharm-country:SEC_FACT_14272_000001427226000020"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_5f0503ebeb4a9b59eee4",
+      "name": "Cardinal Health",
+      "value": 5174,
+      "unit": "USD millions",
+      "periodStart": "2025-07-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "biomidwest:SEC_FACT_721371_000072137126000038"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_6c48ac1b954b085edc7c",
+      "name": "Celularity",
+      "value": 0.339,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "pharm-country:SEC_FACT_1752828_000149315226047787"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_eaeca89c62c10dfb12e7",
+      "name": "Cencora",
+      "value": 1687.53,
+      "unit": "USD millions",
+      "periodStart": "2025-10-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "pharm-country:SEC_FACT_1140859_000114085926000034"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_04121fed8d29fd1052e6",
+      "name": "Certara",
+      "value": 21.732,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "pharm-country:SEC_FACT_1827090_000182709026000028"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_fcd64bcd4cbba1e64599",
+      "name": "Charles River Laboratories",
+      "value": 220.802,
+      "unit": "USD millions",
+      "periodStart": "2025-12-28",
+      "periodEnd": "2026-06-27",
+      "sourceIds": [
+        "genetown:SEC_FACT_1100682_000110068226000118"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_2efe1b71e7504e4449ca",
+      "name": "CorMedix",
+      "value": 128.619,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "pharm-country:SEC_FACT_1410098_000141009826000056"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_35100dc320d02d283926",
+      "name": "Danaher Corporation",
+      "value": 4742,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-09-25",
+      "sourceIds": [
+        "biocapital:SEC_FACT_313616_000031361626000199"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_739bde84abd79db8bb7f",
+      "name": "Dexcom",
+      "value": 794.8,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "biotech-beach:SEC_FACT_1093557_000109355726000143"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_704fc5b8a45e65e4cce2",
+      "name": "Edwards Lifesciences",
+      "value": 695.7,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "biotech-beach:SEC_FACT_1099800_000109980026000043"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_9e5c34648271eac0843e",
+      "name": "Elanco Animal Health",
+      "value": 290,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "biomidwest:SEC_FACT_1739104_000173910426000043"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_0e76abd0a03b5c1a9cb3",
+      "name": "Eli Lilly and Company",
+      "value": 16023,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "biomidwest:SEC_FACT_59478_000005947826000081"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_01044852d66c8f9af590",
+      "name": "Emergent BioSolutions Inc.",
+      "value": 22.3,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "biocapital:SEC_FACT_1367644_000136764426000082"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_156c2a981f833a852c6f",
+      "name": "Eton Pharmaceuticals",
+      "value": 14.66,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "biomidwest:SEC_FACT_1710340_000143774926027684"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_116dbec7dbd84d6c8e1c",
+      "name": "Exelixis, Inc.",
+      "value": 559.586,
+      "unit": "USD millions",
+      "periodStart": "2026-01-03",
+      "periodEnd": "2026-07-03",
+      "sourceIds": [
+        "biotech-bay:SEC_FACT_939767_000093976726000098"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_50f0697a25ea8786d667",
+      "name": "Fortrea",
+      "value": 11.9,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "bio-nc:SEC_FACT_1965040_000162828026050597"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_a8011e30a17d73946af6",
+      "name": "GE HealthCare Technologies",
+      "value": 1365,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-09-30",
+      "sourceIds": [
+        "biomidwest:SEC_FACT_1932393_000193239326000059"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_351b29a1a88ff768fe50",
+      "name": "Gilead Sciences, Inc.",
+      "value": 6117,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "biotech-bay:SEC_FACT_882095_000088209526000031"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_b085b02bff4afeb5d0ad",
+      "name": "Glaukos",
+      "value": 2.297,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "biotech-beach:SEC_FACT_1192448_000119312526324201"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_8286e0acbf149b411d26",
+      "name": "Globus Medical",
+      "value": 412.105,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "pharm-country:SEC_FACT_1237831_000162828026054450"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_0f86c2bb655cb1db0dd8",
+      "name": "Haemonetics",
+      "value": 52.323,
+      "unit": "USD millions",
+      "periodStart": "2026-03-29",
+      "periodEnd": "2026-06-27",
+      "sourceIds": [
+        "genetown:SEC_FACT_313143_000031314326000120"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_67f854122c3dbffbd587",
+      "name": "Halozyme Therapeutics",
+      "value": 420.969,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "biotech-beach:SEC_FACT_1159036_000115903626000104"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_b6124efc0dc768797e88",
+      "name": "Harmony Biosciences",
+      "value": 120.192,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "pharm-country:SEC_FACT_1802665_000110465926090090"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_92d571ff1dda075da935",
+      "name": "Henry Schein",
+      "value": 145,
+      "unit": "USD millions",
+      "periodStart": "2025-12-28",
+      "periodEnd": "2026-06-27",
+      "sourceIds": [
+        "pharm-country:SEC_FACT_1000228_000100022826000045"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_5bc24ec7755fa981a6c4",
+      "name": "Illumina",
+      "value": 490,
+      "unit": "USD millions",
+      "periodStart": "2025-12-29",
+      "periodEnd": "2026-06-28",
+      "sourceIds": [
+        "biotech-beach:SEC_FACT_1110803_000111080326000160"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_84bf6ac0fb934f827d03",
+      "name": "Incyte Corporation",
+      "value": 369.351,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-03-31",
+      "sourceIds": [
+        "biocapital:SEC_FACT_879169_000087916926000026"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_5c124325614aee28f1fb",
+      "name": "Inspire Medical Systems",
+      "value": 36.077,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "biomidwest:SEC_FACT_1609550_000160955026000047"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_91eb20eb09fbbcf3696a",
+      "name": "Insulet",
+      "value": 202.2,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "genetown:SEC_FACT_1145197_000114519726000169"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_047726dad216dcb0be5f",
+      "name": "Intuitive Surgical Inc",
+      "value": 3197,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-09-30",
+      "sourceIds": [
+        "biotech-bay:SEC_FACT_1035267_000103526726000071"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_57321f13f25f25fae3f5",
+      "name": "iRhythm Holdings, Inc.",
+      "value": 24.907,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "biotech-bay:SEC_FACT_1388658_000138865826000072"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_7bad8eba1dea19b23941",
+      "name": "Ironwood Pharmaceuticals, Inc.",
+      "value": 63.397,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "basel:SEC_FACT_1446847_000110465926091987"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_0e0000e79d033b9146ef",
+      "name": "Janux Therapeutics",
+      "value": 0.147,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "biotech-beach:SEC_FACT_1817713_000119312526338078"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_2cde2ccc283a7fd4e3fc",
+      "name": "Johnson & Johnson",
+      "value": 18850,
+      "unit": "USD millions",
+      "periodStart": "2025-12-29",
+      "periodEnd": "2026-09-27",
+      "sourceIds": [
+        "basel:SEC_FACT_200406_000020040626000197"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_e259457e92f020bae5a5",
+      "name": "Krystal Biotech",
+      "value": 155.171,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "pharm-country:SEC_FACT_1711279_000171127926000057"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_049f08359d6f1705aac6",
+      "name": "Lantheus",
+      "value": 217.33,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "genetown:SEC_FACT_1521036_000119312526336795"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_ab58332d2b095d10034c",
+      "name": "Maravai LifeSciences",
+      "value": 12.657,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "biotech-beach:SEC_FACT_1823239_000182323926000059"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_0d3a80e4642a0d819c31",
+      "name": "Merck & Co.",
+      "value": 9288,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "pharm-country:SEC_FACT_310158_000031015826000212"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_1483675423da90e4a0ff",
+      "name": "Neogen Corporation",
+      "value": 12.9,
+      "unit": "USD millions",
+      "periodStart": "2026-06-01",
+      "periodEnd": "2026-08-31",
+      "sourceIds": [
+        "biomidwest:SEC_FACT_711377_000119312526416954"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_83cf6169ad5cf8eb3372",
+      "name": "Neurocrine Biosciences",
+      "value": 282.2,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "basel:SEC_FACT_914475_000091447526000037"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_decd1c149f2e639a091a",
+      "name": "Nurix Therapeutics, Inc.",
+      "value": 447.144,
+      "unit": "USD millions",
+      "periodStart": "2025-12-01",
+      "periodEnd": "2026-08-31",
+      "sourceIds": [
+        "biotech-bay:SEC_FACT_1549595_000154959526000049"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_74c8ccb8a7caefcb6052",
+      "name": "Omnicell, Inc.",
+      "value": 122.814,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "biotech-bay:SEC_FACT_926326_000092632626000022"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_f6b6eadfc9968ba90e9d",
+      "name": "Organon",
+      "value": 332,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "pharm-country:SEC_FACT_1821825_000162828026051230"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_696cc4f69cc421c6031c",
+      "name": "Penumbra Inc",
+      "value": 133.055,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "biotech-bay:SEC_FACT_1321732_000132173226000037"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_69d9f7657d4a7ec043cf",
+      "name": "Pfizer",
+      "value": 3450,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-28",
+      "sourceIds": [
+        "bio-nc:SEC_FACT_78003_000007800326000095"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_7a02de4796c1a3ec1cfe",
+      "name": "Phibro Animal Health",
+      "value": 68.954,
+      "unit": "USD millions",
+      "periodStart": "2025-07-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "pharm-country:SEC_FACT_1069899_000110465926101493"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_c9e6ac74e29f33a3b873",
+      "name": "Protagonist Therapeutics, Inc",
+      "value": 170.109,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "biotech-bay:SEC_FACT_1377121_000110465926091123"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_3b12dc8ae2cf56a1cd8e",
+      "name": "PTC Therapeutics",
+      "value": 70.071,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "pharm-country:SEC_FACT_1070081_000107008126000017"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_6447cf2ef25efb5cfa98",
+      "name": "Puma Biotechnology",
+      "value": 17.04,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "biotech-beach:SEC_FACT_1401667_000143774926026311"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_90e7aabd6d4ac587f21a",
+      "name": "Quest Diagnostics",
+      "value": 1486,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-09-30",
+      "sourceIds": [
+        "pharm-country:SEC_FACT_1022079_000102207926000108"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_802518db21f06c8a2e23",
+      "name": "Regeneron Pharmaceuticals",
+      "value": 1891.9,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "pharm-country:SEC_FACT_872589_000087258926000025"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_1da1212641d43819418c",
+      "name": "ResMed",
+      "value": 1805.829,
+      "unit": "USD millions",
+      "periodStart": "2025-07-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "biotech-beach:SEC_FACT_943819_000094381926000047"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_3735211729c3ac44d707",
+      "name": "Revvity",
+      "value": 307.173,
+      "unit": "USD millions",
+      "periodStart": "2025-12-29",
+      "periodEnd": "2026-07-05",
+      "sourceIds": [
+        "genetown:SEC_FACT_31791_000003179126000027"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_f9769c4ab2ec0f70fab9",
+      "name": "Rigel Pharmaceuticals Inc",
+      "value": 33.378,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "biotech-bay:SEC_FACT_1034842_000103484226000052"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_b88f26816635024edae8",
+      "name": "Spero Therapeutics",
+      "value": 10.509,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "genetown:SEC_FACT_1701108_000119312526346795"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_09792abb14956e93ecf2",
+      "name": "Stryker",
+      "value": 1842,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "biomidwest:SEC_FACT_310764_000031076426000050"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_c06195a16c280836144f",
+      "name": "Supernus Pharmaceuticals, Inc.",
+      "value": 61.714,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "biocapital:SEC_FACT_1356576_000135657626000037"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_b8550b535d19df82178d",
+      "name": "Tarsus Pharmaceuticals",
+      "value": 36.571,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "biotech-beach:SEC_FACT_1819790_000181979026000064"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_be709092449b6ca7109d",
+      "name": "TG Therapeutics",
+      "value": 21.369,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "pharm-country:SEC_FACT_1001316_000143774926025955"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_294662ff56a87dbe04ee",
+      "name": "Travere Therapeutics",
+      "value": 17.705,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "biotech-beach:SEC_FACT_1438533_000143853326000063"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_c4a57737d146bd7b17f2",
+      "name": "United Therapeutics Corporation",
+      "value": 776.9,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "biocapital:SEC_FACT_1082554_000108255426000027"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_bd1b78d7797bd2f6f201",
+      "name": "Vaxart, Inc.",
+      "value": 0.724,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "biotech-bay:SEC_FACT_72444_000143774926026289"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_0b7c89352ab97bac6d4c",
+      "name": "Veracyte, Inc.",
+      "value": 81.041,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "biotech-bay:SEC_FACT_1384101_000138410126000044"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_006578e912f2763eb055",
+      "name": "Vericel",
+      "value": 32.574,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "genetown:SEC_FACT_887359_000162828026050836"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_94f84f59856b1110ee1a",
+      "name": "Vertex Pharmaceuticals",
+      "value": 2553.5,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "genetown:SEC_FACT_875320_000087532026000259"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_d1fd561cce24c3ea3c50",
+      "name": "Viatris Inc.",
+      "value": 770.1,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "basel:SEC_FACT_1792044_000179204426000041"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_1801b094021884d7a927",
+      "name": "Waters",
+      "value": 198,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-07-04",
+      "sourceIds": [
+        "genetown:SEC_FACT_1000697_000119312526344691"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_86756f567a15b6be3c0c",
+      "name": "West Pharmaceutical Services",
+      "value": 213.9,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "pharm-country:SEC_FACT_105770_000010577026000099"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_a90154f9600abb70c158",
+      "name": "Xeris Biopharma Holdings",
+      "value": 18.133,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "biomidwest:SEC_FACT_1867096_000186709626000065"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_8ad6e65f6e0551bc5569",
+      "name": "Zimmer Biomet Holdings",
+      "value": 807.2,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "biomidwest:SEC_FACT_1136869_000119312526335044"
+      ],
+      "runway": null
+    },
+    {
+      "companyId": "gco_aab63e847d150fcadd46",
+      "name": "Zoetis",
+      "value": 1056,
+      "unit": "USD millions",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-06-30",
+      "sourceIds": [
+        "biomidwest:SEC_FACT_1555280_000155528026000040"
+      ],
+      "runway": null
+    }
+  ]
+}

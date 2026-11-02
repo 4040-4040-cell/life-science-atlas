@@ -2,6 +2,7 @@ import { Link, useLocation } from "wouter";
 import { ArrowDown, ArrowRight, ArrowUpRight, BookOpen } from "lucide-react";
 import type { OverviewResponse } from "@shared/atlas";
 import { count, dateLabel, useAtlas } from "@/lib/atlas";
+import { regionPresentation } from "@/lib/regionPresentation";
 import { Metric, PageHeader } from "@/components/atlas/AtlasShell";
 import { ErrorState, Loading } from "@/components/atlas/Primitives";
 import { OverviewMap } from "@/components/atlas/AtlasMap";
@@ -13,15 +14,13 @@ export default function AtlasOverview() {
   return (
     <>
       <PageHeader
-        eyebrow="THE REGIONAL INTELLIGENCE INDEX"
-        title="Where science meets space."
-        description="A source-led view of life science companies, local footprints and the evidence behind occupier decisions."
+        eyebrow="REGIONAL DIRECTORY"
+        title="Life Science Atlas"
+        description="Companies, sites, capital. Explore retained evidence across 11 life science hubs."
       >
-        <Link href="/methodology" className="button">
-          <BookOpen size={14} />
-          How to read the atlas
-          <ArrowUpRight size={14} />
-        </Link>
+        <a href="#regional-comparison" className="button">
+          Compare hubs <ArrowDown size={15} />
+        </a>
       </PageHeader>
       {query.isLoading ? (
         <Loading label="Opening the regional atlas" />
@@ -58,8 +57,7 @@ export default function AtlasOverview() {
             <section className="overview-map-section">
               <div className="section-heading compact-heading">
                 <div>
-                  <span className="eyebrow">GEOGRAPHIC PERSPECTIVE</span>
-                  <h2>Local evidence. Wider context.</h2>
+                  <h2>Explore the hubs</h2>
                 </div>
                 <a href="#regional-comparison" className="text-link">
                   Compare hubs <ArrowDown size={13} />
@@ -82,8 +80,7 @@ export default function AtlasOverview() {
             <section className="regional-comparison" id="regional-comparison">
               <div className="section-heading">
                 <div>
-                  <span className="eyebrow">COMPARE THE HUBS</span>
-                  <h2>Different markets. A consistent lens.</h2>
+                  <h2>Regional coverage</h2>
                 </div>
                 <span className="release-label">
                   RELEASE / {dateLabel(data.asOf)}
@@ -107,7 +104,7 @@ export default function AtlasOverview() {
                       <th>Source-supported</th>
                       <th>Research imports</th>
                       <th>Site records</th>
-                      <th>Address-level</th>
+                      <th>Address / campus</th>
                       <th>Aerial exhibits</th>
                       <th />
                     </tr>
@@ -124,8 +121,12 @@ export default function AtlasOverview() {
                               {String(index + 1).padStart(2, "0")}
                             </span>
                             <span>
-                              <strong>{region.name}</strong>
-                              <small>{region.geography}</small>
+                              <strong>
+                                {regionPresentation(region).label}
+                              </strong>
+                              <small>
+                                {regionPresentation(region).subtitle}
+                              </small>
                             </span>
                           </Link>
                         </td>
@@ -172,17 +173,6 @@ export default function AtlasOverview() {
                 </table>
               </div>
             </section>
-            <div className="editorial-note">
-              <span className="note-index">A NOTE ON EVIDENCE</span>
-              <p>
-                The most important distinction is not a score.
-                <br />
-                <strong>It is what the research can and cannot support.</strong>
-              </p>
-              <Link href="/methodology" className="text-link">
-                Understand the evidence layers <ArrowRight size={16} />
-              </Link>
-            </div>
           </>
         )
       )}

@@ -6,6 +6,7 @@ import type { AtlasSeed, Fact } from "../../shared/atlas";
 import * as t from "../../drizzle/atlas-schema";
 import { toSummary } from "./validation";
 import { assertRetainedFact, projectFactObservations, retainedFacts, sameFact } from "./facts";
+import { assertFinancialManifest, financialCorrectionDecision, type FinancialCorrections } from "./financial-corrections";
 
 export const keyHash = (...parts: unknown[]) => createHash("sha256").update(JSON.stringify(parts)).digest("hex");
 export function numericMetric(fact: Fact | null): number | null {
@@ -17,7 +18,9 @@ export function numericMetric(fact: Fact | null): number | null {
 // A stable no-op conflict policy deliberately preserves original evidence and all
 // later edits. New versions may add records; changing an existing ID requires an
 // explicitly reviewed future update workflow, never a default seed upsert.
-export async function ingestAtlas(connection: Connection, seed: AtlasSeed, contentHash: string) {
+export async function ingestAtlas(connection: Connection, seed: AtlasSeed, contentHash: string, financial?: FinancialCorrections) {
+  if (financial) assertFinancialManifest(financial, seed.version);
+  if (seed.sourceHashes.financial_corrections_V5 && !financial) throw new Error("This corrective seed requires its reviewed financial correction manifest.");
   const [lockRows] = await connection.query<RowDataPacket[]>("SELECT GET_LOCK(CONCAT('atlas-seed:', DATABASE()), 30) AS acquired");
   if (Number(lockRows[0]?.acquired) !== 1) throw new Error("Another Atlas ingestion holds the database lock. Retry later.");
   try {
@@ -37,6 +40,9 @@ export async function ingestAtlas(connection: Connection, seed: AtlasSeed, conte
       const originalFacts = await tx.select({ companyId: t.atlasObservations.companyId, payload: t.atlasObservations.payload }).from(t.atlasObservations).where(and(sql`${t.atlasObservations.observationId} is null`, sql`${t.atlasObservations.siteId} is null`));
       const priorFactObservations = await tx.select({ companyId: t.atlasFactObservations.companyId, payload: t.atlasFactObservations.payload }).from(t.atlasFactObservations).innerJoin(t.atlasIngestions, eq(t.atlasIngestions.version, t.atlasFactObservations.ingestionVersion)).where(eq(t.atlasIngestions.status, "complete")).orderBy(desc(t.atlasIngestions.completedAt), desc(t.atlasFactObservations.ingestionVersion));
       const factObservations: (typeof t.atlasFactObservations.$inferInsert)[] = [];
+      const financialSkips: { companyId: string; metric: string; reason: string }[] = [];
+      let financialCorrectionsAdded = 0;
+      const retainedSources = financial ? await tx.select({ companyId: t.atlasSources.companyId, payload: t.atlasSources.payload }).from(t.atlasSources) : [];
       for (const c of seed.companies) {
         const prior = priorProfiles.get(c.id);
         if (!prior) continue;
@@ -47,6 +53,15 @@ export async function ingestAtlas(connection: Connection, seed: AtlasSeed, conte
         for (const fact of c.facts) {
           if (sameFact(current.get(fact.key), fact)) continue;
           const before = baseByKey.get(fact.key);
+          if (fact.key === "operating_cash_flow") {
+            const correction = financial?.corrections.find(r => r.companyId === c.id && r.after.key === fact.key);
+            const decision = correction ? financialCorrectionDecision(correction, current.get(fact.key), before, originals, fact, prior.sources, retainedSources.filter(s => s.companyId === c.id).map(s => s.payload)) : "SKIP_CLIENT_EDITS";
+            if (decision !== "apply") {
+              financialSkips.push({ companyId: c.id, metric: fact.key, reason: decision === "SKIP_CLIENT_EDITS" ? "SKIP_CLIENT_EDITS" : decision });
+              continue;
+            }
+            financialCorrectionsAdded++;
+          }
           assertRetainedFact(before, originals, c.id);
           factObservations.push({ id: keyHash("fact-observation", seed.version, c.id, fact.key), companyId: c.id, ingestionVersion: seed.version, metric: fact.key, section: fact.section, evidence: c.evidence, missing: fact.value === null ? 1 : 0, payload: { version: seed.version, before: before ?? null, after: fact } });
         }
@@ -96,7 +111,7 @@ export async function ingestAtlas(connection: Connection, seed: AtlasSeed, conte
       for (const rows of chunks(seed.aerials.map(a => ({ id: a.id, regionId: a.regionId, payload: a })))) await tx.insert(t.atlasAerials).values(rows).onDuplicateKeyUpdate({ set: { id: sql`id` } });
       for (const rows of chunks(seed.zones.map(z => ({ id: z.id, regionId: z.regionId, payload: z })))) await tx.insert(t.atlasZones).values(rows).onDuplicateKeyUpdate({ set: { id: sql`id` } });
       await tx.update(t.atlasIngestions).set({ status: "complete", completedAt: new Date() }).where(eq(t.atlasIngestions.version, seed.version));
-      return { version: seed.version, skipped: false, companies: seed.companies.length, sites: seed.sites.length, factObservationsAdded: factObservations.length };
+      return { version: seed.version, skipped: false, companies: seed.companies.length, sites: seed.sites.length, factObservationsAdded: factObservations.length, financialCorrectionsAdded, financialSkips };
     });
   } finally { await connection.query("SELECT RELEASE_LOCK(CONCAT('atlas-seed:', DATABASE()))"); }
 }

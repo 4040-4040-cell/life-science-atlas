@@ -1,13 +1,7 @@
 import { useEffect, useRef, useState } from "react";
-import {
-  ArrowLeft,
-  ArrowUpRight,
-  Building2,
-  Check,
-  MapPin,
-  X,
-} from "lucide-react";
-import type { CompanyProfile, Fact, Source } from "@shared/atlas";
+import { useLocation } from "wouter";
+import { ArrowUpRight, MapPin, X } from "lucide-react";
+import type { CompanyProfile, Fact, MapSite, Source } from "@shared/atlas";
 import {
   dateLabel,
   humanize,
@@ -15,6 +9,11 @@ import {
   safeUrl,
   useAtlas,
 } from "@/lib/atlas";
+import {
+  groupDocumentedLocations,
+  isCampusReference,
+  regionPresentation,
+} from "@/lib/regionPresentation";
 import {
   CompanyLogo,
   EmptyState,
@@ -26,6 +25,8 @@ import {
   SourceLinks,
 } from "./Primitives";
 
+const hasValue = (fact: Fact) => fact.value != null && fact.value !== "";
+
 function FactSections({
   facts,
   sources,
@@ -34,43 +35,122 @@ function FactSections({
   sources: Source[];
 }) {
   const grouped = new Map<string, Fact[]>();
-  facts.forEach(fact =>
-    grouped.set(fact.section || "Other retained facts", [
-      ...(grouped.get(fact.section || "Other retained facts") || []),
-      fact,
-    ])
-  );
+  facts.forEach(fact => {
+    const section = fact.section || "Other retained facts";
+    grouped.set(section, [...(grouped.get(section) || []), fact]);
+  });
   return (
     <>
-      {[...grouped].map(([section, items]) => (
-        <details
-          className="profile-fact-section"
-          key={section}
-          open={
-            (!/clinical|trial/i.test(section) || items.length <= 24) &&
-            items.some(fact => fact.value != null && fact.value !== "")
-          }
-        >
-          <summary>
-            <h3>{humanize(section)}</h3>
-            <span>
-              {
-                items.filter(fact => fact.value != null && fact.value !== "")
-                  .length
-              }{" "}
-              / {items.length} disclosed
-            </span>
-          </summary>
-          {items.map((fact, index) => (
-            <FactRow
-              key={`${fact.key}-${index}`}
-              fact={fact}
-              sources={sources}
-            />
-          ))}
-        </details>
-      ))}
+      {[...grouped].map(([section, items]) => {
+        const available = items.filter(hasValue);
+        const missing = items.filter(fact => !hasValue(fact));
+        const longSection =
+          /clinical|trial|science|evidence/i.test(section) ||
+          available.length > 6;
+        return (
+          <details
+            className="profile-fact-section"
+            key={section}
+            open={available.length > 0 && !longSection}
+          >
+            <summary>
+              <h3>{humanize(section)}</h3>
+              <span>
+                {available.length} available · {missing.length} gaps
+              </span>
+            </summary>
+            {available.map((fact, index) => (
+              <FactRow
+                key={`${fact.key}-${index}`}
+                fact={fact}
+                sources={sources}
+              />
+            ))}
+            {missing.length > 0 && (
+              <details className="missing-fields">
+                <summary>{missing.length} fields not in release</summary>
+                {missing.map((fact, index) => (
+                  <FactRow
+                    key={`${fact.key}-${index}`}
+                    fact={fact}
+                    sources={sources}
+                  />
+                ))}
+              </details>
+            )}
+          </details>
+        );
+      })}
     </>
+  );
+}
+
+function SiteCard({ site, sources }: { site: MapSite; sources: Source[] }) {
+  const campus = isCampusReference(site);
+  const precision = precisionOf(site);
+  return (
+    <article className="site-card">
+      <div className="site-card-top">
+        <MapPin size={17} />
+        <strong>{site.address || "Street address not in release"}</strong>
+        <span className={`precision-badge ${campus ? "campus" : precision}`}>
+          {campus
+            ? "Campus reference"
+            : precision === "address"
+              ? "Address-matched"
+              : precision === "research"
+                ? "Unchecked import"
+                : "City reference"}
+        </span>
+      </div>
+      <p>{[site.city, site.country].filter(Boolean).join(", ")}</p>
+      {campus && (
+        <p className="site-precision-caution">
+          Campus reference, not a verified company suite. This address does not
+          establish occupied premises or lease terms.
+        </p>
+      )}
+      {!campus && precision !== "address" && (
+        <p className="site-precision-caution">
+          {precision === "research"
+            ? "Unverified imported location; excluded from verified aerial pins."
+            : "City-reference coordinates, not a verified occupied address."}
+        </p>
+      )}
+      <div className="site-metadata">
+        <span>
+          <b>Function</b>
+          {site.functions.length
+            ? site.functions.join(" / ")
+            : "Not in release"}
+        </span>
+        <span>
+          <b>Recorded status</b>
+          {humanize(site.physicalStatus || "Not in release")}
+        </span>
+      </div>
+      {site.zone && (
+        <div className="site-zone">
+          Analytical context: {site.zone} · not an official boundary
+        </div>
+      )}
+      {site.facts?.length ? (
+        <FactSections facts={site.facts} sources={sources} />
+      ) : (
+        <p className="site-unknown-note">
+          Tenure, area, landlord, expiry and local jobs are not established in
+          this site's retained fields.
+        </p>
+      )}
+      <details className="site-record-details">
+        <summary>Location record & sources</summary>
+        <p>
+          Retained location precision:{" "}
+          {humanize(site.precision || "Unspecified")}
+        </p>
+        <SourceLinks ids={site.sourceIds} sources={sources} />
+      </details>
+    </article>
   );
 }
 
@@ -86,6 +166,11 @@ export default function CompanyProfileDrawer({
   const query = useAtlas<CompanyProfile>(
     id ? `/profile/${encodeURIComponent(id)}` : null
   );
+  const [location] = useLocation();
+  const currentRegionId = location.match(/^\/hub\/([^/?#]+)/)?.[1];
+  const currentRegion = currentRegionId
+    ? regionPresentation({ id: currentRegionId, name: currentRegionId }).label
+    : null;
   const panel = useRef<HTMLElement>(null);
   const closeRef = useRef(onClose);
   closeRef.current = onClose;
@@ -106,7 +191,7 @@ export default function CompanyProfileDrawer({
           ...panel.current.querySelectorAll<HTMLElement>(
             'a[href],button:not([disabled]),summary,input,select,[tabindex="0"]'
           ),
-        ];
+        ].filter(element => element.getClientRects().length > 0);
         const first = elements[0],
           last = elements[elements.length - 1];
         if (
@@ -129,17 +214,32 @@ export default function CompanyProfileDrawer({
       document.body.style.overflow = oldOverflow;
       if (previous?.isConnected) previous.focus();
     };
-  }, [id]);
+  }, [id, currentRegionId]);
   if (!id) return null;
   const company = query.data;
   const localFacts =
-    company?.facts.filter(f =>
+    company?.facts.filter(fact =>
       /local|occup|tenure|site|footprint|property|real.?estate|lease/i.test(
-        f.section
+        fact.section
       )
     ) || [];
   const companyFacts =
-    company?.facts.filter(f => !localFacts.includes(f)) || [];
+    company?.facts.filter(fact => !localFacts.includes(fact)) || [];
+  const {
+    selected: selectedSites,
+    other: otherSites,
+    imported: importedSites,
+  } = groupDocumentedLocations(company?.sites || [], currentRegionId);
+  const unknownCompanyFacts =
+    company?.facts.filter(fact => !hasValue(fact)) || [];
+  const companyKnownCount = companyFacts.filter(hasValue).length;
+  const gapCount =
+    unknownCompanyFacts.length +
+    (company?.sites.reduce(
+      (total, site) =>
+        total + (site.facts?.filter(fact => !hasValue(fact)).length || 0),
+      0
+    ) || 0);
   return (
     <>
       <button
@@ -161,15 +261,14 @@ export default function CompanyProfileDrawer({
       >
         <div className="profile-topline">
           <span>
-            <span className="red-tick" />
-            COMPANY INTELLIGENCE
+            <span className="red-tick" /> COMPANY PROFILE
           </span>
           <button
             className="icon-button"
             onClick={onClose}
             aria-label="Close company profile"
           >
-            <X size={19} />
+            <X size={21} />
           </button>
         </div>
         {query.isLoading ? (
@@ -197,65 +296,81 @@ export default function CompanyProfileDrawer({
                 </div>
               </div>
             </header>
-            <div className="occupancy-read">
-              <div className="eyebrow">OCCUPANCY READ / LOCAL EVIDENCE</div>
-              <h3>{company.occupancyRead || "Insufficient evidence"}</h3>
-              <p>
-                {company.occupancyReason ||
-                  "There is not enough supported local evidence to infer an occupancy direction."}
-              </p>
-              <div className="occupancy-priority">
-                <span>PRIORITY</span>
-                <strong>
-                  {company.priority
-                    ? humanize(company.priority)
-                    : "Not assigned"}
-                </strong>
-                {company.score != null && (
-                  <small>Source score: {company.score}</small>
+            <details className="profile-overview-details">
+              <summary>
+                Identity & occupancy assessment{" "}
+                <span>{company.occupancyRead || "Insufficient evidence"}</span>
+              </summary>
+              <div>
+                <p className="assessment-reason">
+                  {company.occupancyReason ||
+                    "There is not enough supported local evidence to infer an occupancy direction."}
+                </p>
+                <div className="profile-entity">
+                  <span>
+                    <b>Parent</b>
+                    {company.parent || "Not in release"}
+                  </span>
+                  <span>
+                    <b>Category</b>
+                    {humanize(company.category || "Not in release")}
+                  </span>
+                  <span>
+                    <b>Stage</b>
+                    {company.stage || "Not in release"}
+                  </span>
+                  <span>
+                    <b>Website</b>
+                    {safeUrl(company.website) ? (
+                      <External url={company.website}>Company website</External>
+                    ) : (
+                      "Not in release"
+                    )}
+                  </span>
+                  <span>
+                    <b>Analyst priority</b>
+                    {company.priority
+                      ? humanize(company.priority)
+                      : "Not assigned"}
+                  </span>
+                  <span>
+                    <b>Source-reported score</b>
+                    {company.score ?? "Not in release"}
+                  </span>
+                </div>
+                {company.evidence === "research" && (
+                  <p className="section-caution">
+                    Reported import labels are not an atlas score or a verified
+                    occupancy outlook.
+                  </p>
                 )}
               </div>
-              {company.evidence === "research" && (
-                <small className="research-priority-note">
-                  Reported import labels are not an atlas score or a verified
-                  occupancy outlook.
-                </small>
-              )}
-            </div>
-            <div className="profile-entity">
-              <span>
-                <b>Parent</b>
-                {company.parent || "Not disclosed"}
-              </span>
-              <span>
-                <b>Category</b>
-                {humanize(company.category || "Not disclosed")}
-              </span>
-              <span>
-                <b>Stage</b>
-                {company.stage || "Not disclosed"}
-              </span>
-              <span>
-                <b>Website</b>
-                {safeUrl(company.website) ? (
-                  <External url={company.website}>Company website</External>
-                ) : (
-                  "Not disclosed"
-                )}
-              </span>
-            </div>
+            </details>
             <nav className="profile-tabs" aria-label="Company profile sections">
               <button
                 className={tab === "evidence" ? "active" : ""}
                 onClick={() => setTab("evidence")}
               >
-                Evidence
+                Sites & events
+              </button>
+              <button
+                className={tab === "company" ? "active" : ""}
+                onClick={() => setTab("company")}
+              >
+                Company <span>{companyKnownCount}</span>
+              </button>
+              <button
+                className={tab === "gaps" ? "active" : ""}
+                onClick={() => setTab("gaps")}
+              >
+                Gaps <span>{gapCount}</span>
               </button>
               <button
                 className={tab === "research" ? "active" : ""}
                 onClick={() => setTab("research")}
               >
-                Reported imports <span>{company.imported.length}</span>
+                Imports{" "}
+                <span>{company.imported.length + importedSites.length}</span>
               </button>
               <button
                 className={tab === "sources" ? "active" : ""}
@@ -268,114 +383,125 @@ export default function CompanyProfileDrawer({
               <div className="profile-body">
                 <section className="profile-section">
                   <div className="profile-section-title">
-                    <span>01</span>
-                    <h3>Local presence & real estate</h3>
+                    <h3>
+                      {currentRegion
+                        ? `${currentRegion}: documented locations`
+                        : "Documented locations"}
+                    </h3>
                   </div>
-                  {!company.sites.length && (
+                  {!selectedSites.length && (
                     <p className="profile-empty-note">
-                      No local physical site is established in the retained
-                      evidence.
+                      No physical site in {currentRegion || "this release"} is
+                      established in the retained evidence.
                     </p>
                   )}
-                  {company.sites.map(site => (
-                    <article className="site-card" key={site.id}>
-                      <div className="site-card-top">
-                        <MapPin size={15} />
-                        <strong>
-                          {site.address || "Street address not disclosed"}
-                        </strong>
-                        <span
-                          className={`precision-badge ${precisionOf(site)}`}
-                        >
-                          {precisionOf(site) === "address"
-                            ? "Address-matched"
-                            : precisionOf(site) === "research"
-                              ? "Unchecked import"
-                              : "City context"}
-                        </span>
-                      </div>
-                      <p>
-                        {[site.city, site.country].filter(Boolean).join(", ")}
+                  {selectedSites.map(site => (
+                    <SiteCard
+                      key={site.id}
+                      site={site}
+                      sources={company.sources}
+                    />
+                  ))}
+                  {otherSites.length > 0 && (
+                    <details className="other-locations">
+                      <summary>
+                        Other documented locations{" "}
+                        <span>{otherSites.length}</span>
+                      </summary>
+                      <p className="section-caution">
+                        These records are outside the selected hub. Company
+                        identity is shared; local site evidence is not.
                       </p>
-                      {site.zone && (
-                        <div className="site-zone">
-                          Analytical context: {site.zone} · not an official
-                          boundary
+                      {otherSites.map(site => (
+                        <div key={site.id}>
+                          <h4 className="other-region-label">
+                            {
+                              regionPresentation({
+                                id: site.regionId,
+                                name: site.regionId,
+                              }).label
+                            }
+                          </h4>
+                          <SiteCard site={site} sources={company.sources} />
                         </div>
-                      )}
-                      <div className="site-metadata">
+                      ))}
+                    </details>
+                  )}
+                  {localFacts.length > 0 && (
+                    <details className="retained-records">
+                      <summary>
+                        Additional site & lease evidence{" "}
                         <span>
-                          <b>Function</b>
-                          {site.functions.length
-                            ? site.functions.join(" / ")
-                            : "Not disclosed"}
+                          {localFacts.filter(hasValue).length} available
                         </span>
-                        <span>
-                          <b>Physical status</b>
-                          {humanize(site.physicalStatus || "Not disclosed")}
-                        </span>
-                        <span>
-                          <b>Location precision</b>
-                          {humanize(site.precision || "Unspecified")}
-                        </span>
-                      </div>
-                      {precisionOf(site) !== "address" && (
-                        <p className="site-precision-caution">
-                          {precisionOf(site) === "research"
-                            ? "Imported location is unverified. It is excluded from verified aerial pins."
-                            : "Coordinates provide city context only, not a verified occupied address."}
-                        </p>
-                      )}
-                      {site.facts?.length ? (
-                        <FactSections
-                          facts={site.facts}
-                          sources={company.sources}
-                        />
-                      ) : (
-                        <p className="site-unknown-note">
-                          Tenure, occupied area, landlord, lease expiry and
-                          site-level jobs are not disclosed here unless
-                          supported in the retained facts below.
-                        </p>
-                      )}
-                      <SourceLinks
-                        ids={site.sourceIds}
+                      </summary>
+                      <p className="section-caution">
+                        Read each field's geographic scope. These retained facts
+                        are not automatically assigned to the selected hub.
+                      </p>
+                      <FactSections
+                        facts={localFacts}
                         sources={company.sources}
                       />
-                    </article>
-                  ))}
-                  <FactSections facts={localFacts} sources={company.sources} />
+                    </details>
+                  )}
                 </section>
                 <section className="profile-section">
                   <div className="profile-section-title">
-                    <span>02</span>
                     <h3>Dated footprint & company events</h3>
                   </div>
                   <p className="section-caution">
-                    Reported events are historical evidence, not a forecast of
-                    space demand.
+                    Historical events, not a forecast of local space demand.
+                    Companywide events are not assigned to this hub.
                   </p>
                   {company.events.length ? (
                     <div className="event-timeline">
                       {company.events.map(event => (
-                        <article key={event.id} className="event-item">
-                          <div className="event-date">
-                            {dateLabel(event.date)}
-                            <span>{humanize(event.type)}</span>
-                          </div>
-                          <h4>{event.title}</h4>
+                        <details key={event.id} className="event-record">
+                          <summary>
+                            <span className="event-date">
+                              {event.date
+                                ? dateLabel(event.date)
+                                : "Date not in release"}
+                            </span>
+                            <strong>{event.title}</strong>
+                          </summary>
                           <div className="event-status">
-                            {humanize(event.status)}
+                            {humanize(event.type)} · {humanize(event.status)}
                             {event.direction
                               ? ` · ${humanize(event.direction)}`
                               : ""}
                           </div>
-                          {event.notes && <p>{event.notes}</p>}
+                          <p className="event-scope">
+                            {event.siteIds.length
+                              ? `Linked site records: ${event.siteIds
+                                  .map(siteId => {
+                                    const site = company.sites.find(
+                                      site => site.id === siteId
+                                    );
+                                    return site
+                                      ? [
+                                          site.city,
+                                          regionPresentation({
+                                            id: site.regionId,
+                                            name: site.regionId,
+                                          }).label,
+                                        ]
+                                          .filter(Boolean)
+                                          .join(", ")
+                                      : "Site location not in release";
+                                  })
+                                  .join("; ")}`
+                              : "Company event; local site consequence not established."}
+                          </p>
+                          {event.notes && (
+                            <p className="fact-note">{event.notes}</p>
+                          )}
                           <SourceLinks
                             ids={event.sourceIds}
                             sources={company.sources}
                           />
-                        </article>
+                        </details>
                       ))}
                     </div>
                   ) : (
@@ -384,56 +510,10 @@ export default function CompanyProfileDrawer({
                     </p>
                   )}
                 </section>
-                <section className="profile-section">
-                  <div className="profile-section-title">
-                    <span>03</span>
-                    <h3>Company context, financials & science</h3>
-                  </div>
-                  <div className="scope-caution">
-                    Companywide liquidity is not local capital or guaranteed
-                    lease credit. Historical float is not current market
-                    capitalization. Trial primary completion is not a guided
-                    readout; financing alone is not a space commitment.
-                  </div>
-                  {companyFacts.length ? (
-                    <FactSections
-                      facts={companyFacts}
-                      sources={company.sources}
-                    />
-                  ) : (
-                    <p className="profile-empty-note">
-                      Companywide financial and science fields are not disclosed
-                      in the retained baseline evidence.
-                    </p>
-                  )}
-                </section>
-                <section className="profile-section">
-                  <div className="profile-section-title">
-                    <span>04</span>
-                    <h3>Gaps & next evidence</h3>
-                  </div>
-                  {company.gaps.length ? (
-                    <ul className="gap-list">
-                      {company.gaps.map((gap, i) => (
-                        <li key={i}>{gap}</li>
-                      ))}
-                    </ul>
-                  ) : (
-                    <p className="profile-empty-note">
-                      No additional gap notes were recorded. This does not
-                      establish that all requested fields are known.
-                    </p>
-                  )}
-                  <p className="unknown-note">
-                    A missing fact is unknown, not zero. An unsupported
-                    occupancy outlook is insufficient evidence, not Hold.
-                  </p>
-                </section>
-                <section className="profile-section">
-                  <div className="profile-section-title">
-                    <span>05</span>
-                    <h3>City-context peers</h3>
-                  </div>
+                <details className="profile-section peer-disclosure">
+                  <summary>
+                    City-context peers <span>{company.peers?.length || 0}</span>
+                  </summary>
                   <p className="section-caution">
                     Nearby or city-reference context only, unless zone
                     membership is explicitly supported. Not a credit comparison.
@@ -449,16 +529,101 @@ export default function CompanyProfileDrawer({
                           <span>
                             <strong>{peer.name}</strong>
                             <small>
-                              {peer.cities.join(" / ") || "City not disclosed"}
+                              {peer.cities.join(" / ") || "City not in release"}
                             </small>
                           </span>
-                          <ArrowUpRight size={14} />
+                          <ArrowUpRight size={16} />
                         </button>
                       ))}
                     </div>
                   ) : (
                     <p className="profile-empty-note">
                       No supported peer context is available.
+                    </p>
+                  )}
+                </details>
+              </div>
+            )}
+            {tab === "company" && (
+              <div className="profile-body">
+                <section className="profile-section">
+                  <div className="profile-section-title">
+                    <h3>Company financials & science</h3>
+                  </div>
+                  <p className="scope-caution">
+                    Companywide liquidity and dated financing are not local
+                    capital, guaranteed lease credit or space commitments.
+                    Historical float is not current market capitalization.
+                    Registry primary completion is not a guided clinical
+                    readout.
+                  </p>
+                  {companyFacts.length ? (
+                    <FactSections
+                      facts={companyFacts}
+                      sources={company.sources}
+                    />
+                  ) : (
+                    <p className="profile-empty-note">
+                      No company financial or science facts in the retained
+                      baseline release.
+                    </p>
+                  )}
+                </section>
+              </div>
+            )}
+            {tab === "gaps" && (
+              <div className="profile-body">
+                <section className="profile-section">
+                  <div className="profile-section-title">
+                    <h3>Fields not in this release</h3>
+                  </div>
+                  <p className="section-caution">
+                    A research gap does not mean the company has never disclosed
+                    the information. Missing is unknown, not zero. An
+                    unsupported occupancy outlook is insufficient evidence, not
+                    Hold.
+                  </p>
+                  {unknownCompanyFacts.length > 0 && (
+                    <FactSections
+                      facts={unknownCompanyFacts}
+                      sources={company.sources}
+                    />
+                  )}
+                  {company.sites
+                    .filter(site => site.facts?.some(fact => !hasValue(fact)))
+                    .map(site => (
+                      <details className="missing-site" key={site.id}>
+                        <summary>
+                          {site.city || "Site"} ·{" "}
+                          {
+                            regionPresentation({
+                              id: site.regionId,
+                              name: site.regionId,
+                            }).label
+                          }
+                        </summary>
+                        <p className="section-caution">{site.address}</p>
+                        <FactSections
+                          facts={site.facts!.filter(fact => !hasValue(fact))}
+                          sources={company.sources}
+                        />
+                      </details>
+                    ))}
+                </section>
+                <section className="profile-section">
+                  <div className="profile-section-title">
+                    <h3>Research gap notes</h3>
+                  </div>
+                  {company.gaps.length ? (
+                    <ul className="gap-list">
+                      {company.gaps.map((gap, index) => (
+                        <li key={index}>{gap}</li>
+                      ))}
+                    </ul>
+                  ) : (
+                    <p className="profile-empty-note">
+                      No additional gap notes recorded. This does not establish
+                      that all requested fields are known.
                     </p>
                   )}
                 </section>
@@ -468,35 +633,58 @@ export default function CompanyProfileDrawer({
               <div className="profile-body">
                 <div className="import-banner">
                   <span className="eyebrow">SEPARATE EVIDENCE LAYER</span>
-                  <h3>Reported, not independently verified</h3>
+                  <h3>Reported research imports</h3>
                   <p>
-                    Retained research observations are shown as imported. They
-                    do not establish an occupied address, verified local
-                    headcount, lease credit or an atlas priority score.
+                    Retained observations are shown as imported. They do not
+                    establish an occupied address, verified local headcount,
+                    lease credit or an atlas priority score.
                   </p>
                 </div>
+                {importedSites.length > 0 && (
+                  <section className="profile-section">
+                    <div className="profile-section-title">
+                      <h3>Imported location claims</h3>
+                    </div>
+                    <p className="section-caution">
+                      Unchecked observations may repeat a documented address.
+                      They are not additional distinct premises or verified
+                      occupancy.
+                    </p>
+                    {importedSites.map(site => (
+                      <div key={site.id}>
+                        <h4 className="other-region-label">
+                          {
+                            regionPresentation({
+                              id: site.regionId,
+                              name: site.regionId,
+                            }).label
+                          }
+                        </h4>
+                        <SiteCard site={site} sources={company.sources} />
+                      </div>
+                    ))}
+                  </section>
+                )}
                 {company.imported.length ? (
                   company.imported.map((observation, index) => (
-                    <article
+                    <details
                       className="import-observation"
                       key={observation.id}
                     >
-                      <span className="eyebrow">
-                        OBSERVATION {String(index + 1).padStart(2, "0")}
-                      </span>
+                      <summary>Imported observation {index + 1}</summary>
                       <p>{observation.note}</p>
                       <FactSections
                         facts={observation.facts}
                         sources={[...company.sources, ...observation.sources]}
                       />
-                    </article>
+                    </details>
                   ))
-                ) : (
+                ) : !importedSites.length ? (
                   <EmptyState
                     title="No linked research observations"
                     text="This profile has no additional imported observations in the current release."
                   />
-                )}
+                ) : null}
               </div>
             )}
             {tab === "sources" && (
@@ -505,8 +693,8 @@ export default function CompanyProfileDrawer({
                   <h3>Evidence register</h3>
                   <p>
                     Per-field references are attached to each fact. Public links
-                    are provided where available; retained private source
-                    content is not exposed.
+                    appear where available; retained private source content is
+                    not exposed.
                   </p>
                 </div>
                 {company.sources.map((source, index) => (
@@ -522,12 +710,12 @@ export default function CompanyProfileDrawer({
                         Published{" "}
                         {source.publishedDate
                           ? dateLabel(source.publishedDate)
-                          : "date not disclosed"}
+                          : "date not in release"}
                         <br />
                         Retrieved{" "}
                         {source.retrievedDate
                           ? dateLabel(source.retrievedDate)
-                          : "date not disclosed"}
+                          : "date not in release"}
                       </p>
                       {!safeUrl(source.url) && (
                         <small>Public source link not available.</small>
@@ -537,10 +725,6 @@ export default function CompanyProfileDrawer({
                 ))}
               </div>
             )}
-            <div className="profile-footer">
-              <Check size={12} /> Original record identity retained ·
-              source-linked evidence
-            </div>
           </>
         ) : null}
       </aside>

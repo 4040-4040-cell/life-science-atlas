@@ -1,6 +1,4 @@
-import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
-import type { AtlasSeed } from "../../../shared/atlas";
 import {
   emptyFilters,
   factValue,
@@ -11,13 +9,7 @@ import {
   safeUrl,
 } from "./atlas";
 import { isEligibleAerialSite, toLeafletBounds } from "./geography";
-
-const seed = JSON.parse(
-  readFileSync(
-    new URL("../../../data/atlas-seed.json", import.meta.url),
-    "utf8"
-  )
-) as AtlasSeed;
+import { atlasTestSeed as seed } from "./atlasTestFixture";
 
 describe("retained atlas frontend geography", () => {
   it("converts every real aerial and analytical frame from W/S/E/N to Leaflet lat/lng", () => {

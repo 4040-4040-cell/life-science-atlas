@@ -14,7 +14,7 @@ import { factHash } from "./facts";
 describe.runIf(process.env.ATLAS_DB_INTEGRATION === "1")("real persistent Atlas (read-only)", () => {
   let seed: AtlasSeed;
   beforeAll(() => {
-    const path = ["data/atlas-seed_V4.json", "data/atlas-seed_V4.json.gz", "data/atlas-seed_V3.json", "data/atlas-seed_V3.json.gz", "data/atlas-seed_V2.json", "data/atlas-seed_V2.json.gz"].find(existsSync)!;
+    const path = ["data/atlas-seed_V5.json", "data/atlas-seed_V5.json.gz", "data/atlas-seed_V4.json", "data/atlas-seed_V4.json.gz", "data/atlas-seed_V3.json", "data/atlas-seed_V3.json.gz", "data/atlas-seed_V2.json", "data/atlas-seed_V2.json.gz"].find(existsSync)!;
     const buffer = readFileSync(path);
     seed = JSON.parse((path.endsWith(".gz") ? gunzipSync(buffer) : buffer).toString("utf8"));
   });
@@ -93,19 +93,19 @@ describe.runIf(process.env.ATLAS_DB_INTEGRATION === "1")("real persistent Atlas 
     await expect(getExportRows(parseFilters({ region: "biotech-beach", frame: "does-not-exist" }))).rejects.toMatchObject({ status: 404, code: "FRAME_NOT_FOUND" });
   });
   it("persists and exposes every V4 retained program and precise financing correction without overwriting original evidence", async () => {
-    if (!seed.version.includes("v4")) return;
+    const v4: AtlasSeed = JSON.parse(readFileSync("data/atlas-seed_V4.json", "utf8"));
     const v3: AtlasSeed = JSON.parse(readFileSync("data/atlas-seed_V3.json", "utf8"));
-    const changed = seed.companies.filter(c => {
+    const changed = v4.companies.filter(c => {
       const prior = v3.companies.find(p => p.id === c.id)!;
       return c.facts.some(f => !prior.facts.some(p => p.key === f.key && factHash(p) === factHash(f)));
     });
-    const observations = await getAtlasDb().select().from(t.atlasFactObservations).where(eq(t.atlasFactObservations.ingestionVersion, seed.version));
+    const observations = await getAtlasDb().select().from(t.atlasFactObservations).where(eq(t.atlasFactObservations.ingestionVersion, v4.version));
     expect(observations).toHaveLength(1361);
     expect(observations.filter(o => o.payload.before === null)).toHaveLength(1330);
     expect(observations.filter(o => o.payload.before !== null)).toHaveLength(31);
     for (const company of changed) {
       const profile = await getProfile(company.id);
-      const expected = new Map(company.facts.map(f => [f.key, factHash(f)]));
+      const expected = new Map(seed.companies.find(c => c.id === company.id)!.facts.map(f => [f.key, factHash(f)]));
       for (const f of profile.facts) if (expected.has(f.key)) expect(factHash(f)).toBe(expected.get(f.key));
       expect(company.facts.every(f => profile.facts.some(p => p.key === f.key))).toBe(true);
     }

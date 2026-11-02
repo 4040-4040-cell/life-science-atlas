@@ -2,6 +2,7 @@ import { Link } from "wouter";
 import { ArrowUpRight, Check, CircleHelp } from "lucide-react";
 import type { OverviewResponse } from "@shared/atlas";
 import { count, dateLabel, useAtlas } from "@/lib/atlas";
+import { coverageText, regionPresentation } from "@/lib/regionPresentation";
 import { Metric, PageHeader } from "@/components/atlas/AtlasShell";
 import {
   ErrorState,
@@ -14,25 +15,16 @@ export default function AtlasMethodology() {
   return (
     <>
       <PageHeader
-        eyebrow="METHODOLOGY / DATA COVERAGE"
-        title="Evidence before inference."
+        eyebrow="RESEARCH REFERENCE"
+        title="Methodology & coverage"
         description="An atlas of retained research, not a complete census, a credit opinion or a forecast of space demand."
       />
-      <div className="method-intro">
-        <span className="method-intro-number">01 to 05</span>
-        <p>
-          Read the company. Locate the evidence.
-          <br />
-          <strong>Keep the unknowns visible.</strong>
-        </p>
-        <span className="method-intro-sub">THE ATLAS READING STANDARD</span>
-      </div>
       <div className="method-content">
         <section className="method-section">
           <span className="method-number">01</span>
           <div>
             <span className="eyebrow">TWO EVIDENCE LAYERS</span>
-            <h2>Retain the research. Preserve its status.</h2>
+            <h2>Baseline & imported observations</h2>
             <div className="method-evidence-grid">
               <article>
                 <EvidenceBadge evidence="baseline" />
@@ -67,7 +59,7 @@ export default function AtlasMethodology() {
           <span className="method-number">02</span>
           <div>
             <span className="eyebrow">GEOGRAPHY & PRECISION</span>
-            <h2>A point is not always a property.</h2>
+            <h2>Location precision</h2>
             <div className="precision-explainer">
               <div>
                 <i className="legend-dot address" />
@@ -106,8 +98,14 @@ export default function AtlasMethodology() {
             </p>
             <p>
               Macro city references use{" "}
-              <a href="https://www.geonames.org/" target="_blank" rel="noopener noreferrer">GeoNames</a>.
-              Basemap providers are credited on the map. Aerial source credits
+              <a
+                href="https://www.geonames.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GeoNames
+              </a>
+              . Basemap providers are credited on the map. Aerial source credits
               and capture-date notes appear with each selected view.
             </p>
           </div>
@@ -116,7 +114,7 @@ export default function AtlasMethodology() {
           <span className="method-number">03</span>
           <div>
             <span className="eyebrow">FINANCIAL & SCIENCE DISCIPLINE</span>
-            <h2>Scope matters as much as the number.</h2>
+            <h2>Financial & science scope</h2>
             <ul className="method-rule-list">
               <li>
                 <Check size={15} />
@@ -145,10 +143,11 @@ export default function AtlasMethodology() {
               <li>
                 <Check size={15} />
                 <span>
-                  <strong>Missing is not zero.</strong> Unknown local tenure,
-                  occupied area, jobs, landlord and lease expiry remain not
-                  disclosed. Unsupported occupancy direction is “Insufficient
-                  evidence,” not “Hold.”
+                  <strong>Missing is not zero.</strong> “Not in release” means
+                  the retained evidence does not supply that fact, not that the
+                  company has never disclosed it. Unknown local tenure, area,
+                  jobs, landlord and expiry remain unknown. Unsupported
+                  occupancy direction is “Insufficient evidence,” not “Hold.”
                 </span>
               </li>
               <li>
@@ -174,7 +173,7 @@ export default function AtlasMethodology() {
           <span className="method-number">04</span>
           <div>
             <span className="eyebrow">COMPLETED AERIAL EXHIBITS</span>
-            <h2>The original frame. The original caveats.</h2>
+            <h2>Aerial exhibits & imagery dates</h2>
             <p>
               Completed exhibits are available for Biotech Beach, Genetown and
               Basel. Every aerial view uses the retained exhibit image and
@@ -230,20 +229,28 @@ export default function AtlasMethodology() {
                   </div>
                   <div className="coverage-list">
                     {query.data.regions.map(region => (
-                      <Link href={`/hub/${region.id}`} key={region.id}>
-                        <span>
-                          <strong>{region.name}</strong>
-                          <small>{region.geography}</small>
-                        </span>
-                        <span>
-                          {count(region.baselineCompanies)} supported
-                          <br />
-                          <small>
+                      <details className="coverage-details" key={region.id}>
+                        <summary>
+                          {regionPresentation(region).label}
+                          <span>
+                            {count(region.baselineCompanies)} supported ·{" "}
                             {count(region.researchCompanies)} research
-                          </small>
-                        </span>
-                        <ArrowUpRight size={16} />
-                      </Link>
+                          </span>
+                        </summary>
+                        <div>
+                          <h3>{regionPresentation(region).subtitle}</h3>
+                          <p>{coverageText(region.geography)}</p>
+                          {region.description && (
+                            <p>{coverageText(region.description)}</p>
+                          )}
+                          <Link
+                            className="text-link"
+                            href={`/hub/${region.id}`}
+                          >
+                            Open regional workspace <ArrowUpRight size={16} />
+                          </Link>
+                        </div>
+                      </details>
                     ))}
                   </div>
                 </>
@@ -256,9 +263,9 @@ export default function AtlasMethodology() {
                 excluded from company coverage counts. Address-level record
                 counts may include campus reference addresses, which are not
                 verified occupied premises. Regional memberships can overlap.
-                Counts measure research coverage, not total market size, and should
-                not be summed to infer unique companies. Data may be historical;
-                consult the linked evidence before making decisions.
+                Counts measure research coverage, not total market size, and
+                should not be summed to infer unique companies. Data may be
+                historical; consult the linked evidence before making decisions.
               </p>
             </div>
           </div>

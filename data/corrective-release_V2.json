@@ -1,0 +1,75 @@
+{
+  "release": "corrective-private-preview-v2",
+  "asOf": "2026-11-02",
+  "dataVersion": "atlas-web-v5-20261102",
+  "comparedAgainstCommit": "80b0ce1",
+  "initialVisualCertification": "withdrawn",
+  "scope": "Corrective private-preview application release, not independent re-underwriting of every company.",
+  "checks": {
+    "realBrowser": "All regional maps visually reviewed; deep company/source/aerial flows on desktop and phone-sized Chromium viewports.",
+    "financialCorrections": 91,
+    "financialProof": "data/financial-verification_V5.json; retained SEC unit, period, accession and source guards. Original signed cash-use metrics preserved.",
+    "sourceToScreenFinancialChecks": [
+      {
+        "view": "desktop/basel",
+        "action": "displayed positive SEC operating cash flow",
+        "value": "282.2 USD millions",
+        "period": "Global reporting entity: NEUROCRINE BIOSCIENCES INC\nAs of Jun 30, 2026\nPeriod from Jan 1, 2026"
+      },
+      {
+        "view": "desktop/biotech-beach",
+        "action": "displayed positive SEC operating cash flow",
+        "value": "282.2 USD millions",
+        "period": "Global reporting entity: NEUROCRINE BIOSCIENCES INC\nAs of Jun 30, 2026\nPeriod from Jan 1, 2026"
+      },
+      {
+        "view": "desktop/genetown",
+        "action": "displayed positive SEC operating cash flow",
+        "value": "2,553.5 USD millions",
+        "period": "Global reporting entity: VERTEX PHARMACEUTICALS INC / MA\nAs of Jun 30, 2026\nPeriod from Jan 1, 2026"
+      },
+      {
+        "view": "phone/basel",
+        "action": "displayed positive SEC operating cash flow",
+        "value": "282.2 USD millions",
+        "period": "Global reporting entity: NEUROCRINE BIOSCIENCES INC\nAs of Jun 30, 2026\nPeriod from Jan 1, 2026"
+      },
+      {
+        "view": "phone/biotech-beach",
+        "action": "displayed positive SEC operating cash flow",
+        "value": "282.2 USD millions",
+        "period": "Global reporting entity: NEUROCRINE BIOSCIENCES INC\nAs of Jun 30, 2026\nPeriod from Jan 1, 2026"
+      },
+      {
+        "view": "phone/genetown",
+        "action": "displayed positive SEC operating cash flow",
+        "value": "2,553.5 USD millions",
+        "period": "Global reporting entity: VERTEX PHARMACEUTICALS INC / MA\nAs of Jun 30, 2026\nPeriod from Jan 1, 2026"
+      }
+    ],
+    "allAerialFrameEvidenceModes": "Matrix/CSV ID parity checked in 171 frame/evidence cases; exact frame membership and privacy checks passed.",
+    "automated": "TypeScript, production build, 56 server unit tests and 25 client regressions passed. Default DB-gated tests remain separately identified rather than counted as passes.",
+    "requestCancellation": [
+      {
+        "path": "/api/atlas/companies",
+        "failure": "net::ERR_ABORTED"
+      }
+    ],
+    "requestCancellationDisposition": "One companies query was canceled during navigation/context closure. Destination navigation, company rows in prior flows and map loading succeeded; no uncaught page errors or broken rendered images were observed. Final harness now waits for populated destination rows."
+  },
+  "remainingLimits": [
+    "Not a complete census or comprehensive fresh re-verification of every company.",
+    "Undisclosed or unresearched local employment, area, landlord, expiry and lease terms remain gaps.",
+    "Campus references do not establish company suites or occupancy.",
+    "Cash-only facts do not silently include unclassified investments; no guaranteed lease credit is inferred.",
+    "Imagery is dated evidence, not proof of current premises; unknown capture dates remain labeled.",
+    "Unverified imported observations remain separate."
+  ],
+  "visualEvidenceHashes": {
+    "assets/proof-final-core-and-financials/phone-basel-cashflow.png": "530baf9ab458f1faa041c1fd3a211360ff79726aee0c5accad9ac230e073f36d",
+    "assets/proof-final-core-and-financials/phone-basel-profile.png": "7ad83f586ff69711f3e261d37cbf06f19ff2b5a4a202f7f1f6271797785825dc",
+    "assets/logo-default-proof/torrey-logo-or-name-default.png": "0565dac438e27d22097286888289bdff558541e1ba19b360b0f67aa9c9e174e8",
+    "assets/regional-screens-corrected-review.png": "00465f1189af7aeba2e425ae09d8d5e32d54d86b3491ae6951552f47ff153d43"
+  },
+  "publishing": "Private Preview only; auto-publication disabled; no publication requested."
+}

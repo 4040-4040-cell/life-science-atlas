@@ -15,6 +15,7 @@ import type {
 } from "@shared/atlas";
 import {
   count,
+  dateLabel,
   factValue,
   filterQuery,
   humanize,
@@ -29,6 +30,7 @@ import {
   EvidenceBadge,
   Loading,
 } from "./Primitives";
+import { isCampusReference } from "@/lib/regionPresentation";
 
 export function CompanyFilters({
   filters,
@@ -82,62 +84,74 @@ export function CompanyFilters({
           </button>
         )}
       </div>
-      <div className="filter-select">
-        <label htmlFor="evidence-filter">Evidence</label>
-        <select
-          id="evidence-filter"
-          value={filters.evidence}
-          onChange={e => update("evidence", e.target.value)}
-        >
-          <option value="all">All evidence</option>
-          <option value="baseline">Source-supported</option>
-          <option value="research">Research imports</option>
-        </select>
-      </div>
-      <div className="filter-select">
-        <label htmlFor="category-filter">Category</label>
-        <select
-          id="category-filter"
-          value={filters.category}
-          onChange={e => update("category", e.target.value)}
-        >
-          <option value="">All categories</option>
-          {categories.map(c => (
-            <option key={c} value={c}>
-              {humanize(c)}
-            </option>
-          ))}
-        </select>
-      </div>
-      <div className="filter-select">
-        <label htmlFor="priority-filter">Priority</label>
-        <select
-          id="priority-filter"
-          value={filters.priority}
-          onChange={e => update("priority", e.target.value)}
-        >
-          <option value="">All priorities</option>
-          {priorities.map(p => (
-            <option key={p} value={p}>
-              {humanize(p)}
-            </option>
-          ))}
-        </select>
-      </div>
-      {active && (
-        <button
-          className="clear-filters"
-          onClick={() =>
-            onChange({ q: "", evidence: "all", category: "", priority: "" })
-          }
-        >
-          <X size={12} />
-          Clear
-        </button>
-      )}
+      <details className="filter-options">
+        <summary>
+          <SlidersHorizontal size={16} /> Filters
+          {active && (
+            <span className="filter-active-dot" aria-label="Active filters" />
+          )}
+        </summary>
+        <div className="advanced-filters">
+          <div className="filter-select">
+            <label htmlFor="evidence-filter">Evidence</label>
+            <select
+              id="evidence-filter"
+              value={filters.evidence}
+              onChange={e => update("evidence", e.target.value)}
+            >
+              <option value="all">All evidence</option>
+              <option value="baseline">Source-supported</option>
+              <option value="research">Research imports</option>
+            </select>
+          </div>
+          <div className="filter-select">
+            <label htmlFor="category-filter">Category</label>
+            <select
+              id="category-filter"
+              value={filters.category}
+              onChange={e => update("category", e.target.value)}
+            >
+              <option value="">All categories</option>
+              {categories.map(c => (
+                <option key={c} value={c}>
+                  {humanize(c)}
+                </option>
+              ))}
+            </select>
+          </div>
+          <div className="filter-select">
+            <label htmlFor="priority-filter">Priority</label>
+            <select
+              id="priority-filter"
+              value={filters.priority}
+              onChange={e => update("priority", e.target.value)}
+            >
+              <option value="">All priorities</option>
+              {priorities.map(p => (
+                <option key={p} value={p}>
+                  {humanize(p)}
+                </option>
+              ))}
+            </select>
+          </div>
+          {active && (
+            <button
+              className="clear-filters"
+              onClick={() =>
+                onChange({ q: "", evidence: "all", category: "", priority: "" })
+              }
+            >
+              <X size={12} />
+              Clear
+            </button>
+          )}
+        </div>
+      </details>
       <a
         className="export-link"
         href={`/api/atlas/export.csv?${filterQuery(filters, regionId).toString()}`}
+        aria-label="Export filtered CSV"
+        title="Export filtered CSV"
       >
         <ArrowDownToLine size={14} />
         <span>Export CSV</span>
@@ -150,12 +164,14 @@ export function CompanyMatrix({
   regionId,
   filters,
   companies,
+  sites = [],
   onCompany,
   onReset,
 }: {
   regionId: string;
   filters: Filters;
   companies?: CompanySummary[];
+  sites?: MapSite[];
   onCompany: (id: string) => void;
   onReset: () => void;
 }) {
@@ -186,9 +202,8 @@ export function CompanyMatrix({
     <section className="matrix-section" aria-label="Company matrix">
       <div className="section-heading">
         <div>
-          <span className="eyebrow">THE COMPANY MATRIX</span>
           <h2>
-            Evidence at a glance
+            Company matrix
             <span className="heading-count">{count(total)}</span>
           </h2>
         </div>
@@ -210,11 +225,16 @@ export function CompanyMatrix({
       <div className="matrix-note">
         <SlidersHorizontal size={12} />
         <span>
-          Filters apply to the map, city index, matrix and CSV.{" "}
+          {companies?.some(
+            company => company.kind === "institution_reference"
+          ) &&
+            `${count(companies.filter(company => company.kind === "institution_reference").length)} institution / campus references are included and labeled separately. `}
+          Shared filters: map, index, matrix and CSV. Open a profile for
+          sources, dates and field gaps.{" "}
           {filters.frame &&
             "This analytical frame is not a formal boundary; membership follows retained site links, not unchecked coordinates. "}
-          Financials and headcount are companywide unless explicitly scoped
-          otherwise.
+          Cash is companywide. Employee scope varies. “Not in release” is a
+          research gap, not a statement about company disclosure.
         </span>
       </div>
       {query.isLoading ? (
@@ -240,7 +260,7 @@ export function CompanyMatrix({
                 <tr>
                   <th>Company / location</th>
                   <th>Evidence / category</th>
-                  <th>Occupancy read</th>
+                  <th>Local presence</th>
                   <th>
                     Reported cash <span>companywide</span>
                   </th>
@@ -252,90 +272,167 @@ export function CompanyMatrix({
                 </tr>
               </thead>
               <tbody>
-                {items.map(company => (
-                  <tr key={company.id} onClick={() => onCompany(company.id)}>
-                    <td>
-                      <button
-                        className="matrix-company"
-                        onClick={e => {
-                          e.stopPropagation();
-                          onCompany(company.id);
-                        }}
-                      >
-                        <CompanyLogo company={company} />
-                        <span>
-                          <strong>{company.name}</strong>
-                          {company.kind === "institution_reference" && (
-                            <span className="institution-tag">
-                              Institution / campus reference
-                            </span>
-                          )}
-                          <small>
-                            {company.cities.join(" / ") ||
-                              "Local city not disclosed"}
-                            {company.ticker ? ` · ${company.ticker}` : ""}
-                          </small>
-                        </span>
-                      </button>
-                    </td>
-                    <td>
-                      <EvidenceBadge evidence={company.evidence} />
-                      <span className="cell-secondary">
-                        {humanize(company.category || "Unclassified")}
-                      </span>
-                    </td>
-                    <td>
-                      <span className="occupancy-label">
-                        {company.occupancyRead || "Insufficient evidence"}
-                      </span>
-                      <span
-                        className="cell-secondary short-reason"
-                        title={company.occupancyReason}
-                      >
-                        {company.occupancyReason ||
-                          "No supported local occupancy conclusion."}
-                      </span>
-                    </td>
-                    <td className="numeric-cell">
-                      {factValue(company.cash)}
-                      <span className="cell-secondary">
-                        {company.cash?.asOf || "As-of date not disclosed"}
-                        {company.cash?.scope ? ` · ${company.cash.scope}` : ""}
-                      </span>
-                    </td>
-                    <td className="numeric-cell">
-                      {factValue(company.employees)}
-                      <span className="cell-secondary">
-                        {company.employees?.scope || "Scope not disclosed"}
-                      </span>
-                    </td>
-                    <td>
-                      <span className="priority-label">
-                        {company.priority
-                          ? humanize(company.priority)
-                          : "Not assigned"}
-                      </span>
-                      {company.score != null && (
+                {items.map(company => {
+                  const localSites = sites.filter(
+                    site => site.profileId === company.id
+                  );
+                  const localCities = [
+                    ...new Set(
+                      localSites.map(site => site.city).filter(Boolean)
+                    ),
+                  ];
+                  const matched = localSites.filter(
+                    site => precisionOf(site) === "address"
+                  ).length;
+                  const campuses = localSites.filter(isCampusReference).length;
+                  const references = localSites.filter(
+                    site =>
+                      precisionOf(site) === "city" && !isCampusReference(site)
+                  ).length;
+                  const imports = localSites.filter(
+                    site => precisionOf(site) === "research"
+                  ).length;
+                  const cashKnown =
+                    company.cash?.value != null && company.cash.value !== "";
+                  const employeesKnown =
+                    company.employees?.value != null &&
+                    company.employees.value !== "";
+                  return (
+                    <tr key={company.id} onClick={() => onCompany(company.id)}>
+                      <td>
+                        <button
+                          className="matrix-company"
+                          onClick={e => {
+                            e.stopPropagation();
+                            onCompany(company.id);
+                          }}
+                        >
+                          <CompanyLogo company={company} />
+                          <span>
+                            <strong>{company.name}</strong>
+                            {company.kind === "institution_reference" && (
+                              <span className="institution-tag">
+                                Institution / campus reference
+                              </span>
+                            )}
+                            <small>
+                              {localCities.join(" / ") || "City not in release"}
+                              {company.ticker ? ` · ${company.ticker}` : ""}
+                            </small>
+                          </span>
+                        </button>
+                      </td>
+                      <td>
+                        <EvidenceBadge evidence={company.evidence} />
                         <span className="cell-secondary">
-                          Source score {company.score}
+                          {humanize(company.category || "Unclassified")}
                         </span>
-                      )}
-                    </td>
-                    <td>
-                      <span className="row-arrow" aria-hidden="true">
-                        ↗
-                      </span>
-                    </td>
-                  </tr>
-                ))}
+                      </td>
+                      <td>
+                        {company.kind === "institution_reference" ? (
+                          <>
+                            <span>Campus reference</span>
+                            <span className="cell-secondary">
+                              Not a verified company suite
+                            </span>
+                          </>
+                        ) : (
+                          <>
+                            <span>
+                              {matched
+                                ? `${matched} address-matched`
+                                : campuses
+                                  ? "Campus reference"
+                                  : references
+                                    ? `${references} city reference${references === 1 ? "" : "s"}`
+                                    : imports
+                                      ? `${imports} unchecked import${imports === 1 ? "" : "s"}`
+                                      : "Not in release"}
+                            </span>
+                            {campuses > 0 && (
+                              <span className="cell-secondary">
+                                Not a verified company suite
+                              </span>
+                            )}
+                            {matched > 0 && (references > 0 || imports > 0) && (
+                              <span className="cell-secondary">
+                                {[
+                                  references
+                                    ? `${references} city reference${references === 1 ? "" : "s"}`
+                                    : "",
+                                  imports ? `${imports} unchecked` : "",
+                                ]
+                                  .filter(Boolean)
+                                  .join(" · ")}
+                              </span>
+                            )}
+                            {company.occupancyRead &&
+                              company.occupancyRead !==
+                                "Insufficient evidence" && (
+                                <span className="cell-secondary">
+                                  {company.occupancyRead}
+                                </span>
+                              )}
+                          </>
+                        )}
+                      </td>
+                      <td className="numeric-cell">
+                        <span className={cashKnown ? "" : "missing-value"}>
+                          {cashKnown
+                            ? factValue(company.cash)
+                            : "Not in release"}
+                        </span>
+                        {cashKnown && company.cash?.asOf && (
+                          <span className="cell-secondary">
+                            {dateLabel(company.cash.asOf)}
+                          </span>
+                        )}
+                      </td>
+                      <td className="numeric-cell">
+                        <span className={employeesKnown ? "" : "missing-value"}>
+                          {employeesKnown
+                            ? factValue(company.employees)
+                            : "Not in release"}
+                        </span>
+                        {employeesKnown && (
+                          <span
+                            className="cell-secondary"
+                            title={company.employees?.scope || undefined}
+                          >
+                            {company.employees?.scope &&
+                            /global|companywide|reporting entity/i.test(
+                              company.employees.scope
+                            )
+                              ? "Companywide"
+                              : "See profile for scope"}
+                            {company.employees?.asOf
+                              ? ` · ${dateLabel(company.employees.asOf)}`
+                              : ""}
+                          </span>
+                        )}
+                      </td>
+                      <td>
+                        <span className="priority-label">
+                          {company.priority
+                            ? humanize(company.priority)
+                            : "Not assigned"}
+                        </span>
+                      </td>
+                      <td>
+                        <span className="row-arrow" aria-hidden="true">
+                          ↗
+                        </span>
+                      </td>
+                    </tr>
+                  );
+                })}
               </tbody>
             </table>
           </div>
           <div className="pagination">
             <span>
               {count((page - 1) * 25 + 1)}–
-              {count(Math.min(page * 25, total || 0))} of {count(total)}{" "}
-              profiles
+              {count(Math.min(page * 25, total || 0))} of {count(total)} records
             </span>
             <div>
               <button
@@ -402,12 +499,8 @@ export function CityCompanyIndex({
   return (
     <aside className="city-index">
       <div className="city-index-heading">
-        <span className="eyebrow">LOCAL COMPANY INDEX</span>
-        <h3>Companies in context</h3>
-        <p>
-          City groupings are reference context, not verified submarket or
-          tenancy peers.
-        </p>
+        <h3>Company index</h3>
+        <p>Grouped by city, not confirmed tenancy peers.</p>
       </div>
       <div className="city-index-list">
         {!cities.length && (
@@ -465,10 +558,17 @@ export function CityCompanyIndex({
                                   s =>
                                     s.profileId === company.id &&
                                     s.city === city &&
-                                    precisionOf(s) === "address"
+                                    isCampusReference(s)
                                 )
-                              ? "Address-matched site"
-                              : "City context only"}
+                              ? "Campus reference · not a verified company suite"
+                              : sites.some(
+                                    s =>
+                                      s.profileId === company.id &&
+                                      s.city === city &&
+                                      precisionOf(s) === "address"
+                                  )
+                                ? "Address-matched site"
+                                : "City context only"}
                       </small>
                     </span>
                     <span className="city-company-arrow">↗</span>

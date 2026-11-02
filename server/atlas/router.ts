@@ -19,7 +19,7 @@ atlasRouter.get("/export.csv", asyncRoute(async (req, res) => {
   const filters = parseFilters(req.query);
   const ingestion = await readyIngestion();
   const rows = await getExportRows(filters);
-  const csv = companiesCsv(rows, ingestion.asOf, filters.frame);
+  const csv = companiesCsv(rows, ingestion.asOf, filters.frame, filters.region);
   res.set("Content-Disposition", 'attachment; filename="life-science-atlas.csv"');
   res.type("text/csv; charset=utf-8").send(csv);
 }));

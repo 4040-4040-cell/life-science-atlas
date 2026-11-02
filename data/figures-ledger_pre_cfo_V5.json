@@ -1,0 +1,79 @@
+{
+  "project": "Life Science Atlas / client application",
+  "last_updated": "2026-11-02",
+  "figures": [
+    {
+      "id": "web-atlas-baseline_company_profiles-20261102",
+      "metric": "baseline company profiles",
+      "value": "480",
+      "scope": "This generated application seed only, not a market census or tenant count",
+      "period": "2026-11-02 build",
+      "source": "data/seed-counts.json and immutable seed input hashes",
+      "as_of_date": "2026-11-02",
+      "verified": true,
+      "locked": false,
+      "notes": "Generated-record count; baseline/research/reference grains remain distinct."
+    },
+    {
+      "id": "web-atlas-research_only_profiles-20261102",
+      "metric": "research only profiles",
+      "value": "773",
+      "scope": "This generated application seed only, not a market census or tenant count",
+      "period": "2026-11-02 build",
+      "source": "data/seed-counts.json and immutable seed input hashes",
+      "as_of_date": "2026-11-02",
+      "verified": true,
+      "locked": false,
+      "notes": "Generated-record count; baseline/research/reference grains remain distinct."
+    },
+    {
+      "id": "web-atlas-institutional_reference_profiles-20261102",
+      "metric": "institutional reference profiles",
+      "value": "23",
+      "scope": "This generated application seed only, not a market census or tenant count",
+      "period": "2026-11-02 build",
+      "source": "data/seed-counts.json and immutable seed input hashes",
+      "as_of_date": "2026-11-02",
+      "verified": true,
+      "locked": false,
+      "notes": "Generated-record count; baseline/research/reference grains remain distinct."
+    },
+    {
+      "id": "web-atlas-site_rows-20261102",
+      "metric": "site rows",
+      "value": "1648",
+      "scope": "This generated application seed only, not a market census or tenant count",
+      "period": "2026-11-02 build",
+      "source": "data/seed-counts.json and immutable seed input hashes",
+      "as_of_date": "2026-11-02",
+      "verified": true,
+      "locked": false,
+      "notes": "Generated-record count; baseline/research/reference grains remain distinct."
+    },
+    {
+      "id": "web-atlas-aerial_views-20261102",
+      "metric": "aerial views",
+      "value": "57",
+      "scope": "This generated application seed only, not a market census or tenant count",
+      "period": "2026-11-02 build",
+      "source": "data/seed-counts.json and immutable seed input hashes",
+      "as_of_date": "2026-11-02",
+      "verified": true,
+      "locked": false,
+      "notes": "Generated-record count; baseline/research/reference grains remain distinct."
+    },
+    {
+      "id": "web-atlas-original_import_observations-20261102",
+      "metric": "original import observations",
+      "value": "1107",
+      "scope": "This generated application seed only, not a market census or tenant count",
+      "period": "2026-11-02 build",
+      "source": "data/seed-counts.json and immutable seed input hashes",
+      "as_of_date": "2026-11-02",
+      "verified": true,
+      "locked": false,
+      "notes": "Generated-record count; baseline/research/reference grains remain distinct."
+    }
+  ],
+  "financial_metric_source_of_truth": "Original V6 sourced cards and parent project figures-ledger; no source metric values changed in this build"
+}

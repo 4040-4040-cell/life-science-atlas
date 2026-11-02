@@ -169,47 +169,40 @@ export function SourceLinks({
   );
 }
 export function FactRow({ fact, sources }: { fact: Fact; sources: Source[] }) {
-  const value = factValue(fact);
-  const isDisclosure = value.length > 320;
+  const missing = fact.value == null || fact.value === "";
+  const value = missing ? "Not in release" : factValue(fact);
+  const isDisclosure = value.length > 240;
   return (
-    <div className={`fact-row ${fact.value == null ? "unknown-fact" : ""}`}>
+    <div className={`fact-row ${missing ? "unknown-fact" : ""}`}>
       <div className="fact-label">{fact.label}</div>
       {isDisclosure ? (
         <details className="retained-disclosure">
-          <summary>
-            Read retained disclosure{" "}
-            <span>{value.length.toLocaleString()} characters</span>
-          </summary>
+          <summary>Read full retained disclosure</summary>
           <p>{value}</p>
         </details>
       ) : (
         <div className="fact-value">{value}</div>
       )}
       <div className="fact-meta">
-        <span>{fact.scope || "Scope not specified"}</span>
-        {fact.unit && <span>Unit: {fact.unit}</span>}
-        <span>
-          {fact.asOf
-            ? `As of ${dateLabel(fact.asOf)}`
-            : "As-of date not disclosed"}
-        </span>
+        {fact.scope && <span>{fact.scope}</span>}
+        {fact.asOf && <span>As of {dateLabel(fact.asOf)}</span>}
         {fact.periodStart && (
           <span>Period from {dateLabel(fact.periodStart)}</span>
         )}
-        <span className="fact-status">
-          {humanize(fact.status || "Not disclosed")}
-        </span>
       </div>
-      {fact.notes &&
-        (fact.notes.length > 500 ? (
-          <details className="retained-disclosure notes-disclosure">
-            <summary>Read evidence notes</summary>
-            <p>{fact.notes}</p>
-          </details>
-        ) : (
-          <p className="fact-note">{fact.notes}</p>
-        ))}
-      <SourceLinks ids={fact.sourceIds} sources={sources} />
+      <details className="fact-evidence">
+        <summary>Evidence details</summary>
+        <div>
+          <div className="fact-meta">
+            <span>Status: {humanize(fact.status || "Not in release")}</span>
+            {!fact.scope && <span>Scope not in release</span>}
+            {!fact.asOf && <span>As-of date not in release</span>}
+            {fact.unit && <span>Unit: {fact.unit}</span>}
+          </div>
+          {fact.notes && <p className="fact-note">{fact.notes}</p>}
+          <SourceLinks ids={fact.sourceIds} sources={sources} />
+        </div>
+      </details>
     </div>
   );
 }
