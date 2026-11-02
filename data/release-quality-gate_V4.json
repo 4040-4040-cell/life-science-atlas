@@ -1,0 +1,37 @@
+{
+  "edition": "atlas-web-v4-20261102",
+  "status": "PASS",
+  "delivery": "Private Preview and saved checkpoint; not public publication",
+  "pressure_tests": [
+    {
+      "pass": 1,
+      "scope": "Source preservation and map/data integrity",
+      "result": "PASS",
+      "evidence": "Original IDs and values preserved; all retained clinical IDs restored; financing scope retained; all raster extents match original georeferencing; no city/unchecked promotion into address pins"
+    },
+    {
+      "pass": 2,
+      "scope": "Actual database-backed application integration",
+      "result": "PASS",
+      "evidence": "All regional joins; every aerial frame across all/baseline/research modes; matrix/CSV identity parity; original source-layer safeguards and invalid-ID/frame behavior",
+      "checks": {
+        "all_region_api_joins": 11,
+        "frame_evidence_matrix_csv_parity_cases": 171,
+        "mixed_company_research_observation": "Amgen presence retained without master duplication",
+        "clinical_profiles_with_restored_ids_checked": 19,
+        "financing_scopes_checked": 31,
+        "private_file_routes": "403 / no source contents or local path body",
+        "invalid_frame_selection": "Rejected, no regional fallback"
+      }
+    },
+    {
+      "pass": 3,
+      "scope": "Independent implementation review and production checks",
+      "result": "PASS",
+      "evidence": "All five confirmed findings fixed and rechecked; TypeScript, unit/frontend regressions and production build passed; managed-DB read-only integration checks passed separately; private file requests blocked without breaking client graph"
+    }
+  ],
+  "source_limits": "Snapshot research with individual source/reporting dates; unknown fields remain unknown; companywide finance is not local lease credit; research imports remain unverified; not a census",
+  "original_private_brochures_not_published": true,
+  "seed_sha256": "9fb9624c436e52534fd1aeb56029aaa65b638d66add61bc5c528ede7b77619ac"
+}

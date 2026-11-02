@@ -1,0 +1,572 @@
+[
+  {
+    "id": "beach-carlsbad-core",
+    "imageBounds": [
+      -117.32499999999997,
+      33.104132640957744,
+      -117.21800000000002,
+      33.16386677755281
+    ],
+    "imageUrl": "/manus-storage/beach-carlsbad-core_naip_990188cc.jpg"
+  },
+  {
+    "id": "beach-carmel-core",
+    "imageBounds": [
+      -117.28686131407075,
+      32.908,
+      -117.19213868592925,
+      32.961000000000006
+    ],
+    "imageUrl": "/manus-storage/beach-carmel-core_naip_b5523beb.jpg"
+  },
+  {
+    "id": "beach-carmel-east",
+    "imageBounds": [
+      -117.22431723758045,
+      32.94899999999999,
+      -117.17068276241953,
+      32.979
+    ],
+    "imageUrl": "/manus-storage/beach-carmel-east_naip_1650509a.jpg"
+  },
+  {
+    "id": "beach-carmel-solana",
+    "imageBounds": [
+      -117.29243140414286,
+      32.977,
+      -117.24056859585708,
+      33.006
+    ],
+    "imageUrl": "/manus-storage/beach-carmel-solana_naip_bb0773ef.jpg"
+  },
+  {
+    "id": "beach-los-angeles-duarte",
+    "imageBounds": [
+      -118.02436315028038,
+      34.099999999999994,
+      -117.91563684971958,
+      34.16
+    ],
+    "imageUrl": "/manus-storage/beach-los-angeles-duarte_naip_12ab79e6.jpg"
+  },
+  {
+    "id": "beach-los-angeles-pasadena",
+    "imageBounds": [
+      -118.17999999999998,
+      34.119655618157125,
+      -118.06999999999998,
+      34.180344135899055
+    ],
+    "imageUrl": "/manus-storage/beach-los-angeles-pasadena_naip_895d5133.jpg"
+  },
+  {
+    "id": "beach-los-angeles-west-central",
+    "imageBounds": [
+      -118.45999999999998,
+      33.97153291951249,
+      -118.185,
+      34.123438038603275
+    ],
+    "imageUrl": "/manus-storage/beach-los-angeles-west-central_naip_8fbd6c3c.jpg"
+  },
+  {
+    "id": "beach-orange-aliso-viejo",
+    "imageBounds": [
+      -117.77000922287789,
+      33.54999999999999,
+      -117.6799907771221,
+      33.6
+    ],
+    "imageUrl": "/manus-storage/beach-orange-aliso-viejo_naip_dead5013.jpg"
+  },
+  {
+    "id": "beach-orange-irvine-tustin-newport-node-1",
+    "imageBounds": [
+      -117.89920329345556,
+      33.60083414220901,
+      -117.84530437640836,
+      33.63075769361402
+    ],
+    "imageUrl": "/manus-storage/beach-orange-irvine-tustin-newport-node-1_naip_500cf4c8.jpg"
+  },
+  {
+    "id": "beach-orange-irvine-tustin-newport-node-2",
+    "imageBounds": [
+      -117.87964725727858,
+      33.68318079488182,
+      -117.82574834023141,
+      33.71307572967093
+    ],
+    "imageUrl": "/manus-storage/beach-orange-irvine-tustin-newport-node-2_naip_d7d28057.jpg"
+  },
+  {
+    "id": "beach-orange-irvine-tustin-newport-node-3",
+    "imageBounds": [
+      -117.82916081763459,
+      33.702460028549105,
+      -117.77526190058738,
+      33.732348254615744
+    ],
+    "imageUrl": "/manus-storage/beach-orange-irvine-tustin-newport-node-3_naip_bc806ba8.jpg"
+  },
+  {
+    "id": "beach-orange-irvine-tustin-newport-node-4",
+    "imageBounds": [
+      -117.7928308304186,
+      33.630784500493895,
+      -117.73893191337142,
+      33.66069765087502
+    ],
+    "imageUrl": "/manus-storage/beach-orange-irvine-tustin-newport-node-4_naip_4fe22920.jpg"
+  },
+  {
+    "id": "beach-orange-san-clemente",
+    "imageBounds": [
+      -117.65443724531315,
+      33.419999999999995,
+      -117.55556275468685,
+      33.475
+    ],
+    "imageUrl": "/manus-storage/beach-orange-san-clemente_naip_b2e7300c.jpg"
+  },
+  {
+    "id": "beach-sorrento-main",
+    "imageBounds": [
+      -117.24698447224687,
+      32.87899999999999,
+      -117.16301552775316,
+      32.926
+    ],
+    "imageUrl": "/manus-storage/beach-sorrento-main_naip_3c74a0d9.jpg"
+  },
+  {
+    "id": "beach-thousand-oaks-rancho-conejo",
+    "imageBounds": [
+      -118.97534020439537,
+      34.175,
+      -118.88465979560462,
+      34.225
+    ],
+    "imageUrl": "/manus-storage/beach-thousand-oaks-rancho-conejo_naip_a5808cc6.jpg"
+  },
+  {
+    "id": "beach-thousand-oaks-westlake-village",
+    "imageBounds": [
+      -118.87031603066488,
+      34.129999999999995,
+      -118.77968396933514,
+      34.18
+    ],
+    "imageUrl": "/manus-storage/beach-thousand-oaks-westlake-village_naip_f0e65731.jpg"
+  },
+  {
+    "id": "beach-torrey-core",
+    "imageBounds": [
+      -117.27401105113515,
+      32.864999999999995,
+      -117.19898894886485,
+      32.907
+    ],
+    "imageUrl": "/manus-storage/beach-torrey-core_naip_7441f6d4.jpg"
+  },
+  {
+    "id": "beach-utc-core",
+    "imageBounds": [
+      -117.2520076653105,
+      32.85699999999999,
+      -117.17699233468949,
+      32.899
+    ],
+    "imageUrl": "/manus-storage/beach-utc-core_naip_d93be58a.jpg"
+  },
+  {
+    "id": "biotech-beach-additional-node-1",
+    "imageBounds": [
+      -117.29325547129412,
+      32.83432401706743,
+      -117.23429187125286,
+      32.86734699882737
+    ],
+    "imageUrl": "/manus-storage/biotech-beach-additional-node-1_naip_978c29d4.jpg"
+  },
+  {
+    "id": "biotech-beach-additional-node-2",
+    "imageBounds": [
+      -117.12877266776023,
+      33.00421790005896,
+      -117.08026364241776,
+      33.03133449493612
+    ],
+    "imageUrl": "/manus-storage/biotech-beach-additional-node-2_naip_2240399e.jpg"
+  },
+  {
+    "id": "gene-boston-charlestown",
+    "imageBounds": [
+      -71.08533681959882,
+      42.36900000000001,
+      -71.04066318040117,
+      42.391
+    ],
+    "imageUrl": "/manus-storage/gene-boston-charlestown_naip_7f1249a4.jpg"
+  },
+  {
+    "id": "gene-boston-longwood",
+    "imageBounds": [
+      -71.12832224975654,
+      42.328,
+      -71.08367775024347,
+      42.35
+    ],
+    "imageUrl": "/manus-storage/gene-boston-longwood_naip_1cee999b.jpg"
+  },
+  {
+    "id": "gene-boston-seaport",
+    "imageBounds": [
+      -71.061,
+      42.33566739996498,
+      -71.015,
+      42.358332481898465
+    ],
+    "imageUrl": "/manus-storage/gene-boston-seaport_naip_efca2389.jpg"
+  },
+  {
+    "id": "gene-cambridge-cambridgeport",
+    "imageBounds": [
+      -71.12250450008088,
+      42.3505,
+      -71.08799549991907,
+      42.36749999999999
+    ],
+    "imageUrl": "/manus-storage/gene-cambridge-cambridgeport_naip_615ebcc1.jpg"
+  },
+  {
+    "id": "gene-cambridge-kendall-east",
+    "imageBounds": [
+      -71.10634001922374,
+      42.35649999999998,
+      -71.06065998077626,
+      42.37899999999999
+    ],
+    "imageUrl": "/manus-storage/gene-cambridge-kendall-east_naip_75ee965a.jpg"
+  },
+  {
+    "id": "gene-cambridge-somerville-adjacent",
+    "imageBounds": [
+      -71.10473699130958,
+      42.37099999999999,
+      -71.0732630086904,
+      42.3865
+    ],
+    "imageUrl": "/manus-storage/gene-cambridge-somerville-adjacent_naip_cd61b65b.jpg"
+  },
+  {
+    "id": "gene-north-billerica",
+    "imageBounds": [
+      -71.33098717110354,
+      42.515,
+      -71.21901282889647,
+      42.57
+    ],
+    "imageUrl": "/manus-storage/gene-north-billerica_naip_bfa91e17.jpg"
+  },
+  {
+    "id": "gene-north-wilmington",
+    "imageBounds": [
+      -71.23130496214642,
+      42.55,
+      -71.08869503785355,
+      42.620000000000005
+    ],
+    "imageUrl": "/manus-storage/gene-north-wilmington_naip_0222e503.jpg"
+  },
+  {
+    "id": "gene-northwest-01-node-1",
+    "imageBounds": [
+      -71.31145619195644,
+      42.402160088710694,
+      -71.19852200186052,
+      42.4577314452404
+    ],
+    "imageUrl": "/manus-storage/gene-northwest-01-node-1_naip_b95539af.jpg"
+  },
+  {
+    "id": "gene-northwest-01-node-2",
+    "imageBounds": [
+      -71.30440204846096,
+      42.467731566518275,
+      -71.15518435304703,
+      42.54106960781428
+    ],
+    "imageUrl": "/manus-storage/gene-northwest-01-node-2_naip_2d5ef943.jpg"
+  },
+  {
+    "id": "gene-waltham-crescent",
+    "imageBounds": [
+      -71.25418158583864,
+      42.36299999999999,
+      -71.22981841416136,
+      42.37499999999999
+    ],
+    "imageUrl": "/manus-storage/gene-waltham-crescent_naip_8c9e813b.jpg"
+  },
+  {
+    "id": "gene-waltham-north-128",
+    "imageBounds": [
+      -71.31474353041169,
+      42.388000000000005,
+      -71.2192564695883,
+      42.435
+    ],
+    "imageUrl": "/manus-storage/gene-waltham-north-128_naip_c62a520b.jpg"
+  },
+  {
+    "id": "gene-watertown-arsenal-east-end",
+    "imageBounds": [
+      -71.18287608246682,
+      42.351000000000006,
+      -71.13212391753316,
+      42.376
+    ],
+    "imageUrl": "/manus-storage/gene-watertown-arsenal-east-end_naip_f27160c7.jpg"
+  },
+  {
+    "id": "gene-watertown-pleasant-street",
+    "imageBounds": [
+      -71.224,
+      42.35991771918638,
+      -71.17899999999999,
+      42.382081615169525
+    ],
+    "imageUrl": "/manus-storage/gene-watertown-pleasant-street_naip_774b8a67.jpg"
+  },
+  {
+    "id": "gene-west-south-acton",
+    "imageBounds": [
+      -71.55437140311967,
+      42.43,
+      -71.3306285968803,
+      42.540000000000006
+    ],
+    "imageUrl": "/manus-storage/gene-west-south-acton_naip_35db4211.jpg"
+  },
+  {
+    "id": "gene-west-south-framingham-milford",
+    "imageBounds": [
+      -71.72324403179478,
+      42.11,
+      -71.21675596820519,
+      42.36
+    ],
+    "imageUrl": "/manus-storage/gene-west-south-framingham-milford_naip_bb4537ac.jpg"
+  },
+  {
+    "id": "gene-west-south-needham-canton-node-1",
+    "imageBounds": [
+      -71.23877633594459,
+      42.2830666695132,
+      -71.18487741889741,
+      42.30964508360799
+    ],
+    "imageUrl": "/manus-storage/gene-west-south-needham-canton-node-1_naip_d33ebad1.jpg"
+  },
+  {
+    "id": "gene-west-south-needham-canton-node-2",
+    "imageBounds": [
+      -71.14361339765658,
+      42.14420643221664,
+      -71.0897144806094,
+      42.17084336117385
+    ],
+    "imageUrl": "/manus-storage/gene-west-south-needham-canton-node-2_naip_c59e2196.jpg"
+  },
+  {
+    "id": "genetown-additional-node-1",
+    "imageBounds": [
+      -71.58511387983121,
+      42.35073266042519,
+      -71.53660485448879,
+      42.37462802446963
+    ],
+    "imageUrl": "/manus-storage/genetown-additional-node-1_naip_8ef1a4a9.jpg"
+  },
+  {
+    "id": "genetown-additional-node-2",
+    "imageBounds": [
+      -71.18382036755631,
+      42.37516558700654,
+      -71.11111588534769,
+      42.41096221719626
+    ],
+    "imageUrl": "/manus-storage/genetown-additional-node-2_naip_43899c75.jpg"
+  },
+  {
+    "id": "genetown-additional-node-3",
+    "imageBounds": [
+      -71.28787544221922,
+      42.37373760486547,
+      -71.23936641687676,
+      42.39762421932365
+    ],
+    "imageUrl": "/manus-storage/genetown-additional-node-3_naip_bffaeae4.jpg"
+  },
+  {
+    "id": "genetown-additional-node-4",
+    "imageBounds": [
+      -71.10604271664201,
+      42.33442709348358,
+      -71.04838735331396,
+      42.36283425917229
+    ],
+    "imageUrl": "/manus-storage/genetown-additional-node-4_naip_eff329a3.jpg"
+  },
+  {
+    "id": "basel-allschwil-bachgraben-main-campus",
+    "imageBounds": [
+      7.522213394020482,
+      47.55,
+      7.577786605979515,
+      47.575
+    ],
+    "imageUrl": "/manus-storage/basel-allschwil-bachgraben-main-campus_swiss_aerial_a9a5059f.jpg"
+  },
+  {
+    "id": "basel-downtown-sbb-aeschen",
+    "imageBounds": [
+      7.570276865772493,
+      47.53799999999999,
+      7.614723134227508,
+      47.55799999999999
+    ],
+    "imageUrl": "/manus-storage/basel-downtown-sbb-aeschen_swiss_aerial_9aab2443.jpg"
+  },
+  {
+    "id": "basel-east-bubendorf",
+    "imageBounds": [
+      7.6870916624875365,
+      47.427,
+      7.786908337512466,
+      47.471999999999994
+    ],
+    "imageUrl": "/manus-storage/basel-east-bubendorf_swiss_aerial_2f7eda30.jpg"
+  },
+  {
+    "id": "basel-east-muttenz-pratteln",
+    "imageBounds": [
+      7.629999999999999,
+      47.513744954293095,
+      7.72,
+      47.55425410656835
+    ],
+    "imageUrl": "/manus-storage/basel-east-muttenz-pratteln_swiss_aerial_1215947a.jpg"
+  },
+  {
+    "id": "basel-germany-grenzach-wyhlen",
+    "imageBounds": [
+      7.634052686481392,
+      47.541,
+      7.682947313518607,
+      47.563
+    ],
+    "imageUrl": "/manus-storage/basel-germany-grenzach-wyhlen_esri_aerial_9f59410b.jpg"
+  },
+  {
+    "id": "basel-germany-loerrach",
+    "imageBounds": [
+      7.631282411963483,
+      47.602,
+      7.704717588036519,
+      47.635
+    ],
+    "imageUrl": "/manus-storage/basel-germany-loerrach_esri_aerial_f6d085d7.jpg"
+  },
+  {
+    "id": "basel-huningue-industrial",
+    "imageBounds": [
+      7.537565294052086,
+      47.59,
+      7.615434705947915,
+      47.625
+    ],
+    "imageUrl": "/manus-storage/basel-huningue-industrial_esri_aerial_eb1c865c.jpg"
+  },
+  {
+    "id": "basel-klybeck-stucki-klybeck",
+    "imageBounds": [
+      7.572878459590032,
+      47.5725,
+      7.605121540409968,
+      47.586999999999996
+    ],
+    "imageUrl": "/manus-storage/basel-klybeck-stucki-klybeck_swiss_aerial_8de103a3.jpg"
+  },
+  {
+    "id": "basel-klybeck-stucki-stuecki",
+    "imageBounds": [
+      7.589324331505677,
+      47.580999999999996,
+      7.612675668494322,
+      47.5915
+    ],
+    "imageUrl": "/manus-storage/basel-klybeck-stucki-stuecki_swiss_aerial_dbba2c9d.jpg"
+  },
+  {
+    "id": "basel-research-campus-core",
+    "imageBounds": [
+      7.569050413518211,
+      47.55799999999999,
+      7.597949586481786,
+      47.571
+    ],
+    "imageUrl": "/manus-storage/basel-research-campus-core_swiss_aerial_9436c5b5.jpg"
+  },
+  {
+    "id": "basel-roche-kleinbasel",
+    "imageBounds": [
+      7.595135994299606,
+      47.554500000000004,
+      7.6173640057003915,
+      47.564499999999995
+    ],
+    "imageUrl": "/manus-storage/basel-roche-kleinbasel_swiss_aerial_85926138.jpg"
+  },
+  {
+    "id": "basel-rosental-mitte",
+    "imageBounds": [
+      7.593272376395151,
+      47.56349999999999,
+      7.617727623604846,
+      47.57449999999999
+    ],
+    "imageUrl": "/manus-storage/basel-rosental-mitte_swiss_aerial_9f36b990.jpg"
+  },
+  {
+    "id": "basel-st-johann-novartis-campus",
+    "imageBounds": [
+      7.564409245869738,
+      47.568999999999996,
+      7.591090754130263,
+      47.580999999999996
+    ],
+    "imageUrl": "/manus-storage/basel-st-johann-novartis-campus_swiss_aerial_ef2800fb.jpg"
+  },
+  {
+    "id": "basel-supplemental-bioversys-basel",
+    "imageBounds": [
+      7.583683702745043,
+      47.572354706226186,
+      7.6106331612686295,
+      47.584474426394074
+    ],
+    "imageUrl": "/manus-storage/basel-supplemental-bioversys-basel_swiss_aerial_defc72bc.jpg"
+  },
+  {
+    "id": "basel-supplemental-delpharm-huningue",
+    "imageBounds": [
+      7.5660352707382055,
+      47.57824247063951,
+      7.592984729261792,
+      47.590360828009416
+    ],
+    "imageUrl": "/manus-storage/basel-supplemental-delpharm-huningue_esri_aerial_b7046135.jpg"
+  }
+]

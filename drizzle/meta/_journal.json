@@ -8,6 +8,27 @@
       "when": 1788785580464,
       "tag": "0000_initial_users",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1793642956404,
+      "tag": "0001_atlas_persistence",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1793643313602,
+      "tag": "0002_atlas_model_overlays",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1793643900000,
+      "tag": "0003_atlas_fact_observations",
+      "breakpoints": true
     }
   ]
 }

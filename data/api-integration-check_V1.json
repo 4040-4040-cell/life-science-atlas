@@ -1,0 +1,77 @@
+{
+  "status": "PASS",
+  "source_version": "atlas-web-v2-20261102",
+  "scope": "Read-only actual database-backed API / all requested regions",
+  "regions": [
+    {
+      "region": "biotech-beach",
+      "sites": 208,
+      "aerials": 20,
+      "companies": 176
+    },
+    {
+      "region": "genetown",
+      "sites": 271,
+      "aerials": 22,
+      "companies": 211
+    },
+    {
+      "region": "biotech-bay",
+      "sites": 231,
+      "aerials": 0,
+      "companies": 172
+    },
+    {
+      "region": "basel",
+      "sites": 45,
+      "aerials": 15,
+      "companies": 42
+    },
+    {
+      "region": "pharm-country",
+      "sites": 217,
+      "aerials": 0,
+      "companies": 174
+    },
+    {
+      "region": "biocapital",
+      "sites": 126,
+      "aerials": 0,
+      "companies": 98
+    },
+    {
+      "region": "bio-nc",
+      "sites": 124,
+      "aerials": 0,
+      "companies": 108
+    },
+    {
+      "region": "biomidwest",
+      "sites": 142,
+      "aerials": 0,
+      "companies": 119
+    },
+    {
+      "region": "seattle",
+      "sites": 67,
+      "aerials": 0,
+      "companies": 52
+    },
+    {
+      "region": "boulder",
+      "sites": 45,
+      "aerials": 0,
+      "companies": 35
+    },
+    {
+      "region": "uk",
+      "sites": 172,
+      "aerials": 0,
+      "companies": 137
+    }
+  ],
+  "profile_join": "Neurocrine baseline/source/site join checked",
+  "filters_and_export": "Evidence filter and company search/export checked",
+  "unknown_ids": "404 verified",
+  "aerial_precision": "Every returned aerial site is baseline address-matched, not unchecked research or a city centroid"
+}

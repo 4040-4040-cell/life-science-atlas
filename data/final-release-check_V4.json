@@ -1,0 +1,870 @@
+{
+  "status": "PASS",
+  "edition": "atlas-web-v4-20261102",
+  "checks": {
+    "all_region_api_joins": 11,
+    "frame_evidence_matrix_csv_parity_cases": 171,
+    "mixed_company_research_observation": "Amgen presence retained without master duplication",
+    "clinical_profiles_with_restored_ids_checked": 19,
+    "financing_scopes_checked": 31,
+    "private_file_routes": "403 / no source contents or local path body",
+    "invalid_frame_selection": "Rejected, no regional fallback"
+  },
+  "frame_cases": [
+    {
+      "frame": "beach-carlsbad-core",
+      "evidence": "all",
+      "profiles": 2
+    },
+    {
+      "frame": "beach-carlsbad-core",
+      "evidence": "baseline",
+      "profiles": 2
+    },
+    {
+      "frame": "beach-carlsbad-core",
+      "evidence": "research",
+      "profiles": 0
+    },
+    {
+      "frame": "beach-carmel-core",
+      "evidence": "all",
+      "profiles": 8
+    },
+    {
+      "frame": "beach-carmel-core",
+      "evidence": "baseline",
+      "profiles": 8
+    },
+    {
+      "frame": "beach-carmel-core",
+      "evidence": "research",
+      "profiles": 0
+    },
+    {
+      "frame": "beach-carmel-east",
+      "evidence": "all",
+      "profiles": 1
+    },
+    {
+      "frame": "beach-carmel-east",
+      "evidence": "baseline",
+      "profiles": 1
+    },
+    {
+      "frame": "beach-carmel-east",
+      "evidence": "research",
+      "profiles": 0
+    },
+    {
+      "frame": "beach-carmel-solana",
+      "evidence": "all",
+      "profiles": 1
+    },
+    {
+      "frame": "beach-carmel-solana",
+      "evidence": "baseline",
+      "profiles": 1
+    },
+    {
+      "frame": "beach-carmel-solana",
+      "evidence": "research",
+      "profiles": 0
+    },
+    {
+      "frame": "beach-los-angeles-duarte",
+      "evidence": "all",
+      "profiles": 1
+    },
+    {
+      "frame": "beach-los-angeles-duarte",
+      "evidence": "baseline",
+      "profiles": 1
+    },
+    {
+      "frame": "beach-los-angeles-duarte",
+      "evidence": "research",
+      "profiles": 0
+    },
+    {
+      "frame": "beach-los-angeles-pasadena",
+      "evidence": "all",
+      "profiles": 0
+    },
+    {
+      "frame": "beach-los-angeles-pasadena",
+      "evidence": "baseline",
+      "profiles": 0
+    },
+    {
+      "frame": "beach-los-angeles-pasadena",
+      "evidence": "research",
+      "profiles": 0
+    },
+    {
+      "frame": "beach-los-angeles-west-central",
+      "evidence": "all",
+      "profiles": 1
+    },
+    {
+      "frame": "beach-los-angeles-west-central",
+      "evidence": "baseline",
+      "profiles": 1
+    },
+    {
+      "frame": "beach-los-angeles-west-central",
+      "evidence": "research",
+      "profiles": 0
+    },
+    {
+      "frame": "beach-orange-aliso-viejo",
+      "evidence": "all",
+      "profiles": 1
+    },
+    {
+      "frame": "beach-orange-aliso-viejo",
+      "evidence": "baseline",
+      "profiles": 1
+    },
+    {
+      "frame": "beach-orange-aliso-viejo",
+      "evidence": "research",
+      "profiles": 0
+    },
+    {
+      "frame": "beach-orange-irvine-tustin-newport-node-1",
+      "evidence": "all",
+      "profiles": 1
+    },
+    {
+      "frame": "beach-orange-irvine-tustin-newport-node-1",
+      "evidence": "baseline",
+      "profiles": 1
+    },
+    {
+      "frame": "beach-orange-irvine-tustin-newport-node-1",
+      "evidence": "research",
+      "profiles": 0
+    },
+    {
+      "frame": "beach-orange-irvine-tustin-newport-node-2",
+      "evidence": "all",
+      "profiles": 1
+    },
+    {
+      "frame": "beach-orange-irvine-tustin-newport-node-2",
+      "evidence": "baseline",
+      "profiles": 1
+    },
+    {
+      "frame": "beach-orange-irvine-tustin-newport-node-2",
+      "evidence": "research",
+      "profiles": 0
+    },
+    {
+      "frame": "beach-orange-irvine-tustin-newport-node-3",
+      "evidence": "all",
+      "profiles": 1
+    },
+    {
+      "frame": "beach-orange-irvine-tustin-newport-node-3",
+      "evidence": "baseline",
+      "profiles": 1
+    },
+    {
+      "frame": "beach-orange-irvine-tustin-newport-node-3",
+      "evidence": "research",
+      "profiles": 0
+    },
+    {
+      "frame": "beach-orange-irvine-tustin-newport-node-4",
+      "evidence": "all",
+      "profiles": 1
+    },
+    {
+      "frame": "beach-orange-irvine-tustin-newport-node-4",
+      "evidence": "baseline",
+      "profiles": 1
+    },
+    {
+      "frame": "beach-orange-irvine-tustin-newport-node-4",
+      "evidence": "research",
+      "profiles": 0
+    },
+    {
+      "frame": "beach-orange-san-clemente",
+      "evidence": "all",
+      "profiles": 1
+    },
+    {
+      "frame": "beach-orange-san-clemente",
+      "evidence": "baseline",
+      "profiles": 1
+    },
+    {
+      "frame": "beach-orange-san-clemente",
+      "evidence": "research",
+      "profiles": 0
+    },
+    {
+      "frame": "beach-sorrento-main",
+      "evidence": "all",
+      "profiles": 21
+    },
+    {
+      "frame": "beach-sorrento-main",
+      "evidence": "baseline",
+      "profiles": 21
+    },
+    {
+      "frame": "beach-sorrento-main",
+      "evidence": "research",
+      "profiles": 0
+    },
+    {
+      "frame": "beach-thousand-oaks-rancho-conejo",
+      "evidence": "all",
+      "profiles": 1
+    },
+    {
+      "frame": "beach-thousand-oaks-rancho-conejo",
+      "evidence": "baseline",
+      "profiles": 1
+    },
+    {
+      "frame": "beach-thousand-oaks-rancho-conejo",
+      "evidence": "research",
+      "profiles": 0
+    },
+    {
+      "frame": "beach-thousand-oaks-westlake-village",
+      "evidence": "all",
+      "profiles": 1
+    },
+    {
+      "frame": "beach-thousand-oaks-westlake-village",
+      "evidence": "baseline",
+      "profiles": 1
+    },
+    {
+      "frame": "beach-thousand-oaks-westlake-village",
+      "evidence": "research",
+      "profiles": 0
+    },
+    {
+      "frame": "beach-torrey-core",
+      "evidence": "all",
+      "profiles": 9
+    },
+    {
+      "frame": "beach-torrey-core",
+      "evidence": "baseline",
+      "profiles": 9
+    },
+    {
+      "frame": "beach-torrey-core",
+      "evidence": "research",
+      "profiles": 0
+    },
+    {
+      "frame": "beach-utc-core",
+      "evidence": "all",
+      "profiles": 7
+    },
+    {
+      "frame": "beach-utc-core",
+      "evidence": "baseline",
+      "profiles": 7
+    },
+    {
+      "frame": "beach-utc-core",
+      "evidence": "research",
+      "profiles": 0
+    },
+    {
+      "frame": "biotech-beach-additional-node-1",
+      "evidence": "all",
+      "profiles": 2
+    },
+    {
+      "frame": "biotech-beach-additional-node-1",
+      "evidence": "baseline",
+      "profiles": 2
+    },
+    {
+      "frame": "biotech-beach-additional-node-1",
+      "evidence": "research",
+      "profiles": 0
+    },
+    {
+      "frame": "biotech-beach-additional-node-2",
+      "evidence": "all",
+      "profiles": 1
+    },
+    {
+      "frame": "biotech-beach-additional-node-2",
+      "evidence": "baseline",
+      "profiles": 1
+    },
+    {
+      "frame": "biotech-beach-additional-node-2",
+      "evidence": "research",
+      "profiles": 0
+    },
+    {
+      "frame": "gene-boston-charlestown",
+      "evidence": "all",
+      "profiles": 3
+    },
+    {
+      "frame": "gene-boston-charlestown",
+      "evidence": "baseline",
+      "profiles": 3
+    },
+    {
+      "frame": "gene-boston-charlestown",
+      "evidence": "research",
+      "profiles": 0
+    },
+    {
+      "frame": "gene-boston-longwood",
+      "evidence": "all",
+      "profiles": 3
+    },
+    {
+      "frame": "gene-boston-longwood",
+      "evidence": "baseline",
+      "profiles": 3
+    },
+    {
+      "frame": "gene-boston-longwood",
+      "evidence": "research",
+      "profiles": 0
+    },
+    {
+      "frame": "gene-boston-seaport",
+      "evidence": "all",
+      "profiles": 5
+    },
+    {
+      "frame": "gene-boston-seaport",
+      "evidence": "baseline",
+      "profiles": 5
+    },
+    {
+      "frame": "gene-boston-seaport",
+      "evidence": "research",
+      "profiles": 0
+    },
+    {
+      "frame": "gene-cambridge-cambridgeport",
+      "evidence": "all",
+      "profiles": 9
+    },
+    {
+      "frame": "gene-cambridge-cambridgeport",
+      "evidence": "baseline",
+      "profiles": 9
+    },
+    {
+      "frame": "gene-cambridge-cambridgeport",
+      "evidence": "research",
+      "profiles": 0
+    },
+    {
+      "frame": "gene-cambridge-kendall-east",
+      "evidence": "all",
+      "profiles": 23
+    },
+    {
+      "frame": "gene-cambridge-kendall-east",
+      "evidence": "baseline",
+      "profiles": 23
+    },
+    {
+      "frame": "gene-cambridge-kendall-east",
+      "evidence": "research",
+      "profiles": 0
+    },
+    {
+      "frame": "gene-cambridge-somerville-adjacent",
+      "evidence": "all",
+      "profiles": 1
+    },
+    {
+      "frame": "gene-cambridge-somerville-adjacent",
+      "evidence": "baseline",
+      "profiles": 1
+    },
+    {
+      "frame": "gene-cambridge-somerville-adjacent",
+      "evidence": "research",
+      "profiles": 0
+    },
+    {
+      "frame": "gene-north-billerica",
+      "evidence": "all",
+      "profiles": 2
+    },
+    {
+      "frame": "gene-north-billerica",
+      "evidence": "baseline",
+      "profiles": 2
+    },
+    {
+      "frame": "gene-north-billerica",
+      "evidence": "research",
+      "profiles": 0
+    },
+    {
+      "frame": "gene-north-wilmington",
+      "evidence": "all",
+      "profiles": 1
+    },
+    {
+      "frame": "gene-north-wilmington",
+      "evidence": "baseline",
+      "profiles": 1
+    },
+    {
+      "frame": "gene-north-wilmington",
+      "evidence": "research",
+      "profiles": 0
+    },
+    {
+      "frame": "gene-northwest-01-node-1",
+      "evidence": "all",
+      "profiles": 8
+    },
+    {
+      "frame": "gene-northwest-01-node-1",
+      "evidence": "baseline",
+      "profiles": 8
+    },
+    {
+      "frame": "gene-northwest-01-node-1",
+      "evidence": "research",
+      "profiles": 0
+    },
+    {
+      "frame": "gene-northwest-01-node-2",
+      "evidence": "all",
+      "profiles": 7
+    },
+    {
+      "frame": "gene-northwest-01-node-2",
+      "evidence": "baseline",
+      "profiles": 7
+    },
+    {
+      "frame": "gene-northwest-01-node-2",
+      "evidence": "research",
+      "profiles": 0
+    },
+    {
+      "frame": "gene-waltham-crescent",
+      "evidence": "all",
+      "profiles": 2
+    },
+    {
+      "frame": "gene-waltham-crescent",
+      "evidence": "baseline",
+      "profiles": 2
+    },
+    {
+      "frame": "gene-waltham-crescent",
+      "evidence": "research",
+      "profiles": 0
+    },
+    {
+      "frame": "gene-waltham-north-128",
+      "evidence": "all",
+      "profiles": 7
+    },
+    {
+      "frame": "gene-waltham-north-128",
+      "evidence": "baseline",
+      "profiles": 7
+    },
+    {
+      "frame": "gene-waltham-north-128",
+      "evidence": "research",
+      "profiles": 0
+    },
+    {
+      "frame": "gene-watertown-arsenal-east-end",
+      "evidence": "all",
+      "profiles": 5
+    },
+    {
+      "frame": "gene-watertown-arsenal-east-end",
+      "evidence": "baseline",
+      "profiles": 5
+    },
+    {
+      "frame": "gene-watertown-arsenal-east-end",
+      "evidence": "research",
+      "profiles": 0
+    },
+    {
+      "frame": "gene-watertown-pleasant-street",
+      "evidence": "all",
+      "profiles": 1
+    },
+    {
+      "frame": "gene-watertown-pleasant-street",
+      "evidence": "baseline",
+      "profiles": 1
+    },
+    {
+      "frame": "gene-watertown-pleasant-street",
+      "evidence": "research",
+      "profiles": 0
+    },
+    {
+      "frame": "gene-west-south-acton",
+      "evidence": "all",
+      "profiles": 1
+    },
+    {
+      "frame": "gene-west-south-acton",
+      "evidence": "baseline",
+      "profiles": 1
+    },
+    {
+      "frame": "gene-west-south-acton",
+      "evidence": "research",
+      "profiles": 0
+    },
+    {
+      "frame": "gene-west-south-framingham-milford",
+      "evidence": "all",
+      "profiles": 1
+    },
+    {
+      "frame": "gene-west-south-framingham-milford",
+      "evidence": "baseline",
+      "profiles": 1
+    },
+    {
+      "frame": "gene-west-south-framingham-milford",
+      "evidence": "research",
+      "profiles": 0
+    },
+    {
+      "frame": "gene-west-south-needham-canton-node-1",
+      "evidence": "all",
+      "profiles": 1
+    },
+    {
+      "frame": "gene-west-south-needham-canton-node-1",
+      "evidence": "baseline",
+      "profiles": 1
+    },
+    {
+      "frame": "gene-west-south-needham-canton-node-1",
+      "evidence": "research",
+      "profiles": 0
+    },
+    {
+      "frame": "gene-west-south-needham-canton-node-2",
+      "evidence": "all",
+      "profiles": 1
+    },
+    {
+      "frame": "gene-west-south-needham-canton-node-2",
+      "evidence": "baseline",
+      "profiles": 1
+    },
+    {
+      "frame": "gene-west-south-needham-canton-node-2",
+      "evidence": "research",
+      "profiles": 0
+    },
+    {
+      "frame": "genetown-additional-node-1",
+      "evidence": "all",
+      "profiles": 1
+    },
+    {
+      "frame": "genetown-additional-node-1",
+      "evidence": "baseline",
+      "profiles": 1
+    },
+    {
+      "frame": "genetown-additional-node-1",
+      "evidence": "research",
+      "profiles": 0
+    },
+    {
+      "frame": "genetown-additional-node-2",
+      "evidence": "all",
+      "profiles": 3
+    },
+    {
+      "frame": "genetown-additional-node-2",
+      "evidence": "baseline",
+      "profiles": 3
+    },
+    {
+      "frame": "genetown-additional-node-2",
+      "evidence": "research",
+      "profiles": 0
+    },
+    {
+      "frame": "genetown-additional-node-3",
+      "evidence": "all",
+      "profiles": 2
+    },
+    {
+      "frame": "genetown-additional-node-3",
+      "evidence": "baseline",
+      "profiles": 2
+    },
+    {
+      "frame": "genetown-additional-node-3",
+      "evidence": "research",
+      "profiles": 0
+    },
+    {
+      "frame": "genetown-additional-node-4",
+      "evidence": "all",
+      "profiles": 8
+    },
+    {
+      "frame": "genetown-additional-node-4",
+      "evidence": "baseline",
+      "profiles": 8
+    },
+    {
+      "frame": "genetown-additional-node-4",
+      "evidence": "research",
+      "profiles": 0
+    },
+    {
+      "frame": "basel-allschwil-bachgraben-main-campus",
+      "evidence": "all",
+      "profiles": 9
+    },
+    {
+      "frame": "basel-allschwil-bachgraben-main-campus",
+      "evidence": "baseline",
+      "profiles": 9
+    },
+    {
+      "frame": "basel-allschwil-bachgraben-main-campus",
+      "evidence": "research",
+      "profiles": 0
+    },
+    {
+      "frame": "basel-downtown-sbb-aeschen",
+      "evidence": "all",
+      "profiles": 9
+    },
+    {
+      "frame": "basel-downtown-sbb-aeschen",
+      "evidence": "baseline",
+      "profiles": 9
+    },
+    {
+      "frame": "basel-downtown-sbb-aeschen",
+      "evidence": "research",
+      "profiles": 0
+    },
+    {
+      "frame": "basel-east-bubendorf",
+      "evidence": "all",
+      "profiles": 2
+    },
+    {
+      "frame": "basel-east-bubendorf",
+      "evidence": "baseline",
+      "profiles": 2
+    },
+    {
+      "frame": "basel-east-bubendorf",
+      "evidence": "research",
+      "profiles": 0
+    },
+    {
+      "frame": "basel-east-muttenz-pratteln",
+      "evidence": "all",
+      "profiles": 1
+    },
+    {
+      "frame": "basel-east-muttenz-pratteln",
+      "evidence": "baseline",
+      "profiles": 1
+    },
+    {
+      "frame": "basel-east-muttenz-pratteln",
+      "evidence": "research",
+      "profiles": 0
+    },
+    {
+      "frame": "basel-germany-grenzach-wyhlen",
+      "evidence": "all",
+      "profiles": 0
+    },
+    {
+      "frame": "basel-germany-grenzach-wyhlen",
+      "evidence": "baseline",
+      "profiles": 0
+    },
+    {
+      "frame": "basel-germany-grenzach-wyhlen",
+      "evidence": "research",
+      "profiles": 0
+    },
+    {
+      "frame": "basel-germany-loerrach",
+      "evidence": "all",
+      "profiles": 0
+    },
+    {
+      "frame": "basel-germany-loerrach",
+      "evidence": "baseline",
+      "profiles": 0
+    },
+    {
+      "frame": "basel-germany-loerrach",
+      "evidence": "research",
+      "profiles": 0
+    },
+    {
+      "frame": "basel-huningue-industrial",
+      "evidence": "all",
+      "profiles": 0
+    },
+    {
+      "frame": "basel-huningue-industrial",
+      "evidence": "baseline",
+      "profiles": 0
+    },
+    {
+      "frame": "basel-huningue-industrial",
+      "evidence": "research",
+      "profiles": 0
+    },
+    {
+      "frame": "basel-klybeck-stucki-klybeck",
+      "evidence": "all",
+      "profiles": 2
+    },
+    {
+      "frame": "basel-klybeck-stucki-klybeck",
+      "evidence": "baseline",
+      "profiles": 2
+    },
+    {
+      "frame": "basel-klybeck-stucki-klybeck",
+      "evidence": "research",
+      "profiles": 0
+    },
+    {
+      "frame": "basel-klybeck-stucki-stuecki",
+      "evidence": "all",
+      "profiles": 0
+    },
+    {
+      "frame": "basel-klybeck-stucki-stuecki",
+      "evidence": "baseline",
+      "profiles": 0
+    },
+    {
+      "frame": "basel-klybeck-stucki-stuecki",
+      "evidence": "research",
+      "profiles": 0
+    },
+    {
+      "frame": "basel-research-campus-core",
+      "evidence": "all",
+      "profiles": 2
+    },
+    {
+      "frame": "basel-research-campus-core",
+      "evidence": "baseline",
+      "profiles": 2
+    },
+    {
+      "frame": "basel-research-campus-core",
+      "evidence": "research",
+      "profiles": 0
+    },
+    {
+      "frame": "basel-roche-kleinbasel",
+      "evidence": "all",
+      "profiles": 1
+    },
+    {
+      "frame": "basel-roche-kleinbasel",
+      "evidence": "baseline",
+      "profiles": 1
+    },
+    {
+      "frame": "basel-roche-kleinbasel",
+      "evidence": "research",
+      "profiles": 0
+    },
+    {
+      "frame": "basel-rosental-mitte",
+      "evidence": "all",
+      "profiles": 1
+    },
+    {
+      "frame": "basel-rosental-mitte",
+      "evidence": "baseline",
+      "profiles": 1
+    },
+    {
+      "frame": "basel-rosental-mitte",
+      "evidence": "research",
+      "profiles": 0
+    },
+    {
+      "frame": "basel-st-johann-novartis-campus",
+      "evidence": "all",
+      "profiles": 2
+    },
+    {
+      "frame": "basel-st-johann-novartis-campus",
+      "evidence": "baseline",
+      "profiles": 2
+    },
+    {
+      "frame": "basel-st-johann-novartis-campus",
+      "evidence": "research",
+      "profiles": 0
+    },
+    {
+      "frame": "basel-supplemental-bioversys-basel",
+      "evidence": "all",
+      "profiles": 5
+    },
+    {
+      "frame": "basel-supplemental-bioversys-basel",
+      "evidence": "baseline",
+      "profiles": 5
+    },
+    {
+      "frame": "basel-supplemental-bioversys-basel",
+      "evidence": "research",
+      "profiles": 0
+    },
+    {
+      "frame": "basel-supplemental-delpharm-huningue",
+      "evidence": "all",
+      "profiles": 1
+    },
+    {
+      "frame": "basel-supplemental-delpharm-huningue",
+      "evidence": "baseline",
+      "profiles": 1
+    },
+    {
+      "frame": "basel-supplemental-delpharm-huningue",
+      "evidence": "research",
+      "profiles": 0
+    }
+  ]
+}

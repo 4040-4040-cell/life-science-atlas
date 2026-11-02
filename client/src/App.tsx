@@ -1,42 +1,47 @@
-import { Toaster } from "@/components/ui/sonner";
-import { TooltipProvider } from "@/components/ui/tooltip";
-import NotFound from "@/pages/NotFound";
-import { Route, Switch } from "wouter";
+import { useEffect, useState } from "react";
+import { Route, Switch, useLocation } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
-import { ThemeProvider } from "./contexts/ThemeContext";
-import Home from "./pages/Home";
+import { AtlasShell } from "./components/atlas/AtlasShell";
+import CompanyProfileDrawer from "./components/atlas/CompanyProfileDrawer";
+import AtlasOverview from "./pages/AtlasOverview";
+import AtlasHub from "./pages/AtlasHub";
+import AtlasMethodology from "./pages/AtlasMethodology";
+import NotFound from "./pages/NotFound";
 
-function Router() {
-  // make sure to consider if you need authentication for certain routes
-  return (
-    <Switch>
-      <Route path={"/"} component={Home} />
-      <Route path={"/404"} component={NotFound} />
-      {/* Final fallback route */}
-      <Route component={NotFound} />
-    </Switch>
-  );
-}
-
-// NOTE: About Theme
-// - First choose a default theme according to your design style (dark or light bg), than change color palette in index.css
-//   to keep consistent foreground/background color across components
-// - If you want to make theme switchable, pass `switchable` ThemeProvider and use `useTheme` hook
-
-function App() {
+export default function App() {
+  const [companyId, setCompanyId] = useState<string | null>(null);
+  const [location] = useLocation();
+  useEffect(() => {
+    setCompanyId(null);
+    window.scrollTo(0, 0);
+  }, [location]);
   return (
     <ErrorBoundary>
-      <ThemeProvider
-        defaultTheme="light"
-        // switchable
-      >
-        <TooltipProvider>
-          <Toaster />
-          <Router />
-        </TooltipProvider>
-      </ThemeProvider>
+      <a className="skip-link" href="#main-content">
+        Skip to workspace
+      </a>
+      <AtlasShell profileOpen={!!companyId}>
+        <Switch>
+          <Route path="/" component={AtlasOverview} />
+          <Route path="/hub/:regionId">
+            {params => (
+              <AtlasHub
+                key={params.regionId}
+                regionId={params.regionId}
+                onCompany={setCompanyId}
+              />
+            )}
+          </Route>
+          <Route path="/methodology" component={AtlasMethodology} />
+          <Route path="/404" component={NotFound} />
+          <Route component={NotFound} />
+        </Switch>
+      </AtlasShell>
+      <CompanyProfileDrawer
+        id={companyId}
+        onClose={() => setCompanyId(null)}
+        onCompany={setCompanyId}
+      />
     </ErrorBoundary>
   );
 }
-
-export default App;

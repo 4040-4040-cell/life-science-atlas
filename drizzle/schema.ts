@@ -25,4 +25,5 @@ export const users = mysqlTable("users", {
 export type User = typeof users.$inferSelect;
 export type InsertUser = typeof users.$inferInsert;
 
-// TODO: Add your tables here
+// Atlas business tables are additive; authentication records remain unchanged.
+export * from "./atlas-schema";

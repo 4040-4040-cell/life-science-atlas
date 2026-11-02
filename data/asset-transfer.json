@@ -1,0 +1,1867 @@
+{
+  "/home/ubuntu/bioatlas/assets/prepared/basel-east-bubendorf_exhibit.jpg": {
+    "url": "/manus-storage/basel-east-bubendorf_exhibit_4c0812d5.jpg",
+    "sha256": "4061d0ef1eb68edea394af01c6e5df6cb2abb4aa187b6c2f38956205de98a45b",
+    "bytes": 676801
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/basel-allschwil-bachgraben-main-campus_exhibit.jpg": {
+    "url": "/manus-storage/basel-allschwil-bachgraben-main-campus_exhibit_da6c8d1c.jpg",
+    "sha256": "19dcac0c3c0d6ef5adb75998cbc9ff7fe6269967a1e4c0f20f491f1d4df00eba",
+    "bytes": 906589
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/basel-downtown-sbb-aeschen_exhibit.jpg": {
+    "url": "/manus-storage/basel-downtown-sbb-aeschen_exhibit_a7d46d1f.jpg",
+    "sha256": "4861513716fedc0c00d9536840f56efb9493ff86e97442d0d1b3489498811d29",
+    "bytes": 852146
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/basel-germany-grenzach-wyhlen_exhibit.jpg": {
+    "url": "/manus-storage/basel-germany-grenzach-wyhlen_exhibit_d9d05fe0.jpg",
+    "sha256": "843d4ff9aa4cfa63504b0997db069ab45875b8de88b42a4bbfdffa8650c90218",
+    "bytes": 724279
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/basel-germany-loerrach_exhibit.jpg": {
+    "url": "/manus-storage/basel-germany-loerrach_exhibit_a65d2b1a.jpg",
+    "sha256": "472b3ef571653e7fe31c014005ea2e66ded53b3687eba061af3192ddb5d88fdd",
+    "bytes": 684780
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/basel-east-muttenz-pratteln_exhibit.jpg": {
+    "url": "/manus-storage/basel-east-muttenz-pratteln_exhibit_520dcf02.jpg",
+    "sha256": "eb5527a9c5703f8f4214fd7af6fd23dbdc5d20e4b1dfe88db4510104d2f5b9d9",
+    "bytes": 675075
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/basel-huningue-industrial_exhibit.jpg": {
+    "url": "/manus-storage/basel-huningue-industrial_exhibit_fcfb2c4d.jpg",
+    "sha256": "ab201ff8189099b20bcf0fcbb061c884903e40ec2d152297c4b277d882a2c068",
+    "bytes": 649335
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/basel-klybeck-stucki-klybeck_exhibit.jpg": {
+    "url": "/manus-storage/basel-klybeck-stucki-klybeck_exhibit_ebed7173.jpg",
+    "sha256": "ee5173a7b218a385541307886b6b589a4dff5a51228e2af63ac19801a45712c5",
+    "bytes": 695709
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/basel-klybeck-stucki-stuecki_exhibit.jpg": {
+    "url": "/manus-storage/basel-klybeck-stucki-stuecki_exhibit_5491ad5f.jpg",
+    "sha256": "c32324e4369893624be68cdefa94b695164cd7922fafe1aa41f6febf42aa9b92",
+    "bytes": 680997
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/basel-research-campus-core_exhibit.jpg": {
+    "url": "/manus-storage/basel-research-campus-core_exhibit_6d08e6c1.jpg",
+    "sha256": "3727b39370ae1297d5f6c17943826bee3eec385010fa237414e4a30e55ea5ae4",
+    "bytes": 740348
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/basel-rosental-mitte_exhibit.jpg": {
+    "url": "/manus-storage/basel-rosental-mitte_exhibit_70fb7610.jpg",
+    "sha256": "504ef0fb4b0fb005b1e4f94f7770b716551b3e2060afe4f79d19068341f465ee",
+    "bytes": 696371
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/basel-roche-kleinbasel_exhibit.jpg": {
+    "url": "/manus-storage/basel-roche-kleinbasel_exhibit_9e3e5141.jpg",
+    "sha256": "53b67385cbaf605db5a39097f5928a0de09735295a82abedf2240b4ba545d383",
+    "bytes": 659011
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/basel-supplemental-bioversys-basel_exhibit.jpg": {
+    "url": "/manus-storage/basel-supplemental-bioversys-basel_exhibit_4b731887.jpg",
+    "sha256": "7ae443a732bba7dd114c9a8f8afbf3357caee5dc6e92aa48941b8705ed0d3a18",
+    "bytes": 702912
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/basel-st-johann-novartis-campus_exhibit.jpg": {
+    "url": "/manus-storage/basel-st-johann-novartis-campus_exhibit_5c517920.jpg",
+    "sha256": "74298f1e2a3c1cf9b82b350eb1d9035d4eb57830abddda6789e53fbc19b16f09",
+    "bytes": 670135
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/beach-carlsbad-core_exhibit.jpg": {
+    "url": "/manus-storage/beach-carlsbad-core_exhibit_058eaaad.jpg",
+    "sha256": "3855f5c4df1a837adc2513e184653bdab7c1ea57e7f61427795eb97f48fda7c8",
+    "bytes": 634334
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/basel-supplemental-delpharm-huningue_exhibit.jpg": {
+    "url": "/manus-storage/basel-supplemental-delpharm-huningue_exhibit_fe8d4615.jpg",
+    "sha256": "fc1c0a9a148f19d34e2c813760d6b2266c1bb93b275789a88151fad43317266e",
+    "bytes": 654746
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/basel_map_V5.jpg": {
+    "url": "/manus-storage/basel_map_V5_80ca4f5e.jpg",
+    "sha256": "e5a4161accce324df9877cba6b320b11020900ba77cda7fa9e17d5e32786d2db",
+    "bytes": 143360
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/beach-carmel-core_exhibit.jpg": {
+    "url": "/manus-storage/beach-carmel-core_exhibit_dbf7d23e.jpg",
+    "sha256": "d2686b2f1504926edbf391c90b914d12ebe64d2ac2e1979788ea58d7668770a6",
+    "bytes": 703211
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/beach-carmel-east_exhibit.jpg": {
+    "url": "/manus-storage/beach-carmel-east_exhibit_7763cde2.jpg",
+    "sha256": "77a0b7adb86167209617aac08b836e67e163fb18547dccc29b76712e12f76d30",
+    "bytes": 648987
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/beach-los-angeles-duarte_exhibit.jpg": {
+    "url": "/manus-storage/beach-los-angeles-duarte_exhibit_2be4de72.jpg",
+    "sha256": "253c61ea110b887a7b2c68319fdaf2d1e598362ec75531ae0a45332429f2cd0c",
+    "bytes": 610236
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/beach-los-angeles-pasadena_exhibit.jpg": {
+    "url": "/manus-storage/beach-los-angeles-pasadena_exhibit_614d0a3c.jpg",
+    "sha256": "60ec723c6e5ffbaf6df8c6b1cad3c47e82d7caf66cf9952cee9be99d1efea6de",
+    "bytes": 686171
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/beach-los-angeles-west-central_exhibit.jpg": {
+    "url": "/manus-storage/beach-los-angeles-west-central_exhibit_b6e8796b.jpg",
+    "sha256": "46ce16df0ae47e30b388d8f5eff7da07d830bb9c1b9d83de979287d1f975c1d8",
+    "bytes": 632184
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/beach-carmel-solana_exhibit.jpg": {
+    "url": "/manus-storage/beach-carmel-solana_exhibit_690b6c3e.jpg",
+    "sha256": "e194cef0fe3d77e23653d2673ec9a8ceb876f4e50c979754d9d8d1ffffae8ea6",
+    "bytes": 585298
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/beach-orange-aliso-viejo_exhibit.jpg": {
+    "url": "/manus-storage/beach-orange-aliso-viejo_exhibit_e86d9f85.jpg",
+    "sha256": "2d33b5453f389833e381952237b78de97aa91c78c548bc99286c4c939205e9da",
+    "bytes": 618764
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/beach-orange-irvine-tustin-newport-node-1_exhibit.jpg": {
+    "url": "/manus-storage/beach-orange-irvine-tustin-newport-node-1_exhibit_b3ec388a.jpg",
+    "sha256": "bd0c17908e2a60a6f3a21ad9b03ab117cd66528ebe25d5ee658a765108d618dd",
+    "bytes": 645436
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/beach-orange-san-clemente_exhibit.jpg": {
+    "url": "/manus-storage/beach-orange-san-clemente_exhibit_5a4b09f3.jpg",
+    "sha256": "c49b45615d6f3107c9ec7ef90b84896d5bc6a60cf1ac284ab0948335d91c1cd0",
+    "bytes": 630172
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/beach-orange-irvine-tustin-newport-node-3_exhibit.jpg": {
+    "url": "/manus-storage/beach-orange-irvine-tustin-newport-node-3_exhibit_693e70e1.jpg",
+    "sha256": "f0c018cb2546f5395aa65b5078a29959a389962c026f1d167826739f1e117d75",
+    "bytes": 634493
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/beach-orange-irvine-tustin-newport-node-4_exhibit.jpg": {
+    "url": "/manus-storage/beach-orange-irvine-tustin-newport-node-4_exhibit_bbd1ff49.jpg",
+    "sha256": "090b4380a57c441a72f2117a15d6494f200434f52b6d93ae330013d952dec0ab",
+    "bytes": 584326
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/beach-sorrento-main_exhibit.jpg": {
+    "url": "/manus-storage/beach-sorrento-main_exhibit_60536b4e.jpg",
+    "sha256": "a2e04273bf1ce36ef72ecc7c3d90f54562be37db4265a7fa33be47e9c386a47f",
+    "bytes": 955467
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/beach-orange-irvine-tustin-newport-node-2_exhibit.jpg": {
+    "url": "/manus-storage/beach-orange-irvine-tustin-newport-node-2_exhibit_730780c3.jpg",
+    "sha256": "d9c02939d7b72097b95337b3b553485ceb177b3e04b27d946e7d97ad4023004b",
+    "bytes": 613452
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/beach-thousand-oaks-rancho-conejo_exhibit.jpg": {
+    "url": "/manus-storage/beach-thousand-oaks-rancho-conejo_exhibit_4026fc26.jpg",
+    "sha256": "cff0f00ca047509e0adb999b4cf03ab0ec2fab4582851a05246c9c236e993926",
+    "bytes": 613550
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/beach-utc-core_exhibit.jpg": {
+    "url": "/manus-storage/beach-utc-core_exhibit_3cb19d55.jpg",
+    "sha256": "dc8934e7ac04b5cab0c74c7ce7710540fe3a506bcf3ad6ed0080fef020e688b9",
+    "bytes": 721264
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/beach-torrey-core_exhibit.jpg": {
+    "url": "/manus-storage/beach-torrey-core_exhibit_c01795c6.jpg",
+    "sha256": "6c13cafbeb184fd3713d4e1b5f5d6da2b69c96f3214ea5e7284caee1568fbe82",
+    "bytes": 711877
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/biocapital_map_V5.jpg": {
+    "url": "/manus-storage/biocapital_map_V5_3454ab5f.jpg",
+    "sha256": "ca111ed47c1b871ed23af44b809d7e5ba62c06c7fe6463b93f2677775f19f2b4",
+    "bytes": 262542
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/bio-nc_map_V5.jpg": {
+    "url": "/manus-storage/bio-nc_map_V5_6373c9e8.jpg",
+    "sha256": "e54f371a784ea48c80b6d427f6e02ab0d716127c1feff9d839736ebd387e7731",
+    "bytes": 247511
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/beach-thousand-oaks-westlake-village_exhibit.jpg": {
+    "url": "/manus-storage/beach-thousand-oaks-westlake-village_exhibit_48b7e9b6.jpg",
+    "sha256": "498631ed4840a70c92afedc0e5438fa1c45f5b64e11445064bc18f504ce7b384",
+    "bytes": 626725
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/biomidwest_map_V5.jpg": {
+    "url": "/manus-storage/biomidwest_map_V5_45207227.jpg",
+    "sha256": "50613a1453be624b3e13ae464f8fdf485fae1645be2da410382132211f203300",
+    "bytes": 285214
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/biotech-bay_map_V5.jpg": {
+    "url": "/manus-storage/biotech-bay_map_V5_f4302554.jpg",
+    "sha256": "3384ec00f1e51af7683002a1849115ece8342a9e5cdc536badbcd605f7a8cfdf",
+    "bytes": 194519
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/biotech-beach-additional-node-1_exhibit.jpg": {
+    "url": "/manus-storage/biotech-beach-additional-node-1_exhibit_14af3e41.jpg",
+    "sha256": "8abb349875fdd2e5e983e77a22cc6ad48e4b7db834b1c76dfd2150dad2516415",
+    "bytes": 564725
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/boulder_map_V5.jpg": {
+    "url": "/manus-storage/boulder_map_V5_2aa32291.jpg",
+    "sha256": "56d40c9faeb330d77e43bbdd5bf1bedd2d7c03820c7fcf49869570da9a8a4ded",
+    "bytes": 144487
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/biotech-beach-additional-node-2_exhibit.jpg": {
+    "url": "/manus-storage/biotech-beach-additional-node-2_exhibit_f33ec80f.jpg",
+    "sha256": "458631e8641a729bf4bd13cc64cb70e6d70561221c0caa43381db6d99ab2ea26",
+    "bytes": 637300
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/biotech-beach_map_V5.jpg": {
+    "url": "/manus-storage/biotech-beach_map_V5_9078eb48.jpg",
+    "sha256": "c9188e511c94797ee24ccd24ba1729e147f61e0a05bdf873f2667d40978f2546",
+    "bytes": 172075
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/gene-boston-charlestown_exhibit.jpg": {
+    "url": "/manus-storage/gene-boston-charlestown_exhibit_561d39d2.jpg",
+    "sha256": "bf77caa6e0c8a923cb0c5809289502e37acbdd69edb008240c9def8dc4f00d64",
+    "bytes": 648301
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/gene-boston-longwood_exhibit.jpg": {
+    "url": "/manus-storage/gene-boston-longwood_exhibit_f9fe7e6d.jpg",
+    "sha256": "9cc33600d19a9c2cf43a05050a7b2c222859f56e86650cdcafffb0df6737f840",
+    "bytes": 732147
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/gene-boston-seaport_exhibit.jpg": {
+    "url": "/manus-storage/gene-boston-seaport_exhibit_27988431.jpg",
+    "sha256": "56cabf4108417bb4f6716817f35a5c1dee877d2deceda22b64c36eb065c524c8",
+    "bytes": 606158
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/gene-cambridge-somerville-adjacent_exhibit.jpg": {
+    "url": "/manus-storage/gene-cambridge-somerville-adjacent_exhibit_4e8b0c09.jpg",
+    "sha256": "7352ee3b05c422082e88aa63da5e47fe08d934e6854d098652f07d1e3ebe076b",
+    "bytes": 661177
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/gene-cambridge-kendall-east_exhibit.jpg": {
+    "url": "/manus-storage/gene-cambridge-kendall-east_exhibit_ff7064f3.jpg",
+    "sha256": "e952bfc6c372f486090505c0e136e954394fb643cf54715d5dad3865ea5cf131",
+    "bytes": 1035129
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/gene-cambridge-cambridgeport_exhibit.jpg": {
+    "url": "/manus-storage/gene-cambridge-cambridgeport_exhibit_946dafd4.jpg",
+    "sha256": "c646e4c943f4ae6701671973c2995ab3ee03115e0a506ad8f2d58d91bb76bff6",
+    "bytes": 775760
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/gene-north-billerica_exhibit.jpg": {
+    "url": "/manus-storage/gene-north-billerica_exhibit_bd07c008.jpg",
+    "sha256": "c493980085e9057ecf3ccc98d9f609111107216bf2a8b8d8ffa3c23d72d0b18c",
+    "bytes": 658914
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/gene-north-wilmington_exhibit.jpg": {
+    "url": "/manus-storage/gene-north-wilmington_exhibit_6f34b9e8.jpg",
+    "sha256": "cb4a1008dad67c35dae5019033ee87f843a0f512af477c879d5eb55a961fdbbc",
+    "bytes": 628735
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/gene-northwest-01-node-1_exhibit.jpg": {
+    "url": "/manus-storage/gene-northwest-01-node-1_exhibit_5a7d3f37.jpg",
+    "sha256": "bbc465829bb902295ea6e8666eda47614ea06dd6fffc2df64ed9c745df06db0d",
+    "bytes": 742347
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/gene-waltham-north-128_exhibit.jpg": {
+    "url": "/manus-storage/gene-waltham-north-128_exhibit_4811a92c.jpg",
+    "sha256": "6280d63963d0802db99407d35d0ce6d52175111b8550dd9cb5882b7352b4e66c",
+    "bytes": 728029
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/gene-northwest-01-node-2_exhibit.jpg": {
+    "url": "/manus-storage/gene-northwest-01-node-2_exhibit_85c9e12f.jpg",
+    "sha256": "65d6d15463421882c8d246d069964e439bdf04fbf90c6a6a49e8789b97191591",
+    "bytes": 725718
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/gene-waltham-crescent_exhibit.jpg": {
+    "url": "/manus-storage/gene-waltham-crescent_exhibit_eb5bd8eb.jpg",
+    "sha256": "e3d4f52ce0f321d7bb182feed706a70710048bf59c4d3658806616f8f3c574b1",
+    "bytes": 678706
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/gene-watertown-arsenal-east-end_exhibit.jpg": {
+    "url": "/manus-storage/gene-watertown-arsenal-east-end_exhibit_251ceb16.jpg",
+    "sha256": "0b5baf9fe345ef4b908fbf56ab2c63bdeba940c66df592b315d6449b54f106f6",
+    "bytes": 732513
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/gene-watertown-pleasant-street_exhibit.jpg": {
+    "url": "/manus-storage/gene-watertown-pleasant-street_exhibit_a67559ed.jpg",
+    "sha256": "1544f719abbc18e08a2918c5f2fa1272fdb762946b293f0e23c968ffac6eae47",
+    "bytes": 688723
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/gene-west-south-needham-canton-node-1_exhibit.jpg": {
+    "url": "/manus-storage/gene-west-south-needham-canton-node-1_exhibit_3bcf5811.jpg",
+    "sha256": "defccb1b187286675dcd2226719bc413eb43c2c58ad42edba21f48a4c125cccc",
+    "bytes": 666972
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/gene-west-south-framingham-milford_exhibit.jpg": {
+    "url": "/manus-storage/gene-west-south-framingham-milford_exhibit_e6b669f8.jpg",
+    "sha256": "eb58d24c7f4dca8ec9b13f185fdd4ba8cbe2512db6c6ffb1eb129b15d4b81032",
+    "bytes": 581142
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/gene-west-south-needham-canton-node-2_exhibit.jpg": {
+    "url": "/manus-storage/gene-west-south-needham-canton-node-2_exhibit_4d4aaef1.jpg",
+    "sha256": "6598dd510ba763722a46b1810c0807350a1b29b5c0ee41e6fe02de5f89e22673",
+    "bytes": 633825
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/gene-west-south-acton_exhibit.jpg": {
+    "url": "/manus-storage/gene-west-south-acton_exhibit_a7681ad0.jpg",
+    "sha256": "c963c52c2f22ebc51e2f1bf6c0fd137d17a2d51253e23033fc8755119c3ab9f6",
+    "bytes": 587215
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/genetown-additional-node-2_exhibit.jpg": {
+    "url": "/manus-storage/genetown-additional-node-2_exhibit_4587a1d4.jpg",
+    "sha256": "20ec638cebcf7d16d32f145d7dd889efd794676ff3001e26047507cce022b650",
+    "bytes": 712431
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/genetown-additional-node-1_exhibit.jpg": {
+    "url": "/manus-storage/genetown-additional-node-1_exhibit_c9a02020.jpg",
+    "sha256": "1fbe3ac7c51fa0dab0710b99bec263cc940526b6ed4beb139682bb2b34e94898",
+    "bytes": 640573
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/genetown-additional-node-4_exhibit.jpg": {
+    "url": "/manus-storage/genetown-additional-node-4_exhibit_845a44b7.jpg",
+    "sha256": "789f25ece64ca554c1e68fceece1b12f2d3b688777dc5ad4475b4b679be079dc",
+    "bytes": 764098
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/genetown-additional-node-3_exhibit.jpg": {
+    "url": "/manus-storage/genetown-additional-node-3_exhibit_d534d446.jpg",
+    "sha256": "6d32083be0ed3f9ee8e10eb10bfd39c647baaa595ca48962de926ad7a3a80784",
+    "bytes": 650189
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/genetown_map_V5.jpg": {
+    "url": "/manus-storage/genetown_map_V5_503ff600.jpg",
+    "sha256": "43c935d859e8a68ac7d5f752027426e6139890cfedcfeae14eead3d1ba0d3f85",
+    "bytes": 196894
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/uk_map_V5.jpg": {
+    "url": "/manus-storage/uk_map_V5_c85cd5c8.jpg",
+    "sha256": "407bfafd004a05b84782f6d8033f893ce00000aa0e93e38075bdfab467d944b7",
+    "bytes": 229161
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/pharm-country_map_V5.jpg": {
+    "url": "/manus-storage/pharm-country_map_V5_26715139.jpg",
+    "sha256": "bb3e8fb9854e9ae7d97187ebe53f88583bd04753216db478a9201881250e6b82",
+    "bytes": 242444
+  },
+  "/home/ubuntu/bioatlas/assets/prepared/seattle_map_V5.jpg": {
+    "url": "/manus-storage/seattle_map_V5_bb6b5ec6.jpg",
+    "sha256": "75cbcd332ecd059e3b1694594e521cc9e54e127105928d259f9aff9820b44172",
+    "bytes": 160800
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/basel_preparer_V1/basel-downtown-sbb-aeschen_swiss_aerial.jpg": {
+    "url": "/manus-storage/basel-downtown-sbb-aeschen_swiss_aerial_9aab2443.jpg",
+    "sha256": "a8b7088594ed746c8c5de2e4a3177500e60c00720d98b2b36b42c639668ff54b",
+    "bytes": 1634001
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/basel_preparer_V1/basel-allschwil-bachgraben-main-campus_swiss_aerial.jpg": {
+    "url": "/manus-storage/basel-allschwil-bachgraben-main-campus_swiss_aerial_a9a5059f.jpg",
+    "sha256": "bcc49a21aa9614a187c6b4063704becb306e4a2b388f3d13545b492b52d69e1c",
+    "bytes": 1579647
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/basel_preparer_V1/basel-east-bubendorf_swiss_aerial.jpg": {
+    "url": "/manus-storage/basel-east-bubendorf_swiss_aerial_2f7eda30.jpg",
+    "sha256": "2a54322ca837a959eeb186a03067e0b5e67954b3ec1f403548c12e7c1fb9c438",
+    "bytes": 1459223
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/basel_preparer_V1/basel-east-muttenz-pratteln_swiss_aerial.jpg": {
+    "url": "/manus-storage/basel-east-muttenz-pratteln_swiss_aerial_1215947a.jpg",
+    "sha256": "a24c23dec122a03ba83cf6cc5b6419b9e7bcc6e608439287171bff8e913f389c",
+    "bytes": 1435595
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/basel_preparer_V1/basel-germany-grenzach-wyhlen_esri_aerial.jpg": {
+    "url": "/manus-storage/basel-germany-grenzach-wyhlen_esri_aerial_9f59410b.jpg",
+    "sha256": "121b13e38f78cc29d55ed419bfa442de4dd4467ea7bd63426d76f6bece90084f",
+    "bytes": 1807578
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/basel_preparer_V1/basel-germany-loerrach_esri_aerial.jpg": {
+    "url": "/manus-storage/basel-germany-loerrach_esri_aerial_f6d085d7.jpg",
+    "sha256": "7368218cca8c6d782a00d97bafed32522732cec28871bf1b15d5b0fa312d3801",
+    "bytes": 1505560
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/basel_preparer_V1/basel-klybeck-stucki-klybeck_swiss_aerial.jpg": {
+    "url": "/manus-storage/basel-klybeck-stucki-klybeck_swiss_aerial_8de103a3.jpg",
+    "sha256": "00078c175bca3cce920e38f1988bc2ff66f17c12c2026b2ae4f418668b340c9b",
+    "bytes": 1435831
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/basel_preparer_V1/basel-huningue-industrial_esri_aerial.jpg": {
+    "url": "/manus-storage/basel-huningue-industrial_esri_aerial_eb1c865c.jpg",
+    "sha256": "a7aedcc85d0af44ed8d3cfa34ee7c01874a2e401292c433e4c6cece0b011d46f",
+    "bytes": 1269900
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/basel_preparer_V1/basel-klybeck-stucki-stuecki_swiss_aerial.jpg": {
+    "url": "/manus-storage/basel-klybeck-stucki-stuecki_swiss_aerial_dbba2c9d.jpg",
+    "sha256": "4879da0054e9bd5b3996d5689a1ff3d9399845d6061725d74b14df94fb303524",
+    "bytes": 1369267
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/basel_preparer_V1/basel-research-campus-core_swiss_aerial.jpg": {
+    "url": "/manus-storage/basel-research-campus-core_swiss_aerial_9436c5b5.jpg",
+    "sha256": "13fbae897a1e2975b3bca8874c17e0aa0cb1cceff6f335b0b10ee6e3c5da65bd",
+    "bytes": 1604956
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/basel_preparer_V1/basel-roche-kleinbasel_swiss_aerial.jpg": {
+    "url": "/manus-storage/basel-roche-kleinbasel_swiss_aerial_85926138.jpg",
+    "sha256": "9f1b59b756be85b46ec67b32fc6131ffd3aff7af31735b77f67b86b0e7404db7",
+    "bytes": 1388450
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/basel_preparer_V1/basel-rosental-mitte_swiss_aerial.jpg": {
+    "url": "/manus-storage/basel-rosental-mitte_swiss_aerial_9f36b990.jpg",
+    "sha256": "98fc92bcd17e781c790a8185b06f9fd742b5472348509edbb53c4ddf7a1510ea",
+    "bytes": 1568341
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/basel_preparer_V1/basel-st-johann-novartis-campus_swiss_aerial.jpg": {
+    "url": "/manus-storage/basel-st-johann-novartis-campus_swiss_aerial_ef2800fb.jpg",
+    "sha256": "5e0afc873c367d62077183632c5cbbf8d5245c923461fe4541083bc325b910b8",
+    "bytes": 1398060
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/basel_preparer_V1/basel-supplemental-bioversys-basel_swiss_aerial.jpg": {
+    "url": "/manus-storage/basel-supplemental-bioversys-basel_swiss_aerial_defc72bc.jpg",
+    "sha256": "3ea916bffb85874f2a4707ef1a4ecc06ea37f4b9bf8c039debca373aca93b68e",
+    "bytes": 1396040
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/beach-carlsbad-core_naip.jpg": {
+    "url": "/manus-storage/beach-carlsbad-core_naip_990188cc.jpg",
+    "sha256": "ac19a27afccffcddb541d4124b0557d7557ace898de406e3bab750e0fa034e6a",
+    "bytes": 1680727
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/basel_preparer_V1/basel-supplemental-delpharm-huningue_esri_aerial.jpg": {
+    "url": "/manus-storage/basel-supplemental-delpharm-huningue_esri_aerial_b7046135.jpg",
+    "sha256": "98bb4a4502e099177e12ac6036f31d2563e8cfd296a62328dc59d167a39ee5c3",
+    "bytes": 1342616
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/beach-carmel-core_naip.jpg": {
+    "url": "/manus-storage/beach-carmel-core_naip_b5523beb.jpg",
+    "sha256": "8eb6e3254de25f2c22af1c63c0be083bb411554454cd734e4dd3c4601e76fb18",
+    "bytes": 1582538
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/beach-carmel-east_naip.jpg": {
+    "url": "/manus-storage/beach-carmel-east_naip_1650509a.jpg",
+    "sha256": "003557c3db3b9a910a65fa825832bf3426820601be4c848890df1cd8d4865be4",
+    "bytes": 1685911
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/beach-carmel-solana_naip.jpg": {
+    "url": "/manus-storage/beach-carmel-solana_naip_bb0773ef.jpg",
+    "sha256": "c275cbc34ee45c072a00b88c94158c6ee2a2f36a720328a4ec81caff28304ec4",
+    "bytes": 1379328
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/beach-los-angeles-duarte_naip.jpg": {
+    "url": "/manus-storage/beach-los-angeles-duarte_naip_12ab79e6.jpg",
+    "sha256": "c515df02d9a3710cb36be2dcb21db82acda4660e8273bc12273a9c5114476203",
+    "bytes": 1689038
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/beach-los-angeles-pasadena_naip.jpg": {
+    "url": "/manus-storage/beach-los-angeles-pasadena_naip_895d5133.jpg",
+    "sha256": "93539e1d8b382c0ff2b1334b794b891301391dcc53730629f7c836ef10e65f52",
+    "bytes": 2013043
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/beach-orange-aliso-viejo_naip.jpg": {
+    "url": "/manus-storage/beach-orange-aliso-viejo_naip_dead5013.jpg",
+    "sha256": "788d7ebe8a38f5e6a59b75a0e9e401823bc3e7a10db3109341085d02881714c2",
+    "bytes": 1843551
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/beach-los-angeles-west-central_naip.jpg": {
+    "url": "/manus-storage/beach-los-angeles-west-central_naip_8fbd6c3c.jpg",
+    "sha256": "746bb2b546b893003dae4795a71606476731093d5bdc03c085c1543594c8c7ff",
+    "bytes": 2012968
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/beach-orange-irvine-tustin-newport-node-2_naip.jpg": {
+    "url": "/manus-storage/beach-orange-irvine-tustin-newport-node-2_naip_d7d28057.jpg",
+    "sha256": "ed8833b14fc958f7bb7164290c37e0b9b6c13db5609f8cfe1daeacd6a3dc94ed",
+    "bytes": 1591256
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/beach-orange-irvine-tustin-newport-node-1_naip.jpg": {
+    "url": "/manus-storage/beach-orange-irvine-tustin-newport-node-1_naip_500cf4c8.jpg",
+    "sha256": "7490dec0dd6204bf90a5750463dc33065d7b26426b90f96694001db02026cc94",
+    "bytes": 1703181
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/beach-orange-irvine-tustin-newport-node-3_naip.jpg": {
+    "url": "/manus-storage/beach-orange-irvine-tustin-newport-node-3_naip_bc806ba8.jpg",
+    "sha256": "32b7ab6aa3b0f140b112f89a7f21f73ce2db2b55753d157efef76576394455e1",
+    "bytes": 1692887
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/beach-orange-irvine-tustin-newport-node-4_naip.jpg": {
+    "url": "/manus-storage/beach-orange-irvine-tustin-newport-node-4_naip_4fe22920.jpg",
+    "sha256": "c7169416e2df8d7ca42f2ad99bb4d1d9f39ea0693bde1d3fa12e88a4d41b3bdd",
+    "bytes": 1444505
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/beach-sorrento-main_naip.jpg": {
+    "url": "/manus-storage/beach-sorrento-main_naip_3c74a0d9.jpg",
+    "sha256": "e6d3c566b84ebe4cc7cb6a26a4a63e8623e7793f46cad8331d53deb6d67676fd",
+    "bytes": 1768595
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/beach-orange-san-clemente_naip.jpg": {
+    "url": "/manus-storage/beach-orange-san-clemente_naip_b2e7300c.jpg",
+    "sha256": "f7800a47faea2abc480d0757774a614b473d14e17b4d20fed93c568f1ff047d2",
+    "bytes": 1890088
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/beach-thousand-oaks-rancho-conejo_naip.jpg": {
+    "url": "/manus-storage/beach-thousand-oaks-rancho-conejo_naip_a5808cc6.jpg",
+    "sha256": "3911c52dc7c17af7ea442b0d312878775e56014e4168bc93405754115ed2a91c",
+    "bytes": 1735446
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/beach-torrey-core_naip.jpg": {
+    "url": "/manus-storage/beach-torrey-core_naip_7441f6d4.jpg",
+    "sha256": "51e0c1024b04da20bbea129d2cbc41d21bac4c91601bb81426d6c4a79f893e0d",
+    "bytes": 1436642
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/beach-thousand-oaks-westlake-village_naip.jpg": {
+    "url": "/manus-storage/beach-thousand-oaks-westlake-village_naip_f0e65731.jpg",
+    "sha256": "13348a3668527ff1357cc67410b91d7a8402be2fc9075fed40a06c5630359081",
+    "bytes": 1787557
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/beach-utc-core_naip.jpg": {
+    "url": "/manus-storage/beach-utc-core_naip_d93be58a.jpg",
+    "sha256": "46cbff456eacbf92584e7e408204fd4cef654fe0b687b9018cfc8c8e9ef645ac",
+    "bytes": 1781467
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/biotech-beach-additional-node-1_naip.jpg": {
+    "url": "/manus-storage/biotech-beach-additional-node-1_naip_978c29d4.jpg",
+    "sha256": "52deaa70ca0ec5dce72b1ce850e04bbe10d495f11df9235a1d18f5e3728e4be5",
+    "bytes": 1365271
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/biotech-beach-additional-node-2_naip.jpg": {
+    "url": "/manus-storage/biotech-beach-additional-node-2_naip_2240399e.jpg",
+    "sha256": "2fa6689b897e822fefa14dbada42ee11670badf9739b18e6d738e47ca45cf3af",
+    "bytes": 1884306
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/gene-boston-seaport_naip.jpg": {
+    "url": "/manus-storage/gene-boston-seaport_naip_efca2389.jpg",
+    "sha256": "5ba933d27a27f18ecabfcd26c8993589b6926b2ab7505e2faff49f019b6a8351",
+    "bytes": 1478621
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/gene-boston-charlestown_naip.jpg": {
+    "url": "/manus-storage/gene-boston-charlestown_naip_7f1249a4.jpg",
+    "sha256": "f056ccb6d9acd71e718e70282304e524cd6e4a1e738db346e7385b70c6901f81",
+    "bytes": 1820516
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/gene-boston-longwood_naip.jpg": {
+    "url": "/manus-storage/gene-boston-longwood_naip_1cee999b.jpg",
+    "sha256": "76682bb8cbddc408a516851f3c249022f7545df374f42eddc0f621cd9be56c27",
+    "bytes": 2078183
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/gene-cambridge-cambridgeport_naip.jpg": {
+    "url": "/manus-storage/gene-cambridge-cambridgeport_naip_615ebcc1.jpg",
+    "sha256": "e67c40c9d3581a988dd4aac710aae095650a1ef64db04ad9658346f4079aa226",
+    "bytes": 1666288
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/gene-cambridge-kendall-east_naip.jpg": {
+    "url": "/manus-storage/gene-cambridge-kendall-east_naip_75ee965a.jpg",
+    "sha256": "d5350374784eb138c2010a06f53ca973c98225ce428ce31c75c7edda848c887e",
+    "bytes": 1885378
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/gene-cambridge-somerville-adjacent_naip.jpg": {
+    "url": "/manus-storage/gene-cambridge-somerville-adjacent_naip_cd61b65b.jpg",
+    "sha256": "681eede35a60de04592a6cdde0d47a7d912733a7fc3c5ac80355079a04e452b6",
+    "bytes": 1780861
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/gene-north-billerica_naip.jpg": {
+    "url": "/manus-storage/gene-north-billerica_naip_bfa91e17.jpg",
+    "sha256": "77f18bbf2174bd84b2316f8f340cb9e212d497395868a13a037829bfa9c89bb9",
+    "bytes": 1822753
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/gene-northwest-01-node-2_naip.jpg": {
+    "url": "/manus-storage/gene-northwest-01-node-2_naip_2d5ef943.jpg",
+    "sha256": "61803ce9b7865a341324c2ac861175cbd9800833e11e3e7bc0ebab8e2cd20d31",
+    "bytes": 1914230
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/gene-northwest-01-node-1_naip.jpg": {
+    "url": "/manus-storage/gene-northwest-01-node-1_naip_b95539af.jpg",
+    "sha256": "7f517863006dee1160adf9a7ad3613ef45453949a2371e24bdf33e9a9665c976",
+    "bytes": 1759866
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/gene-north-wilmington_naip.jpg": {
+    "url": "/manus-storage/gene-north-wilmington_naip_0222e503.jpg",
+    "sha256": "0d6d0c3a790fd869dbf52997e05e84755eb3d6f4f9c8fab04af5ecd70e862146",
+    "bytes": 1839897
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/gene-waltham-crescent_naip.jpg": {
+    "url": "/manus-storage/gene-waltham-crescent_naip_8c9e813b.jpg",
+    "sha256": "6b2768044762f57cb1cb6cb9e4515e160c0efbce4eec37025d1d12c8c1ac0405",
+    "bytes": 1881608
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/gene-watertown-arsenal-east-end_naip.jpg": {
+    "url": "/manus-storage/gene-watertown-arsenal-east-end_naip_f27160c7.jpg",
+    "sha256": "895b07c088c6b20c3a2d1ea968a52afc8e1793a6d0044401a6195f40ca89d008",
+    "bytes": 2023544
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/gene-waltham-north-128_naip.jpg": {
+    "url": "/manus-storage/gene-waltham-north-128_naip_c62a520b.jpg",
+    "sha256": "47a20b76d3c423484c89f1059996e7d2e6e9b67eb5608e57300bc383bb70969f",
+    "bytes": 1924565
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/gene-watertown-pleasant-street_naip.jpg": {
+    "url": "/manus-storage/gene-watertown-pleasant-street_naip_774b8a67.jpg",
+    "sha256": "da0a43c892e9791c6a458b2fa901b61bc433d5e0fb4f16673bb378a385f9d60d",
+    "bytes": 2068305
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/gene-west-south-acton_naip.jpg": {
+    "url": "/manus-storage/gene-west-south-acton_naip_35db4211.jpg",
+    "sha256": "ea5aa40dab1680ceb8c32ae9251cb56d0f52cfb75f8f0beb983fa989a6493ad2",
+    "bytes": 1714622
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/gene-west-south-framingham-milford_naip.jpg": {
+    "url": "/manus-storage/gene-west-south-framingham-milford_naip_bb4537ac.jpg",
+    "sha256": "b10cae36d72c134c25e341287548050791646d85017ed2b8759528e3dbeee0cd",
+    "bytes": 1820694
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/gene-west-south-needham-canton-node-1_naip.jpg": {
+    "url": "/manus-storage/gene-west-south-needham-canton-node-1_naip_d33ebad1.jpg",
+    "sha256": "581a33e77185585b536e0b153d04afffc1140b488d47e07db5fcfcb7004e249d",
+    "bytes": 1861130
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/genetown-additional-node-1_naip.jpg": {
+    "url": "/manus-storage/genetown-additional-node-1_naip_8ef1a4a9.jpg",
+    "sha256": "fbd405196b8b04f823a0bb6698e9ebac9b38f799c7c2b48f50e056553ef705fa",
+    "bytes": 1959424
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/gene-west-south-needham-canton-node-2_naip.jpg": {
+    "url": "/manus-storage/gene-west-south-needham-canton-node-2_naip_c59e2196.jpg",
+    "sha256": "f869bde18522e5ea84584c59e5ab5e3068ef422d419cc447d11b38b9a92ff66b",
+    "bytes": 1781209
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/genetown-additional-node-4_naip.jpg": {
+    "url": "/manus-storage/genetown-additional-node-4_naip_eff329a3.jpg",
+    "sha256": "027565a3c98d00504a55841e6e47a5cf76beece10be026ac8a528c7025472049",
+    "bytes": 1768435
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/genetown-additional-node-3_naip.jpg": {
+    "url": "/manus-storage/genetown-additional-node-3_naip_bffaeae4.jpg",
+    "sha256": "7889a5a4adecca338cfe2fe448a770391f0210e30dbc8bbff77a5845c28e6e29",
+    "bytes": 1936821
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/assets/genetown-additional-node-2_naip.jpg": {
+    "url": "/manus-storage/genetown-additional-node-2_naip_43899c75.jpg",
+    "sha256": "4b95a50c468fc55bf681e55616d1097320e132aa8279373a836e012ec024deb0",
+    "bytes": 2025272
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/064daee9804cced4.png": {
+    "url": "/manus-storage/064daee9804cced4_96793e4c.png",
+    "sha256": "95a9f779b588f62f2844e3ccc07b4935f75aea22daea5f6f09941e189cce2826",
+    "bytes": 14193
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/0413b388b381d281.png": {
+    "url": "/manus-storage/0413b388b381d281_dd012af8.png",
+    "sha256": "b57a6a7a89ffd1ea526c9932ce80deb702eca8ebbdf17b264ae93371f28a984b",
+    "bytes": 13014
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/04586097d67d3851.png": {
+    "url": "/manus-storage/04586097d67d3851_f08e6ca2.png",
+    "sha256": "5ae1615e847ecdd9a4f84a80a38fdc6949556c6e35922126471864daf10bcb47",
+    "bytes": 15255
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/output/basel_aerial-submarkets_V1.pdf": {
+    "url": "/manus-storage/basel_aerial-submarkets_V1_1ce88299.pdf",
+    "sha256": "32fde72f2019b2900b4e615797299c8d07c756958c425d1a4314ffe49bf967ec",
+    "bytes": 34211365
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/output/biotech-beach_aerial-submarkets_V2.pdf": {
+    "url": "/manus-storage/biotech-beach_aerial-submarkets_V2_770f7873.pdf",
+    "sha256": "56a59163259740705552cf0a88011c54e1387e8ad40a5b6444dbe9ab9c304ebf",
+    "bytes": 44350751
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/08ca118413a05099.png": {
+    "url": "/manus-storage/08ca118413a05099_0c7cf77d.png",
+    "sha256": "3d681b8733a7eb2f3db233759abcd71daeb3fb52abb63cac52703cced54b788b",
+    "bytes": 20659
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/095715ebfecca6c0.png": {
+    "url": "/manus-storage/095715ebfecca6c0_14ee7e32.png",
+    "sha256": "6ab765b5aa35d4a448003c7aa25259f92e94f17df8b0af2c3b0609779c9f39af",
+    "bytes": 18685
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/08b4e197ad465961.png": {
+    "url": "/manus-storage/08b4e197ad465961_e92fdef0.png",
+    "sha256": "3961ac50fe170f69c978465c5a95a8eff587a7e4b03b448cdbb4c56ceab922e3",
+    "bytes": 16379
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/0a606bb8d9590f46.png": {
+    "url": "/manus-storage/0a606bb8d9590f46_c79b568a.png",
+    "sha256": "c9a8d2693090dadd1d95dbfe3bb4eafc0fa4344c6ee939a9b88be58e39fcf498",
+    "bytes": 26560
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/0eb8ebbdfeb6eabb.png": {
+    "url": "/manus-storage/0eb8ebbdfeb6eabb_6552b530.png",
+    "sha256": "f5f22a09ce2831e9e730bc08156bd8d34df3cac31ccab7d909e764419f6eec3a",
+    "bytes": 32296
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/0b8556e3fa8060ff.png": {
+    "url": "/manus-storage/0b8556e3fa8060ff_255cae4b.png",
+    "sha256": "2b91c694a69790a8340e52e10afb93c6d3813e47802cd48d5875aed1a96c2bda",
+    "bytes": 19947
+  },
+  "/home/ubuntu/life-science-atlas/aerial_submarkets_V1/output/genetown_aerial-submarkets_V2.pdf": {
+    "url": "/manus-storage/genetown_aerial-submarkets_V2_4da2fa82.pdf",
+    "sha256": "ba8ce847ed123e16fa5dac29f8b9887378be61c78f8c51d5820762424fea46d4",
+    "bytes": 51715988
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/0edbcc73d3308444.png": {
+    "url": "/manus-storage/0edbcc73d3308444_ffd2934a.png",
+    "sha256": "b52a108b1a5f823dc6cbba060163c5a185f131196afc55feac6da641b6fe05d2",
+    "bytes": 17379
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/0ed72084e3fd4650.png": {
+    "url": "/manus-storage/0ed72084e3fd4650_62dd5ae0.png",
+    "sha256": "09100a8203b19dada093cb4f44abacc378fb1f698bff406e3b1374bae8ba3665",
+    "bytes": 20242
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/0dc18571025fa25f.png": {
+    "url": "/manus-storage/0dc18571025fa25f_560ed1d0.png",
+    "sha256": "e692faf22ffc79dbb66e028fa763c4edf9e6b9124d8b06d9519896d316a515b5",
+    "bytes": 7039
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/0fbc10bb45a525c8.png": {
+    "url": "/manus-storage/0fbc10bb45a525c8_3ffa1d55.png",
+    "sha256": "79c37a5db2a5259cf7d0921f453dc7be97ccb8028b4fc2858776eade15f4ac19",
+    "bytes": 25778
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/0fa245c2d20cef74.png": {
+    "url": "/manus-storage/0fa245c2d20cef74_1779b3d8.png",
+    "sha256": "80453dcecabd2924c67f84d964a80f30bd6b782f51a108ee98f5cb8f481a22c9",
+    "bytes": 8930
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/160eace94ae93d49.png": {
+    "url": "/manus-storage/160eace94ae93d49_5616e698.png",
+    "sha256": "ba4edcd75520708f63a23e8a4ec2df11a56f65ba871c5b4720b2bd289be702cc",
+    "bytes": 13322
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/10bdfd211a93443e.png": {
+    "url": "/manus-storage/10bdfd211a93443e_9bd76e39.png",
+    "sha256": "cb6b52f1424e24e0c2164c6b0dfc1e4fda132f9f15ef4b235d47bc8b40799302",
+    "bytes": 10523
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/16541d07a7e73f0b.png": {
+    "url": "/manus-storage/16541d07a7e73f0b_01612d49.png",
+    "sha256": "beda485c4a3a21c27c0c95656e8530d805d67de763db4df12b994785292c83fe",
+    "bytes": 18412
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/1587ad8d9b9d6dfc.png": {
+    "url": "/manus-storage/1587ad8d9b9d6dfc_1e4e168b.png",
+    "sha256": "84efdcb5a727d0e0a439b4312891ea4c7ec163975863b37dbea1e9a1f28ef938",
+    "bytes": 18193
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/1861ed35816904a7.png": {
+    "url": "/manus-storage/1861ed35816904a7_acc11a05.png",
+    "sha256": "3f33378451c227334e261b4582171d59cd6861d2e65c49b09f2a4c0fdc330341",
+    "bytes": 29792
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/1b823e1e8a5247fe.png": {
+    "url": "/manus-storage/1b823e1e8a5247fe_2786ca16.png",
+    "sha256": "b7e699d2b5ef2225ab17b1f30418c896efb67a829cd81952798655f70b75c0ae",
+    "bytes": 8696
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/196ae45e9739cc49.png": {
+    "url": "/manus-storage/196ae45e9739cc49_e56c4e62.png",
+    "sha256": "0f3e560fa89b81c5ee408eeebec6aa393461ef89149a6171611c9917294b5aa8",
+    "bytes": 13950
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/197b0563154aa553.png": {
+    "url": "/manus-storage/197b0563154aa553_850375b3.png",
+    "sha256": "eee3688903f9e91888c28fc0fe6fc04473c523a65ceb59ff587d473ebc06f102",
+    "bytes": 21477
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/2075062aa711c657.png": {
+    "url": "/manus-storage/2075062aa711c657_b1cbe727.png",
+    "sha256": "e95e5d30d11d94e22001a4016ddde179973d988934238e0191d28ef31bdc8658",
+    "bytes": 25944
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/1ec31ffb96fbc2b3.png": {
+    "url": "/manus-storage/1ec31ffb96fbc2b3_3130720a.png",
+    "sha256": "397ae55f46ce21c01c1b27a86e91e944884a0bc2894f202e7514763a0724d50e",
+    "bytes": 20189
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/2245720845015923.png": {
+    "url": "/manus-storage/2245720845015923_8c9f7958.png",
+    "sha256": "9559bffb7052b0918f396775c4cacf2c8539613ce1ab6b585a2529292f229f82",
+    "bytes": 12457
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/23a6afdf9704a7bf.png": {
+    "url": "/manus-storage/23a6afdf9704a7bf_7d6b4838.png",
+    "sha256": "b2f39ef0d9768e43f6366f2e1881f96d014ebc3e962a2415cbbd67754f05778b",
+    "bytes": 21096
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/241f290222575f54.png": {
+    "url": "/manus-storage/241f290222575f54_97dda4df.png",
+    "sha256": "0f050f34d957ffacb8d07e9e930a373b21e0f3e6c0b1d2560ddcca287e6f26ca",
+    "bytes": 3808
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/2569d70f4e74f914.png": {
+    "url": "/manus-storage/2569d70f4e74f914_59c7f6f9.png",
+    "sha256": "facae50586a9815fd843e51953f59a2b3accc1678df370c31261633ab02b5526",
+    "bytes": 1746
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/24377f5e8a6a1892.png": {
+    "url": "/manus-storage/24377f5e8a6a1892_bb140768.png",
+    "sha256": "8fa7171e4f4bd86dff87cbb0059027a331dcf3136206f8c26e3379781aed4a47",
+    "bytes": 27974
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/25b8b2eeeca9115b.png": {
+    "url": "/manus-storage/25b8b2eeeca9115b_d9852e28.png",
+    "sha256": "4c76478282d2b92ec4db3107201f82c22608b165e20b7b4cc68a1ced47969fc1",
+    "bytes": 18881
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/25e125dd26a752b0.png": {
+    "url": "/manus-storage/25e125dd26a752b0_1dce622f.png",
+    "sha256": "12f2c995ec152d5a10078fc788c83973b84f4b61979b88bd2ed861c2f9be99d0",
+    "bytes": 12624
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/27026914fc2250ca.png": {
+    "url": "/manus-storage/27026914fc2250ca_a001cffa.png",
+    "sha256": "deb96934a8256063600ed24330e297721443889ced3d5dbf13b7a6fc06dd7ae6",
+    "bytes": 16909
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/2845c8108b6faffe.png": {
+    "url": "/manus-storage/2845c8108b6faffe_1c3f1fbf.png",
+    "sha256": "db59731079fe10dfc5d5fd646bd23ccfd011bcab88de527d1722a47afe1680b5",
+    "bytes": 16999
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/2722108232d37b91.png": {
+    "url": "/manus-storage/2722108232d37b91_61bd02c9.png",
+    "sha256": "7a14b919b6d5d0ed3ebd6cef7e49f243c8e1f92011491862f3c9c4c81c900600",
+    "bytes": 41257
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/28e50a3d844d9729.png": {
+    "url": "/manus-storage/28e50a3d844d9729_b21400fd.png",
+    "sha256": "a7f299cafebc2eba2e11e07026b2d77c0aaae7008fe27774022fa5d293dc4299",
+    "bytes": 6490
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/29f4491a11df6385.png": {
+    "url": "/manus-storage/29f4491a11df6385_d70f63e0.png",
+    "sha256": "3d75301086119dd1a7d36428d6749f2f738eba6b7290af162c9ba1954cb79bd9",
+    "bytes": 17535
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/2d51486ac1a022a9.png": {
+    "url": "/manus-storage/2d51486ac1a022a9_4b9dbe8c.png",
+    "sha256": "ce3944b6f335e5936635679f701a1a5c4b1fd64ba5ee1bbc44d55c5bd54d3253",
+    "bytes": 16242
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/312d81de66c967dc.png": {
+    "url": "/manus-storage/312d81de66c967dc_bae55031.png",
+    "sha256": "47be00d10013c35868e95b0288caddaed28a1c805b1099d4a63a48a39fd7bf6a",
+    "bytes": 20396
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/312eb115082ad3f3.png": {
+    "url": "/manus-storage/312eb115082ad3f3_e6051c6a.png",
+    "sha256": "36236f3e755de4bceaa52df87395aa619288c88be96ddbd6a2e0217edf1eef8b",
+    "bytes": 19268
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/34278d3f35a46a7b.png": {
+    "url": "/manus-storage/34278d3f35a46a7b_6d7ebcef.png",
+    "sha256": "6af9189408c86ce08355037d50f8c86e368be48f6c4b3c0f0e533329bef038e6",
+    "bytes": 9770
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/347cd5e7cf2df87d.png": {
+    "url": "/manus-storage/347cd5e7cf2df87d_4d078d0b.png",
+    "sha256": "ce5f9f69ed00bb346f7c2e141d52156e0f6cf3ac855e57b586bfe7e5b05cdd0a",
+    "bytes": 19871
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/31d0fb7160f91273.png": {
+    "url": "/manus-storage/31d0fb7160f91273_0d0bb971.png",
+    "sha256": "1421f70886af46982faa542bcb5e30987b740c7c513e06e963475538287773a0",
+    "bytes": 16101
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/358361d3df7af168.png": {
+    "url": "/manus-storage/358361d3df7af168_8d13a259.png",
+    "sha256": "7629b1d60a3337f19f027fb966d39b87a6ca19fb3c25b4d02333b606de70fbd4",
+    "bytes": 14014
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/38c137c0e7d2599d.png": {
+    "url": "/manus-storage/38c137c0e7d2599d_f49ec3b2.png",
+    "sha256": "981bd5f97e990d1a44d915f0f3b81ed054a3985e9337511f6b7d34a6ef2aec04",
+    "bytes": 7600
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/3af707f9219fd98e.png": {
+    "url": "/manus-storage/3af707f9219fd98e_33960ea8.png",
+    "sha256": "3ab7d7632c95b02205289a3dcad69a139ac2874a00a74d51a8f87368f9c5425e",
+    "bytes": 26625
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/394fe3caf4a208d7.png": {
+    "url": "/manus-storage/394fe3caf4a208d7_3e33b109.png",
+    "sha256": "f4a813d9fe75cf3d73ded1bdd13f8a24ebadd0768d9f07dfa96292a28e08a98d",
+    "bytes": 18091
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/3b39f66037ab4877.png": {
+    "url": "/manus-storage/3b39f66037ab4877_23f9e47c.png",
+    "sha256": "a1c2cf23ad31d0924c84a94b44e24836636081c29e401b501f2844de856d6ceb",
+    "bytes": 23055
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/3bb01121fed037e9.png": {
+    "url": "/manus-storage/3bb01121fed037e9_c4391815.png",
+    "sha256": "e55acdee86f8a6b059c171b6d8aaa5a910a2927bc46e3f98650ebaeaeac20880",
+    "bytes": 21163
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/3b4210cbb717a1b3.png": {
+    "url": "/manus-storage/3b4210cbb717a1b3_296d155a.png",
+    "sha256": "f328bafc05c90fc1df2d4345f7252e02b051ad1660b7d03fea64f9e0b300c186",
+    "bytes": 11858
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/3d37474b7be01ea2.png": {
+    "url": "/manus-storage/3d37474b7be01ea2_e147ee84.png",
+    "sha256": "f7166387086f6d40ebcf2b6ce3a5c5bfa6c22f082d9f16edf122fb4659859fb7",
+    "bytes": 16970
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/3e89e56cfe633346.png": {
+    "url": "/manus-storage/3e89e56cfe633346_704d65d5.png",
+    "sha256": "5e794eab62f91786c019e70a2acb82e9f486e45d7dbdb212b25966f2899f6f6c",
+    "bytes": 6289
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/3ecc081381402a45.png": {
+    "url": "/manus-storage/3ecc081381402a45_fe0b111f.png",
+    "sha256": "5879829f75e70756de2472335e4b4bb62528a55f0e13a4a0f0440c5a7f3b4b36",
+    "bytes": 10170
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/3f6f60160d3ed99b.png": {
+    "url": "/manus-storage/3f6f60160d3ed99b_81ec027b.png",
+    "sha256": "bbc18345f824804e7ca4aef3342df525b4d69c43059ab60bec6fa6dd67ab6cd6",
+    "bytes": 20432
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/411697f4fc5365b9.png": {
+    "url": "/manus-storage/411697f4fc5365b9_20db864a.png",
+    "sha256": "d899a511716e3e1ef132e39a7eaa9d72199bf0521dff4650892d7216fa781d74",
+    "bytes": 15741
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/4073b5ab09b5a6e5.png": {
+    "url": "/manus-storage/4073b5ab09b5a6e5_7657cb8a.png",
+    "sha256": "07d4526c8c6115c63331aca50a224d542b351b35e387e22053c3d62054dc01c9",
+    "bytes": 15118
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/436b19aab7a37811.png": {
+    "url": "/manus-storage/436b19aab7a37811_e1cc5b4e.png",
+    "sha256": "991f2be59ad26d0d5fa028b558e3249f186f2cd057bb1d14f4454aa87b8526f8",
+    "bytes": 8861
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/43ab201362d1a65c.png": {
+    "url": "/manus-storage/43ab201362d1a65c_f5609a86.png",
+    "sha256": "2c14fa5809ced0e021f723189e97154dee06268997266b397ed805e649b587c0",
+    "bytes": 27079
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/44d7c5eea59c56c8.png": {
+    "url": "/manus-storage/44d7c5eea59c56c8_8a0d3645.png",
+    "sha256": "60e9b213a56d312f35d1a6126c7bbab83b67d57029c0df4a55e7cc39c682fb1b",
+    "bytes": 19758
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/4529980a0ba5faac.png": {
+    "url": "/manus-storage/4529980a0ba5faac_ec6df36d.png",
+    "sha256": "ed65f100c659e34dce6f5889406d9a35c1dbedfa07b73adc3687555b6b223fd6",
+    "bytes": 6618
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/46d1844be1786cde.png": {
+    "url": "/manus-storage/46d1844be1786cde_8719ea44.png",
+    "sha256": "173e3c33aa17a67ccd5fc2840e7b0b477d223263f644adf2e505bc06752d17c5",
+    "bytes": 14819
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/4644b706e11b421e.png": {
+    "url": "/manus-storage/4644b706e11b421e_27a0cd5f.png",
+    "sha256": "c97a75b51e481c03e025619cc18fc965370bb4cdf21a2a19b51a564fd1346640",
+    "bytes": 31528
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/47116071dc55c8e8.png": {
+    "url": "/manus-storage/47116071dc55c8e8_6b73560d.png",
+    "sha256": "c1a1eb4a712a8a3626d70e2dfe1b225a647b9e0c479188d3ac25250d8b16b4eb",
+    "bytes": 26226
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/46d5d864fafc35af.png": {
+    "url": "/manus-storage/46d5d864fafc35af_2e817502.png",
+    "sha256": "e99f5256625ff62cb00c0eef3695d30463fbd102bf97cc3f71200a0480998d8f",
+    "bytes": 37479
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/4937f222eb3a1af9.png": {
+    "url": "/manus-storage/4937f222eb3a1af9_d01c719b.png",
+    "sha256": "9e63598fbbd212c59c9126a75e16ea24cf31aab8b88e0a1578fa728fa5174b22",
+    "bytes": 9652
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/4987dfcd3f0aed59.png": {
+    "url": "/manus-storage/4987dfcd3f0aed59_b804948a.png",
+    "sha256": "14ae3a13ca81cf9392cf5b74f908d2f13c3325fb2985dfaa89bda493d8738008",
+    "bytes": 13770
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/4a1d6de13c86e928.png": {
+    "url": "/manus-storage/4a1d6de13c86e928_66cdaa18.png",
+    "sha256": "13347220d944b643fa45eabdcdfb8f53644d2bd86f46635f8371c66c88bf8b75",
+    "bytes": 11498
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/4bec6623f01f8f28.png": {
+    "url": "/manus-storage/4bec6623f01f8f28_17ca0b66.png",
+    "sha256": "b86871948125b6d083414aefe201d5b1ce40bc3bd51ff2e6540aa2252ec3bcbd",
+    "bytes": 4790
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/4e657cdda26e05d3.png": {
+    "url": "/manus-storage/4e657cdda26e05d3_6c00895a.png",
+    "sha256": "c8396e561c4d3610b7e031584ea9d778edfddeddfac009f9521d61487ebf30bd",
+    "bytes": 24557
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/4c013b415889d017.png": {
+    "url": "/manus-storage/4c013b415889d017_2e1ece82.png",
+    "sha256": "d9b4f68c82151c5ee967faedc0898db931b95af85f2cfedaa9670a6214cf46f8",
+    "bytes": 17577
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/502148bc8b11c28c.png": {
+    "url": "/manus-storage/502148bc8b11c28c_0f47a1f5.png",
+    "sha256": "955130411ba7a596cd14b827b320962ef84cb2d8a1b12f0b09eeffa639612b26",
+    "bytes": 29692
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/4e6d5ec305c311e8.png": {
+    "url": "/manus-storage/4e6d5ec305c311e8_4e2e5dc8.png",
+    "sha256": "50d042b5bd126fb869f9fbe2a9ca5949bcbe8b28c4e24d41a14ecffb87d0399e",
+    "bytes": 13144
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/50fbc6e2ae8c4b86.png": {
+    "url": "/manus-storage/50fbc6e2ae8c4b86_a26618ef.png",
+    "sha256": "5dd5da867dd0d8efe82a53917bf4604311af9d82ec5dcaac58c10b77e8d572e5",
+    "bytes": 4508
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/522cf1fd18799819.png": {
+    "url": "/manus-storage/522cf1fd18799819_e2e98552.png",
+    "sha256": "eb39ea1ad7baed7feb8ce435787f23386a42084296d5dadaaf95fb7fce61db5d",
+    "bytes": 18198
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/51afac0c6cda4e36.png": {
+    "url": "/manus-storage/51afac0c6cda4e36_6e5e6499.png",
+    "sha256": "a35aa92123aa87509e7af4fdc842f78b2194a37e0417a19fd0c0c71fdbc80b7b",
+    "bytes": 29080
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/53e676fc9504041e.png": {
+    "url": "/manus-storage/53e676fc9504041e_73df35b5.png",
+    "sha256": "4bbfb833a3a3429804465c9caebd3bf52f34ddfd0bc3822802e79e9a4c7eaa85",
+    "bytes": 17912
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/58764876f97fbab5.png": {
+    "url": "/manus-storage/58764876f97fbab5_5841921d.png",
+    "sha256": "16c40232cb2f37fbf8f1f662440807f553e40af7bbe263c0580432c6f6b96a50",
+    "bytes": 26473
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/57b97436d847f57b.png": {
+    "url": "/manus-storage/57b97436d847f57b_357fe2e4.png",
+    "sha256": "9fce89271532903d808fc0551018cc1dcdcd7f2618ead2f08b68b84dfc64974d",
+    "bytes": 8763
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/58fdeb56df816e7e.png": {
+    "url": "/manus-storage/58fdeb56df816e7e_47fa5a2c.png",
+    "sha256": "11e554e181b27fe7c9fbd9997f358678ad387c90da372244765a7b46a3424d5a",
+    "bytes": 18000
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/59985ad59c1a7a7e.png": {
+    "url": "/manus-storage/59985ad59c1a7a7e_d2d0cc3e.png",
+    "sha256": "2684333a5f93fa379780f20f42f7324506c2a185c95b5adde860bccafa78b5af",
+    "bytes": 23271
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/599b79fab595bf44.png": {
+    "url": "/manus-storage/599b79fab595bf44_fee7ffe3.png",
+    "sha256": "10a27efd4c9c94769517e58b795276c3832f4dc48b1ffa647ad12f89ad5e5615",
+    "bytes": 22339
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/5c85092171230758.png": {
+    "url": "/manus-storage/5c85092171230758_a216fd10.png",
+    "sha256": "2629787bec1744b5fcb5083842aa7090b989cb766b3196e3ebfcee589bcbfee8",
+    "bytes": 8711
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/5d231e6673962bda.png": {
+    "url": "/manus-storage/5d231e6673962bda_ae607370.png",
+    "sha256": "35ac65212d99c470e989ce718c38285c0700f23c61c8a7cb80ca9500d1979143",
+    "bytes": 25385
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/6056dc81d3f7d5dd.png": {
+    "url": "/manus-storage/6056dc81d3f7d5dd_ab301610.png",
+    "sha256": "e93678e0ffd8e5386bf106b45d75b37d017b270f0fd093a5b1cc60dd281c64c9",
+    "bytes": 3406
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/60bd6634f76419f5.png": {
+    "url": "/manus-storage/60bd6634f76419f5_ea22ccbb.png",
+    "sha256": "5bc940e66f561701e2af7ae0d0d2186824f2fae90ee46da93cc4ca306aabcb09",
+    "bytes": 17059
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/6318e678f7b57aa7.png": {
+    "url": "/manus-storage/6318e678f7b57aa7_2074e876.png",
+    "sha256": "ae70d7d75729e3be95d67c19ce72d0d4651da454a9eaea34e150768ac372efd5",
+    "bytes": 25407
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/610c4a43f6ebda5f.png": {
+    "url": "/manus-storage/610c4a43f6ebda5f_2a57c495.png",
+    "sha256": "cd6e9b6f02ed48af431fcab6985544884860fb8b933ca8abb19912a45cd875a7",
+    "bytes": 35686
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/63a13d2cbc33e708.png": {
+    "url": "/manus-storage/63a13d2cbc33e708_10dd365d.png",
+    "sha256": "f6ee45a1a7e5a886601b282a19bccc8b5d36e9e31174077d70147eb0ebeba1cf",
+    "bytes": 18472
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/653407e4cf0b30d3.png": {
+    "url": "/manus-storage/653407e4cf0b30d3_e27b676f.png",
+    "sha256": "9f5ec5e80eed8f974020e73bb1fd67b963d07206d8f730e1ebcfa76fa68b753e",
+    "bytes": 18904
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/6545eeec45d52f86.png": {
+    "url": "/manus-storage/6545eeec45d52f86_67e779b5.png",
+    "sha256": "6771c177396da58157f66ca2d8ed6e22616daadde1d1aa21142ab0e28d0527ab",
+    "bytes": 17585
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/6547958428e0d3d6.png": {
+    "url": "/manus-storage/6547958428e0d3d6_c6b1a6dd.png",
+    "sha256": "c84ac17d94779356cef437f5f3f3db78c2e6968a6427ff6f4491c92ab9147a1b",
+    "bytes": 18454
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/66506959b691143f.png": {
+    "url": "/manus-storage/66506959b691143f_81cd91da.png",
+    "sha256": "f6c53015de3e1c96df2e0a19bb5f5735d6953fa9dc938a97b037d8c6ea5ec87c",
+    "bytes": 10289
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/6694041afaed072c.png": {
+    "url": "/manus-storage/6694041afaed072c_da541d44.png",
+    "sha256": "b30ca49e5cbbe98a4021e6c2bb7c71ca72abed0bb51fdeb01357ee53183d191b",
+    "bytes": 17474
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/68f6ca3b78f9d0ae.png": {
+    "url": "/manus-storage/68f6ca3b78f9d0ae_c2880c34.png",
+    "sha256": "713298c3b27454aa4c2f58128c403876655fdfa370806dda498bf9d6fdb6079c",
+    "bytes": 16835
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/6870ec66fc9f9cde.png": {
+    "url": "/manus-storage/6870ec66fc9f9cde_ce5201e2.png",
+    "sha256": "a2efd0d4d155303e3fe1055adf64fe9306f0150993a1e43b3dfab6a828239533",
+    "bytes": 36229
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/66e4e858ac01a1a9.png": {
+    "url": "/manus-storage/66e4e858ac01a1a9_bf7ea894.png",
+    "sha256": "e91720e2d5c47d1b9d11e3c1238dc7f028623e8a05d0b123f390121155ee3eb4",
+    "bytes": 13622
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/6cf9ebc4c7453ecf.png": {
+    "url": "/manus-storage/6cf9ebc4c7453ecf_94aaee71.png",
+    "sha256": "c1dd5732c25e9b4193b2008cd99ea6f38c24a7e8ea37623965200dfea61f4fcb",
+    "bytes": 13956
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/6ee207abc951e750.png": {
+    "url": "/manus-storage/6ee207abc951e750_1fac4379.png",
+    "sha256": "1e2d966a3f26a154094cc67ba9dcf663976b3b1883c3effd730f8aed69c1e4e6",
+    "bytes": 28731
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/6fb91d7461dcc999.png": {
+    "url": "/manus-storage/6fb91d7461dcc999_d221a067.png",
+    "sha256": "1a3078e7efa260e8fb163f07be2d2506d9212ae731945cb702f7cc3097038900",
+    "bytes": 20899
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/708e8a9bb4d00a21.png": {
+    "url": "/manus-storage/708e8a9bb4d00a21_1497245a.png",
+    "sha256": "48f8f7263e7d72a00c02e2628362f43d3799367659d96282be7528d2b071439e",
+    "bytes": 18310
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/74b0340943737b33.png": {
+    "url": "/manus-storage/74b0340943737b33_81adddc9.png",
+    "sha256": "a5e810a79ce971127c870ffcef4344bb23454e7ac7fdbbddebbffe48900f7bf8",
+    "bytes": 19443
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/7458938cd0698f90.png": {
+    "url": "/manus-storage/7458938cd0698f90_d3e293df.png",
+    "sha256": "30503380726145a41247981d12c3870eaa092561d77f4ee4f5cbafd74384b9bc",
+    "bytes": 25593
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/750d6cff2ad8f21e.png": {
+    "url": "/manus-storage/750d6cff2ad8f21e_3634e988.png",
+    "sha256": "e757bf1404705fc943ef31676ba25b907a043e2406142f1368ea6e137afc9918",
+    "bytes": 22997
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/752d3755422964e1.png": {
+    "url": "/manus-storage/752d3755422964e1_be437d9a.png",
+    "sha256": "d53a8121fed71d0fed5fbc7f780c732f429dd066f80e2857d39eba56be6c245c",
+    "bytes": 18978
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/75c5a2e3e8f55ad1.png": {
+    "url": "/manus-storage/75c5a2e3e8f55ad1_550efad7.png",
+    "sha256": "b41f06a306ba9eee92143c7293b476113e43514708db545eaa48f012baeacca6",
+    "bytes": 9398
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/772662dc91230f90.png": {
+    "url": "/manus-storage/772662dc91230f90_81fe49f8.png",
+    "sha256": "82b646eda30795b5effebf27ee9e2128e95c133050571f3a107edb0ec6ddeb14",
+    "bytes": 12997
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/795853289cab98c5.png": {
+    "url": "/manus-storage/795853289cab98c5_f1cd29e8.png",
+    "sha256": "e0bacb24a7345f90dea48fc33259356949ed00db1e08eb49d14df3eba6bd53b7",
+    "bytes": 18689
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/778239bfdde7b601.png": {
+    "url": "/manus-storage/778239bfdde7b601_a70b32b6.png",
+    "sha256": "de567b0ae02efe12101248b1c964bda7e50d5cd126021e7d18cc0b56ebfe9da9",
+    "bytes": 25165
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/76117cc4145333f3.png": {
+    "url": "/manus-storage/76117cc4145333f3_bcd6de0e.png",
+    "sha256": "ddd8001296bb93cad9ad3a51aa23ed3e37f848348606bcabdc0edaf607cf0c7c",
+    "bytes": 16262
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/79c44b9f355c470a.png": {
+    "url": "/manus-storage/79c44b9f355c470a_bd8b1ef5.png",
+    "sha256": "53add8a5e337c6282c09835298d26d7ffd26a3d378a7d3e1f07cfab05e39c1a0",
+    "bytes": 18511
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/7a20fdb931b05bef.png": {
+    "url": "/manus-storage/7a20fdb931b05bef_b76ea9e7.png",
+    "sha256": "e67da2c5cb62d82e8bacb537af155a72f6f5fe80fba53a33fdaa66903d05519c",
+    "bytes": 14501
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/7aa0ce6934c70687.png": {
+    "url": "/manus-storage/7aa0ce6934c70687_254b9f58.png",
+    "sha256": "a555e1c77046ddf9bf98e186bd32ccafee324a8d65ed93eda211dba9111f9a6e",
+    "bytes": 5091
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/7badc82e945e83b2.png": {
+    "url": "/manus-storage/7badc82e945e83b2_6d3ff68f.png",
+    "sha256": "b2bcdc52bb37ea7b84513ef760212e4d6bb07c381c3320b99f779f162c0a564a",
+    "bytes": 35623
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/7b40c2ccad47b30e.png": {
+    "url": "/manus-storage/7b40c2ccad47b30e_1f1804e8.png",
+    "sha256": "176a3063debae44f5f8cf43b6da6b73ffa48c1742d7e4e5bd1291b6923ff88ae",
+    "bytes": 27873
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/7d38df980a1c51e5.png": {
+    "url": "/manus-storage/7d38df980a1c51e5_65e6fd8f.png",
+    "sha256": "86556c1786eb2e2923adb0cacc9acd4bc611d39c3a5cce58a73925acfeb0c98a",
+    "bytes": 32342
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/7f0d05073ef9e277.png": {
+    "url": "/manus-storage/7f0d05073ef9e277_b847f2a5.png",
+    "sha256": "5dd5a1d87fed4e31872933fef27acfc6aac88f99b18617bdc2960d24fd38f49f",
+    "bytes": 10252
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/7fadd83fd2ab6fc4.png": {
+    "url": "/manus-storage/7fadd83fd2ab6fc4_87009584.png",
+    "sha256": "23109e74fea99b828cc4889c68a68ef8ea98ee026cc7c9f2c89ddaadc93fbbae",
+    "bytes": 16759
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/804ce3bf91977809.png": {
+    "url": "/manus-storage/804ce3bf91977809_57af10e3.png",
+    "sha256": "13eead09b6f1988f253dc25c38b707132c6e4ae39a2d796b154b7d89ec3c0b66",
+    "bytes": 13406
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/8280029f9b6f9b68.png": {
+    "url": "/manus-storage/8280029f9b6f9b68_2386630e.png",
+    "sha256": "2b105c839891e9488985c8f5dd70627e0db1be51bab7d6d17baab5007b3b49c3",
+    "bytes": 4875
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/83e4e22b90de1fa8.png": {
+    "url": "/manus-storage/83e4e22b90de1fa8_da01d680.png",
+    "sha256": "cd314eeb9f38b8aa20ba5e5e1661ed96c274a9412ec71de98c6e3dff0ffb2029",
+    "bytes": 20826
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/8448f9e9a41a48dd.png": {
+    "url": "/manus-storage/8448f9e9a41a48dd_642ab3eb.png",
+    "sha256": "551d28ab0e0a00435cb85ce00b3f63aebf6090700fe6734fdbd51ec9651be314",
+    "bytes": 23910
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/852bc17b5ff648be.png": {
+    "url": "/manus-storage/852bc17b5ff648be_400f0f72.png",
+    "sha256": "ee27ec905dfde575e2effbd94fee8e34987fe55c46730fa1a3a7387a9b1ba3ab",
+    "bytes": 21103
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/873e8d33b6a8ddde.png": {
+    "url": "/manus-storage/873e8d33b6a8ddde_e270046b.png",
+    "sha256": "a1fe58b39bb467fee3e750c42c0a029561accbf89b22b81d45850af090d98a0d",
+    "bytes": 19972
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/8611ae06bed01916.png": {
+    "url": "/manus-storage/8611ae06bed01916_c52f1450.png",
+    "sha256": "a70b1963d0c3fcaec276cee76b89eb86375beb41c3af7958b4b2d9403ba72e6b",
+    "bytes": 27438
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/88eb6f824314f580.png": {
+    "url": "/manus-storage/88eb6f824314f580_33d8d7c7.png",
+    "sha256": "68b83b2880b53de1603481860dcba610606d7645b60a78f22f8fd3731ab47651",
+    "bytes": 20638
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/8aafaac63fd7224a.png": {
+    "url": "/manus-storage/8aafaac63fd7224a_b2f6130e.png",
+    "sha256": "94f03c874cc9423634f4420671182f4dc4defce6d606323d131ca6ff37651a99",
+    "bytes": 33133
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/89ecd570d1eaca0b.png": {
+    "url": "/manus-storage/89ecd570d1eaca0b_51c8116c.png",
+    "sha256": "ae0ed5ac077c37cf81670309d1d487d3fc529cd281a68cd16943a6b88b970940",
+    "bytes": 16457
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/8b1e5cb8cc526a0e.png": {
+    "url": "/manus-storage/8b1e5cb8cc526a0e_396440f1.png",
+    "sha256": "7f25dc1f89c0d8f706ed588ede44c811cb124e132a8a1fe8cce1e63142ccaa75",
+    "bytes": 18878
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/8ca3d04e2b61243c.png": {
+    "url": "/manus-storage/8ca3d04e2b61243c_b07ffcda.png",
+    "sha256": "33e0bbcace46f5a1755e471c49f9505f369812f94b9a872c51c60244af5517ba",
+    "bytes": 16646
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/8c6b35e9fcb613d3.png": {
+    "url": "/manus-storage/8c6b35e9fcb613d3_f9001dbb.png",
+    "sha256": "6168a17c47c7ca24ed39c709e0162aefcb657a6a5b5115435857a7c50df09be6",
+    "bytes": 20271
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/8e1e414d5431e719.png": {
+    "url": "/manus-storage/8e1e414d5431e719_0f5b961e.png",
+    "sha256": "11ff5b44b4dfde9101147cf70c3607db59ba874b01d78eddfac1e8f19002b998",
+    "bytes": 28154
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/8e3479b2f66cd0a2.png": {
+    "url": "/manus-storage/8e3479b2f66cd0a2_892e7c35.png",
+    "sha256": "697b4b26ba72b196f7f9a80bed8fccc399033d15599b4987b9d5ba7947bc170e",
+    "bytes": 23212
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/9100e3f92836ec2f.png": {
+    "url": "/manus-storage/9100e3f92836ec2f_8f2429c2.png",
+    "sha256": "f82fe35bdcac021b7791ccd35ffa3876a99f003f44d1c584b5cdce1153594f37",
+    "bytes": 29011
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/91340782ea8fe05f.png": {
+    "url": "/manus-storage/91340782ea8fe05f_d8dc1a31.png",
+    "sha256": "5a185e511cdf860f3b1d9c2824dafd5a2fd8ab6cb69f09b7be3b64540044f19e",
+    "bytes": 19181
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/91920cb76c272987.png": {
+    "url": "/manus-storage/91920cb76c272987_a61e03bf.png",
+    "sha256": "7ae0ed86dcc6e0a7008f70cc3c49bd55220b2340179acd23f8b7eca41dc820a6",
+    "bytes": 22217
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/924d78f9da0120ed.png": {
+    "url": "/manus-storage/924d78f9da0120ed_d760b22a.png",
+    "sha256": "d4c4477a38c591af1a0a13833b2c0a571e9f45373e69d6350cefa1f9a29b4d95",
+    "bytes": 23253
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/931eff1c27bea549.png": {
+    "url": "/manus-storage/931eff1c27bea549_661d433f.png",
+    "sha256": "f4284f9539c6487adb200459fa461c57c23d6dfdba255fcd427411272f8bd3ad",
+    "bytes": 23329
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/9403a44b943b1abc.png": {
+    "url": "/manus-storage/9403a44b943b1abc_47fee1ab.png",
+    "sha256": "d1a520b5e2933f504a7947d18f217492dcf038ba6f07ea20144c87faeaa1222d",
+    "bytes": 19455
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/97fefa8de206989c.png": {
+    "url": "/manus-storage/97fefa8de206989c_dbc2df21.png",
+    "sha256": "037299e63e6d4f7a78028a50281a397c4c71e7a663b56931b7fb8a751d97aebf",
+    "bytes": 12870
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/95ed01ac423f9d9e.png": {
+    "url": "/manus-storage/95ed01ac423f9d9e_8c493ac5.png",
+    "sha256": "dc7057749a5d534a57e5b013faea6246195694c427bf87e71ba896d92617e222",
+    "bytes": 13619
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/99a528545bcb86fc.png": {
+    "url": "/manus-storage/99a528545bcb86fc_0cb20444.png",
+    "sha256": "69ac5d8909ffc109da9e90a2f8d6a55189ab08d438396088d1f7bcbf2ffdcf55",
+    "bytes": 19111
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/99b25362a07aa1f9.png": {
+    "url": "/manus-storage/99b25362a07aa1f9_e87e67c8.png",
+    "sha256": "5a74a4b99e4c5af086bde9c208cd6d1ec877ca7bd0ab8d58c893f0904bb36f81",
+    "bytes": 11507
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/9a82614dba3627cc.png": {
+    "url": "/manus-storage/9a82614dba3627cc_b9cd22eb.png",
+    "sha256": "7adca96fe5cc4cfd107b1419508be8d78a6f69e2ad3dce591a88afea40ba5f24",
+    "bytes": 11663
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/9b46490225ee32f1.png": {
+    "url": "/manus-storage/9b46490225ee32f1_3f995c7a.png",
+    "sha256": "5fc66f288615749214d085b218eb2fc6f16ca3a1d26bf1290c51f53e9bd6279a",
+    "bytes": 13966
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/9d6817483f99eb2b.png": {
+    "url": "/manus-storage/9d6817483f99eb2b_854cf14d.png",
+    "sha256": "e1242528df485459d858176263220ec5d23275b6cb4ffb17effebbedcaad704d",
+    "bytes": 18867
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/9f2ef35fd8c943ef.png": {
+    "url": "/manus-storage/9f2ef35fd8c943ef_9f2921e8.png",
+    "sha256": "dcc14ed07028aaf74e3dd296c5bd3a4b21a1cc93db89b1a78f9090969efccc77",
+    "bytes": 5858
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/9fb0aef36570169d.png": {
+    "url": "/manus-storage/9fb0aef36570169d_9c51ea25.png",
+    "sha256": "a9faf44cdf05708c8b6717cab6c3f09806e935bd68db6de9c7637c92444a2ac4",
+    "bytes": 25839
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/9fac662e0a6515a4.png": {
+    "url": "/manus-storage/9fac662e0a6515a4_c9232aef.png",
+    "sha256": "2645ea473ec917924d1e33f81cb912d770fa037adf13d91440bfdd2d8bb2a2ec",
+    "bytes": 13303
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/9fc202bc0987ef4c.png": {
+    "url": "/manus-storage/9fc202bc0987ef4c_32bf4bf0.png",
+    "sha256": "b83cb5f92d57065cf422bfca5686fd077e98e492a731cf1f2d6c8ab20a5d0ccd",
+    "bytes": 10052
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/a17260e14cf983c0.png": {
+    "url": "/manus-storage/a17260e14cf983c0_20d645cb.png",
+    "sha256": "d59087d580329b9d2f7eedbf92c20f627e23715a6106fe1250a3de8e38fda5c8",
+    "bytes": 11445
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/a1b5273fe38bbd3b.png": {
+    "url": "/manus-storage/a1b5273fe38bbd3b_c57fb532.png",
+    "sha256": "34cff52de9b5628cd0f2e504313b8b34f034b951a7889b120244d53b52cba877",
+    "bytes": 19529
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/a2cd661d01f3903b.png": {
+    "url": "/manus-storage/a2cd661d01f3903b_a3bf557e.png",
+    "sha256": "205166c39f325a4b6f773ec8bf7540b8e79f52fcfad2a67c8958d751f99b24dc",
+    "bytes": 8477
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/a3a9a11dda36d823.png": {
+    "url": "/manus-storage/a3a9a11dda36d823_cd63339b.png",
+    "sha256": "d0baafb81afd7040176f36b3259da02ec334c7241b2bc93b9a8cd138f591691e",
+    "bytes": 11701
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/a42a01806e830b4d.png": {
+    "url": "/manus-storage/a42a01806e830b4d_2dc2bd63.png",
+    "sha256": "24eb84960a93c55cf9ca4e495b8f8faa550dc2d4cb5f193497d34bd8ca0b04af",
+    "bytes": 14638
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/a67f3e172771a13d.png": {
+    "url": "/manus-storage/a67f3e172771a13d_70fdda12.png",
+    "sha256": "7d2f187e7d0a26afbc5a00b2161a9c6f2aecb9cae700c62154a9fcdfaf4d63ac",
+    "bytes": 15518
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/a682c7b2652b3aa1.png": {
+    "url": "/manus-storage/a682c7b2652b3aa1_3e1a4e04.png",
+    "sha256": "77a778a0383bef5e424898af0ae834000a5523b42edd09cde99dfbf95020124e",
+    "bytes": 14742
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/a6e7c4538e3a93f9.png": {
+    "url": "/manus-storage/a6e7c4538e3a93f9_b68fd9b9.png",
+    "sha256": "eb4625eb4f6193b54792dd0fd99bcac218d174e68282273d27fb552c52e6eaac",
+    "bytes": 15716
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/a70a92784b9276a6.png": {
+    "url": "/manus-storage/a70a92784b9276a6_ef2c58c3.png",
+    "sha256": "a3f66be787d17390c9920ef131b124b5c944163fb52e215feb00863a6201c058",
+    "bytes": 5272
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/a80ea016222192f2.png": {
+    "url": "/manus-storage/a80ea016222192f2_c59845b2.png",
+    "sha256": "60a1a2b6cd5cebe1b3ea5ac9331dcd44e9c58d217b24bcb5c6d28a66bff3b5ae",
+    "bytes": 15664
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/aa306af5b368426e.png": {
+    "url": "/manus-storage/aa306af5b368426e_4e11df10.png",
+    "sha256": "2b51c91e0ec38157f684491a253ebbcf3cbfd2d26d208003d5ea4871f866d369",
+    "bytes": 4798
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/aae1cd56eada6884.png": {
+    "url": "/manus-storage/aae1cd56eada6884_b66739f1.png",
+    "sha256": "fae839ee03624eedc25423e89c6549af908e0adf3e1d25af0e84217323f7ac07",
+    "bytes": 21392
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/ab8a560d1dd6d34d.png": {
+    "url": "/manus-storage/ab8a560d1dd6d34d_c1e121e3.png",
+    "sha256": "f9b7f0de78313e592eeca341db79ecc8dab19d93538aca5fabc8eec4c72057e9",
+    "bytes": 6279
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/abd96c54035e0cfc.png": {
+    "url": "/manus-storage/abd96c54035e0cfc_515afdb6.png",
+    "sha256": "ec4f430e8c7393faed8fb4b26df92373e18b5e94b05c1f3c1b19a74e76dc1ad0",
+    "bytes": 5618
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/ac8efe13ee16881e.png": {
+    "url": "/manus-storage/ac8efe13ee16881e_92a04c9c.png",
+    "sha256": "9f1252dcd486c26fa43fe007d48df6bbe7ff779529a40da512fb8cae44ee3f7f",
+    "bytes": 3687
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/af281d1e32fd920a.png": {
+    "url": "/manus-storage/af281d1e32fd920a_f2888fa1.png",
+    "sha256": "9e642867cc919b3d1cdaabf07db70f17fbc0f32b9759c57205c5837381c8088b",
+    "bytes": 14716
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/af2b07bbdfe9035b.png": {
+    "url": "/manus-storage/af2b07bbdfe9035b_83aa5066.png",
+    "sha256": "e6d92bf1d4d3c42a1a6ce452459c28b180cd5682c86809a96abd558f4f003b05",
+    "bytes": 15549
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/b0b36b27f7704cbb.png": {
+    "url": "/manus-storage/b0b36b27f7704cbb_55b9b43e.png",
+    "sha256": "df7baddc5707dfc1df4214a542ba17b870efe553a97e5c44d37cb88edad57bd9",
+    "bytes": 17855
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/afefadd649119e22.png": {
+    "url": "/manus-storage/afefadd649119e22_f3ccc25f.png",
+    "sha256": "cd0c32ef1d223917fc6f5220174fae40de118337d24c16ba35732cd9530f1c10",
+    "bytes": 5993
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/b32378c8dab371e4.png": {
+    "url": "/manus-storage/b32378c8dab371e4_d21348f9.png",
+    "sha256": "a0dd3046a5863810f5e64122dce5fa5ff4c9ee4d7bcb51bd9433f195a6809d15",
+    "bytes": 12524
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/b3d794b0a4e51172.png": {
+    "url": "/manus-storage/b3d794b0a4e51172_11642672.png",
+    "sha256": "f21b8e07ec60f04235d9511a5127c860d8d2e399b89b581a5752656574e04ba5",
+    "bytes": 15106
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/b3f1373598a53d83.png": {
+    "url": "/manus-storage/b3f1373598a53d83_20cbed4d.png",
+    "sha256": "3cb0e2ed846fb7e448fc44f8510b7dd487bed5e712e41edba462a1c782615f44",
+    "bytes": 17904
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/b4c173f8a995ac15.png": {
+    "url": "/manus-storage/b4c173f8a995ac15_bb5fb478.png",
+    "sha256": "d842dae6a5fc1deb372534cc950598c858cca4b631393f4ceed884a8c29e0230",
+    "bytes": 26876
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/b777b8b780c4c888.png": {
+    "url": "/manus-storage/b777b8b780c4c888_c676ea31.png",
+    "sha256": "7faaa5f4cec1f9a3eb9859afc08dfeaec9e54a9beb16f5858174818406d00656",
+    "bytes": 27562
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/b79e0bfa270be1a0.png": {
+    "url": "/manus-storage/b79e0bfa270be1a0_b87c7c2a.png",
+    "sha256": "32360690cac55891b1ce51d100b0d25ae1dd33b9081e2f9b39cb0e27f69b610f",
+    "bytes": 23176
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/b7a8e156b794bafd.png": {
+    "url": "/manus-storage/b7a8e156b794bafd_51be6bcb.png",
+    "sha256": "0ad169dc0542badd0007fb9d680cdd75d44e4a8d34c341c9c51a67f5087abfca",
+    "bytes": 21677
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/b88bfe8b09b26a8c.png": {
+    "url": "/manus-storage/b88bfe8b09b26a8c_609b73a5.png",
+    "sha256": "e977a25bf97051115619612d09f667cbc4cfa80cfac2206bc890d5b69196dc79",
+    "bytes": 10333
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/b8a68804164c42a4.png": {
+    "url": "/manus-storage/b8a68804164c42a4_2d5ac569.png",
+    "sha256": "01e3a5771a2fe6807b88ab57d092a8b9f7fd6d9b71b4f819442b3a2b62fe0d31",
+    "bytes": 24013
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/b8ea249124c18d15.png": {
+    "url": "/manus-storage/b8ea249124c18d15_66dd68a3.png",
+    "sha256": "d394891d0c9c574be0e56dba71378e36936e0780f149702636fb33dd9f992778",
+    "bytes": 22145
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/b9c6dc20927bbdab.png": {
+    "url": "/manus-storage/b9c6dc20927bbdab_8a4e3a56.png",
+    "sha256": "072006b35f85473d77914d15ba123740b0be5dea509de5a0ffec397cbbb34d84",
+    "bytes": 18956
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/bb75197f9beec752.png": {
+    "url": "/manus-storage/bb75197f9beec752_022d986e.png",
+    "sha256": "87be8d9941108eeb4a04d3dd402a3d82e2724884b9a5752116b4c78f9bd9103a",
+    "bytes": 25067
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/bbae50554eba8afa.png": {
+    "url": "/manus-storage/bbae50554eba8afa_7be37acc.png",
+    "sha256": "baeeedbdba9d7fedddd036ec01a2c42a182bdf315cd5a9a6c37d46749479b973",
+    "bytes": 22164
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/bcbf0da063ef18e3.png": {
+    "url": "/manus-storage/bcbf0da063ef18e3_31134883.png",
+    "sha256": "b8ffd7ed5154d76acc5dc509ee5108abf16fe673fa0892a3452821a9b6b809f6",
+    "bytes": 21056
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/c059dd61d2364211.png": {
+    "url": "/manus-storage/c059dd61d2364211_fb49baad.png",
+    "sha256": "cbc257907ce421cdbbec21aca7b69b90f1fece637257c26c16586e96404a23a5",
+    "bytes": 14975
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/bf8e567d63d56d39.png": {
+    "url": "/manus-storage/bf8e567d63d56d39_f3376c09.png",
+    "sha256": "0bbd87bbc147e3fc5992e8f48a14e953b51e936bd5ab98b5194d0c08d67e1766",
+    "bytes": 14752
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/c2556053c13d5772.png": {
+    "url": "/manus-storage/c2556053c13d5772_b1e8b6da.png",
+    "sha256": "62ae50cc4ef7efb953fee926f9a6e36b740cc572d0ee2216a345464cf09bec7f",
+    "bytes": 8440
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/c282af97006102ed.png": {
+    "url": "/manus-storage/c282af97006102ed_d7a79841.png",
+    "sha256": "1e58fafb69a606ba65e56f039f7f554e9ac6beb94c8e5f64f0183ab6a6735b16",
+    "bytes": 20437
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/c41266831ea24abe.png": {
+    "url": "/manus-storage/c41266831ea24abe_9fc7a209.png",
+    "sha256": "ae6d41b5ed557795c0004cd143bf6e77a81d0c214d3a109027920b728b2bbba0",
+    "bytes": 761
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/c678a4af4dcff21e.png": {
+    "url": "/manus-storage/c678a4af4dcff21e_ba8a2d79.png",
+    "sha256": "498e0c49075f8964d0a52d67210719266948b54a8d6937500d25ea31f9ff356e",
+    "bytes": 34942
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/c735166e509ef0bb.png": {
+    "url": "/manus-storage/c735166e509ef0bb_5f095de9.png",
+    "sha256": "57c6bbc052ed8a4aabff55fef3d55390c9d13484772573b90aee30b58875bef2",
+    "bytes": 15339
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/c77a20122bc6d62e.png": {
+    "url": "/manus-storage/c77a20122bc6d62e_f3c34cba.png",
+    "sha256": "c1d323f6b1b080ca4192078da6bae5488eb792a96819be4fd09ab1d75be795b9",
+    "bytes": 3779
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/c7e98dc8dcbc84f1.png": {
+    "url": "/manus-storage/c7e98dc8dcbc84f1_d72c596d.png",
+    "sha256": "aad9fa33b3731bb9b10bfef596f43ba5944839c5f4c9590cbd05f44bdb542036",
+    "bytes": 15002
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/c91a0b585fdbebd4.png": {
+    "url": "/manus-storage/c91a0b585fdbebd4_9026b5f0.png",
+    "sha256": "b96c3d6e80a9e730aad564b2e43e846af91385c2f62f515685643091f94c68fb",
+    "bytes": 19705
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/cd7601c168a2f9b4.png": {
+    "url": "/manus-storage/cd7601c168a2f9b4_b8f93c09.png",
+    "sha256": "5552075d75656ff2a6095a94f3268b2c00d599b40bc7850a6b2ebdd6a88e8769",
+    "bytes": 26094
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/cde34f6c865b88e9.png": {
+    "url": "/manus-storage/cde34f6c865b88e9_514d27c1.png",
+    "sha256": "3b1423c6a1baeec165751e7eb8bbc0647de2a50b4a927f05f2891cfca0eddcff",
+    "bytes": 12840
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/cdd96e4db1c7acf1.png": {
+    "url": "/manus-storage/cdd96e4db1c7acf1_dc0a391b.png",
+    "sha256": "85dc7f8a9fbfa732726c53148a658e8aceaaeee42081d36dad0da26a728bb26d",
+    "bytes": 19093
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/d192d175525a0a4e.png": {
+    "url": "/manus-storage/d192d175525a0a4e_7e09c115.png",
+    "sha256": "64c17a5433bd4dfa0081a7ce88e19f6992aa6b6d195f705c0bc4f3ae8a767934",
+    "bytes": 15569
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/cf402341f2374209.png": {
+    "url": "/manus-storage/cf402341f2374209_bb00b3ce.png",
+    "sha256": "d72f4f82fa9fdbf97fbb21c14df1613f46c97b391876a73295a50b16da0ff2b9",
+    "bytes": 21324
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/d012f342efbb6793.png": {
+    "url": "/manus-storage/d012f342efbb6793_c4147dea.png",
+    "sha256": "dc1234816d0fa137b5f8ef00f3e751a314c7bd8134f55c75244ffec8a4b7f445",
+    "bytes": 24766
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/d26a59e28f82057f.png": {
+    "url": "/manus-storage/d26a59e28f82057f_2f1d1c97.png",
+    "sha256": "fa5378f6dedee3006832858d030a3b13d65f0d117ea8fe5c1cb510727b6e12c0",
+    "bytes": 12326
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/d481226e07799dff.png": {
+    "url": "/manus-storage/d481226e07799dff_dfa6f803.png",
+    "sha256": "91707e1aece491c13ac21fae600b0f673a18d745fe3ed574f68f02f0145c7bbb",
+    "bytes": 19144
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/d4d2054f3b84beda.png": {
+    "url": "/manus-storage/d4d2054f3b84beda_409c3d12.png",
+    "sha256": "6764adc4e75ce227f274ef4057a3c59475e69cf259769cb5116b20fab6a8d947",
+    "bytes": 14371
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/d5d3a70d0e23d227.png": {
+    "url": "/manus-storage/d5d3a70d0e23d227_137a10e5.png",
+    "sha256": "2fa65643468ef67b2cdd2990db6b701168e9321b3937304e09287a942784f06e",
+    "bytes": 23667
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/d7e5a0935ffa0812.png": {
+    "url": "/manus-storage/d7e5a0935ffa0812_2293b96c.png",
+    "sha256": "85b814286e4fc762438bf31f68eca9be2098058406f1a7c8f8d580a00bd88bf4",
+    "bytes": 10699
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/d5d9891c335f1b7f.png": {
+    "url": "/manus-storage/d5d9891c335f1b7f_e0c8de53.png",
+    "sha256": "369e7482815ab01102270bcb98cdb9c0ac041485fe87f7f0758c767957c54e2c",
+    "bytes": 13917
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/d898aa61ff671286.png": {
+    "url": "/manus-storage/d898aa61ff671286_4c077129.png",
+    "sha256": "26e128352ed4c408128fad48656b4eb112155f3d2b861899f70eeecd5874fc9c",
+    "bytes": 28865
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/d8d71a1a1767c768.png": {
+    "url": "/manus-storage/d8d71a1a1767c768_ca49dcdc.png",
+    "sha256": "0f38a95dc560aab68097804b29d6e2c9437154cfe1ff22c296cca4d30ae52bc3",
+    "bytes": 33240
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/da9f8515ce11b1fc.png": {
+    "url": "/manus-storage/da9f8515ce11b1fc_d469d564.png",
+    "sha256": "c456c4e2602f38bf43bac91653cb3811f846ad0f575bec76485f929c005f77be",
+    "bytes": 28011
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/dad1ee51f077e1f8.png": {
+    "url": "/manus-storage/dad1ee51f077e1f8_d54bb8db.png",
+    "sha256": "4bdbef5b2defbbb61bba2a2fe1393392484bf35002b15a6670a6fabdd119802f",
+    "bytes": 7519
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/db101536685a1eaa.png": {
+    "url": "/manus-storage/db101536685a1eaa_2de28cb0.png",
+    "sha256": "caed94db392785eebcf6e8fada13fdb9d90de9b537087d4698d9e2bf694b8423",
+    "bytes": 42377
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/db49901c6d41959a.png": {
+    "url": "/manus-storage/db49901c6d41959a_4b4c4ef9.png",
+    "sha256": "960c799b4a5a89b2a6519fbd70495124c96411407912e5f551f2ea4504e9154a",
+    "bytes": 14578
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/dc2134615e0bb1b2.png": {
+    "url": "/manus-storage/dc2134615e0bb1b2_52fb440b.png",
+    "sha256": "05c6d086981ab2dc547f0801817d8cb7b5737c9c7a76ce2d1a099249b6f9b6a6",
+    "bytes": 6803
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/db901dbbda68b251.png": {
+    "url": "/manus-storage/db901dbbda68b251_20a4fffc.png",
+    "sha256": "fa5db8623de892624eb38242c00d420bcfce5ecd43a86cb588a47d710b5e71cb",
+    "bytes": 22507
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/df1a03328f7a7562.png": {
+    "url": "/manus-storage/df1a03328f7a7562_63cb4c8c.png",
+    "sha256": "568727b501f9fa4b1b6f6e6b53d5dc2579f982af36be1ab2129b0b07cb1ebc29",
+    "bytes": 10077
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/dfd0f1c3f52cc1a6.png": {
+    "url": "/manus-storage/dfd0f1c3f52cc1a6_b07c6981.png",
+    "sha256": "ffb0056baa669b90fc442e662fc76e043616ee1fcbbaf1d75d4b2634af81fd1c",
+    "bytes": 28475
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/e0988e164ff69b9f.png": {
+    "url": "/manus-storage/e0988e164ff69b9f_94213329.png",
+    "sha256": "1ad0853094c814f143987931f312767a02afe44a8a9958836917dce2e8783eb2",
+    "bytes": 8853
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/dfed1eee67b83a0d.png": {
+    "url": "/manus-storage/dfed1eee67b83a0d_d782f07c.png",
+    "sha256": "bc73df33262eefea09084be912287569a5d799894eefcad9169af741fc715e5a",
+    "bytes": 15760
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/e420304215f637eb.png": {
+    "url": "/manus-storage/e420304215f637eb_ffe13704.png",
+    "sha256": "d25d74ef99b7108f74cfce16fb35a8f041a8f2cd88357fa07e61252c5fbbc4dc",
+    "bytes": 11338
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/e11e91bb1395146b.png": {
+    "url": "/manus-storage/e11e91bb1395146b_64372223.png",
+    "sha256": "d323eae5023dc3c8e9a096648c485811d629de5780dfd93d8a6c612d1cf5861b",
+    "bytes": 17821
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/e57bfa728b4ae2d2.png": {
+    "url": "/manus-storage/e57bfa728b4ae2d2_4ff5d495.png",
+    "sha256": "edec2ebcfa72101b65cc52b3e690499efde5bf168e3f25e987a7eccb2ece210f",
+    "bytes": 19197
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/e684df42001b4b66.png": {
+    "url": "/manus-storage/e684df42001b4b66_e8294e5e.png",
+    "sha256": "ab771394f78b8557b91b8e4ec1a840198a89b9081e8b0c18be733d7ce601ceb7",
+    "bytes": 11628
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/e6f85f007cd26a59.png": {
+    "url": "/manus-storage/e6f85f007cd26a59_a7f9344c.png",
+    "sha256": "5b867030327279376eb58c648c76e2fc25d229f85f3e7c3908408c297aea0475",
+    "bytes": 15064
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/e7a3e2738f7a4855.png": {
+    "url": "/manus-storage/e7a3e2738f7a4855_188974df.png",
+    "sha256": "e6dc05cce174c204184cbc08951db0f1ef49995de721e03fbf0054f3bf4be825",
+    "bytes": 9970
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/e845fa3a7912d82a.png": {
+    "url": "/manus-storage/e845fa3a7912d82a_f552165c.png",
+    "sha256": "c4d190ffdf5b5fc41eac2b40c29a53bc5d800e20955734dfcd8d608716caf3fd",
+    "bytes": 16740
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/e8db43c95cca5070.png": {
+    "url": "/manus-storage/e8db43c95cca5070_f62ab180.png",
+    "sha256": "c3a535dbbb400fdf205f66bd1acd56ceccc3e1a98a8fea9ee78d78cd4eaaa71a",
+    "bytes": 10978
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/e86a811b82a656e6.png": {
+    "url": "/manus-storage/e86a811b82a656e6_5e0d713b.png",
+    "sha256": "db4b6d743bf550c069567a83ea942b693953cde4b649abecba8e7c0155ee99b2",
+    "bytes": 32937
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/ebdfd222671e59e3.png": {
+    "url": "/manus-storage/ebdfd222671e59e3_1be8c70c.png",
+    "sha256": "f59e21c4198453767275daabb5c7502d9c42f1e286cf852bada0c0801b0b9bbf",
+    "bytes": 18477
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/eca343edcc6424ee.png": {
+    "url": "/manus-storage/eca343edcc6424ee_53e7079d.png",
+    "sha256": "4397a27c8e09ca8b373bd795f30380fcd1b6af6eaa228230ccd99290c9ea30bb",
+    "bytes": 16112
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/ed46d9e96f292d27.png": {
+    "url": "/manus-storage/ed46d9e96f292d27_5209fd31.png",
+    "sha256": "c89a3f86d985679bdc6de6915c8e3236165a62649e17958586b1151a61e23812",
+    "bytes": 25559
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/ed76104451700562.png": {
+    "url": "/manus-storage/ed76104451700562_55f7c955.png",
+    "sha256": "de1475a81f2703dcfe4a730f913fdd346b75eb22d7436cf44af9ca612a15f438",
+    "bytes": 6122
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/ef23a89b353f3c7f.png": {
+    "url": "/manus-storage/ef23a89b353f3c7f_9f3359b2.png",
+    "sha256": "d47abb60d58f0d40f4f08166a4464ba20296343a331930ac6e332d420f55dcd9",
+    "bytes": 20109
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/ed9c24607b9152ef.png": {
+    "url": "/manus-storage/ed9c24607b9152ef_c009c64f.png",
+    "sha256": "737cfe31ecf2474110f7b4d8bbadc2839087b3cb8503a1df44ba65199d3e9336",
+    "bytes": 19839
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/eff368a69490dbf4.png": {
+    "url": "/manus-storage/eff368a69490dbf4_7551ef32.png",
+    "sha256": "cdefeed1cffde56565262ab2fd324cff9faacde6b95ecb89c93f5ecb20aaacd6",
+    "bytes": 29808
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/efe1cf81164c4e1e.png": {
+    "url": "/manus-storage/efe1cf81164c4e1e_ac0827b0.png",
+    "sha256": "68a1192554ba705519cf7d10c2d097765d9eb9b72834c32d9379fd2d0e0e010e",
+    "bytes": 21270
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/f0af1a81e8733c05.png": {
+    "url": "/manus-storage/f0af1a81e8733c05_165a9e45.png",
+    "sha256": "6658b7f7d346a44bb44d051478ea2e894fc0e6c65c93fb01805bd5c28bd5608e",
+    "bytes": 14339
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/f0eb34e05b35aa58.png": {
+    "url": "/manus-storage/f0eb34e05b35aa58_fefe7144.png",
+    "sha256": "d3a68fce42331e8be957d4fa9ad4831b741f318389df107fc4a1d126b2b9e88e",
+    "bytes": 4767
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/f20e617968c0fbfc.png": {
+    "url": "/manus-storage/f20e617968c0fbfc_05461a54.png",
+    "sha256": "32df0bab19ad54b5d5fbc9f46963f45e84d0cfdc4625dd148fb252b5f42a311f",
+    "bytes": 27975
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/f1451f225b0ee17f.png": {
+    "url": "/manus-storage/f1451f225b0ee17f_3bbdb478.png",
+    "sha256": "3988192d97721e0646918869e28521634aebc084c9f479b0c07f80b0466e5333",
+    "bytes": 17674
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/f2725ca0378983c6.png": {
+    "url": "/manus-storage/f2725ca0378983c6_ce2eb419.png",
+    "sha256": "0beb5c48b1fc634e3e52d425fb9a8fa2b48c1399e2aba4b8cb8aac81b4296317",
+    "bytes": 9199
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/f583d31587c7114d.png": {
+    "url": "/manus-storage/f583d31587c7114d_7fd73e62.png",
+    "sha256": "24504698f748be8b066bf5ba81da33f7a6013fe206139525c12395ca02c0a0a4",
+    "bytes": 21111
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/f6ba60773eb76974.png": {
+    "url": "/manus-storage/f6ba60773eb76974_a81b3592.png",
+    "sha256": "57656967d87a86ddef1fe48e9a7b78a907cca8e4d3fa5fc8ce668e2223bb4659",
+    "bytes": 17912
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/f878e2f25557bc32.png": {
+    "url": "/manus-storage/f878e2f25557bc32_5c19693a.png",
+    "sha256": "c94d62e57e7bebbb3a1a66eedccf3437d7ac1f5ed6e74e37aadbb6a4a40380c1",
+    "bytes": 22972
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/f92c68f11ed47c55.png": {
+    "url": "/manus-storage/f92c68f11ed47c55_ea1dd51c.png",
+    "sha256": "88f2569cfec63f832b148118033cb87ae41d55787f247865598654bacf669942",
+    "bytes": 22318
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/f9d08b37345cead7.png": {
+    "url": "/manus-storage/f9d08b37345cead7_a1b8b996.png",
+    "sha256": "794075ebe01ccfce001790e173a8e7d27e143379e0094329fe59c727f55d2897",
+    "bytes": 13809
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/fbd6549332e3315a.png": {
+    "url": "/manus-storage/fbd6549332e3315a_c1f6eb53.png",
+    "sha256": "6d22bcd01b902ecb190c478352708466a5a0f244d96890fea15b01a5bb2456ce",
+    "bytes": 10955
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/fd89c4fcd2795d77.png": {
+    "url": "/manus-storage/fd89c4fcd2795d77_1e10a876.png",
+    "sha256": "552cdcc580fbc4851e9eb41903b115260df86aee365f897470062748ba2f9b54",
+    "bytes": 17679
+  },
+  "/home/ubuntu/life-science-atlas/assets/logos_display/ffe6b515580b5507.png": {
+    "url": "/manus-storage/ffe6b515580b5507_9eceb893.png",
+    "sha256": "d8c46993ffa5c2e3c507062806040ac5a70195591de34c6c3b742484c67db74f",
+    "bytes": 29056
+  }
+}

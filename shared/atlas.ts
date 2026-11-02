@@ -1,0 +1,15 @@
+export type Evidence = 'baseline' | 'research';
+export interface Fact { key:string; label:string; value:string|number|null; unit?:string|null; scope?:string|null; asOf?:string|null; periodStart?:string|null; status:string; sourceIds:string[]; notes?:string|null; section:string }
+export interface Source { id:string; title:string; url:string|null; publishedDate?:string|null; retrievedDate?:string|null; visibility:string }
+export interface CompanySummary { id:string; name:string; kind:string; evidence:Evidence; category:string; ticker:string|null; listing:string|null; parent:string|null; website:string|null; logoUrl:string|null; regionIds:string[]; cities:string[]; stage:string|null; priority:string|null; score:number|null; coverage:number|null; occupancyRead:string; occupancyReason:string; cash:Fact|null; runway:Fact|null; employees:Fact|null }
+export interface MapSite { id:string; profileId:string; regionId:string; company:string; city:string; zone:string|null; address:string; country:string; latitude:number|null; longitude:number|null; precision:string; evidence:Evidence; physicalStatus:string; functions:string[]; sourceIds:string[]; referenceType?:string|null; isAnchor?:boolean; facts?:Fact[] }
+export interface FootprintEvent { id:string; title:string; type:string; date:string|null; status:string; direction:string|null; siteIds:string[]; sourceIds:string[]; notes:string|null }
+export interface ImportedObservation { id:string; note:string; facts:Fact[]; sources:Source[] }
+export interface CompanyProfile extends CompanySummary { facts:Fact[]; sites:MapSite[]; events:FootprintEvent[]; sources:Source[]; gaps:string[]; imported:ImportedObservation[]; peers?:CompanySummary[] }
+export interface AerialView { id:string; regionId:string; title:string; bounds:[number,number,number,number]; imageBounds?:[number,number,number,number]; imageUrl:string; exhibitUrl:string|null; captureYears:number[]; attribution:string; captureNote:string; siteIds:string[]; sources:Source[] }
+export interface AtlasRegion { id:string; name:string; geography:string; country:string; center:[number,number]; zoom:number; macroUrl:string|null; pdfUrl:string|null; baselineCompanies:number; researchCompanies:number; sites:number; preciseSites:number; aerialCount:number; description:string }
+export interface Zone { id:string; name:string; regionId:string; bounds:[number,number,number,number]; analytical:true; siteIds:string[] }
+export interface RegionResponse { region:AtlasRegion; companies:CompanySummary[]; sites:MapSite[]; aerials:AerialView[]; zones:Zone[] }
+export interface OverviewResponse { regions:AtlasRegion[]; totals:{baselineProfiles:number;researchProfiles:number;sites:number;aerialViews:number}; asOf:string; methodology:string }
+export interface CompanyListResponse { items:CompanySummary[]; total:number; page:number; limit:number }
+export interface AtlasSeed { version:string; asOf:string; regions:AtlasRegion[]; companies:CompanyProfile[]; sites:MapSite[]; aerials:AerialView[]; zones:Zone[]; sourceHashes:Record<string,string> }

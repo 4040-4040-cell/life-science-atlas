@@ -111,3 +111,11 @@ temp/
 
 # Manus version file (auto-generated, not part of source)
 client/public/__manus__/version.json
+
+# Atlas local working copies; durable assets are in project storage.
+assets/
+data/atlas-seed.json
+data/atlas-seed_V*.json
+scripts/__pycache__/
+# Parent-project ledger snapshot is audit-only, not application source.
+data/figures-ledger_web-build_V1.json

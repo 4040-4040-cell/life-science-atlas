@@ -8,6 +8,7 @@ import viteConfig from "../../vite.config";
 
 export async function setupVite(app: Express, server: Server) {
   const serverOptions = {
+    ...viteConfig.server,
     middlewareMode: true,
     hmr: { server },
     allowedHosts: true as const,
@@ -20,6 +21,34 @@ export async function setupVite(app: Express, server: Server) {
     appType: "custom",
   });
 
+  const browserRoots = ["client", "shared", "node_modules"].map(dir =>
+    path.resolve(import.meta.dirname, "../..", dir)
+  );
+  app.use((req, res, next) => {
+    let requestPath = req.path;
+    try {
+      for (let pass = 0; pass < 2; pass++) {
+        const decoded = decodeURIComponent(requestPath);
+        if (decoded === requestPath) break;
+        requestPath = decoded;
+      }
+    } catch {
+      res.status(400).json({ error: "Invalid file request" });
+      return;
+    }
+    const privatePath = /(?:^|\/)(?:data|scripts|server|drizzle|assets)(?:\/|$)/.test(requestPath);
+    const credentialPath = /(?:^|\/)(?:\.env[^/]*|\.git)(?:\/|$)/.test(requestPath);
+    let outsideBrowserRoots = false;
+    if (requestPath.startsWith("/@fs/")) {
+      const target = path.resolve("/", requestPath.slice(5));
+      outsideBrowserRoots = !browserRoots.some(root => target === root || target.startsWith(root + path.sep));
+    }
+    if (requestPath.includes("\0") || privatePath || credentialPath || outsideBrowserRoots) {
+      res.status(403).set("Cache-Control", "no-store").json({ error: "Restricted project file" });
+      return;
+    }
+    next();
+  });
   app.use(vite.middlewares);
   app.use("*", async (req, res, next) => {
     const url = req.originalUrl;

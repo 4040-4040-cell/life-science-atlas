@@ -1,0 +1,12 @@
+{
+  "review_date": "2026-11-02",
+  "scope": "Approved plan and actual implementation, read-only independent review",
+  "findings": [
+    {"id": "privacy-vite-fs", "severity": "high", "issue": "Preview filesystem route bypassed API safe projection", "resolution": "Vite browser-root allowlist, sensitive-path deny rules, pre-Vite generic 403 guard; private-file and encoded-route checks passed", "status": "fixed"},
+    {"id": "mixed-evidence-filter", "severity": "high", "issue": "Research filter excluded reported observations linked to regional baseline companies", "resolution": "Derive research membership from matching site observations without changing company masters or census count grains", "status": "in_progress"},
+    {"id": "clinical-truncation", "severity": "medium", "issue": "Seed preparation retained only an initial subset of active registry programs", "resolution": "V4 restores all retained original trial IDs and source/status notes; no UI-driven data truncation", "status": "data_corrected_persistence_pending"},
+    {"id": "financing-scope", "severity": "medium", "issue": "Generic caveat replaced original financing amount scope", "resolution": "V4 retains the original amount scope and financing type, with companywide/not-local-space caveat in notes", "status": "data_corrected_persistence_pending"},
+    {"id": "frame-filter", "severity": "medium", "issue": "Aerial frame selection narrowed only the map, not the companion company set and CSV", "resolution": "Use the same supported frame/company-ID selection across view, index, matrix and export", "status": "in_progress"}
+  ],
+  "original_sources_and_profile_ids_preserved": true
+}

@@ -1,0 +1,89 @@
+{
+  "as_of": "2026-11-02",
+  "source": "data/atlas-seed.json",
+  "baseline_company_profiles": 480,
+  "research_only_profiles": 773,
+  "institutional_reference_profiles": 23,
+  "site_rows": 1648,
+  "aerial_views": 57,
+  "original_import_observations": 1107,
+  "regions": [
+    {
+      "id": "biotech-beach",
+      "baselineCompanies": 48,
+      "researchCompanies": 121,
+      "preciseSites": 43,
+      "aerialCount": 20
+    },
+    {
+      "id": "genetown",
+      "baselineCompanies": 68,
+      "researchCompanies": 135,
+      "preciseSites": 72,
+      "aerialCount": 22
+    },
+    {
+      "id": "biotech-bay",
+      "baselineCompanies": 70,
+      "researchCompanies": 102,
+      "preciseSites": 0,
+      "aerialCount": 0
+    },
+    {
+      "id": "basel",
+      "baselineCompanies": 34,
+      "researchCompanies": 0,
+      "preciseSites": 33,
+      "aerialCount": 15
+    },
+    {
+      "id": "pharm-country",
+      "baselineCompanies": 57,
+      "researchCompanies": 117,
+      "preciseSites": 0,
+      "aerialCount": 0
+    },
+    {
+      "id": "biocapital",
+      "baselineCompanies": 34,
+      "researchCompanies": 64,
+      "preciseSites": 0,
+      "aerialCount": 0
+    },
+    {
+      "id": "bio-nc",
+      "baselineCompanies": 42,
+      "researchCompanies": 66,
+      "preciseSites": 0,
+      "aerialCount": 0
+    },
+    {
+      "id": "biomidwest",
+      "baselineCompanies": 51,
+      "researchCompanies": 68,
+      "preciseSites": 0,
+      "aerialCount": 0
+    },
+    {
+      "id": "seattle",
+      "baselineCompanies": 23,
+      "researchCompanies": 29,
+      "preciseSites": 0,
+      "aerialCount": 0
+    },
+    {
+      "id": "boulder",
+      "baselineCompanies": 15,
+      "researchCompanies": 20,
+      "preciseSites": 0,
+      "aerialCount": 0
+    },
+    {
+      "id": "uk",
+      "baselineCompanies": 61,
+      "researchCompanies": 76,
+      "preciseSites": 0,
+      "aerialCount": 0
+    }
+  ]
+}
