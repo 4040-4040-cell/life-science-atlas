@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "testedAt": "2026-11-04T12:03:35.777Z",
+  "checks": 299,
+  "aerialViews": 57,
+  "positionedRecordsAcrossOverlappingFrames": 185,
+  "campusReferencesAcrossFrames": 5,
+  "projection": "EPSG:3857 native rasters; Mercator y and linear longitude; imageBounds independent of study frame"
+}

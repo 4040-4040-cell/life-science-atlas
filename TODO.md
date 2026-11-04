@@ -15,3 +15,12 @@ The initial visual certification was withdrawn. Real browser inspection found fa
 ## Evidence and limits
 
 `data/corrective-release_V2.json` records the bounded checks and remaining research gaps. `data/financial-verification_V5.json` records source/period checks for the corrected cash flows. `scripts/proof-browser.py` captures actual browser interactions for human review, not an automatic visual-pass assertion. Frontend tests read the committed corrected compressed fixture rather than an ignored local seed. Undisclosed lease terms, local employment, occupied area and unverified imported observations remain explicit gaps.
+
+## Final product and print delivery, 4 November 2026
+
+- [x] Every market page has a “Print this market” action that opens a dedicated one-page landscape sheet. Print must exclude navigation, interactive controls, drawers and the full company matrix. The sheet contains the baseline geographic map, city-group index, evidence/date scope and attribution, not an invented complete census.
+- [x] Ready-made one-page PDF for each of all 11 markets and one combined 11-page file, with clear download links and individual PDFs available together in a ZIP. No clipped content or duplicate blank pages.
+- [x] Downloadable full offline research site, including retained profiles, searches, filters, CSV exports, local saved hub and aerial imagery and local print downloads. Offline mode must not call live map, database or asset services. External source links require internet; the snapshot does not claim automatic updates. Instructions must state the local runtime requirement.
+- [ ] Verify actual print pagination and offline interactions, run affected automated checks, preserve the prior source version and save the new canonical version. Permanent publication requires the user’s pending permission; do not infer that from print/download approval.
+
+Print generation, all-market paper checks, no-network offline browser proof and retained API/export checks passed. The offline V3 ZIP is durably stored. Final source save remains open until canonical push; permanent publication is not yet approved.

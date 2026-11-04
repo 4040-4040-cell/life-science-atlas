@@ -47,3 +47,9 @@ Use an editorial institutional hierarchy with a narrow tracked product eyebrow, 
 ## Delivery
 
 Provide the functioning atlas in Preview with a saved Manus checkpoint and persistent back-end data. Include the populated supported fields, visible source gaps and incorporated map work. Do not represent Preview as a published website or add unattended refresh jobs without a separate request.
+
+## Final product and print extension, 4 November 2026
+
+Add a dedicated `/print/:regionId` page and a prominent “Print this market” action to each hub. Use a fixed landscape Letter print layout with a baseline map and city-group index. Export a prepared single-page PDF for each market and a combined file. These fixed sheets use the retained baseline date and figures rather than live filtered totals or unchecked research imports; company detail stays in the full workstation.
+
+Package the compiled client with a dependency-free local Node server, a read-only source-safe dataset snapshot and locally remapped logo, macro, aerial and print assets. Offline endpoints must retain the same identity, regional evidence and CSV filtering rules. Use local saved maps with explicit city/address precision in offline mode rather than attempting a live Google basemap. The offline ZIP is not an automatic refresh service and does not include private brochures or credentials. Hosted permanent publication remains subject to the pending user choice.

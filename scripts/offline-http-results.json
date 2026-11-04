@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "testedAt": "2026-11-04T12:17:43.363Z",
+  "checks": 18,
+  "port": 8788,
+  "bindAddress": "127.0.0.1",
+  "runtimeOnlyProof": false,
+  "compiledPackage": "/home/ubuntu/life-science-atlas/offline_atlas_V3",
+  "note": "Final package HTTP/API proof."
+}

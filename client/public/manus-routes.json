@@ -1,1 +1,1 @@
-{"routes":[{"path":"/","title":"Life Science Atlas · Hub comparison"},{"path":"/hub/:regionId","title":"Regional intelligence workspace"},{"path":"/methodology","title":"Methodology & coverage"}]}
+{"routes":[{"path":"/","title":"Life Science Atlas · Hub comparison"},{"path":"/hub/:regionId","title":"Regional intelligence workspace"},{"path":"/print/:regionId","title":"One-page market print sheet"},{"path":"/methodology","title":"Methodology & coverage"}]}

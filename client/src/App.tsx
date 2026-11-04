@@ -7,6 +7,7 @@ import AtlasOverview from "./pages/AtlasOverview";
 import AtlasHub from "./pages/AtlasHub";
 import AtlasMethodology from "./pages/AtlasMethodology";
 import NotFound from "./pages/NotFound";
+import AtlasMarketPrint from "./pages/AtlasMarketPrint";
 
 export default function App() {
   const [companyId, setCompanyId] = useState<string | null>(null);
@@ -15,6 +16,8 @@ export default function App() {
     setCompanyId(null);
     window.scrollTo(0, 0);
   }, [location]);
+  const printRegion = location.match(/^\/print\/([a-z0-9-]+)$/)?.[1];
+  if (printRegion) return <ErrorBoundary><AtlasMarketPrint key={printRegion} regionId={printRegion} /></ErrorBoundary>;
   return (
     <ErrorBoundary>
       <a className="skip-link" href="#main-content">

@@ -1,0 +1,61 @@
+{
+  "passed": true,
+  "markets": [
+    {
+      "region": "basel",
+      "pages": 1,
+      "paper": "Letter landscape"
+    },
+    {
+      "region": "biotech-bay",
+      "pages": 1,
+      "paper": "Letter landscape"
+    },
+    {
+      "region": "biotech-beach",
+      "pages": 1,
+      "paper": "Letter landscape"
+    },
+    {
+      "region": "genetown",
+      "pages": 1,
+      "paper": "Letter landscape"
+    },
+    {
+      "region": "pharm-country",
+      "pages": 1,
+      "paper": "Letter landscape"
+    },
+    {
+      "region": "biocapital",
+      "pages": 1,
+      "paper": "Letter landscape"
+    },
+    {
+      "region": "bio-nc",
+      "pages": 1,
+      "paper": "Letter landscape"
+    },
+    {
+      "region": "biomidwest",
+      "pages": 1,
+      "paper": "Letter landscape"
+    },
+    {
+      "region": "seattle",
+      "pages": 1,
+      "paper": "Letter landscape"
+    },
+    {
+      "region": "boulder",
+      "pages": 1,
+      "paper": "Letter landscape"
+    },
+    {
+      "region": "uk",
+      "pages": 1,
+      "paper": "Letter landscape"
+    }
+  ],
+  "note": "Ten markets passed original pagination; UK completed in fresh browser after navigation timeout."
+}

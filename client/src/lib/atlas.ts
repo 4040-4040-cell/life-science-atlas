@@ -183,6 +183,13 @@ export const validCoordinates = (
   Math.abs(site.longitude) <= 180;
 export function safeUrl(url?: string | null): string | undefined {
   if (!url) return undefined;
+  if (url.startsWith("/offline-assets/")) {
+    try {
+      const decoded = decodeURIComponent(url);
+      if (!/^\/offline-assets\/[A-Za-z0-9._%/-]+$/.test(url) || decoded.split("/").some(part => part === "." || part === "..") || /[\\\x00-\x1f]/.test(decoded)) return undefined;
+      return url;
+    } catch { return undefined; }
+  }
   if (
     url.startsWith("/manus-storage/") ||
     url.startsWith("/api/atlas/") ||

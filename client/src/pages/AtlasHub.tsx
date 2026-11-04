@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link } from "wouter";
-import { ArrowLeft, ArrowUpRight, Image, Map, ShieldCheck } from "lucide-react";
+import { ArrowLeft, ArrowUpRight, Image, Map, Printer, ShieldCheck } from "lucide-react";
 import type { RegionResponse } from "@shared/atlas";
 import {
   count,
@@ -24,6 +24,8 @@ import {
   SourceLinks,
 } from "@/components/atlas/Primitives";
 import { AtlasMap, MapLegend } from "@/components/atlas/AtlasMap";
+import { OfflineAtlasMap } from "@/components/atlas/OfflineAtlasMap";
+import { isAtlasOffline } from "@/lib/offlineAtlas";
 import { coverageText, defaultAerialId, regionPresentation } from "@/lib/regionPresentation";
 import {
   CityCompanyIndex,
@@ -44,6 +46,7 @@ export default function AtlasHub({
   const [filters, setFilters] = useState<Filters>({ ...emptyFilters });
   const [tab, setTab] = useState("map");
   const [aerialId, setAerialId] = useState("");
+  const MapComponent = isAtlasOffline() ? OfflineAtlasMap : AtlasMap;
   useEffect(() => {
     setFilters({ ...emptyFilters });
     setTab("map");
@@ -103,6 +106,7 @@ export default function AtlasHub({
         title={regionPresentation(region).label}
         description={regionPresentation(region).subtitle}
       >
+        <Link className="button button-small" href={`/print/${regionId}`}><Printer size={14} />Print this market</Link>
         <DownloadLink url={safeUrl(region.pdfUrl)}>
           Regional exhibit PDF
         </DownloadLink>
@@ -217,7 +221,7 @@ export default function AtlasHub({
         }
       >
         <div className="map-column">
-          <AtlasMap
+          <MapComponent
             key={`${regionId}-${tab}`}
             region={region}
             sites={sites}

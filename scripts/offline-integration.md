@@ -1,0 +1,19 @@
+# Offline integration hooks
+
+The offline package script is `node scripts/offline-package.mjs --output /home/ubuntu/life-science-atlas/offline_atlas_V1`. Run it AFTER the final `pnpm build` and after the print manifest/assets are final. The live snapshot capture is `node scripts/offline-capture.mjs`; its cache is local and not a live fallback.
+
+Parent-owned changes required:
+
+1. In `AtlasHub.tsx`, route `AtlasMap` to `OfflineAtlasMap` imported from `@/components/atlas/OfflineAtlasMap` when `isAtlasOffline()` imported from `@/lib/offlineAtlas` returns true. It has the SAME props as `AtlasMap`, including optional companies, aerial, zones and profile click callback. Keep `MapLegend` as-is; it does not initialize Google. Hosted live mode must continue using the live map, with no fallback on errors.
+2. In the overview, route `OverviewMap` to `OfflineOverviewMap` from the same new component when `isAtlasOffline()`. It provides a source-aware regional index without online maps.
+3. In `client/src/lib/atlas.ts` `safeUrl`, accept `/offline-assets/` (the package remaps all stored media URLs to this local path). Use the same safe relative-path guard as existing accepted media URLs. This acceptance does not change live API behavior.
+4. Runtime offline flag is injected BEFORE the compiled client by the local server index response, and also returned by `/api/platform/config.js`: `window.__ATLAS_OFFLINE__ = true; window.__MANUS_CONFIG__ = {};`. No change to App is required for the flag. Optional local-only badge may use the same helper.
+5. Print manifest can use its normal `/manus-storage/` print URLs. The package script explicitly maps those manifest URLs to the actual cached print files in `--print-dir /home/ubuntu/life-science-atlas/print_markets_V1/output`, copies them to `/offline-assets/print/`, and rewrites text asset URLs inside the compiled JS as well as the snapshot. Other stored media use the SHA-checked `data/asset-transfer.json` map. Supply the final manifest before assembly; the script fails closed if a storage URL has no cached local asset, or if the compiled JS lacks both offline components and the offline flag.
+
+The local server is never imported into hosted server code. It listens only on 127.0.0.1 and serves GET/HEAD only. Profiles are captured through the live read-only API, checked against corrected seed CFO values and explicit retained frame membership, and stored without credentials/private documents. External evidence URL links stay intact and require internet when opened intentionally.
+
+You may implement wrappers in `AtlasMap.tsx` instead of changing each caller: rename the current exports to `LiveAtlasMap` / `LiveOverviewMap`, export the original names as components that select offline or live by `isAtlasOffline()`. Do not conditionally call hooks inside one component; render a separate component for each branch. The offline props signatures are identical. `MapLegend` stays unchanged.
+
+After final build and assembly, run `ATLAS_TEST_LIVE=1 node scripts/offline-test.mjs /home/ubuntu/life-science-atlas/offline_atlas_V1` and `node scripts/offline-http-test.mjs /home/ubuntu/life-science-atlas/offline_atlas_V1`. The latter starts/stops its own loopback-only server (default 8787; use `ATLAS_TEST_PORT=8788` if needed). Final browser proof should abort every request whose origin is not this loopback server and inspect all remote attempts; external sources should be opened only intentionally. Runtime/API proof before assembly is separately labeled, not claimed as final browser certification.
+
+The package README says Node.js 20+ already installed, no npm install, Windows/macOS/Linux only for the full workstation. PDFs open directly on iPhone. It does not claim a normal iPhone Safari can execute Node or the ZIP. Every prepared single-market PDF, the combined PDF and individual-PDF ZIP are included, along with `public/print-downloads.html` for direct print-file browsing.

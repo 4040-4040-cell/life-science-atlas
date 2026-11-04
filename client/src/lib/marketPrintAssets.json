@@ -1,0 +1,96 @@
+{
+  "edition": "Life Science Atlas — One-Page Market Maps",
+  "asOf": "2026-10-28",
+  "allMarketsPdfUrl": "/manus-storage/life-science-atlas_all-markets_one-page-each_V1_b1001769.pdf",
+  "individualPdfZipUrl": "/manus-storage/life-science-atlas_individual-one-page-maps_V1_260f79e3.zip",
+  "markets": {
+    "basel": {
+      "title": "Basel, Switzerland",
+      "imageUrl": "/manus-storage/basel_one-page_870b5352.png",
+      "pdfUrl": "/manus-storage/basel_one-page_3b78de85.pdf",
+      "baselineCompanies": 34,
+      "anchors": 7,
+      "asOf": "2026-10-28"
+    },
+    "biotech-bay": {
+      "title": "Biotech Bay",
+      "imageUrl": "/manus-storage/biotech-bay_one-page_19b528c6.png",
+      "pdfUrl": "/manus-storage/biotech-bay_one-page_444e4a33.pdf",
+      "baselineCompanies": 70,
+      "anchors": 6,
+      "asOf": "2026-10-28"
+    },
+    "biotech-beach": {
+      "title": "Biotech Beach",
+      "imageUrl": "/manus-storage/biotech-beach_one-page_10215473.png",
+      "pdfUrl": "/manus-storage/biotech-beach_one-page_e0d45b6f.pdf",
+      "baselineCompanies": 48,
+      "anchors": 7,
+      "asOf": "2026-10-28"
+    },
+    "genetown": {
+      "title": "Genetown",
+      "imageUrl": "/manus-storage/genetown_one-page_6dfe4fcf.png",
+      "pdfUrl": "/manus-storage/genetown_one-page_81a44612.pdf",
+      "baselineCompanies": 68,
+      "anchors": 8,
+      "asOf": "2026-10-28"
+    },
+    "pharm-country": {
+      "title": "Pharm Country",
+      "imageUrl": "/manus-storage/pharm-country_one-page_6d672be9.png",
+      "pdfUrl": "/manus-storage/pharm-country_one-page_8b9885d7.pdf",
+      "baselineCompanies": 57,
+      "anchors": 8,
+      "asOf": "2026-10-28"
+    },
+    "biocapital": {
+      "title": "BioCapital",
+      "imageUrl": "/manus-storage/biocapital_one-page_a1926e2d.png",
+      "pdfUrl": "/manus-storage/biocapital_one-page_7c06a366.pdf",
+      "baselineCompanies": 34,
+      "anchors": 7,
+      "asOf": "2026-10-28"
+    },
+    "bio-nc": {
+      "title": "Bio NC",
+      "imageUrl": "/manus-storage/bio-nc_one-page_81336fbd.png",
+      "pdfUrl": "/manus-storage/bio-nc_one-page_186a8ff6.pdf",
+      "baselineCompanies": 42,
+      "anchors": 8,
+      "asOf": "2026-10-28"
+    },
+    "biomidwest": {
+      "title": "BioMidwest",
+      "imageUrl": "/manus-storage/biomidwest_one-page_19c2226d.png",
+      "pdfUrl": "/manus-storage/biomidwest_one-page_5a9297d3.pdf",
+      "baselineCompanies": 51,
+      "anchors": 8,
+      "asOf": "2026-10-28"
+    },
+    "seattle": {
+      "title": "Seattle / Puget Sound",
+      "imageUrl": "/manus-storage/seattle_one-page_b060efe7.png",
+      "pdfUrl": "/manus-storage/seattle_one-page_6f318897.pdf",
+      "baselineCompanies": 23,
+      "anchors": 8,
+      "asOf": "2026-10-28"
+    },
+    "boulder": {
+      "title": "Boulder / Front Range",
+      "imageUrl": "/manus-storage/boulder_one-page_38d3cefb.png",
+      "pdfUrl": "/manus-storage/boulder_one-page_9ca53f0d.pdf",
+      "baselineCompanies": 15,
+      "anchors": 4,
+      "asOf": "2026-10-28"
+    },
+    "uk": {
+      "title": "United Kingdom",
+      "imageUrl": "/manus-storage/uk_one-page_369ae48c.png",
+      "pdfUrl": "/manus-storage/uk_one-page_c95888bc.pdf",
+      "baselineCompanies": 61,
+      "anchors": 8,
+      "asOf": "2026-10-28"
+    }
+  }
+}

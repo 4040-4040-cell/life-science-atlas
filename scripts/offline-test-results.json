@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "checks": 533,
+  "testedAt": "2026-11-04T12:17:42.273Z",
+  "profiles": 1276,
+  "markets": 11,
+  "frameEvidenceCombinations": 171,
+  "correctedPositiveCfo": {
+    "profileId": "gco_e2dfe3f6013a3ea81210",
+    "value": 43.094,
+    "unit": "USD millions",
+    "asOf": "2026-06-30",
+    "periodStart": "2026-01-01",
+    "sourceIds": [
+      "biotech-bay:SEC_FACT_1770787_000162828026054491"
+    ]
+  },
+  "liveParity": true
+}

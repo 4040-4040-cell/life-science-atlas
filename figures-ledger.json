@@ -1,6 +1,6 @@
 {
   "project": "Life Science Atlas / client application",
-  "last_updated": "2026-11-02",
+  "last_updated": "2026-11-04",
   "figures": [
     {
       "id": "web-atlas-baseline_company_profiles-20261102",
@@ -96,7 +96,7 @@
       "metric": "Signed operating cash flow",
       "value": "4.376",
       "unit": "USD millions",
-      "scope": "908 Devices; Global reporting entity: 908 DEVICES INC.; reported consolidated CFO, not cash use or local liquidity",
+      "scope": "908 Devices; Global reporting entity: 908 DEVICES\u00a0INC.; reported consolidated CFO, not cash use or local liquidity",
       "period": "2026-01-01 to 2026-06-30",
       "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001104659-26-093731",
       "source_urls": [
@@ -232,7 +232,7 @@
       "metric": "Signed operating cash flow",
       "value": "222.18",
       "unit": "USD millions",
-      "scope": "AptarGroup; Global reporting entity: AptarGroup, Inc; reported consolidated CFO, not cash use or local liquidity",
+      "scope": "AptarGroup; Global reporting entity: AptarGroup,\u00a0Inc; reported consolidated CFO, not cash use or local liquidity",
       "period": "2026-01-01 to 2026-06-30",
       "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0000896622-26-000168",
       "source_urls": [
@@ -521,7 +521,7 @@
       "metric": "Signed operating cash flow",
       "value": "220.802",
       "unit": "USD millions",
-      "scope": "Charles River Laboratories; Global reporting entity: CHARLES RIVER LABORATORIES INTERNATIONAL, INC.; reported consolidated CFO, not cash use or local liquidity",
+      "scope": "Charles River Laboratories; Global reporting entity: CHARLES RIVER LABORATORIES INTERNATIONAL,\u00a0INC.; reported consolidated CFO, not cash use or local liquidity",
       "period": "2025-12-28 to 2026-06-27",
       "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001100682-26-000118",
       "source_urls": [
@@ -810,7 +810,7 @@
       "metric": "Signed operating cash flow",
       "value": "120.192",
       "unit": "USD millions",
-      "scope": "Harmony Biosciences; Global reporting entity: HARMONY BIOSCIENCES HOLDINGS, INC.; reported consolidated CFO, not cash use or local liquidity",
+      "scope": "Harmony Biosciences; Global reporting entity: HARMONY BIOSCIENCES HOLDINGS,\u00a0INC.; reported consolidated CFO, not cash use or local liquidity",
       "period": "2026-01-01 to 2026-06-30",
       "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001104659-26-090090",
       "source_urls": [
@@ -878,7 +878,7 @@
       "metric": "Signed operating cash flow",
       "value": "36.077",
       "unit": "USD millions",
-      "scope": "Inspire Medical Systems; Global reporting entity: Inspire Medical Systems, Inc.; reported consolidated CFO, not cash use or local liquidity",
+      "scope": "Inspire Medical Systems; Global reporting entity: Inspire Medical Systems,\u00a0Inc.; reported consolidated CFO, not cash use or local liquidity",
       "period": "2026-01-01 to 2026-06-30",
       "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001609550-26-000047",
       "source_urls": [
@@ -946,7 +946,7 @@
       "metric": "Signed operating cash flow",
       "value": "63.397",
       "unit": "USD millions",
-      "scope": "Ironwood Pharmaceuticals, Inc.; Global reporting entity: IRONWOOD PHARMACEUTICALS, INC.; reported consolidated CFO, not cash use or local liquidity",
+      "scope": "Ironwood Pharmaceuticals, Inc.; Global reporting entity: IRONWOOD PHARMACEUTICALS,\u00a0INC.; reported consolidated CFO, not cash use or local liquidity",
       "period": "2026-01-01 to 2026-06-30",
       "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001104659-26-091987",
       "source_urls": [
@@ -1048,7 +1048,7 @@
       "metric": "Signed operating cash flow",
       "value": "9288.0",
       "unit": "USD millions",
-      "scope": "Merck & Co.; Global reporting entity: Merck & Co., Inc.; reported consolidated CFO, not cash use or local liquidity",
+      "scope": "Merck & Co.; Global reporting entity: Merck\u00a0& Co., Inc.; reported consolidated CFO, not cash use or local liquidity",
       "period": "2026-01-01 to 2026-06-30",
       "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0000310158-26-000212",
       "source_urls": [
@@ -1116,7 +1116,7 @@
       "metric": "Signed operating cash flow",
       "value": "122.814",
       "unit": "USD millions",
-      "scope": "Omnicell, Inc.; Global reporting entity: OMNICELL, INC; reported consolidated CFO, not cash use or local liquidity",
+      "scope": "Omnicell, Inc.; Global reporting entity: OMNICELL,\u00a0INC; reported consolidated CFO, not cash use or local liquidity",
       "period": "2026-01-01 to 2026-06-30",
       "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0000926326-26-000022",
       "source_urls": [
@@ -1218,7 +1218,7 @@
       "metric": "Signed operating cash flow",
       "value": "70.071",
       "unit": "USD millions",
-      "scope": "PTC Therapeutics; Global reporting entity: PTC Therapeutics, Inc.; reported consolidated CFO, not cash use or local liquidity",
+      "scope": "PTC Therapeutics; Global reporting entity: PTC Therapeutics,\u00a0Inc.; reported consolidated CFO, not cash use or local liquidity",
       "period": "2026-01-01 to 2026-06-30",
       "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001070081-26-000017",
       "source_urls": [
@@ -1371,7 +1371,7 @@
       "metric": "Signed operating cash flow",
       "value": "61.714",
       "unit": "USD millions",
-      "scope": "Supernus Pharmaceuticals, Inc.; Global reporting entity: SUPERNUS PHARMACEUTICALS, INC.; reported consolidated CFO, not cash use or local liquidity",
+      "scope": "Supernus Pharmaceuticals, Inc.; Global reporting entity: SUPERNUS PHARMACEUTICALS,\u00a0INC.; reported consolidated CFO, not cash use or local liquidity",
       "period": "2026-01-01 to 2026-06-30",
       "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001356576-26-000037",
       "source_urls": [
@@ -1620,6 +1620,30 @@
       "verified": true,
       "locked": true,
       "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -1056.0 USD millions. Native SEC USD value 1056000000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "print-market-pages-20261104",
+      "metric": "Prepared single-page market PDFs",
+      "value": "11",
+      "scope": "This print edition only; one page for each requested geographic hub, not company counts",
+      "period": "2026-11-04 delivery",
+      "source": "client/src/lib/marketPrintAssets.json and data/market-print-verification_V1.json",
+      "as_of_date": "2026-11-04",
+      "verified": true,
+      "locked": false,
+      "notes": "Artifact-generated count. Evidence/accounting dates remain with original fields."
+    },
+    {
+      "id": "offline-entity-profiles-20261104",
+      "metric": "Offline entity profiles",
+      "value": "1276",
+      "scope": "Retained application profiles including companies, unchecked research and institutional references; not a tenant census",
+      "period": "2026-11-04 delivery",
+      "source": "scripts/offline-cache/snapshot.json.gz; captured 2026-11-04T11:55:28.207Z",
+      "as_of_date": "2026-11-04",
+      "verified": true,
+      "locked": false,
+      "notes": "Artifact-generated count. Evidence/accounting dates remain with original fields."
     }
   ],
   "financial_metric_source_of_truth": "Original V6 sourced cards and parent project figures-ledger; no source metric values changed in this build"

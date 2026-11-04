@@ -3,14 +3,19 @@ import { ArrowDown, ArrowRight, ArrowUpRight, BookOpen } from "lucide-react";
 import type { OverviewResponse } from "@shared/atlas";
 import { count, dateLabel, useAtlas } from "@/lib/atlas";
 import { regionPresentation } from "@/lib/regionPresentation";
-import { Metric, PageHeader } from "@/components/atlas/AtlasShell";
+import { DownloadLink, Metric, PageHeader } from "@/components/atlas/AtlasShell";
 import { ErrorState, Loading } from "@/components/atlas/Primitives";
 import { OverviewMap } from "@/components/atlas/AtlasMap";
+import { OfflineOverviewMap } from "@/components/atlas/OfflineAtlasMap";
+import { isAtlasOffline } from "@/lib/offlineAtlas";
+import printAssets from "../lib/marketPrintAssets.json";
+import offlineDownload from "../lib/offlineDownload.json";
 
 export default function AtlasOverview() {
   const query = useAtlas<OverviewResponse>("/overview");
   const [, navigate] = useLocation();
   const data = query.data;
+  const RegionalIndex = isAtlasOffline() ? OfflineOverviewMap : OverviewMap;
   return (
     <>
       <PageHeader
@@ -21,6 +26,8 @@ export default function AtlasOverview() {
         <a href="#regional-comparison" className="button">
           Compare hubs <ArrowDown size={15} />
         </a>
+        <DownloadLink url={printAssets.allMarketsPdfUrl}>All markets · one page each</DownloadLink>
+        {!isAtlasOffline() && <DownloadLink url={offlineDownload.url}>Offline atlas · desktop</DownloadLink>}
       </PageHeader>
       {query.isLoading ? (
         <Loading label="Opening the regional atlas" />
@@ -63,7 +70,7 @@ export default function AtlasOverview() {
                   Compare hubs <ArrowDown size={13} />
                 </a>
               </div>
-              <OverviewMap
+              <RegionalIndex
                 regions={data.regions}
                 onRegion={id => navigate(`/hub/${id}`)}
               />

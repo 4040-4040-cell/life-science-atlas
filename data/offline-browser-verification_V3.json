@@ -1,0 +1,111 @@
+{
+  "externalRequests": [],
+  "pageErrors": [],
+  "httpErrors": [],
+  "markets": [
+    {
+      "region": "basel",
+      "savedMapLoaded": true,
+      "matrixLoaded": true,
+      "printAction": true
+    },
+    {
+      "region": "bio-nc",
+      "savedMapLoaded": true,
+      "matrixLoaded": true,
+      "printAction": true
+    },
+    {
+      "region": "biocapital",
+      "savedMapLoaded": true,
+      "matrixLoaded": true,
+      "printAction": true
+    },
+    {
+      "region": "biomidwest",
+      "savedMapLoaded": true,
+      "matrixLoaded": true,
+      "printAction": true
+    },
+    {
+      "region": "biotech-bay",
+      "savedMapLoaded": true,
+      "matrixLoaded": true,
+      "printAction": true
+    },
+    {
+      "region": "biotech-beach",
+      "savedMapLoaded": true,
+      "matrixLoaded": true,
+      "printAction": true
+    },
+    {
+      "region": "boulder",
+      "savedMapLoaded": true,
+      "matrixLoaded": true,
+      "printAction": true
+    },
+    {
+      "region": "genetown",
+      "savedMapLoaded": true,
+      "matrixLoaded": true,
+      "printAction": true
+    },
+    {
+      "region": "pharm-country",
+      "savedMapLoaded": true,
+      "matrixLoaded": true,
+      "printAction": true
+    },
+    {
+      "region": "seattle",
+      "savedMapLoaded": true,
+      "matrixLoaded": true,
+      "printAction": true
+    },
+    {
+      "region": "uk",
+      "savedMapLoaded": true,
+      "matrixLoaded": true,
+      "printAction": true
+    }
+  ],
+  "profiles": [
+    {
+      "region": "basel",
+      "company": "Neurocrine Biosciences",
+      "displayedOperatingCashFlow": "282.2 USD millions",
+      "periodAndScope": "Global reporting entity: NEUROCRINE BIOSCIENCES INC\nAs of Jun 30, 2026\nPeriod from Jan 1, 2026",
+      "mapClick": true
+    },
+    {
+      "region": "biotech-beach",
+      "company": "Neurocrine Biosciences",
+      "displayedOperatingCashFlow": "282.2 USD millions",
+      "periodAndScope": "Global reporting entity: NEUROCRINE BIOSCIENCES INC\nAs of Jun 30, 2026\nPeriod from Jan 1, 2026",
+      "mapClick": true
+    },
+    {
+      "region": "genetown",
+      "company": "Vertex Pharmaceuticals",
+      "displayedOperatingCashFlow": "2,553.5 USD millions",
+      "periodAndScope": "Global reporting entity: VERTEX PHARMACEUTICALS INC / MA\nAs of Jun 30, 2026\nPeriod from Jan 1, 2026",
+      "mapClick": true
+    }
+  ],
+  "paper": [
+    {
+      "region": "basel",
+      "pages": 1
+    },
+    {
+      "region": "biotech-beach",
+      "pages": 1
+    },
+    {
+      "region": "genetown",
+      "pages": 1
+    }
+  ],
+  "passed": true
+}
