@@ -68,3 +68,13 @@ Print generation, all-market paper checks, no-network offline browser proof and 
 - [x] Real pointer and keyboard access to all grouped default-frame map records proven on desktop and phone; final register interactions and paper geometry checked online and offline.
 - [x] Type check, production build and affected client/server regression checks completed.
 - [ ] Final corrected source checkpoint recorded and permanent publication result confirmed.
+
+## Separate independent GitHub edition
+
+- [x] Transfer our saved source to the separately approved `4040-4040-cell/life-science-atlas` repository without modifying Claude's Hotbed Census repository. Transfer completed and main verified at `11d44bc296efb42386eed2e2759db029b05382e6`.
+- [x] Apply the owner's express authorization to make our repository public. Repository visibility verified by GitHub API.
+- [ ] Publish the entire retained interactive research snapshot on GitHub Pages. Company and address identities, Basel availability exclusions, company evidence states and per-field sources remain unchanged. Keep all market views, granular aerials, company drawers, CSV filtering and individual print PDFs functional with same-origin local assets and no Manus service requests.
+- [ ] Preserve the existing full-stack live edition and its database. Clearly distinguish the independent read-only snapshot from automatic updates or migrated database writes.
+- [ ] Verify real published pages, assets, company clicks, canton registers, CSVs and one-page printing before handing over the new website link. Record source and hosting locations separately; do not assert JLL firewall access without a test on that network.
+
+Independent edition handoff: complete self-contained static site uploaded to `gh-pages`, original source and Claude repository preserved. The nested-path browser proof passed for all markets, paper, company clicks, CSVs and same-origin imagery. Actual GitHub Pages activation remains open because the integration returned HTTP 403 for Pages settings; only the authorized owner can enable that setting. Do not describe the intended site URL as live until public-domain verification succeeds.

@@ -1,0 +1,46 @@
+{
+  "status": "Complete static site uploaded; GitHub Pages activation blocked by integration permission",
+  "sourceRepository": "https://github.com/4040-4040-cell/life-science-atlas",
+  "separateClaudeRepository": "https://github.com/4040-4040-cell/life-science-hotbed-census",
+  "claudeHeadUnchanged": "0a71987",
+  "publicSourceAuthorizedAt": "2026-11-04T14:31:57-08:00",
+  "retainedSourceKeysVerified": [
+    "correctedSeed",
+    "snapshotSha256",
+    "cantonSourceHash",
+    "cantonVersion",
+    "cantonIds",
+    "profiles",
+    "sites",
+    "markets",
+    "aerialViews"
+  ],
+  "researchSnapshotHash": "1d9d3a9295aa894ec44fc1db33d599734bedc78fd2d6e9a825ba83a92f83903d",
+  "retainedProfiles": 1276,
+  "retainedAerialViews": 81,
+  "browser": {
+    "markets": 11,
+    "singlePageMarketPrints": 11,
+    "companyFlows": 4,
+    "csvDownloads": 3,
+    "rasterImages": 149,
+    "externalRequests": [],
+    "pageErrors": [],
+    "issues": []
+  },
+  "edition": "Read-only snapshot; updated by vetted snapshot and redeployment",
+  "network": "Same-origin display/download assets; embedded API and CSV transport",
+  "navigationFixes": [
+    "Unknown routes stay inside project path",
+    "Canton register routing separate from section scrolling"
+  ],
+  "firewallStatus": "Not tested on JLL network",
+  "deploymentBranch": "gh-pages",
+  "deploymentBranchSha": "9a9d9016a93a08fa5d998c9948a05855c7560258",
+  "pagesActivation": {
+    "response": 403,
+    "message": "Resource not accessible by integration",
+    "requiredUserAction": "Settings > Pages > Deploy from a branch > gh-pages > / (root) > Save",
+    "settingsUrl": "https://github.com/4040-4040-cell/life-science-atlas/settings/pages"
+  }
+}

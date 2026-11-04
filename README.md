@@ -54,7 +54,7 @@ Never overwrite a previous delivery. The assembler retains attribution and full 
 
 The React client is under `client/src`; page declarations are under `client/public`. REST validation and queries are under `server/atlas`; persistent schema is under `drizzle`; source ingestion, packaging and integrity helpers are under `scripts`. `shared/atlas.ts` is the browser/API contract. Production source data is reconstructable from the committed compressed snapshots and guarded correction manifests.
 
-Saving a canonical source version is separate from publishing a website. The current website remains a private Preview unless publication is explicitly approved. There is no unattended refresh or public release configured. Runtime/API checks are not visual certification: final delivery requires the actual print and offline-file browser proofs and the applied product/design reviews.
+Saving a canonical source version is separate from publishing a website. The original managed-hosted edition remains preserved. The owner approved separate public GitHub source and independent hosting on 4 November 2026. The complete static site is on `gh-pages`; Pages settings must be enabled by an account with the required Pages permission. There is no unattended research refresh. Runtime/API checks are not visual certification: final delivery requires actual browser and print proofs.
 
 ## Corrected Basel register release
 
@@ -63,3 +63,28 @@ Basel register V1 is complete as of 4 November 2026. The read-only endpoint is `
 Measured selected current marketed offers are 16,429.5 m² in Basel-Stadt and 20,646 m² in Basel-Landschaft, with mixed uses and explicit source dates. The measured future offer is ALL, 5,100 m² from 2027. Campus/building stock, overlapping offers, SCALE and HOPE capacity ceilings, expired Muttenz marketing and confirmed laboratory vacancy are not added to these measures. Confirmed vacancy remains unknown. The regional JLL laboratory leasing forecast is not canton absorption or a years-supply denominator.
 
 Final print edition V4 contains 11 regional sheets plus the two corrected canton sheets, each one Tabloid landscape page. Previous print/book editions remain retained as historical evidence. New PDFs and register CSVs are bound by `scripts/bind-basel-register-release-v1.py`. Final client manifests are `marketPrintAssetsV4.json` and `baselCantonPrintAssetsV5.json`. The offline folder opens by double-clicking `index.html` on a desktop browser; iPhone file previews may not execute the app, so use the published website or PDFs there. Full offline package includes saved imagery and detailed study books and is approximately 414 MB.
+
+## Separate GitHub source and independent hosting
+
+The canonical source is https://github.com/4040-4040-cell/life-science-atlas. The owner explicitly authorized public source on 4 November 2026. Claude's https://github.com/4040-4040-cell/life-science-hotbed-census is a different product and was not modified, merged or overwritten.
+
+`main` retains this full-stack application and its source-preserving research snapshots. The `gh-pages` branch is the independently hosted, self-contained research edition. It contains every display asset and print download needed by that edition; it does not use Manus hosting, storage, database credentials or map proxies. Keep the old live full-stack deployment until independent access is proven within the user's JLL network.
+
+The independent edition uses the final retained browser snapshot and hash routes. Saved geographic locators and aerials retain company/profile interactions, evidence filters, CSV export and one-page printing. The regional overview is a research-hub index, not a live global basemap. The hosted snapshot is read-only, with original per-fact reporting dates. It does not migrate database writes or automatically refresh research; updates require a vetted new snapshot and redeployment.
+
+To prepare an existing complete final browser edition for a static HTTP host:
+
+```sh
+python3 scripts/prepare-github-pages.py --input /absolute/verified-browser-edition --output /absolute/new-static-site
+python3 scripts/proof-github-pages.py --package /absolute/new-static-site --origin https://HOST/PROJECT-PATH/ --output /absolute/new-proof
+```
+
+Serve the entire prepared directory, including `offline-assets`, from the publication branch root with `.nojekyll`. Relative assets and `#/` routes work beneath a GitHub project path or an approved custom domain. Do not configure the ordinary Vite output as this edition; it still expects a live API. No custom GitHub Actions workflow is required. GitHub's Pages service performs its own branch-based publication.
+
+### Activate GitHub Pages
+
+The connected integration returned HTTP 403, `Resource not accessible by integration`, when enabling Pages. This is a GitHub Pages settings permission limitation, not a failed source/asset upload. No alternative credential or permission workaround was attempted.
+
+An authorized repository administrator can open https://github.com/4040-4040-cell/life-science-atlas/settings/pages and set Source to **Deploy from a branch**, branch **gh-pages**, folder **/ (root)**, then Save. The complete assembled site is already on that branch. Do not select `main` or `/docs`; those contain the research application source, not this independently hosted edition. Leave HTTPS enabled. GitHub will display the website address after its publication finishes.
+
+After activation, run the same-origin browser proof against the displayed website URL. Successful GitHub publication does not establish JLL firewall access; test that URL on the JLL network or request approval for the hostname.

@@ -8,8 +8,6 @@ export default function NotFound() {
     robots.name = "robots";
     robots.content = "noindex";
     document.head.appendChild(robots);
-    if (window.location.pathname.replace(/\/$/, "") !== "/404")
-      window.location.replace("/404");
     return () => robots.remove();
   }, []);
   return (
