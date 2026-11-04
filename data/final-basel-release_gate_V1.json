@@ -1,0 +1,47 @@
+{
+  "asOf": "2026-11-04",
+  "status": "passed",
+  "edition": "Basel register V1 / print V4 and canton V5 / offline V9",
+  "passes": {
+    "data": {
+      "sourceRowsPreserved": true,
+      "masterSnapshotUnchanged": true,
+      "companyMasterWrites": 0,
+      "overlapAndCeilingExclusionsVerified": true,
+      "confirmedVacancyUnknown": true
+    },
+    "visualAndInteraction": {
+      "allMarketFileProofPassed": true,
+      "cantonOnlineAndOfflineProofPassed": true,
+      "actualGroupedPointerProofPassed": true,
+      "phoneOverflow": false,
+      "networkRequests": 0,
+      "onePageMarketPrints": 11,
+      "onePageCantonPrints": 4
+    },
+    "production": {
+      "typecheck": true,
+      "serverTestsPassed": 117,
+      "environmentDependentServerTestsSkipped": 12,
+      "clientTestsPassed": 34,
+      "productionBuild": true,
+      "allMarketSourcePdfPreservation": 10,
+      "combinedPdfPages": 13
+    }
+  },
+  "limits": [
+    "Selected public marketed offers are not an exhaustive vacancy register.",
+    "Company source rows are not all verified operating companies.",
+    "Source-supported operations, official contacts, campus residents and registry-only leads remain separate.",
+    "SCALE and HOPE capacity ceilings are not measured remaining availability.",
+    "Historical accounting and occupancy evidence retains original dates."
+  ],
+  "evidenceFiles": [
+    "data/basel-availability_V1/final-verification_V1.json",
+    "assets/final-all-market-offline-proof_V9/offline-file-browser-proof.json",
+    "assets/final-basel-register-proof_V2/proof.json",
+    "assets/basel-marker-group-proof_V1/proof.json"
+  ],
+  "registerSha256": "c23fd1be97d15d9b65f18df0725edb68f467b9f30acbf1a5a75c3d169c5b0793",
+  "offlineZipSha256": "5d8252119e7d71eb8b21b70ba87406857e1d81e23f1554f70fc0933a1861a287"
+}

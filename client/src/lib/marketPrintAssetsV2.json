@@ -1,0 +1,248 @@
+{
+  "edition": "Life Science Atlas | Market Intelligence V2",
+  "asOf": "2026-11-04",
+  "paper": {
+    "widthInches": 17,
+    "heightInches": 11,
+    "name": "Tabloid"
+  },
+  "snapshotSha256": "c01b8146f1f22b2006942d39df360ce696bfc35360d2f99106b7159970bdbe11",
+  "storage": "durable Manus application storage",
+  "temporary": false,
+  "allMarketsPdfUrl": "/manus-storage/life-science-atlas_market-intelligence_V2_625c6f1b.pdf",
+  "individualPdfZipUrl": "/manus-storage/life-science-atlas_individual-intelligence_V2_fef812b6.zip",
+  "markets": {
+    "biotech-beach": {
+      "title": "Biotech Beach",
+      "imageUrl": "/manus-storage/biotech-beach_intelligence_V2_fac6b472.png",
+      "pdfUrl": "/manus-storage/biotech-beach_intelligence_V2_ee337dee.pdf",
+      "asOf": "2026-11-04",
+      "baselineCompanies": 48,
+      "researchCandidates": 121,
+      "addressSites": 39,
+      "operatingSites": 49,
+      "plannedProjectLeads": 0,
+      "anchors": 7,
+      "pages": 1,
+      "widthPoints": 1224,
+      "heightPoints": 792,
+      "paper": {
+        "widthInches": 17,
+        "heightInches": 11,
+        "name": "Tabloid"
+      },
+      "temporary": false
+    },
+    "genetown": {
+      "title": "Genetown",
+      "imageUrl": "/manus-storage/genetown_intelligence_V2_e45eb6ae.png",
+      "pdfUrl": "/manus-storage/genetown_intelligence_V2_b2b9b2ee.pdf",
+      "asOf": "2026-11-04",
+      "baselineCompanies": 68,
+      "researchCandidates": 135,
+      "addressSites": 65,
+      "operatingSites": 69,
+      "plannedProjectLeads": 0,
+      "anchors": 8,
+      "pages": 1,
+      "widthPoints": 1224,
+      "heightPoints": 792,
+      "paper": {
+        "widthInches": 17,
+        "heightInches": 11,
+        "name": "Tabloid"
+      },
+      "temporary": false
+    },
+    "biotech-bay": {
+      "title": "Biotech Bay",
+      "imageUrl": "/manus-storage/biotech-bay_intelligence_V2_c7f980e4.png",
+      "pdfUrl": "/manus-storage/biotech-bay_intelligence_V2_aec6cad1.pdf",
+      "asOf": "2026-11-04",
+      "baselineCompanies": 70,
+      "researchCandidates": 102,
+      "addressSites": 0,
+      "operatingSites": 71,
+      "plannedProjectLeads": 0,
+      "anchors": 6,
+      "pages": 1,
+      "widthPoints": 1224,
+      "heightPoints": 792,
+      "paper": {
+        "widthInches": 17,
+        "heightInches": 11,
+        "name": "Tabloid"
+      },
+      "temporary": false
+    },
+    "basel": {
+      "title": "Basel",
+      "imageUrl": "/manus-storage/basel_intelligence_V2_c7bbf90e.png",
+      "pdfUrl": "/manus-storage/basel_intelligence_V2_82045799.pdf",
+      "asOf": "2026-11-04",
+      "baselineCompanies": 33,
+      "researchCandidates": 1,
+      "addressSites": 23,
+      "operatingSites": 35,
+      "plannedProjectLeads": 1,
+      "anchors": 7,
+      "pages": 1,
+      "widthPoints": 1224,
+      "heightPoints": 792,
+      "paper": {
+        "widthInches": 17,
+        "heightInches": 11,
+        "name": "Tabloid"
+      },
+      "temporary": false
+    },
+    "pharm-country": {
+      "title": "Pharm Country",
+      "imageUrl": "/manus-storage/pharm-country_intelligence_V2_eaf93f71.png",
+      "pdfUrl": "/manus-storage/pharm-country_intelligence_V2_11d0ec1a.pdf",
+      "asOf": "2026-11-04",
+      "baselineCompanies": 57,
+      "researchCandidates": 117,
+      "addressSites": 0,
+      "operatingSites": 57,
+      "plannedProjectLeads": 0,
+      "anchors": 8,
+      "pages": 1,
+      "widthPoints": 1224,
+      "heightPoints": 792,
+      "paper": {
+        "widthInches": 17,
+        "heightInches": 11,
+        "name": "Tabloid"
+      },
+      "temporary": false
+    },
+    "biocapital": {
+      "title": "BioCapital",
+      "imageUrl": "/manus-storage/biocapital_intelligence_V2_90f5dd92.png",
+      "pdfUrl": "/manus-storage/biocapital_intelligence_V2_bd005e6a.pdf",
+      "asOf": "2026-11-04",
+      "baselineCompanies": 34,
+      "researchCandidates": 64,
+      "addressSites": 0,
+      "operatingSites": 37,
+      "plannedProjectLeads": 0,
+      "anchors": 7,
+      "pages": 1,
+      "widthPoints": 1224,
+      "heightPoints": 792,
+      "paper": {
+        "widthInches": 17,
+        "heightInches": 11,
+        "name": "Tabloid"
+      },
+      "temporary": false
+    },
+    "bio-nc": {
+      "title": "Bio NC",
+      "imageUrl": "/manus-storage/bio-nc_intelligence_V2_d7242a21.png",
+      "pdfUrl": "/manus-storage/bio-nc_intelligence_V2_a8eb9d39.pdf",
+      "asOf": "2026-11-04",
+      "baselineCompanies": 42,
+      "researchCandidates": 66,
+      "addressSites": 0,
+      "operatingSites": 44,
+      "plannedProjectLeads": 0,
+      "anchors": 8,
+      "pages": 1,
+      "widthPoints": 1224,
+      "heightPoints": 792,
+      "paper": {
+        "widthInches": 17,
+        "heightInches": 11,
+        "name": "Tabloid"
+      },
+      "temporary": false
+    },
+    "biomidwest": {
+      "title": "BioMidwest",
+      "imageUrl": "/manus-storage/biomidwest_intelligence_V2_a1e3d5a3.png",
+      "pdfUrl": "/manus-storage/biomidwest_intelligence_V2_8a5979e9.pdf",
+      "asOf": "2026-11-04",
+      "baselineCompanies": 51,
+      "researchCandidates": 68,
+      "addressSites": 0,
+      "operatingSites": 52,
+      "plannedProjectLeads": 0,
+      "anchors": 8,
+      "pages": 1,
+      "widthPoints": 1224,
+      "heightPoints": 792,
+      "paper": {
+        "widthInches": 17,
+        "heightInches": 11,
+        "name": "Tabloid"
+      },
+      "temporary": false
+    },
+    "seattle": {
+      "title": "Seattle / Puget Sound",
+      "imageUrl": "/manus-storage/seattle_intelligence_V2_577530f7.png",
+      "pdfUrl": "/manus-storage/seattle_intelligence_V2_8651a525.pdf",
+      "asOf": "2026-11-04",
+      "baselineCompanies": 23,
+      "researchCandidates": 29,
+      "addressSites": 0,
+      "operatingSites": 25,
+      "plannedProjectLeads": 0,
+      "anchors": 8,
+      "pages": 1,
+      "widthPoints": 1224,
+      "heightPoints": 792,
+      "paper": {
+        "widthInches": 17,
+        "heightInches": 11,
+        "name": "Tabloid"
+      },
+      "temporary": false
+    },
+    "boulder": {
+      "title": "Boulder / Front Range",
+      "imageUrl": "/manus-storage/boulder_intelligence_V2_9cfea86b.png",
+      "pdfUrl": "/manus-storage/boulder_intelligence_V2_2db9f1fd.pdf",
+      "asOf": "2026-11-04",
+      "baselineCompanies": 15,
+      "researchCandidates": 20,
+      "addressSites": 0,
+      "operatingSites": 14,
+      "plannedProjectLeads": 0,
+      "anchors": 4,
+      "pages": 1,
+      "widthPoints": 1224,
+      "heightPoints": 792,
+      "paper": {
+        "widthInches": 17,
+        "heightInches": 11,
+        "name": "Tabloid"
+      },
+      "temporary": false
+    },
+    "uk": {
+      "title": "United Kingdom",
+      "imageUrl": "/manus-storage/uk_intelligence_V2_c6cb8ae6.png",
+      "pdfUrl": "/manus-storage/uk_intelligence_V2_cbbbd311.pdf",
+      "asOf": "2026-11-04",
+      "baselineCompanies": 61,
+      "researchCandidates": 76,
+      "addressSites": 0,
+      "operatingSites": 61,
+      "plannedProjectLeads": 0,
+      "anchors": 8,
+      "pages": 1,
+      "widthPoints": 1224,
+      "heightPoints": 792,
+      "paper": {
+        "widthInches": 17,
+        "heightInches": 11,
+        "name": "Tabloid"
+      },
+      "temporary": false
+    }
+  },
+  "sourceZipUrl": "/manus-storage/life-science-atlas_intelligence-sources_V2_041eaaeb.zip"
+}

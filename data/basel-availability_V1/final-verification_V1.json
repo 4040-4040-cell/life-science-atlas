@@ -1,0 +1,137 @@
+{
+  "status": "complete",
+  "companyRowsIdenticalToAuthoritativeDraft": true,
+  "authoritativeDraftSha256": "e156f07b7239eacba80d60e9f4425e3aa94105af0c0e2beb707e773180d383c5",
+  "originalPropertyRows": 95,
+  "sourceCsvHashes": {
+    "Basel_BaselStadt_Companies_V1.csv": "55ac479cb9cc1be2030c3ac71080c221be8ba47ead0bc95db2d78bf674706993",
+    "Basel_BaselStadt_CampusesBuildings_V1.csv": "f577178faf76795ec9b61f9327c7f04a463ae02ab71fa825c478926d8b31d42e",
+    "Basel_BaselLandschaft_Companies_V1.csv": "b03742e3339e039d68fddd74b30a4df1cb9ef4fb4b0e34c4e3a214ce24d80dac",
+    "Basel_BaselLandschaft_CampusesBuildings_V1.csv": "7ee68a0a518b89404a51eeeeba2185530d6ea760ccaa2e861587cef8eb14f34e"
+  },
+  "immutableHashes": {
+    "scripts/offline-cache/snapshot_V8.json.gz": "1d9d3a9295aa894ec44fc1db33d599734bedc78fd2d6e9a825ba83a92f83903d",
+    "data/baselCantonDetail_offline_V3.json": "2fde5aecbec9afe81ee32cdf5ed8992656812c727edbe2f88b91e3bcf4959fe0"
+  },
+  "apiRouter": {
+    "editedByThisIntegration": false,
+    "currentSha256": "db508a45c287858a1776f81250b1506281f3dd1e9efb95e60c399c9064f15c2f",
+    "earlierBaselineSha256": "540ca417b586ee62383a47b3693b63aab303bd214efeab02c95b97c3b685791e",
+    "matchesEarlierBaseline": false,
+    "notes": "Router baseline predates separate shared integration edits. Data integration did not edit this file; final API route validated by five passing tests."
+  },
+  "companyRecords": 245,
+  "availabilityRecords": 217,
+  "additionalAvailabilityRecords": 122,
+  "sources": 919,
+  "reviewedPrimarySources": 43,
+  "contributingRecords": 36,
+  "totals": {
+    "BS": {
+      "availabilityRecords": 111,
+      "currentMarketedM2": 16429.5,
+      "futureMarketedM2": null,
+      "underRefurbishmentM2": null,
+      "confirmedVacancyM2": null,
+      "confirmedLaboratoryVacancyM2": null,
+      "measuredCurrentOfferRecords": 22,
+      "measuredCurrentMarketedOfferByUseTypeM2": {
+        "office": 6167.5,
+        "office/meeting": 115.0,
+        "storage": 254.0,
+        "office/laboratory": 1590.0,
+        "laboratory": 696.0,
+        "laboratory premises (BSL2, fully fitted; supporting-area split unstated)": 901.0,
+        "laboratory shell": 399.0,
+        "office, fully fitted": 2101.0,
+        "office, extended basic fit-out": 3398.0,
+        "office or practice/daycare, extended basic fit-out": 749.0,
+        "team office": 59.0
+      },
+      "futureMarketedOfferByUseTypeM2": {}
+    },
+    "BL": {
+      "availabilityRecords": 106,
+      "currentMarketedM2": 20646,
+      "futureMarketedM2": 5100,
+      "underRefurbishmentM2": null,
+      "confirmedVacancyM2": null,
+      "confirmedLaboratoryVacancyM2": null,
+      "measuredCurrentOfferRecords": 12,
+      "measuredCurrentMarketedOfferByUseTypeM2": {
+        "lab/office/support": 10478.0,
+        "office": 10168.0
+      },
+      "futureMarketedOfferByUseTypeM2": {
+        "office and/or laboratory shell": 5100.0
+      }
+    }
+  },
+  "projects": {
+    "campus-klybeck": {
+      "contributionRecords": 5,
+      "selectedMarketedM2": 2195.5
+    },
+    "neues-klybeck": {
+      "contributionRecords": 7,
+      "selectedMarketedM2": 6627
+    },
+    "sonuvo": {
+      "contributionRecords": 12,
+      "selectedMarketedM2": 20646
+    },
+    "stuecki": {
+      "contributionRecords": 10,
+      "selectedMarketedM2": 7607
+    },
+    "all": {
+      "contributionRecords": 2,
+      "selectedMarketedM2": 5100
+    },
+    "scale": {
+      "excludedFutureCeilingM2": 28000,
+      "contributionRecords": 0
+    },
+    "hope": {
+      "excludedFutureCeilingM2": 8000,
+      "contributionRecords": 0
+    }
+  },
+  "registerSha256": "c23fd1be97d15d9b65f18df0725edb68f467b9f30acbf1a5a75c3d169c5b0793",
+  "handoffSha256": "beef1e3de61f7fdd34902fd4fa9d6e68c7a6ea6a91c57d204aea933642136afe",
+  "forecastSource": {
+    "id": "basel-register-v1:jll-slide-12",
+    "title": "JLL EMEA 2026 Life Sciences Industry & Cluster Report, slide 12",
+    "publisher": "JLL Research",
+    "url": null,
+    "publishedDate": null,
+    "observedAsOf": "2026-11-04",
+    "kind": "user_supplied_report",
+    "primary": true,
+    "fileName": "EMEA2026_ClusterReport.pptx",
+    "fileSha256": "e6da9ef880c730bde12d51b57562ac5a0979876ab0023c5104e968a9eeb9a043",
+    "notes": "User-authorized interpretation of JLL slide 12: a forecast of regional average annual laboratory leasing, not measured canton absorption, current vacancy or a years-supply denominator. Do not compare mixed-use marketed offers to this forecast."
+  },
+  "regressionTests": {
+    "data": {
+      "passed": 15,
+      "failed": 0
+    },
+    "api": {
+      "passed": 5,
+      "failed": 0
+    }
+  },
+  "typecheck": "pnpm check: exit 0",
+  "ledgerUpdate": {
+    "format": 1,
+    "version": "V1",
+    "beforeSha256": "5f6178296c1a106abccbedfa341874594bb799b5b993fab0df321eb06f277bb0",
+    "afterSha256": "7cacf184ee90fc97201429c86e5420c7d088da655f36dd78d026efdcd30c64f0",
+    "registerSha256": "c23fd1be97d15d9b65f18df0725edb68f467b9f30acbf1a5a75c3d169c5b0793",
+    "preservedPriorFigures": 115,
+    "addedOrRefreshedRegisterFigures": 25,
+    "unrelatedFigureChanges": 0
+  },
+  "preShipGate": "PASS: source, row, company reconciliation, immutable-byte hashes, qualified ceilings and bounded contribution checks passed. No UI/print/publication/master data writes."
+}

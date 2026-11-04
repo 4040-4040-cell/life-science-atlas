@@ -8,6 +8,7 @@ import { appRouter } from "../routers";
 import { createContext } from "./context";
 import { serveStatic, setupVite } from "./vite";
 import { atlasRouter } from "../atlas/router";
+import { registerStorageProxy } from "./storageProxy";
 
 async function startServer() {
   const app = express();
@@ -20,6 +21,7 @@ async function startServer() {
     res.set("Cache-Control", "no-store").type("application/javascript").send(publicPlatformScript());
   });
   registerOAuthRoutes(app);
+  registerStorageProxy(app);
   app.use("/api/atlas", atlasRouter);
   // tRPC API
   app.use(

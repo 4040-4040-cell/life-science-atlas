@@ -1,0 +1,56 @@
+{
+  "checkedAt": "2026-11-04",
+  "documents": [
+    {
+      "status": 200,
+      "id": "basel-canton:basel-stadt:V3",
+      "version": "V3",
+      "sourceHash": "aaa18b80a88edfa904a5c16857574e5edbec70d2e8342874dc26169331b2f07a",
+      "contentHash": "fbd3008cf458ee30040424f21d2b4cd6993ab2216b288208a4406364809a10ec",
+      "sourceRecords": 311,
+      "aerialIds": [
+        "basel-canton-v3:basel-klybeck-stucki-klybeck",
+        "basel-canton-v3:basel-st-johann-novartis-campus",
+        "basel-canton-v3:basel-roche-kleinbasel",
+        "basel-canton-v3:basel-rosental-mitte",
+        "basel-canton-v3:basel-klybeck-stucki-stuecki",
+        "basel-canton-v3:basel-supplemental-bioversys-basel",
+        "basel-canton-v3:basel-klybeck-stucki-stuecki-centered-current",
+        "basel-canton-v3:basel-research-campus-core",
+        "basel-canton-v3:basel-downtown-sbb-aeschen",
+        "basel-canton-v3:sbb-downtown-basel-street-detail"
+      ]
+    },
+    {
+      "status": 200,
+      "id": "basel-canton:basel-landschaft:V3",
+      "version": "V3",
+      "sourceHash": "aaa18b80a88edfa904a5c16857574e5edbec70d2e8342874dc26169331b2f07a",
+      "contentHash": "7cf6ca44e345209370b02d0b9495697b1b04cd50483262f901694ef7b6f43a9e",
+      "sourceRecords": 171,
+      "aerialIds": [
+        "basel-canton-v3:basel-allschwil-bachgraben-main-campus",
+        "basel-canton-v3:allschwil-allschwil-street-detail",
+        "basel-canton-v3:basel-east-muttenz-pratteln",
+        "basel-canton-v3:muttenz-pratteln-muttenz-street-detail",
+        "basel-canton-v3:muttenz-pratteln-pratteln-street-detail",
+        "basel-canton-v3:basel-east-bubendorf",
+        "basel-canton-v3:bubendorf-bubendorf-street-detail",
+        "basel-canton-v3:reinach-aesch-therwil-aesch-street-detail",
+        "basel-canton-v3:reinach-aesch-therwil-reinach-street-detail",
+        "basel-canton-v3:reinach-aesch-therwil-therwil-street-detail",
+        "basel-canton-v3:liestal-sissach-liestal-street-detail-1",
+        "basel-canton-v3:liestal-sissach-liestal-street-detail-2",
+        "basel-canton-v3:basel-liestal-sissach-sissach-orientation-context",
+        "basel-canton-v3:schonenbuch-schoenenbuch-street-detail"
+      ]
+    }
+  ],
+  "region": {
+    "aerialCount": 39,
+    "newFrameCount": 24,
+    "reportedAerialCount": 39,
+    "companyCount": 42,
+    "newPins": 255
+  }
+}

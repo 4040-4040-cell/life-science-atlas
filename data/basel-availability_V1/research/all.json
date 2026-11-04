@@ -1,0 +1,137 @@
+{
+  "id": "all",
+  "retrievedDate": "2026-11-04",
+  "researchCutoff": "2026-11-04",
+  "sources": [
+    {
+      "url": "https://allbasel.com/en/",
+      "title": "Lab and office space for rent in Allschwil | A.L.L.",
+      "publishedDate": null,
+      "retrievedDate": "2026-11-04",
+      "evidenceExcerpt": "The top three floors are let to the Botnar Institute of Immune Engineering (BIIE). Available from 2027: 5,100 m² – 4,000 m² on the first floor, divisible from 600 m², and 1,100 m² on the ground floor. Handed over in high-quality shell form for offices, laboratories or both – as a single tenant or one of up to four rental units."
+    },
+    {
+      "url": "https://senn.com/projekt/all-allschwil/",
+      "title": "ALL Allschwil: Labor- und Büroflächen mieten ab 2027 | SENN",
+      "publishedDate": null,
+      "retrievedDate": "2026-11-04",
+      "evidenceExcerpt": "Die Adresse lautet Hegenheimermattweg 169, 4123 Allschwil. [...] aktuell sind im ALL noch rund 4’000 m² im 1. Obergeschoss und knapp 1’400 m² im Erdgeschoss frei. [...] Aktuelle Informationen zu den verfügbaren Flächen finden Sie unter allbasel.com. [...] Entwicklerin ist SENN, Eigentümerin die SENN Resources AG, St. Gallen. [...] Das Gebäude ALL ist ab 1. Januar 2027 bezugsbereit. [...] Nutzfläche: ca. 20’500 m²; Baubeginn: 2024; Fertigstellung: 2026."
+    },
+    {
+      "url": "https://allbasel.com/en/project/",
+      "title": "Hybrid lab and office building in Allschwil | A.L.L. — Project",
+      "publishedDate": null,
+      "retrievedDate": "2026-11-04",
+      "evidenceExcerpt": "Rental space from 600 m2 for biology or chemistry laboratories and associated offices. [...] ALL is ready for occupancy from 2027. [...] Designed by leading Basel architectural firm Herzog & de Meuron, the building enables companies to have their laboratories, offices and all other working spaces all together on the same floor."
+    }
+  ],
+  "units": [
+    {
+      "building": "ALL",
+      "floor": "1st floor / 1. Obergeschoss",
+      "address": "Hegenheimermattweg 169, 4123 Allschwil, Switzerland",
+      "areaM2": 4000,
+      "areaQualifier": "Advertised 4,000 m²; divisible from 600 m². SENN FAQ qualifies the same first-floor area as approximately 4,000 m².",
+      "useType": "office and/or laboratory shell",
+      "areaBasis": "Advertised mixed-use rental area handed over in high-quality shell form; no separate fitted laboratory area is disclosed.",
+      "availabilityState": "future_marketed",
+      "availableFrom": "2027",
+      "sourceUrl": "https://allbasel.com/en/",
+      "overlapGroup": "all-available-shell-first-floor",
+      "includeInTotal": true,
+      "notes": "Part of the specific leasing page's 5,100 m² offer. Together with the ground floor, offered to a single tenant or as up to four rental units; these are subdivision alternatives, not additional area. SENN gives building readiness as 1 January 2027; the specific leasing offer states only the year 2027. Public owner/developer marketing is not a separate confirmation of physical vacancy."
+    },
+    {
+      "building": "ALL",
+      "floor": "Ground floor / Erdgeschoss",
+      "address": "Hegenheimermattweg 169, 4123 Allschwil, Switzerland",
+      "areaM2": 1100,
+      "areaQualifier": "Advertised 1,100 m² on the specific ALL leasing page.",
+      "useType": "office and/or laboratory shell",
+      "areaBasis": "Advertised mixed-use rental area handed over in high-quality shell form; no separate fitted laboratory area is disclosed.",
+      "availabilityState": "future_marketed",
+      "availableFrom": "2027",
+      "sourceUrl": "https://allbasel.com/en/",
+      "overlapGroup": "all-available-shell-ground-floor",
+      "includeInTotal": true,
+      "notes": "Counted with the 4,000 m² first-floor offer, not with the alternative ground-floor quantity in SENN's general FAQ. The FAQ says just under 1,400 m², an unresolved conflict. The two pages have no stated publication/update date; the leasing page is selected for its specific offer and the FAQ's referral to allbasel.com, not an assumed newer date. This is future marketed shell capacity, not owner-confirmed vacant fitted laboratory space."
+    },
+    {
+      "building": "ALL",
+      "floor": "Ground floor / Erdgeschoss — conflicting FAQ observation",
+      "address": "Hegenheimermattweg 169, 4123 Allschwil, Switzerland",
+      "areaM2": 1400,
+      "areaQualifier": "Strict upper reference: 'knapp 1’400 m²' means just under 1,400 m², not an exact 1,400 m² unit.",
+      "useType": "office and/or laboratory; production also possible at building level",
+      "areaBasis": "Owner/developer FAQ's marketed flexible mixed-use space; no fitted laboratory split stated.",
+      "availabilityState": "future_marketed",
+      "availableFrom": "2027-01-01",
+      "sourceUrl": "https://senn.com/projekt/all-allschwil/",
+      "overlapGroup": "all-available-shell-ground-floor",
+      "includeInTotal": false,
+      "notes": "Preserved as a conflicting observation for the same ground-floor offer, not an additional unit. The FAQ combines approximately 4,000 m² on the first floor with just under 1,400 m² on the ground floor. It also states building readiness from 1 January 2027. No evidence resolves why its ground-floor figure differs from the specific leasing page's 1,100 m²; publication/update dates are unstated."
+    },
+    {
+      "building": "ALL",
+      "floor": "Top three floors",
+      "address": "Hegenheimermattweg 169, 4123 Allschwil, Switzerland",
+      "areaM2": null,
+      "areaQualifier": "No leased floor area disclosed in the reviewed leasing passage.",
+      "useType": "BIIE research laboratories and associated offices; area split unknown",
+      "areaBasis": "Specific leasing page reports the top three floors let to BIIE; area is not calculated by subtracting marketed space from whole-building area.",
+      "availabilityState": "fully_let",
+      "availableFrom": null,
+      "sourceUrl": "https://allbasel.com/en/",
+      "overlapGroup": "all-biie-top-three-floors",
+      "includeInTotal": false,
+      "notes": "Fully let applies only to the top three floors, not the entire ALL building. SENN says the anchor BIIE will move into ALL in 2027. This establishes reported letting, not present physical occupation, and not owner occupation."
+    }
+  ],
+  "excludedTotals": [
+    {
+      "label": "Specific ALL leasing-page total",
+      "areaM2": 5100,
+      "areaQualifier": "Advertised combined offer",
+      "sourceUrl": "https://allbasel.com/en/",
+      "reason": "Aggregate excluded from addition because its 4,000 m² first-floor and 1,100 m² ground-floor components are counted separately. The selected future marketed mixed-use shell total is 5,100 m²; this is not fitted laboratory area or confirmed physical vacancy."
+    },
+    {
+      "label": "SENN FAQ / incoming-row nominal availability total",
+      "areaM2": 5400,
+      "areaQualifier": "Nominal combination of about 4,000 m² plus just under 1,400 m²; not an exact reported 5,400 m² total",
+      "sourceUrl": "https://senn.com/projekt/all-allschwil/",
+      "reason": "Conflicting overlapping observation, not additional supply. The incoming row records 5,400 m², but the primary FAQ's qualifiers do not support presenting this as an exact total. Retain the discrepancy against the specific 5,100 m² leasing offer."
+    },
+    {
+      "label": "Whole ALL building Nutzfläche",
+      "areaM2": 20500,
+      "areaQualifier": "Approximately",
+      "sourceUrl": "https://senn.com/projekt/all-allschwil/",
+      "reason": "Whole-building usable area includes let floors and other spaces. It is neither available area nor fitted lab area; do not subtract advertised availability to infer BIIE's leased area."
+    },
+    {
+      "label": "SIP Main Campus laboratory and office area",
+      "areaM2": 115000,
+      "areaQualifier": "More than; campus-wide",
+      "sourceUrl": "https://senn.com/projekt/all-allschwil/",
+      "reason": "Campus total overlaps ALL and other constituent buildings. Excluded from building-level availability totals and must not be added to constituent-building figures. It is mixed laboratory/office capacity, not vacant fitted laboratory space."
+    },
+    {
+      "label": "Historical developer-brochure remaining area carried in incoming row",
+      "areaM2": 5000,
+      "areaQualifier": "Historical 2025 brochure observation, unverified document date",
+      "sourceUrl": null,
+      "sourceFile": "/home/ubuntu/life-science-atlas/basel_availability_V1/data/incoming_properties.json",
+      "reason": "Not current vacancy. The supplied row labels the brochure Oct 2025 while the assignment refers to a historical Nov 2025 brochure. No brochure was examined in this bounded primary-page pass, so no exact brochure date or current availability conclusion is asserted."
+    }
+  ],
+  "gaps": [
+    "Ground-floor marketed area conflict remains unresolved: specific ALL leasing page 1,100 m² versus general SENN FAQ just under 1,400 m². No source publication/update date was visible; no relative webpage recency is claimed.",
+    "No specific owner communication confirming physical vacancy was obtained. Evidence supports future marketed capacity and reported BIIE letting only, not an owner-confirmed vacancy quantity.",
+    "No independently quantified fitted laboratory area, lab/office allocation, rental-area measurement standard or common-area allocation was supplied in the reviewed passages. All counted area remains mixed-use shell space.",
+    "Leasing page gives availability from 2027; SENN's general building-readiness FAQ specifies 1 January 2027. A separately confirmed unit handover date was not obtained.",
+    "The marketed subdivision threshold is 600 m² on the first floor, with up to four rental units stated for the offer as a whole. No individual subdivided unit schedule was verified, and subdivision alternatives are not added to supply.",
+    "The historical brochure figure is retained only as an imported excluded observation. Its source document and exact date were not verified in this pass.",
+    "One targeted source-resolution pass completed using search and three actual primary project/owner/letting pages. No additional research or external vacancy confirmation was undertaken."
+  ]
+}

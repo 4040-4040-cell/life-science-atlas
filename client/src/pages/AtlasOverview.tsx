@@ -8,7 +8,7 @@ import { ErrorState, Loading } from "@/components/atlas/Primitives";
 import { OverviewMap } from "@/components/atlas/AtlasMap";
 import { OfflineOverviewMap } from "@/components/atlas/OfflineAtlasMap";
 import { isAtlasOffline } from "@/lib/offlineAtlas";
-import printAssets from "../lib/marketPrintAssets.json";
+import printAssets from "../lib/marketPrintAssetsV4.json";
 import offlineDownload from "../lib/offlineDownload.json";
 
 export default function AtlasOverview() {

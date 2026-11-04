@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import { Link } from "wouter";
 import { ArrowLeft, ArrowUpRight, Image, Map, Printer, ShieldCheck } from "lucide-react";
 import type { RegionResponse } from "@shared/atlas";
+import type { CantonAerialFrame } from "@shared/baselCantonDetail";
 import {
   count,
   emptyFilters,
@@ -27,6 +28,7 @@ import { AtlasMap, MapLegend } from "@/components/atlas/AtlasMap";
 import { OfflineAtlasMap } from "@/components/atlas/OfflineAtlasMap";
 import { isAtlasOffline } from "@/lib/offlineAtlas";
 import { coverageText, defaultAerialId, regionPresentation } from "@/lib/regionPresentation";
+import { BaselAvailabilityRegister } from "@/components/atlas/BaselAvailabilityRegister";
 import {
   CityCompanyIndex,
   CompanyFilters,
@@ -46,6 +48,8 @@ export default function AtlasHub({
   const [filters, setFilters] = useState<Filters>({ ...emptyFilters });
   const [tab, setTab] = useState("map");
   const [aerialId, setAerialId] = useState("");
+  // Source-record street frames belong to the canton workspace, not a master-company frame count.
+  const hubAerials = query.data?.aerials.filter(a => !(a as CantonAerialFrame).cantonOnly) ?? [];
   const MapComponent = isAtlasOffline() ? OfflineAtlasMap : AtlasMap;
   useEffect(() => {
     setFilters({ ...emptyFilters });
@@ -54,12 +58,12 @@ export default function AtlasHub({
   }, [regionId]);
   useEffect(() => {
     if (
-      query.data?.aerials.length &&
-      !query.data.aerials.some(a => a.id === aerialId)
+      hubAerials.length &&
+      !hubAerials.some(a => a.id === aerialId)
     )
-      setAerialId(defaultAerialId(regionId, query.data.aerials));
+      setAerialId(defaultAerialId(regionId, hubAerials));
   }, [query.data, aerialId, regionId]);
-  const aerial = query.data?.aerials.find(view => view.id === aerialId);
+  const aerial = hubAerials.find(view => view.id === aerialId);
   const workspaceFilters = useMemo(
     () => ({ ...filters, frame: tab === "aerial" ? aerialId : undefined }),
     [filters, tab, aerialId]
@@ -106,6 +110,8 @@ export default function AtlasHub({
         title={regionPresentation(region).label}
         description={regionPresentation(region).subtitle}
       >
+        <Link className="button button-small" href={`/intelligence/${regionId}`}>Market intelligence<ArrowUpRight size={14} /></Link>
+        {regionId === "basel" && <><Link className="button button-small" href="/canton/basel-stadt">Basel-Stadt buildings</Link><Link className="button button-small" href="/canton/basel-landschaft">Basel-Landschaft buildings</Link></>}
         <Link className="button button-small" href={`/print/${regionId}`}><Printer size={14} />Print this market</Link>
         <DownloadLink url={safeUrl(region.pdfUrl)}>
           Regional exhibit PDF
@@ -155,7 +161,7 @@ export default function AtlasHub({
             <Map size={15} />
             Hub map
           </button>
-          {query.data.aerials.length > 0 && (
+          {hubAerials.length > 0 && (
             <button
               role="tab"
               aria-selected={tab === "aerial"}
@@ -163,7 +169,7 @@ export default function AtlasHub({
               onClick={() => setTab("aerial")}
             >
               <Image size={15} />
-              Aerial exhibits<span>{query.data.aerials.length}</span>
+              Aerial exhibits<span>{hubAerials.length}</span>
             </button>
           )}
         </div>
@@ -200,15 +206,15 @@ export default function AtlasHub({
             value={aerialId}
             onChange={e => setAerialId(e.target.value)}
           >
-            {query.data.aerials.map(view => (
+            {hubAerials.map(view => (
               <option key={view.id} value={view.id}>
                 {view.title}
               </option>
             ))}
           </select>
           <span>
-            {query.data.aerials.findIndex(a => a.id === aerialId) + 1} /{" "}
-            {query.data.aerials.length}
+            {hubAerials.findIndex(a => a.id === aerialId) + 1} /{" "}
+            {hubAerials.length}
           </span>
         </div>
       )}
@@ -238,6 +244,7 @@ export default function AtlasHub({
           onCompany={onCompany}
         />
       </section>
+      {regionId === "basel" && <BaselAvailabilityRegister compact onCompany={onCompany} />}
       {tab === "aerial" && aerial ? (
         <section className="aerial-caption">
           <div className="aerial-caption-title">

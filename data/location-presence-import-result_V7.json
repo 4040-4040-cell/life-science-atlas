@@ -1,0 +1,21 @@
+{
+  "version": "atlas-web-v7-20261104",
+  "siteCorrections": 2,
+  "sourcesAdded": 1,
+  "observationsAdded": 2,
+  "rawCompanyProfilesRewritten": 0,
+  "companyRegionMembershipsChanged": 0,
+  "guardsSkipped": [],
+  "skipped": false,
+  "rawCountsBefore": {
+    "sources": 5238,
+    "observations": 42718,
+    "memberships": 1324
+  },
+  "rawCountsAfter": {
+    "sources": 5239,
+    "observations": 42720,
+    "memberships": 1324
+  },
+  "manifestSha256": "ad49214612e9287479d07d5b9203e3f0fa71cc5724d1704b65e320b1be3c7027"
+}

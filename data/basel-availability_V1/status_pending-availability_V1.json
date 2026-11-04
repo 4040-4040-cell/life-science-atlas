@@ -1,0 +1,14 @@
+{
+  "stage": "company_reconciliation_complete_awaiting_parent_availability_handoff",
+  "contract": "shared/baselAvailability.ts",
+  "json": "client/src/lib/baselAvailabilityRegisterV1.json",
+  "api": "/api/atlas/registers/basel-availability",
+  "companyRows": 245,
+  "propertyRows": 95,
+  "regressionFixtures": 15,
+  "apiTests": 5,
+  "typecheck": "passed",
+  "masterSnapshot": "V8 byte-identical",
+  "ledger": "untouched_until_final_input",
+  "publish": "not_performed"
+}

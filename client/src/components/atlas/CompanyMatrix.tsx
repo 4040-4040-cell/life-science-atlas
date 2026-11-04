@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
+import { cashObservationWarning } from "@/lib/factFreshness";
 import {
   ArrowDownToLine,
   ArrowUpDown,
@@ -387,6 +388,7 @@ export function CompanyMatrix({
                             {dateLabel(company.cash.asOf)}
                           </span>
                         )}
+                        {cashKnown && cashObservationWarning(company.cash) && <span className="cell-secondary cash-age-warning">{cashObservationWarning(company.cash)}</span>}
                       </td>
                       <td className="numeric-cell">
                         <span className={employeesKnown ? "" : "missing-value"}>

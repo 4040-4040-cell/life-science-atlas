@@ -119,3 +119,6 @@ data/atlas-seed_V*.json
 scripts/__pycache__/
 # Parent-project ledger snapshot is audit-only, not application source.
 data/figures-ledger_web-build_V1.json
+
+# Temporary primary-source downloads; accepted facts and immutable snapshots are versioned.
+scripts/v6-sec-cache/

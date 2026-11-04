@@ -24,9 +24,10 @@ export function AtlasShell({
   const overview = useAtlas<OverviewResponse>("/overview");
   const [location] = useLocation();
   const [menuOpen, setMenuOpen] = useState(false);
+  const activeRegion = location.match(/^\/(?:hub|intelligence)\/([a-z0-9-]+)$/)?.[1];
   return (
     <div
-      className={`atlas-shell ${profileOpen ? "profile-open" : ""} ${location.startsWith("/hub/") ? "is-hub" : ""}`}
+      className={`atlas-shell ${profileOpen ? "profile-open" : ""} ${activeRegion ? "is-hub" : ""}`}
     >
       <div className="mobile-topbar">
         <Link href="/" className="mobile-brand">
@@ -84,7 +85,7 @@ export function AtlasShell({
               <Link
                 key={region.id}
                 href={`/hub/${region.id}`}
-                className={`hub-link ${location === `/hub/${region.id}` ? "active" : ""}`}
+                className={`hub-link ${activeRegion === region.id ? "active" : ""}`}
                 onClick={() => setMenuOpen(false)}
               >
                 <span className="hub-number">

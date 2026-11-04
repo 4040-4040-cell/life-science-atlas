@@ -1,5 +1,6 @@
 import { useQuery } from "@tanstack/react-query";
 import type { CompanySummary, Fact, MapSite } from "@shared/atlas";
+import { offlineAssetUrl } from "./offlineAtlas";
 
 export class AtlasApiError extends Error {
   constructor(
@@ -183,6 +184,7 @@ export const validCoordinates = (
   Math.abs(site.longitude) <= 180;
 export function safeUrl(url?: string | null): string | undefined {
   if (!url) return undefined;
+  if (url.startsWith("./offline-assets/")) return offlineAssetUrl(url);
   if (url.startsWith("/offline-assets/")) {
     try {
       const decoded = decodeURIComponent(url);

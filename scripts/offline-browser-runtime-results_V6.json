@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "snapshotCapturedAt": "2026-11-04T12:55:53.864Z",
+  "correctedSeed": {
+    "version": "atlas-web-v6-20261104",
+    "sha256": "09d08d007a057b5643cbddadfc641387116f9426b081b4356b48ef44e48b7c69"
+  },
+  "profiles": 1276,
+  "checked": [
+    "/overview",
+    "/coverage",
+    "/regions/biotech-beach",
+    "/regions/genetown",
+    "/regions/biotech-bay",
+    "/regions/basel",
+    "/regions/pharm-country",
+    "/regions/biocapital",
+    "/regions/bio-nc",
+    "/regions/biomidwest",
+    "/regions/seattle",
+    "/regions/boulder",
+    "/regions/uk",
+    "/companies?evidence=baseline&sort=cash&limit=250",
+    "/companies?evidence=research&sort=score&limit=250",
+    "/companies?region=basel&evidence=all&q=roche&sort=name",
+    "/export.csv?region=basel&evidence=baseline",
+    "/companies?region=biotech-beach&frame=beach-carlsbad-core&evidence=baseline&limit=250",
+    "/export.csv?region=biotech-beach&frame=beach-carlsbad-core&evidence=baseline",
+    "/companies?region=genetown&frame=gene-boston-charlestown&evidence=baseline&limit=250",
+    "/export.csv?region=genetown&frame=gene-boston-charlestown&evidence=baseline",
+    "/companies?region=basel&frame=basel-allschwil-bachgraben-main-campus&evidence=baseline&limit=250",
+    "/export.csv?region=basel&frame=basel-allschwil-bachgraben-main-campus&evidence=baseline",
+    "/profile/gco_83cf6169ad5cf8eb3372"
+  ],
+  "errors": "400/404/405 preserved",
+  "abort": "before and during fetch reject AbortError",
+  "csv": "byte-for-byte parity including source/scope and formula sanitization",
+  "nativeFetchCallsForAtlas": 0
+}

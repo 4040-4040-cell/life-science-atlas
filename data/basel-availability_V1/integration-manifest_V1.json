@@ -1,0 +1,327 @@
+{
+  "format": 1,
+  "version": "V1",
+  "asOf": "2026-11-04",
+  "status": "complete",
+  "output": "client/src/lib/baselAvailabilityRegisterV1.json",
+  "outputSha256": "c23fd1be97d15d9b65f18df0725edb68f467b9f30acbf1a5a75c3d169c5b0793",
+  "sourceFiles": [
+    {
+      "fileName": "Basel_BaselStadt_Companies_V1.csv",
+      "sha256": "55ac479cb9cc1be2030c3ac71080c221be8ba47ead0bc95db2d78bf674706993",
+      "rowCount": 138,
+      "recordClass": "company"
+    },
+    {
+      "fileName": "Basel_BaselStadt_CampusesBuildings_V1.csv",
+      "sha256": "f577178faf76795ec9b61f9327c7f04a463ae02ab71fa825c478926d8b31d42e",
+      "rowCount": 57,
+      "recordClass": "property"
+    },
+    {
+      "fileName": "Basel_BaselLandschaft_Companies_V1.csv",
+      "sha256": "b03742e3339e039d68fddd74b30a4df1cb9ef4fb4b0e34c4e3a214ce24d80dac",
+      "rowCount": 107,
+      "recordClass": "company"
+    },
+    {
+      "fileName": "Basel_BaselLandschaft_CampusesBuildings_V1.csv",
+      "sha256": "7ee68a0a518b89404a51eeeeba2185530d6ea760ccaa2e861587cef8eb14f34e",
+      "rowCount": 38,
+      "recordClass": "property"
+    }
+  ],
+  "exactRowCoverage": {
+    "BS": {
+      "companies": 138,
+      "properties": 57
+    },
+    "BL": {
+      "companies": 107,
+      "properties": 38
+    }
+  },
+  "evidenceCounts": {
+    "BS": {
+      "source_supported_operating": 5,
+      "source_supported_contact": 16,
+      "campus_resident": 37,
+      "registry_only": 15,
+      "unresolved": 65,
+      "conflict": 0
+    },
+    "BL": {
+      "source_supported_operating": 11,
+      "source_supported_contact": 4,
+      "campus_resident": 28,
+      "registry_only": 13,
+      "unresolved": 49,
+      "conflict": 2
+    }
+  },
+  "totals": {
+    "BS": {
+      "sourceCompanyRows": 138,
+      "companyRecords": 138,
+      "evidenceCounts": {
+        "source_supported_operating": 5,
+        "source_supported_contact": 16,
+        "campus_resident": 37,
+        "registry_only": 15,
+        "unresolved": 65,
+        "conflict": 0
+      },
+      "sourcePropertyRows": 57,
+      "availabilityRecords": 111,
+      "currentMarketedM2": 16429.5,
+      "futureMarketedM2": null,
+      "underRefurbishmentM2": null,
+      "currentMarketedRecordIds": [
+        "basel-offer-v1:bs:campus-klybeck:346a4e9ee20c857e8aa6",
+        "basel-offer-v1:bs:campus-klybeck:c44357025c6419bc9a67",
+        "basel-offer-v1:bs:campus-klybeck:a60310a9df6f7c593ba9",
+        "basel-offer-v1:bs:campus-klybeck:31cc00ac1386b9f9e9d6",
+        "basel-offer-v1:bs:campus-klybeck:8e30bdcdeb8660d64ce3",
+        "basel-offer-v1:bs:neues-klybeck:a8662ad9902006ef538b",
+        "basel-offer-v1:bs:neues-klybeck:da49558182a0905a0fd1",
+        "basel-offer-v1:bs:neues-klybeck:77ef9322552b2c67e2c5",
+        "basel-offer-v1:bs:neues-klybeck:81dadf76cd01fcd07e44",
+        "basel-offer-v1:bs:neues-klybeck:2ef0406ec3e204e55293",
+        "basel-offer-v1:bs:neues-klybeck:1a941c182bb041787243",
+        "basel-offer-v1:bs:neues-klybeck:c7a16f56add61275fb95",
+        "basel-offer-v1:bs:stuecki:be996553e64cecb52af3",
+        "basel-offer-v1:bs:stuecki:79b8b363973ff4befe71",
+        "basel-offer-v1:bs:stuecki:b45db9c29486953f2ed9",
+        "basel-offer-v1:bs:stuecki:7d02ebc91acd563b2c51",
+        "basel-offer-v1:bs:stuecki:4741414d3895fa19674c",
+        "basel-offer-v1:bs:stuecki:03b7960bd155cb3dffc7",
+        "basel-offer-v1:bs:stuecki:b9f49a76b06ac404f778",
+        "basel-offer-v1:bs:stuecki:6005a76a3b374a8ac500",
+        "basel-offer-v1:bs:stuecki:94068719feb45058afd3",
+        "basel-offer-v1:bs:stuecki:522eca5eee7604ae7518"
+      ],
+      "futureMarketedRecordIds": [],
+      "underRefurbishmentRecordIds": [],
+      "subtotalLabels": {
+        "current": "Selected measured current marketed offers, mixed use; not vacancy or laboratory-only supply",
+        "future": "Selected measured future marketed offers; not current vacancy",
+        "refurbishment": "Selected measured offers under refurbishment/planned; not ready current supply"
+      },
+      "measuredCurrentMarketedOfferM2": 16429.5,
+      "measuredCurrentOfferRecords": 22,
+      "measuredCurrentMarketedOfferByUseTypeM2": {
+        "office": 6167.5,
+        "office/meeting": 115.0,
+        "storage": 254.0,
+        "office/laboratory": 1590.0,
+        "laboratory": 696.0,
+        "laboratory premises (BSL2, fully fitted; supporting-area split unstated)": 901.0,
+        "laboratory shell": 399.0,
+        "office, fully fitted": 2101.0,
+        "office, extended basic fit-out": 3398.0,
+        "office or practice/daycare, extended basic fit-out": 749.0,
+        "team office": 59.0
+      },
+      "futureMarketedOfferByUseTypeM2": {},
+      "underRefurbishmentByUseTypeM2": {},
+      "futureMarketedRecords": 0,
+      "refurbishmentPlannedRecords": 2,
+      "excludedFromMeasuredTotalRecords": 89,
+      "notes": [
+        "Source rows are observations, not unique verified companies or a complete census.",
+        "All marketed area subtotals are source-selected, use-type bucketed and non-overlapping. Null means no defensible measured subtotal; it is not zero vacancy.",
+        "Building/campus sizes, unknown offers, future projects and refurbishment are not actual vacancy; no canton absorption or years-supply inference.",
+        "Outside the bounded nine-project freshly reviewed offer selection; prior reviewed offer retained as context pending a fresh property/unit check. Exclusion does not assert no offer, no availability or zero vacancy.",
+        "Only positive individually sourced disjoint contribution units enter marketed totals. Confirmed vacancy and confirmed laboratory vacancy are explicitly null. Current means selected marketed, not an exhaustive inventory.",
+        "campus-klybeck: No specific owner/letting-agent confirmation of vacant possession as of 2026-11-04 was obtained. All positive available-space observations are public marketing, not owner_confirmed vacancy.",
+        "campus-klybeck: K-25's five distinct current direct offers total 2,195.5 m², split into office 1,826.5 m², office/meeting 115 m² and storage 254 m². This is a marketed subtotal only; it is not a campus-wide vacancy total or fitted-lab subtotal.",
+        "campus-klybeck: K-25 scope conflict remains: campus leasing table 4,300 m² versus direct letting page 6,300 m² total rental area. Existing occupiers and individual available units are identified, but the aggregate scopes are not reconciled.",
+        "campus-klybeck: K-141 currently markets office memberships but provides no quantified available private-office or coworking inventory. Its 8,048 m² aggregate and more than 100 occupiers are not a vacancy schedule.",
+        "campus-klybeck: K-141 operator floor menu includes 3. OG, while the owner's 8,048 m² table ends at 2. OG. No assumption is made that this adds available area.",
+        "campus-klybeck: K-410 timing conflict remains: dated owner article of 2026-09-17 and undated campus map describe refurbishment, while undated operator pages read on 2026-11-04 market turnkey ready-to-use labs. No dated completion or handover evidence resolves whether all, part or none of the aggregate is completed and unleased.",
+        "campus-klybeck: K-410's 3,100 m² is mixed laboratory/office area. Exact fitted-lab share, available module count, floor allocation and current vacant fitted-lab total remain unknown. The 6–45 m² range is a module-size range, not quantified inventory.",
+        "campus-klybeck: K-420 is associated with IOB on the owner map but has no verified street number, floor area or vacancy schedule in this targeted pass. Tenant presence is not proof of full letting or owner occupation.",
+        "campus-klybeck: Undated leasing/operator pages have retrievedDate 2026-11-04 and publishedDate null. Copyright years, availability headlines and upload-directory dates are not treated as publication or update dates.",
+        "campus-klybeck: The uploaded site-level available_m2=15,400 and K-410 available_m2=3,100 are retained as marketing aggregate observations, not promoted to confirmed current vacancy. Historical November 2025 brochure figures are not used as current vacancy.",
+        "campus-klybeck: Research stopped after one targeted primary-source resolution pass. No tenant-by-tenant vacancy audit or further confirmation campaign was undertaken.",
+        "neues-klybeck: The primary owner-branded pages advertise immediate availability, but no specific owner or letting-agent confirmation of actual vacancy was obtained. All included units are current_marketed, not owner-confirmed vacant; the whole buildings are not asserted vacant.",
+        "neues-klybeck: No publication or last-update date was visible in the retrieved leasing pages. publishedDate remains null; retrieval on 2026-11-04 is not evidence of webpage recency.",
+        "neues-klybeck: WKL-136's approximate 2,600 m² headline differs from the 2,459 m² detailed unit sum. The unexplained 141 m² is not included in totals.",
+        "neues-klybeck: The office/laboratory split within WKL-136's 1,590 m² first-floor offer is unknown. Total marketed premises across the seven detailed rows are 6,627 m²: 4,341 m² office-only, 1,590 m² mixed office/laboratory and 696 m² explicitly laboratory-only. The 6,627 m² total must not be called fitted laboratory area or owner-confirmed vacancy.",
+        "neues-klybeck: WKL-136 workshop and storage space in the basement is mentioned without a published area or distinct availability schedule. No additional basement area was counted.",
+        "neues-klybeck: No measurement convention such as NLA, GLA or SIA 416, laboratory biosafety classification, equipment inventory or current tenant-demise map was published in the retrieved extracts.",
+        "neues-klybeck: Uploaded tenant and lease observations were not reverified because this pass was limited to the two assigned leasing listings. Rhystadt's WKL-136.EG contact address alone was not promoted into an owner_occupied unit record.",
+        "neues-klybeck: The ALL/SENN 5,100 m² leasing-page versus FAQ conflict referenced in the task constraints belongs to a different project, not WKL-132/WKL-136, and was not imported into this project's units or totals.",
+        "neues-klybeck: Research stopped after one targeted source-resolution pass: search followed by retrieval of the two building pages and their owner-branded leasing overview.",
+        "stuecki: Research cutoff and retrieval date are 2026-11-04. One discovery search followed by one targeted primary-source resolution pass was completed; no broader property universe was researched.",
+        "stuecki: The live leasing pages do not show a verifiable publication or last-update date. publishedDate is null for these sources. Asset upload paths, footer year, old plan dates and search-result indexing are not treated as webpage recency.",
+        "stuecki: All currently offered units are current_marketed, not specifically owner-confirmed physical vacancy. No unit-specific confirmation of present occupation, committed lease status or exact handover date was obtained. An undated live offer is marketing evidence, not proof that the premises are empty.",
+        "stuecki: The ten individually quantified current office/lab-premises offers sum to 7,607 m² on their advertised bases: 6,307 m² office/office-compatible premises and 1,300 m² lab-labelled premises. The lab-labelled subtotal consists of a 901 m² fitted BSL2 premises total and 399 m² shell premises; it is not a net fitted-lab-area subtotal. Generic office ranges and unquantified Superlab offers are excluded, so the sum is not a complete campus vacancy figure.",
+        "stuecki: HO60B Level 1+2 has a material area conflict: current advertised 399 m² versus linked Wincasa plan measurements totaling 410.71 m². Visible listing identity is 60B while its HTML identifier contains 60A, and the plans label only 60A–E. Neither discrepancy was silently resolved.",
+        "stuecki: HO70 Level 2 is categorized as office in the primary inventory HTML. Laboratory capability, fitted-lab share and laboratory conversion consent are not established for its 3,000 m².",
+        "stuecki: The 901 m² BSL2 offer gives total premises area but no separate laboratory, office, circulation or support-space schedule. None of the mixed-use campus or tenant-premises areas is treated as fitted-lab floor area.",
+        "stuecki: Only HO60A explicitly states Bezug nach Vereinbarung in the live unit text. Other units' availableFrom values remain null rather than inferred as immediate occupancy.",
+        "stuecki: Exact building/street identity is not established for the ZIP Office 6 and generic office-range offers from the cited primary-page text and ZIP factsheet. The 522 m² HO60C office is retained by its exact leasing identity without assuming the imported Tech Park building mapping.",
+        "stuecki: The operator currently identifies Superlab Suisse Basel at Hochbergerstrasse 60 I, but publishes no available square metres or suite schedule. The historical capacity observation is not vacancy and may overlap both the campus and Park II constituent records.",
+        "stuecki: The 60,000 m² campus figure, 28,000 m² Park II figure and 8,000 m² expansion-building figure have different stock scopes and overlap. They are excluded from availability and never summed with one another or with tenant/service footprints.",
+        "stuecki: Tenant directory presence, occupied research centres and historical building completions do not establish owner occupation, current vacancy or campus-wide fully-let status. fully_let is used only for the six individual ZIP offices expressly marked vermietet."
+      ],
+      "confirmedVacancyM2": null,
+      "confirmedLaboratoryVacancyM2": null,
+      "denominatorScope": "Bounded selected reviewed marketed contribution units only; not an exhaustive market or campus vacancy denominator"
+    },
+    "BL": {
+      "sourceCompanyRows": 107,
+      "companyRecords": 107,
+      "evidenceCounts": {
+        "source_supported_operating": 11,
+        "source_supported_contact": 4,
+        "campus_resident": 28,
+        "registry_only": 13,
+        "unresolved": 49,
+        "conflict": 2
+      },
+      "sourcePropertyRows": 38,
+      "availabilityRecords": 106,
+      "currentMarketedM2": 20646,
+      "futureMarketedM2": 5100,
+      "underRefurbishmentM2": null,
+      "currentMarketedRecordIds": [
+        "basel-offer-v1:bl:sonuvo:68db2d7c76d02bc1d2f7",
+        "basel-offer-v1:bl:sonuvo:8df22c41e8d9dc7aad43",
+        "basel-offer-v1:bl:sonuvo:918804db17b6b5345836",
+        "basel-offer-v1:bl:sonuvo:cfaadf2ab2234fb173d4",
+        "basel-offer-v1:bl:sonuvo:7ed40a961f0609c5cd9a",
+        "basel-offer-v1:bl:sonuvo:2eedcea99ed2f425a39c",
+        "basel-offer-v1:bl:sonuvo:d3076a413a6128d5df47",
+        "basel-offer-v1:bl:sonuvo:eafda0349e9a79ee0a4e",
+        "basel-offer-v1:bl:sonuvo:1e7597c0a247f5465e5d",
+        "basel-offer-v1:bl:sonuvo:6776013498d095d80273",
+        "basel-offer-v1:bl:sonuvo:59aa33bb256e9ce7a8c9",
+        "basel-offer-v1:bl:sonuvo:5d35c6457d8c8af32687"
+      ],
+      "futureMarketedRecordIds": [
+        "basel-offer-v1:bl:all:25e4de5c9ce7f0e9e4ce",
+        "basel-offer-v1:bl:all:90d8f07c6fcd496c0c10"
+      ],
+      "underRefurbishmentRecordIds": [],
+      "subtotalLabels": {
+        "current": "Selected measured current marketed offers, mixed use; not vacancy or laboratory-only supply",
+        "future": "Selected measured future marketed offers; not current vacancy",
+        "refurbishment": "Selected measured offers under refurbishment/planned; not ready current supply"
+      },
+      "measuredCurrentMarketedOfferM2": 20646,
+      "measuredCurrentOfferRecords": 12,
+      "measuredCurrentMarketedOfferByUseTypeM2": {
+        "lab/office/support": 10478.0,
+        "office": 10168.0
+      },
+      "futureMarketedOfferByUseTypeM2": {
+        "office and/or laboratory shell": 5100.0
+      },
+      "underRefurbishmentByUseTypeM2": {},
+      "futureMarketedRecords": 23,
+      "refurbishmentPlannedRecords": 0,
+      "excludedFromMeasuredTotalRecords": 92,
+      "notes": [
+        "Source rows are observations, not unique verified companies or a complete census.",
+        "All marketed area subtotals are source-selected, use-type bucketed and non-overlapping. Null means no defensible measured subtotal; it is not zero vacancy.",
+        "Building/campus sizes, unknown offers, future projects and refurbishment are not actual vacancy; no canton absorption or years-supply inference.",
+        "Outside the bounded nine-project freshly reviewed offer selection; prior reviewed offer retained as context pending a fresh property/unit check. Exclusion does not assert no offer, no availability or zero vacancy.",
+        "Only positive individually sourced disjoint contribution units enter marketed totals. Confirmed vacancy and confirmed laboratory vacancy are explicitly null. Current means selected marketed, not an exhaustive inventory.",
+        "all: Ground-floor marketed area conflict remains unresolved: specific ALL leasing page 1,100 m² versus general SENN FAQ just under 1,400 m². No source publication/update date was visible; no relative webpage recency is claimed.",
+        "all: No specific owner communication confirming physical vacancy was obtained. Evidence supports future marketed capacity and reported BIIE letting only, not an owner-confirmed vacancy quantity.",
+        "all: No independently quantified fitted laboratory area, lab/office allocation, rental-area measurement standard or common-area allocation was supplied in the reviewed passages. All counted area remains mixed-use shell space.",
+        "all: Leasing page gives availability from 2027; SENN's general building-readiness FAQ specifies 1 January 2027. A separately confirmed unit handover date was not obtained.",
+        "all: The marketed subdivision threshold is 600 m² on the first floor, with up to four rental units stated for the offer as a whole. No individual subdivided unit schedule was verified, and subdivision alternatives are not added to supply.",
+        "all: The historical brochure figure is retained only as an imported excluded observation. Its source document and exact date were not verified in this pass.",
+        "all: One targeted source-resolution pass completed using search and three actual primary project/owner/letting pages. No additional research or external vacancy confirmation was undertaken.",
+        "hope: No exact remaining leasable-area total, floor-by-floor measured availability schedule, or specific physical-vacancy confirmation was found on the opened primary pages. The 8,000 m² advertised range ceiling is therefore not included in exact additive totals.",
+        "hope: SENN's minimum configurable space is approximately 150 m², while SIP's marketed range begins at 130 m². Publication and update dates are not disclosed on the opened pages; retrieval on 2026-11-04 is not a claim of webpage recency.",
+        "hope: SENN states completion in 2027/28 and occupancy from 2028; SIP specifies opening at the end of 2028. An exact handover date is unresolved; no January 2028 date is inferred.",
+        "hope: No laboratory use, fitted laboratory inventory, or laboratory share is stated for HOPE. Generic campus references to laboratory-compatible customizable space do not establish HOPE laboratory capability.",
+        "hope: The Homegate URL https://www.homegate.ch/rent/4003517742 was discovered through search, but fetch returned no extractable content. Its search-snippet date and unit details were not accepted as evidence. The primary SENN and SIP pages were successfully read; the targeted source-resolution pass stopped without further listing research.",
+        "hope: The historical brochure date differs between the uploaded row and task wording. Neither historical version was used to establish current availability.",
+        "hope: ALL's separate 5,100 m² leasing-page claim and the differing general SENN FAQ are outside this exact HOPE assignment. No ALL areas are entered or reconciled as HOPE space.",
+        "scale: No specific owner confirmation of vacant or uncommitted area was obtained. Public developer advertising establishes future marketing, not owner-confirmed vacancy.",
+        "scale: No current fitted-laboratory area or fixed office/lab/GMP split is disclosed; all 28,000 m² must remain mixed-use/build-to-suit capacity.",
+        "scale: No unique currently available suite schedule, tenant commitment balance, or exact uncommitted whole-building balance is published in the sources reviewed.",
+        "scale: The exact physical SCALE street address remains unconfirmed: developer's portal advertises Hegenheimermattweg 169 but developer-owned pages give only Main Campus, Allschwil. Do not conflate with ALL.",
+        "scale: Minimum letting sizes conflict: SENN project page from 2,000 m²; dedicated site and SENN portal listing from 350 m²; detailed layout smallest unit 369.2 m². Retained without assuming webpage recency.",
+        "scale: Floor figures differ within and between primary pages: 5,000 m² headline, around 6,000 m² SENN FAQ, more than 5,000 m² dedicated-site overview, versus 4,485 m² layout and approximately 4,500 m² lettable specification. Definitions and common-area treatment require clarification.",
+        "scale: SENN's Homegate listing has structured availability By agreement and year built 2028, versus descriptive and developer-owned-page occupancy from 2030. The record uses 2030 future marketing and preserves the conflicting metadata rather than inferring present availability.",
+        "scale: No publication or last-update date is displayed in the reviewed webpages. Published dates are null. June 2026 is the dedicated site's stated planning status, and 20 November 2025 is its cited drawing date, neither a webpage publication date.",
+        "scale: One targeted source-resolution pass completed; separate ALL, HQ, HORTUS and HOPE availability is outside this SCALE-only record.",
+        "sonuvo: Research cutoff and retrieval date are 2026-11-04. Completed one targeted source-resolution pass; no additional owner outreach or source expansion undertaken.",
+        "sonuvo: Property owner is not identified in the fetched primary letting pages. H&B Real Estate AG is the marketer, not proven owner. No specific owner confirmation of vacant possession, actual occupied area or actual remaining unlet area was obtained.",
+        "sonuvo: The fetched primary site advertises immediate/by-agreement readiness, but the project page and exact Flatfox listing still state Idorsia was expected to fully vacate by end 2025. This is a forecast retained in current marketing text, not verified evidence that the exit happened. No present vacancy or full exit is inferred solely from it.",
+        "sonuvo: H89 partial-letting conflict: the project page says only whole-building letting; the H89 building-specific page markets individual floors for teams from 50 employees and laboratory units from around 1,000 m². Both pages are undated. Retain the conflict and do not claim which was updated later.",
+        "sonuvo: Area scope differs materially from incoming rows. H89 20,900 m² and G06 14,100 m² are whole-building aggregates including ancillary space. Twelve included aboveground floor records sum to 20,646 m² of marketed lab/office floor area, not confirmed vacant or net fitted laboratory area. Parking, terrace, storage and unspecified basement special-purpose areas are recorded but excluded from this total.",
+        "sonuvo: H89 building-specific figures distinguish 5,706 m² Laborflächen from 1,481 m² office, 1,265 m² meeting rooms, 1,178 m² storage, 6,987 m² circulation and 4,289 m² technical installations. The 5,706 m² lab category cannot be added to the 10,478 m² lab-labelled floor area or 12,343 m² H89 aboveground floor sum. Exact fitted-lab measurement standard, floor allocation, condition, commissioning status and tenant-specific qualifications remain unconfirmed.",
+        "sonuvo: GMP fit-out capability is advertised, not certified current GMP operational qualification. FAQ explicitly says suitability depends on the process and required qualification and needs clarification with the client/owner team.",
+        "sonuvo: Conflicting totals retained: campus 34,969 m²; Flatfox usable-space header 35,350 m²; approximate building headlines sum to 35,000 m²; detailed all-use floor schedule sums to 34,985 m². FAQ's about 20,700 m² aboveground and about 14,250 m² basement observations are rounded and not silent replacements for detailed floor arithmetic.",
+        "sonuvo: Construction-year conflict: exact Flatfox listing says 2009; H89 building-specific page says 2011. No reconciliation attempted beyond this targeted pass.",
+        "sonuvo: No source page exposes a substantiated publication or update date in the fetched content. All publishedDate fields are null. The brochure filename contains mrz26; that is not treated as proof of publication date. The 2018-05-29 floor-plan date is a drawing date, not brochure recency. Incoming listing-online-since 23 Jun 2026 was not verified and is not adopted.",
+        "sonuvo: The ALL/SENN 5,100 m² versus general FAQ availability conflict concerns a separate project, not SONUVO H89/G06. It is not imported into this SONUVO record and should remain with that project's dedicated evidence record.",
+        "sonuvo: Existing incoming property rows 10 and 11 are preserved in the supplied input file. Their vacant/marketed status is refined here to current_marketed only. The shared canonical figures ledger has no existing SONUVO-specific entries or locks; this sourced record is returned for parent aggregation without modifying the shared ledger.",
+        "muttenz: The exact original listing is no longer in Homegate's database on the retrieval date. Current or future marketed availability cannot be established from the supplied starting URL.",
+        "muttenz: One bounded targeted source-resolution pass searched the exact address, original listing identifier, distinctive area figures and lab/cleanroom use in German and English. No property-specific active owner, developer or letting page was identified beyond the removed original portal page. Unrelated Muttenz and other-campus results were not substituted as evidence for this building.",
+        "muttenz: The owner, developer, original letting agent, prior occupant and current operator remain unidentified in the reviewed evidence.",
+        "muttenz: No specific owner confirmation of physical vacancy, occupancy or leasing status was obtained. Advertisement removal cannot resolve that distinction.",
+        "muttenz: The 3,791 m2 mixed lab/cleanroom/office area, 5,020 m2 listing-header figure and 2,500 m2 plot figure are imported observations, not specifications revalidated from a currently accessible property page. The basis of the 5,020 m2 figure and its relationship to 3,791 m2 remain unresolved.",
+        "muttenz: No floor-by-floor schedule, separate office/lab/cleanroom areas, fitted laboratory area, current GMP certification evidence, certification scope or fit-out condition was available in the resolved source.",
+        "muttenz: The original advertisement's publication date, last-update date, removal date and the uploaded observation date are unknown. The earlier 'By agreement' wording supplies no exact available-from date. No webpage recency has been inferred.",
+        "muttenz: No historical brochure was used as evidence of current vacancy. No unrelated campus aggregate or constituent-building figure was included in this project's totals.",
+        "hortus: Research cutoff and retrieval date are 2026-11-04. Undated live pages have publishedDate null; their publication or last-update date was not established. Do not infer recency from search indexing, copyright dates, or present-tense copy.",
+        "hortus: The defensible current advertised status is fully booked on the dedicated primary HORTUS page, with no quantified current marketed space established. This is not a fresh owner-confirmed physical vacancy measurement or a verified zero-square-metre vacancy figure.",
+        "hortus: The general Main Campus page and still-accessible June 2025 opening article retain coworking/office invitations inconsistent with the dedicated fully-booked status. Current coworking desk/private-office availability remains unresolved; it is excluded from availability totals.",
+        "hortus: The supplied available_m2 value of 0 is an imported interpretation of fully booked, not an explicit measured owner vacancy disclosure. It has not been promoted to a confirmed vacancy metric.",
+        "hortus: HORTUS is specifically described as an office building. Life-science tenants and its name do not establish fitted laboratories; no HORTUS lab square metres are counted.",
+        "hortus: Historical November 2025 brochure material is not used as current vacancy evidence. ALL and other Main Campus buildings are outside this exact HORTUS assignment and are not included in its availability units.",
+        "hortus: One targeted source-resolution pass was completed using primary owner/developer and park/project pages. No direct owner contact or lease-roll confirmation was obtained."
+      ],
+      "confirmedVacancyM2": null,
+      "confirmedLaboratoryVacancyM2": null,
+      "denominatorScope": "Bounded selected reviewed marketed contribution units only; not an exhaustive market or campus vacancy denominator"
+    }
+  },
+  "preservation": {
+    "masterSnapshotFile": "scripts/offline-cache/snapshot_V8.json.gz",
+    "masterSnapshotSha256": "1d9d3a9295aa894ec44fc1db33d599734bedc78fd2d6e9a825ba83a92f83903d",
+    "reviewedCompanionFile": "data/baselCantonDetail_offline_V3.json",
+    "reviewedCompanionSha256": "2fde5aecbec9afe81ee32cdf5ed8992656812c727edbe2f88b91e3bcf4959fe0",
+    "masterCompanyIdCount": 1276,
+    "companyMasterWrites": 0,
+    "siteMasterWrites": 0,
+    "originalReviewedFactsModified": false,
+    "clientEditsModified": false,
+    "sourceFiles": [
+      {
+        "fileName": "Basel_BaselStadt_Companies_V1.csv",
+        "sha256": "55ac479cb9cc1be2030c3ac71080c221be8ba47ead0bc95db2d78bf674706993",
+        "rowCount": 138,
+        "recordClass": "company"
+      },
+      {
+        "fileName": "Basel_BaselStadt_CampusesBuildings_V1.csv",
+        "sha256": "f577178faf76795ec9b61f9327c7f04a463ae02ab71fa825c478926d8b31d42e",
+        "rowCount": 57,
+        "recordClass": "property"
+      },
+      {
+        "fileName": "Basel_BaselLandschaft_Companies_V1.csv",
+        "sha256": "b03742e3339e039d68fddd74b30a4df1cb9ef4fb4b0e34c4e3a214ce24d80dac",
+        "rowCount": 107,
+        "recordClass": "company"
+      },
+      {
+        "fileName": "Basel_BaselLandschaft_CampusesBuildings_V1.csv",
+        "sha256": "7ee68a0a518b89404a51eeeeba2185530d6ea760ccaa2e861587cef8eb14f34e",
+        "rowCount": 38,
+        "recordClass": "property"
+      }
+    ]
+  },
+  "verificationScope": "Deterministic reconciliation to reviewed canton evidence, not bulk independent re-verification or exhaustive census",
+  "availabilityAssembly": "Explicit reviewed handoff only"
+}

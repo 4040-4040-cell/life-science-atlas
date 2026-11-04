@@ -2,6 +2,8 @@ import { Router, type Request, type Response, type NextFunction, type ErrorReque
 import { companiesCsv } from "./csv";
 import { getCompanies, getCoverage, getExportRows, getOverview, getProfile, getRegion, readyIngestion } from "./repository";
 import { AtlasError, parseFilters, parseId } from "./validation";
+import { cantonDetailRouter } from "./canton-detail/router";
+import { getBaselAvailabilityRegister } from "./basel-availability";
 
 const asyncRoute = (handler: (req: Request, res: Response) => Promise<unknown>) => (req: Request, res: Response, next: NextFunction) => { Promise.resolve(handler(req, res)).catch(next); };
 export const atlasRouter = Router();
@@ -23,6 +25,8 @@ atlasRouter.get("/export.csv", asyncRoute(async (req, res) => {
   res.set("Content-Disposition", 'attachment; filename="life-science-atlas.csv"');
   res.type("text/csv; charset=utf-8").send(csv);
 }));
+atlasRouter.get("/registers/basel-availability", (_req, res) => res.json(getBaselAvailabilityRegister()));
+atlasRouter.use("/canton-detail", cantonDetailRouter);
 atlasRouter.use((_req, res) => { res.status(404).json({ error: { code: "ENDPOINT_NOT_FOUND", message: "Atlas endpoint not found." } }); });
 const errors: ErrorRequestHandler = (error: unknown, _req, res, _next) => {
   if (error instanceof AtlasError) { res.status(error.status).json({ error: { code: error.code, message: error.message } }); return; }

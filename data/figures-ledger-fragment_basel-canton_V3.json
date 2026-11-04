@@ -1,0 +1,12 @@
+{
+  "project": "Life Science Atlas — Basel canton V3 additive execution",
+  "last_updated": "2026-11-04",
+  "parent_merge_note": "Scoped fragment only; do not replace prior immutable seed-build or baseline-frame figures. Parent owns the concurrent root ledger and final snapshot.",
+  "figures": [
+    {"id":"managed-basel-canton-new-aerials-v3-20261104","metric":"New Basel canton V3 aerial records","value":"24","scope":"INSERT-only additions, not the 15 retained Basel baseline frames","period":"2026-11-04 V3 execution","source":"data/baselCanton_execution_receipt_V3.json and exact managed DB IDs","as_of_date":"2026-11-04","verified":true,"locked":false},
+    {"id":"managed-atlas-global-aerials-after-canton-v3-20261104","metric":"Managed atlas global aerial records after canton V3 insertion","value":"81","scope":"57 original global frames plus 24 source-linked canton additions; not a coverage denominator","period":"2026-11-04 V3 execution","source":"data/baselCanton_execution_receipt_V3.json","as_of_date":"2026-11-04","verified":true,"locked":false},
+    {"id":"basel-canton-producer-address-records-v3-20261104","metric":"Retained Basel canton producer source-address records","value":"482","scope":"311 BS and 171 BL records; includes operators, buildings, institutions, residency references and unresolved leads; not active-company count","period":"Producer V2 observed 2026-11-04; final companion V3","source":"Actual producer envelope hash 24494b6369d0ba3cb9a6606b4874631a29416f8e1f9d91bbd0c5253383f39ce1; data/baselCanton_preservation_verification_V3.json","as_of_date":"2026-11-04","verified":true,"locked":false},
+    {"id":"basel-canton-accepted-postal-records-v3-20261104","metric":"Accepted source postal-coordinate records","value":"150","scope":"Distinct producer records with accepted coordinates and exact native frame pins; not rooftops, occupied suites or active companies","period":"Producer V2 observed 2026-11-04; final companion V3","source":"data/baselCanton_preservation_verification_V3.json and actual envelope","as_of_date":"2026-11-04","verified":true,"locked":false},
+    {"id":"basel-canton-unresolved-null-geometries-v3-20261104","metric":"Producer records retaining null unresolved geometry","value":"332","scope":"Full source register only; no invented pins or master admissions","period":"Producer V2 observed 2026-11-04; final companion V3","source":"data/baselCanton_execution_receipt_V3.json","as_of_date":"2026-11-04","verified":true,"locked":false}
+  ]
+}

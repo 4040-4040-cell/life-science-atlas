@@ -1,0 +1,85 @@
+{
+  "id": "muttenz",
+  "retrievedDate": "2026-11-04",
+  "researchCutoff": "2026-11-04",
+  "sources": [
+    {
+      "url": "https://www.homegate.ch/louer/3002212032",
+      "title": "Annonce introuvable — Homegate listing 3002212032",
+      "publishedDate": null,
+      "retrievedDate": "2026-11-04",
+      "evidenceExcerpt": "L'annonce que tu recherches n'existe plus dans notre banque de données.",
+      "sourceType": "original_letting_portal",
+      "primary": true,
+      "notes": "The exact supplied URL was visited in the browser after fetch returned no extracted content. The page states that the advertisement no longer exists in the portal database. It does not identify the former advertiser, provide property specifications, confirm a letting, or confirm vacancy. No publication or withdrawal date is displayed. This retrieval date is not the webpage's publication date.",
+      "captureTextPath": "/home/ubuntu/page_texts/www.homegate.ch_louer_3002212032.md",
+      "captureScreenshotPath": "/home/ubuntu/screenshots/homegate_ch_2026-11-04_17-43-20_9384.webp"
+    },
+    {
+      "url": "file:///home/ubuntu/life-science-atlas/basel_availability_V1/data/incoming_properties.json",
+      "title": "Uploaded property row: Wildensteinerstrasse 1, Muttenz — source row 24",
+      "publishedDate": null,
+      "retrievedDate": "2026-11-04",
+      "evidenceExcerpt": "building: Wildensteinerstrasse 1 (lab/cleanroom building); street: Wildensteinerstrasse 1; zip: 4132; city: Muttenz; owner_developer: Not named in listing; size_m2: 3791; size_basis: lab, cleanroom and office space per listing text (listing header 5,020 m2; plot 2,500 m2); lab_share_or_note: GMP-certified lab and cleanroom facilities; available_m2: 3791; availability_note: By agreement; source_url: https://www.homegate.ch/louer/3002212032; notes: Prior occupant not identified; listing date not shown.",
+      "sourceType": "user_supplied_unverified_import",
+      "primary": false,
+      "notes": "Imported from Basel_BaselLandschaft_CampusesBuildings_V1.csv, source_row 24. The supplied row records a previously observed advertisement but supplies no observation/publication date. Its specifications and previously advertised availability could not be revalidated from the now-removed original listing during this pass. This is not a current vacancy confirmation or an owner statement."
+    }
+  ],
+  "units": [
+    {
+      "building": "Wildensteinerstrasse 1 (lab/cleanroom building)",
+      "floor": null,
+      "address": "Wildensteinerstrasse 1, 4132 Muttenz, Switzerland",
+      "areaM2": 3791,
+      "areaQualifier": "Imported advertised combined lab, cleanroom and office area; not revalidated from an active letting page",
+      "useType": "lab/cleanroom/office (GMP claim in imported listing; not independently confirmed)",
+      "areaBasis": "Combined lab, cleanroom and office space according to the supplied listing-text transcription; no separate fitted-laboratory or cleanroom area disclosed",
+      "availabilityState": "unknown",
+      "availableFrom": null,
+      "sourceUrl": "file:///home/ubuntu/life-science-atlas/basel_availability_V1/data/incoming_properties.json",
+      "overlapGroup": "muttenz-wildensteinerstrasse-1",
+      "includeInTotal": false,
+      "notes": "Preserves the uploaded 3,791 m2 observation only. The supplied row's earlier availability wording was 'By agreement'. On 2026-11-04 the exact original Homegate listing URL https://www.homegate.ch/louer/3002212032 returned 'Annonce introuvable' and stated that the advertisement no longer exists in its database. No active replacement listing or property-specific owner/developer/letting page was resolved in the bounded targeted pass. Therefore current advertised availability, physical vacancy and any future availability date remain unknown. Listing removal is not evidence of fully_let, owner_occupied or under_refurbishment. No owner confirmation was obtained. The mixed-use area must not be represented as 3,791 m2 of fitted lab space or added to the 5,020 m2 header figure."
+    }
+  ],
+  "excludedTotals": [
+    {
+      "building": "Wildensteinerstrasse 1 (lab/cleanroom building)",
+      "address": "Wildensteinerstrasse 1, 4132 Muttenz, Switzerland",
+      "areaM2": 3791,
+      "areaBasis": "Imported combined lab, cleanroom and office area",
+      "sourceUrl": "file:///home/ubuntu/life-science-atlas/basel_availability_V1/data/incoming_properties.json",
+      "overlapGroup": "muttenz-wildensteinerstrasse-1",
+      "reason": "Excluded from current and future marketed-availability totals because the original listing has been removed and no active replacement or specific availability confirmation was located. Also excluded from fitted-lab totals because laboratory/cleanroom and office components are not separated. This entry refers to the same area as the unit above, not an additional unit."
+    },
+    {
+      "building": "Wildensteinerstrasse 1 (lab/cleanroom building)",
+      "address": "Wildensteinerstrasse 1, 4132 Muttenz, Switzerland",
+      "areaM2": 5020,
+      "areaBasis": "Listing header area reported in the uploaded row; metric definition unresolved",
+      "sourceUrl": "file:///home/ubuntu/life-science-atlas/basel_availability_V1/data/incoming_properties.json",
+      "overlapGroup": "muttenz-wildensteinerstrasse-1",
+      "reason": "The imported header figure differs from the 3,791 m2 mixed-use listing-text figure. The now-removed page does not allow reconciliation of scope or measurement basis. Not a separately available unit and must not be added to 3,791 m2. Not established as fitted lab area or current marketed supply."
+    },
+    {
+      "building": "Wildensteinerstrasse 1 (lab/cleanroom building)",
+      "address": "Wildensteinerstrasse 1, 4132 Muttenz, Switzerland",
+      "areaM2": 2500,
+      "areaBasis": "Plot area reported in the uploaded row",
+      "sourceUrl": "file:///home/ubuntu/life-science-atlas/basel_availability_V1/data/incoming_properties.json",
+      "overlapGroup": "muttenz-wildensteinerstrasse-1",
+      "reason": "Land area is not leasable internal floor area, fitted lab area, or a separate available unit. Specification preserved as an unverified imported observation only."
+    }
+  ],
+  "gaps": [
+    "The exact original listing is no longer in Homegate's database on the retrieval date. Current or future marketed availability cannot be established from the supplied starting URL.",
+    "One bounded targeted source-resolution pass searched the exact address, original listing identifier, distinctive area figures and lab/cleanroom use in German and English. No property-specific active owner, developer or letting page was identified beyond the removed original portal page. Unrelated Muttenz and other-campus results were not substituted as evidence for this building.",
+    "The owner, developer, original letting agent, prior occupant and current operator remain unidentified in the reviewed evidence.",
+    "No specific owner confirmation of physical vacancy, occupancy or leasing status was obtained. Advertisement removal cannot resolve that distinction.",
+    "The 3,791 m2 mixed lab/cleanroom/office area, 5,020 m2 listing-header figure and 2,500 m2 plot figure are imported observations, not specifications revalidated from a currently accessible property page. The basis of the 5,020 m2 figure and its relationship to 3,791 m2 remain unresolved.",
+    "No floor-by-floor schedule, separate office/lab/cleanroom areas, fitted laboratory area, current GMP certification evidence, certification scope or fit-out condition was available in the resolved source.",
+    "The original advertisement's publication date, last-update date, removal date and the uploaded observation date are unknown. The earlier 'By agreement' wording supplies no exact available-from date. No webpage recency has been inferred.",
+    "No historical brochure was used as evidence of current vacancy. No unrelated campus aggregate or constituent-building figure was included in this project's totals."
+  ]
+}

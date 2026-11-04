@@ -1,0 +1,259 @@
+{
+  "edition": "V4",
+  "asOf": "2026-11-04",
+  "paper": {
+    "widthInches": 17,
+    "heightInches": 11,
+    "name": "Tabloid"
+  },
+  "allMarketsPdfUrl": "/manus-storage/life-science-atlas_all-markets-and-basel_V4_b12ab7e1.pdf",
+  "individualPdfZipUrl": "/manus-storage/individual-maps_V4_21aef6d8.zip",
+  "markets": {
+    "biotech-beach": {
+      "title": "Biotech Beach",
+      "imageUrl": "/manus-storage/biotech-beach_intelligence_V3_728a4918.png",
+      "pdfUrl": "/manus-storage/biotech-beach_intelligence_V3_c3db4790.pdf",
+      "asOf": "2026-11-04",
+      "pages": 1,
+      "widthPoints": 1224,
+      "heightPoints": 792,
+      "paper": {
+        "widthInches": 17,
+        "heightInches": 11,
+        "name": "Tabloid"
+      },
+      "companyRecordIds": [
+        "gco_4a2977fbbe0c70e6bab4",
+        "gco_739bde84abd79db8bb7f",
+        "gco_0e0000e79d033b9146ef",
+        "gco_83cf6169ad5cf8eb3372",
+        "gco_9328b082a7756ed365fb",
+        "gco_6cf2212dff0779e17130"
+      ]
+    },
+    "genetown": {
+      "title": "Genetown",
+      "imageUrl": "/manus-storage/genetown_intelligence_V3_9db61f80.png",
+      "pdfUrl": "/manus-storage/genetown_intelligence_V3_1754aa59.pdf",
+      "asOf": "2026-11-04",
+      "pages": 1,
+      "widthPoints": 1224,
+      "heightPoints": 792,
+      "paper": {
+        "widthInches": 17,
+        "heightInches": 11,
+        "name": "Tabloid"
+      },
+      "companyRecordIds": [
+        "gco_939d7d8a5be1d56469c6",
+        "gco_2420b7e937e1471be817",
+        "gco_f51226e5b967a88696ef",
+        "gco_bb675269983e2d47d3d9",
+        "gco_0d960be72ef4b0c28f47",
+        "gco_78a0445d4ffbb4a2e9ce"
+      ]
+    },
+    "biotech-bay": {
+      "title": "Biotech Bay",
+      "imageUrl": "/manus-storage/biotech-bay_intelligence_V3_01250fd0.png",
+      "pdfUrl": "/manus-storage/biotech-bay_intelligence_V3_870a5b54.pdf",
+      "asOf": "2026-11-04",
+      "pages": 1,
+      "widthPoints": 1224,
+      "heightPoints": 792,
+      "paper": {
+        "widthInches": 17,
+        "heightInches": 11,
+        "name": "Tabloid"
+      },
+      "companyRecordIds": [
+        "gco_bf25ff2bf167415c44d0",
+        "gco_9b5c225161dc38b50675",
+        "gco_52071cd164fdc6c1a826",
+        "gco_b461fa4409b311f89506",
+        "gco_116dbec7dbd84d6c8e1c",
+        "gco_3fe2c52725422ae1f251"
+      ]
+    },
+    "basel": {
+      "title": "Basel",
+      "imageUrl": "/manus-storage/basel_intelligence_V4_682ad2ca.png",
+      "pdfUrl": "/manus-storage/basel_intelligence_V4_b824fd80.pdf",
+      "asOf": "2026-11-04",
+      "pages": 1,
+      "widthPoints": 1224,
+      "heightPoints": 792,
+      "paper": {
+        "widthInches": 17,
+        "heightInches": 11,
+        "name": "Tabloid"
+      },
+      "companyRecordIds": [
+        "gco_3f314dfde5f2902e7d47",
+        "gco_227531de5eb003ab5d9c",
+        "gco_e5bfdeb96ac5d1afd961",
+        "gco_938b55cbc12b1d50c8e0",
+        "gco_98c2776a061ff24fea05",
+        "gco_a188e36055bd76686fb9"
+      ],
+      "dataZipUrl": "/manus-storage/Basel_Corrected_Register_and_Print_V1_426d7928.zip"
+    },
+    "pharm-country": {
+      "title": "Pharm Country",
+      "imageUrl": "/manus-storage/pharm-country_intelligence_V3_38ff5ecc.png",
+      "pdfUrl": "/manus-storage/pharm-country_intelligence_V3_6e2f0eaa.pdf",
+      "asOf": "2026-11-04",
+      "pages": 1,
+      "widthPoints": 1224,
+      "heightPoints": 792,
+      "paper": {
+        "widthInches": 17,
+        "heightInches": 11,
+        "name": "Tabloid"
+      },
+      "companyRecordIds": [
+        "gco_539c8374750f738c2281",
+        "gco_18aa3561b6b1c583fa5e",
+        "gco_51b1b826c38fab10b674",
+        "gco_45ab8969e18b2e13fd4b",
+        "gco_04121fed8d29fd1052e6",
+        "gco_92d571ff1dda075da935"
+      ]
+    },
+    "biocapital": {
+      "title": "BioCapital",
+      "imageUrl": "/manus-storage/biocapital_intelligence_V3_b135c21b.png",
+      "pdfUrl": "/manus-storage/biocapital_intelligence_V3_ac810d07.pdf",
+      "asOf": "2026-11-04",
+      "pages": 1,
+      "widthPoints": 1224,
+      "heightPoints": 792,
+      "paper": {
+        "widthInches": 17,
+        "heightInches": 11,
+        "name": "Tabloid"
+      },
+      "companyRecordIds": [
+        "gco_17df5ec444abc10bff23",
+        "gco_6a73fa2f851e43cc87f6",
+        "gco_26be704869d4b36f35e0",
+        "gco_ac1dae98ab18a7388fc4",
+        "gco_859f011c4ffa88b7a469",
+        "gco_84bf6ac0fb934f827d03"
+      ]
+    },
+    "bio-nc": {
+      "title": "Bio NC",
+      "imageUrl": "/manus-storage/bio-nc_intelligence_V3_366d8a96.png",
+      "pdfUrl": "/manus-storage/bio-nc_intelligence_V3_80cbf552.pdf",
+      "asOf": "2026-11-04",
+      "pages": 1,
+      "widthPoints": 1224,
+      "heightPoints": 792,
+      "paper": {
+        "widthInches": 17,
+        "heightInches": 11,
+        "name": "Tabloid"
+      },
+      "companyRecordIds": [
+        "gco_24541c996caf62a4570c",
+        "gco_77d96a582279fed6fe8b",
+        "gco_50f0697a25ea8786d667",
+        "gco_2e97918150827f13b9f4",
+        "gco_4e7168d510d68a578775",
+        "gco_6884903e092b23b51057"
+      ]
+    },
+    "biomidwest": {
+      "title": "BioMidwest",
+      "imageUrl": "/manus-storage/biomidwest_intelligence_V3_87aa9001.png",
+      "pdfUrl": "/manus-storage/biomidwest_intelligence_V3_15432b92.pdf",
+      "asOf": "2026-11-04",
+      "pages": 1,
+      "widthPoints": 1224,
+      "heightPoints": 792,
+      "paper": {
+        "widthInches": 17,
+        "heightInches": 11,
+        "name": "Tabloid"
+      },
+      "companyRecordIds": [
+        "gco_3587d9f0ba282df85f31",
+        "gco_21b02b0f89ef393dff08",
+        "gco_0e76abd0a03b5c1a9cb3",
+        "gco_c28c3484ecf502365416",
+        "gco_96502a378cd3b155a7ae",
+        "gco_a40d8d30f658a72ed580"
+      ]
+    },
+    "seattle": {
+      "title": "Seattle / Puget Sound",
+      "imageUrl": "/manus-storage/seattle_intelligence_V3_d66a15b3.png",
+      "pdfUrl": "/manus-storage/seattle_intelligence_V3_2f55f21c.pdf",
+      "asOf": "2026-11-04",
+      "pages": 1,
+      "widthPoints": 1224,
+      "heightPoints": 792,
+      "paper": {
+        "widthInches": 17,
+        "heightInches": 11,
+        "name": "Tabloid"
+      },
+      "companyRecordIds": [
+        "gco_75eb659274d6ef558c7a",
+        "gco_d4120a997343aad2d529",
+        "gco_45ab8969e18b2e13fd4b",
+        "gco_dc07d816040adf4748b7",
+        "gco_fee352d9771f1a2a03ff",
+        "gco_bdab28c8c51a75db1f28"
+      ]
+    },
+    "boulder": {
+      "title": "Boulder / Front Range",
+      "imageUrl": "/manus-storage/boulder_intelligence_V3_956945ba.png",
+      "pdfUrl": "/manus-storage/boulder_intelligence_V3_5884ac96.pdf",
+      "asOf": "2026-11-04",
+      "pages": 1,
+      "widthPoints": 1224,
+      "heightPoints": 792,
+      "paper": {
+        "widthInches": 17,
+        "heightInches": 11,
+        "name": "Tabloid"
+      },
+      "companyRecordIds": [
+        "gco_1353c5473cbd713f5214",
+        "gco_70cd08d154f30063bd4f",
+        "gco_4e2600844994a6f09a35",
+        "gco_dd789e7b27fd289f3135",
+        "gco_4c69ff05cd462b5a7f5f",
+        "gco_91ed6958fd29b22991cc"
+      ]
+    },
+    "uk": {
+      "title": "United Kingdom",
+      "imageUrl": "/manus-storage/uk_intelligence_V3_ab024067.png",
+      "pdfUrl": "/manus-storage/uk_intelligence_V3_3d3f16a9.pdf",
+      "asOf": "2026-11-04",
+      "pages": 1,
+      "widthPoints": 1224,
+      "heightPoints": 792,
+      "paper": {
+        "widthInches": 17,
+        "heightInches": 11,
+        "name": "Tabloid"
+      },
+      "companyRecordIds": [
+        "gco_3d97e96e7409c8f9f8c6",
+        "gco_81bf8427b8bd7d6865ae",
+        "gco_483c4c26c84e4a56dd46",
+        "gco_632d9ab71fd861091ad9",
+        "gco_e31ebba7edc43b34c7f4",
+        "gco_44c581e1f68cbeff0e16"
+      ]
+    }
+  },
+  "allMarketsAndCantons": true,
+  "sheetCount": 13,
+  "registerDataZipUrl": "/manus-storage/Basel_Corrected_Register_and_Print_V1_426d7928.zip"
+}

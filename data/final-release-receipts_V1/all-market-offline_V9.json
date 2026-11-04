@@ -1,0 +1,1069 @@
+{
+  "package": "/home/ubuntu/life-science-atlas/offline_browser_atlas_V9",
+  "runtime": "actual file:// Chromium",
+  "externalRequests": [],
+  "pageErrors": [],
+  "consoleErrors": [],
+  "markets": [
+    {
+      "region": "basel",
+      "savedMapLoaded": true,
+      "matrixLoaded": true,
+      "printAction": true
+    },
+    {
+      "region": "bio-nc",
+      "savedMapLoaded": true,
+      "matrixLoaded": true,
+      "printAction": true
+    },
+    {
+      "region": "biocapital",
+      "savedMapLoaded": true,
+      "matrixLoaded": true,
+      "printAction": true
+    },
+    {
+      "region": "biomidwest",
+      "savedMapLoaded": true,
+      "matrixLoaded": true,
+      "printAction": true
+    },
+    {
+      "region": "biotech-bay",
+      "savedMapLoaded": true,
+      "matrixLoaded": true,
+      "printAction": true
+    },
+    {
+      "region": "biotech-beach",
+      "savedMapLoaded": true,
+      "matrixLoaded": true,
+      "printAction": true
+    },
+    {
+      "region": "boulder",
+      "savedMapLoaded": true,
+      "matrixLoaded": true,
+      "printAction": true
+    },
+    {
+      "region": "genetown",
+      "savedMapLoaded": true,
+      "matrixLoaded": true,
+      "printAction": true
+    },
+    {
+      "region": "pharm-country",
+      "savedMapLoaded": true,
+      "matrixLoaded": true,
+      "printAction": true
+    },
+    {
+      "region": "seattle",
+      "savedMapLoaded": true,
+      "matrixLoaded": true,
+      "printAction": true
+    },
+    {
+      "region": "uk",
+      "savedMapLoaded": true,
+      "matrixLoaded": true,
+      "printAction": true
+    }
+  ],
+  "profiles": [
+    {
+      "region": "basel",
+      "siteListClick": true
+    },
+    {
+      "region": "basel",
+      "company": "Neurocrine Biosciences",
+      "displayedOperatingCashFlow": "282.2 USD millions",
+      "periodAndScope": "Global reporting entity: NEUROCRINE BIOSCIENCES INC\nAs of Jun 30, 2026\nPeriod from Jan 1, 2026",
+      "mapClick": true,
+      "overlapThenFilterNoCrash": true
+    },
+    {
+      "region": "biotech-beach",
+      "company": "Neurocrine Biosciences",
+      "displayedOperatingCashFlow": "282.2 USD millions",
+      "periodAndScope": "Global reporting entity: NEUROCRINE BIOSCIENCES INC\nAs of Jun 30, 2026\nPeriod from Jan 1, 2026",
+      "mapClick": true,
+      "overlapThenFilterNoCrash": true
+    },
+    {
+      "region": "genetown",
+      "company": "Vertex Pharmaceuticals",
+      "displayedOperatingCashFlow": "2,553.5 USD millions",
+      "periodAndScope": "Global reporting entity: VERTEX PHARMACEUTICALS INC / MA\nAs of Jun 30, 2026\nPeriod from Jan 1, 2026",
+      "mapClick": true,
+      "overlapThenFilterNoCrash": true
+    }
+  ],
+  "paper": [
+    {
+      "region": "basel",
+      "pages": 1,
+      "widthPoints": 1224.0,
+      "heightPoints": 792.0
+    },
+    {
+      "region": "bio-nc",
+      "pages": 1,
+      "widthPoints": 1224.0,
+      "heightPoints": 792.0
+    },
+    {
+      "region": "biocapital",
+      "pages": 1,
+      "widthPoints": 1224.0,
+      "heightPoints": 792.0
+    },
+    {
+      "region": "biomidwest",
+      "pages": 1,
+      "widthPoints": 1224.0,
+      "heightPoints": 792.0
+    },
+    {
+      "region": "biotech-bay",
+      "pages": 1,
+      "widthPoints": 1224.0,
+      "heightPoints": 792.0
+    },
+    {
+      "region": "biotech-beach",
+      "pages": 1,
+      "widthPoints": 1224.0,
+      "heightPoints": 792.0
+    },
+    {
+      "region": "boulder",
+      "pages": 1,
+      "widthPoints": 1224.0,
+      "heightPoints": 792.0
+    },
+    {
+      "region": "genetown",
+      "pages": 1,
+      "widthPoints": 1224.0,
+      "heightPoints": 792.0
+    },
+    {
+      "region": "pharm-country",
+      "pages": 1,
+      "widthPoints": 1224.0,
+      "heightPoints": 792.0
+    },
+    {
+      "region": "seattle",
+      "pages": 1,
+      "widthPoints": 1224.0,
+      "heightPoints": 792.0
+    },
+    {
+      "region": "uk",
+      "pages": 1,
+      "widthPoints": 1224.0,
+      "heightPoints": 792.0
+    }
+  ],
+  "csv": [
+    {
+      "region": "basel",
+      "blobDownload": true,
+      "filename": "life-science-atlas.csv",
+      "rows": 1,
+      "companyFilter": "Neurocrine"
+    },
+    {
+      "region": "biotech-beach",
+      "blobDownload": true,
+      "filename": "life-science-atlas.csv",
+      "rows": 1,
+      "companyFilter": "Neurocrine"
+    },
+    {
+      "region": "genetown",
+      "blobDownload": true,
+      "filename": "life-science-atlas.csv",
+      "rows": 1,
+      "companyFilter": "Vertex"
+    }
+  ],
+  "allSavedImages": [
+    {
+      "src": "./offline-assets/allschwil-allschwil-street-detail_swiss_aerial_0a4cc560.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/basel-allschwil-bachgraben-main-campus_exhibit_da6c8d1c.jpg",
+      "width": 1800,
+      "height": 1584
+    },
+    {
+      "src": "./offline-assets/basel-allschwil-bachgraben-main-campus_swiss_aerial_a9a5059f.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/basel-allschwil-bachgraben-main-campus_swiss_aerial_bd659862.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/basel-downtown-sbb-aeschen_exhibit_a7d46d1f.jpg",
+      "width": 1800,
+      "height": 1521
+    },
+    {
+      "src": "./offline-assets/basel-downtown-sbb-aeschen_swiss_aerial_6694d67d.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/basel-downtown-sbb-aeschen_swiss_aerial_9aab2443.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/basel-east-bubendorf_exhibit_4c0812d5.jpg",
+      "width": 1800,
+      "height": 1320
+    },
+    {
+      "src": "./offline-assets/basel-east-bubendorf_swiss_aerial_2f7eda30.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/basel-east-bubendorf_swiss_aerial_6f321f71.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/basel-east-muttenz-pratteln_exhibit_520dcf02.jpg",
+      "width": 1800,
+      "height": 1320
+    },
+    {
+      "src": "./offline-assets/basel-east-muttenz-pratteln_swiss_aerial_1215947a.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/basel-east-muttenz-pratteln_swiss_aerial_2ad0d7e2.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/basel-germany-grenzach-wyhlen_esri_aerial_9f59410b.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/basel-germany-grenzach-wyhlen_exhibit_d9d05fe0.jpg",
+      "width": 1800,
+      "height": 1339
+    },
+    {
+      "src": "./offline-assets/basel-germany-loerrach_esri_aerial_f6d085d7.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/basel-germany-loerrach_exhibit_a65d2b1a.jpg",
+      "width": 1800,
+      "height": 1339
+    },
+    {
+      "src": "./offline-assets/basel-huningue-industrial_esri_aerial_eb1c865c.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/basel-huningue-industrial_exhibit_fcfb2c4d.jpg",
+      "width": 1800,
+      "height": 1339
+    },
+    {
+      "src": "./offline-assets/basel-klybeck-stucki-klybeck_exhibit_ebed7173.jpg",
+      "width": 1800,
+      "height": 1320
+    },
+    {
+      "src": "./offline-assets/basel-klybeck-stucki-klybeck_swiss_aerial_8de103a3.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/basel-klybeck-stucki-klybeck_swiss_aerial_f97a1ddc.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/basel-klybeck-stucki-stuecki-centered-current_swiss_aerial_c256c0e7.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/basel-klybeck-stucki-stuecki_exhibit_5491ad5f.jpg",
+      "width": 1800,
+      "height": 1320
+    },
+    {
+      "src": "./offline-assets/basel-klybeck-stucki-stuecki_swiss_aerial_0a5569e4.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/basel-klybeck-stucki-stuecki_swiss_aerial_dbba2c9d.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/basel-liestal-sissach-sissach-orientation-context_swiss_aerial_404871d6.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/basel-research-campus-core_exhibit_6d08e6c1.jpg",
+      "width": 1800,
+      "height": 1320
+    },
+    {
+      "src": "./offline-assets/basel-research-campus-core_swiss_aerial_24c8cf5b.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/basel-research-campus-core_swiss_aerial_9436c5b5.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/basel-roche-kleinbasel_exhibit_9e3e5141.jpg",
+      "width": 1800,
+      "height": 1300
+    },
+    {
+      "src": "./offline-assets/basel-roche-kleinbasel_swiss_aerial_50949aef.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/basel-roche-kleinbasel_swiss_aerial_85926138.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/basel-rosental-mitte_exhibit_70fb7610.jpg",
+      "width": 1800,
+      "height": 1300
+    },
+    {
+      "src": "./offline-assets/basel-rosental-mitte_swiss_aerial_9f36b990.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/basel-rosental-mitte_swiss_aerial_f097bbd5.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/basel-st-johann-novartis-campus_exhibit_5c517920.jpg",
+      "width": 1800,
+      "height": 1300
+    },
+    {
+      "src": "./offline-assets/basel-st-johann-novartis-campus_swiss_aerial_e1e77916.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/basel-st-johann-novartis-campus_swiss_aerial_ef2800fb.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/basel-supplemental-bioversys-basel_exhibit_4b731887.jpg",
+      "width": 1800,
+      "height": 1300
+    },
+    {
+      "src": "./offline-assets/basel-supplemental-bioversys-basel_swiss_aerial_2ec80fdb.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/basel-supplemental-bioversys-basel_swiss_aerial_defc72bc.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/basel-supplemental-delpharm-huningue_esri_aerial_b7046135.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/basel-supplemental-delpharm-huningue_exhibit_fe8d4615.jpg",
+      "width": 1800,
+      "height": 1320
+    },
+    {
+      "src": "./offline-assets/basel_map_V5_80ca4f5e.jpg",
+      "width": 1800,
+      "height": 1100
+    },
+    {
+      "src": "./offline-assets/beach-carlsbad-core_exhibit_058eaaad.jpg",
+      "width": 1800,
+      "height": 1277
+    },
+    {
+      "src": "./offline-assets/beach-carlsbad-core_naip_990188cc.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/beach-carmel-core_exhibit_dbf7d23e.jpg",
+      "width": 1800,
+      "height": 1449
+    },
+    {
+      "src": "./offline-assets/beach-carmel-core_naip_b5523beb.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/beach-carmel-east_exhibit_7763cde2.jpg",
+      "width": 1800,
+      "height": 1277
+    },
+    {
+      "src": "./offline-assets/beach-carmel-east_naip_1650509a.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/beach-carmel-solana_exhibit_690b6c3e.jpg",
+      "width": 1800,
+      "height": 1277
+    },
+    {
+      "src": "./offline-assets/beach-carmel-solana_naip_bb0773ef.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/beach-los-angeles-duarte_exhibit_2be4de72.jpg",
+      "width": 1800,
+      "height": 1277
+    },
+    {
+      "src": "./offline-assets/beach-los-angeles-duarte_naip_12ab79e6.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/beach-los-angeles-pasadena_exhibit_614d0a3c.jpg",
+      "width": 1800,
+      "height": 1277
+    },
+    {
+      "src": "./offline-assets/beach-los-angeles-pasadena_naip_895d5133.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/beach-los-angeles-west-central_exhibit_b6e8796b.jpg",
+      "width": 1800,
+      "height": 1277
+    },
+    {
+      "src": "./offline-assets/beach-los-angeles-west-central_naip_8fbd6c3c.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/beach-orange-aliso-viejo_exhibit_e86d9f85.jpg",
+      "width": 1800,
+      "height": 1277
+    },
+    {
+      "src": "./offline-assets/beach-orange-aliso-viejo_naip_dead5013.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/beach-orange-irvine-tustin-newport-node-1_exhibit_b3ec388a.jpg",
+      "width": 1800,
+      "height": 1277
+    },
+    {
+      "src": "./offline-assets/beach-orange-irvine-tustin-newport-node-1_naip_500cf4c8.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/beach-orange-irvine-tustin-newport-node-2_exhibit_730780c3.jpg",
+      "width": 1800,
+      "height": 1277
+    },
+    {
+      "src": "./offline-assets/beach-orange-irvine-tustin-newport-node-2_naip_d7d28057.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/beach-orange-irvine-tustin-newport-node-3_exhibit_693e70e1.jpg",
+      "width": 1800,
+      "height": 1277
+    },
+    {
+      "src": "./offline-assets/beach-orange-irvine-tustin-newport-node-3_naip_bc806ba8.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/beach-orange-irvine-tustin-newport-node-4_exhibit_bbd1ff49.jpg",
+      "width": 1800,
+      "height": 1277
+    },
+    {
+      "src": "./offline-assets/beach-orange-irvine-tustin-newport-node-4_naip_4fe22920.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/beach-orange-san-clemente_exhibit_5a4b09f3.jpg",
+      "width": 1800,
+      "height": 1277
+    },
+    {
+      "src": "./offline-assets/beach-orange-san-clemente_naip_b2e7300c.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/beach-sorrento-main_exhibit_60536b4e.jpg",
+      "width": 1724,
+      "height": 1800
+    },
+    {
+      "src": "./offline-assets/beach-sorrento-main_naip_3c74a0d9.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/beach-thousand-oaks-rancho-conejo_exhibit_4026fc26.jpg",
+      "width": 1800,
+      "height": 1277
+    },
+    {
+      "src": "./offline-assets/beach-thousand-oaks-rancho-conejo_naip_a5808cc6.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/beach-thousand-oaks-westlake-village_exhibit_48b7e9b6.jpg",
+      "width": 1800,
+      "height": 1277
+    },
+    {
+      "src": "./offline-assets/beach-thousand-oaks-westlake-village_naip_f0e65731.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/beach-torrey-core_exhibit_c01795c6.jpg",
+      "width": 1800,
+      "height": 1466
+    },
+    {
+      "src": "./offline-assets/beach-torrey-core_naip_7441f6d4.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/beach-utc-core_exhibit_3cb19d55.jpg",
+      "width": 1800,
+      "height": 1277
+    },
+    {
+      "src": "./offline-assets/beach-utc-core_naip_d93be58a.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/bio-nc_map_V5_6373c9e8.jpg",
+      "width": 1800,
+      "height": 1100
+    },
+    {
+      "src": "./offline-assets/biocapital_map_V5_3454ab5f.jpg",
+      "width": 1800,
+      "height": 1100
+    },
+    {
+      "src": "./offline-assets/biomidwest_map_V5_45207227.jpg",
+      "width": 1800,
+      "height": 1100
+    },
+    {
+      "src": "./offline-assets/biotech-bay_map_V5_f4302554.jpg",
+      "width": 1800,
+      "height": 1100
+    },
+    {
+      "src": "./offline-assets/biotech-beach-additional-node-1_exhibit_14af3e41.jpg",
+      "width": 1800,
+      "height": 1277
+    },
+    {
+      "src": "./offline-assets/biotech-beach-additional-node-1_naip_978c29d4.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/biotech-beach-additional-node-2_exhibit_f33ec80f.jpg",
+      "width": 1800,
+      "height": 1277
+    },
+    {
+      "src": "./offline-assets/biotech-beach-additional-node-2_naip_2240399e.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/biotech-beach_map_V5_9078eb48.jpg",
+      "width": 1800,
+      "height": 1100
+    },
+    {
+      "src": "./offline-assets/boulder_map_V5_2aa32291.jpg",
+      "width": 1800,
+      "height": 1100
+    },
+    {
+      "src": "./offline-assets/bubendorf-bubendorf-street-detail_swiss_aerial_63605369.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/gene-boston-charlestown_exhibit_561d39d2.jpg",
+      "width": 1800,
+      "height": 1277
+    },
+    {
+      "src": "./offline-assets/gene-boston-charlestown_naip_7f1249a4.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/gene-boston-longwood_exhibit_f9fe7e6d.jpg",
+      "width": 1800,
+      "height": 1277
+    },
+    {
+      "src": "./offline-assets/gene-boston-longwood_naip_1cee999b.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/gene-boston-seaport_exhibit_27988431.jpg",
+      "width": 1800,
+      "height": 1277
+    },
+    {
+      "src": "./offline-assets/gene-boston-seaport_naip_efca2389.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/gene-cambridge-cambridgeport_exhibit_946dafd4.jpg",
+      "width": 1800,
+      "height": 1476
+    },
+    {
+      "src": "./offline-assets/gene-cambridge-cambridgeport_naip_615ebcc1.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/gene-cambridge-kendall-east_exhibit_ff7064f3.jpg",
+      "width": 1530,
+      "height": 1800
+    },
+    {
+      "src": "./offline-assets/gene-cambridge-kendall-east_naip_75ee965a.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/gene-cambridge-somerville-adjacent_exhibit_4e8b0c09.jpg",
+      "width": 1800,
+      "height": 1297
+    },
+    {
+      "src": "./offline-assets/gene-cambridge-somerville-adjacent_naip_cd61b65b.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/gene-north-billerica_exhibit_bd07c008.jpg",
+      "width": 1800,
+      "height": 1277
+    },
+    {
+      "src": "./offline-assets/gene-north-billerica_naip_bfa91e17.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/gene-north-wilmington_exhibit_6f34b9e8.jpg",
+      "width": 1800,
+      "height": 1277
+    },
+    {
+      "src": "./offline-assets/gene-north-wilmington_naip_0222e503.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/gene-northwest-01-node-1_exhibit_5a7d3f37.jpg",
+      "width": 1800,
+      "height": 1449
+    },
+    {
+      "src": "./offline-assets/gene-northwest-01-node-1_naip_b95539af.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/gene-northwest-01-node-2_exhibit_85c9e12f.jpg",
+      "width": 1800,
+      "height": 1277
+    },
+    {
+      "src": "./offline-assets/gene-northwest-01-node-2_naip_2d5ef943.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/gene-waltham-crescent_exhibit_eb5bd8eb.jpg",
+      "width": 1800,
+      "height": 1277
+    },
+    {
+      "src": "./offline-assets/gene-waltham-crescent_naip_8c9e813b.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/gene-waltham-north-128_exhibit_4811a92c.jpg",
+      "width": 1800,
+      "height": 1277
+    },
+    {
+      "src": "./offline-assets/gene-waltham-north-128_naip_c62a520b.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/gene-watertown-arsenal-east-end_exhibit_251ceb16.jpg",
+      "width": 1800,
+      "height": 1277
+    },
+    {
+      "src": "./offline-assets/gene-watertown-arsenal-east-end_naip_f27160c7.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/gene-watertown-pleasant-street_exhibit_a67559ed.jpg",
+      "width": 1800,
+      "height": 1277
+    },
+    {
+      "src": "./offline-assets/gene-watertown-pleasant-street_naip_774b8a67.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/gene-west-south-acton_exhibit_a7681ad0.jpg",
+      "width": 1800,
+      "height": 1277
+    },
+    {
+      "src": "./offline-assets/gene-west-south-acton_naip_35db4211.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/gene-west-south-framingham-milford_exhibit_e6b669f8.jpg",
+      "width": 1800,
+      "height": 1277
+    },
+    {
+      "src": "./offline-assets/gene-west-south-framingham-milford_naip_bb4537ac.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/gene-west-south-needham-canton-node-1_exhibit_3bcf5811.jpg",
+      "width": 1800,
+      "height": 1277
+    },
+    {
+      "src": "./offline-assets/gene-west-south-needham-canton-node-1_naip_d33ebad1.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/gene-west-south-needham-canton-node-2_exhibit_4d4aaef1.jpg",
+      "width": 1800,
+      "height": 1277
+    },
+    {
+      "src": "./offline-assets/gene-west-south-needham-canton-node-2_naip_c59e2196.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/genetown-additional-node-1_exhibit_c9a02020.jpg",
+      "width": 1800,
+      "height": 1277
+    },
+    {
+      "src": "./offline-assets/genetown-additional-node-1_naip_8ef1a4a9.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/genetown-additional-node-2_exhibit_4587a1d4.jpg",
+      "width": 1800,
+      "height": 1277
+    },
+    {
+      "src": "./offline-assets/genetown-additional-node-2_naip_43899c75.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/genetown-additional-node-3_exhibit_d534d446.jpg",
+      "width": 1800,
+      "height": 1277
+    },
+    {
+      "src": "./offline-assets/genetown-additional-node-3_naip_bffaeae4.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/genetown-additional-node-4_exhibit_845a44b7.jpg",
+      "width": 1800,
+      "height": 1488
+    },
+    {
+      "src": "./offline-assets/genetown-additional-node-4_naip_eff329a3.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/genetown_map_V5_503ff600.jpg",
+      "width": 1800,
+      "height": 1100
+    },
+    {
+      "src": "./offline-assets/liestal-sissach-liestal-street-detail-1_swiss_aerial_78b0edda.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/liestal-sissach-liestal-street-detail-2_swiss_aerial_36b2a634.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/muttenz-pratteln-muttenz-street-detail_swiss_aerial_0d6e1687.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/muttenz-pratteln-pratteln-street-detail_swiss_aerial_c07fb6df.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/pharm-country_map_V5_26715139.jpg",
+      "width": 1800,
+      "height": 1100
+    },
+    {
+      "src": "./offline-assets/reinach-aesch-therwil-aesch-street-detail_swiss_aerial_016eb1d8.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/reinach-aesch-therwil-reinach-street-detail_swiss_aerial_623de10b.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/reinach-aesch-therwil-therwil-street-detail_swiss_aerial_bac23c8b.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/sbb-downtown-basel-street-detail_swiss_aerial_5895365f.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/schonenbuch-schoenenbuch-street-detail_swiss_aerial_7d703289.jpg",
+      "width": 1800,
+      "height": 1200
+    },
+    {
+      "src": "./offline-assets/seattle_map_V5_bb6b5ec6.jpg",
+      "width": 1800,
+      "height": 1100
+    },
+    {
+      "src": "./offline-assets/uk_map_V5_c85cd5c8.jpg",
+      "width": 1800,
+      "height": 1100
+    }
+  ],
+  "savedPdfChecks": [
+    {
+      "src": "./offline-assets/allschwil-allschwil-street-detail_V2_135452b6.pdf",
+      "pages": 2,
+      "bytes": 1298486
+    },
+    {
+      "src": "./offline-assets/basel-allschwil-bachgraben-main-campus_V2_92b3cbf3.pdf",
+      "pages": 2,
+      "bytes": 1393894
+    },
+    {
+      "src": "./offline-assets/basel-downtown-sbb-aeschen_V2_49da4160.pdf",
+      "pages": 4,
+      "bytes": 1484115
+    },
+    {
+      "src": "./offline-assets/basel-east-bubendorf_V2_3b280639.pdf",
+      "pages": 1,
+      "bytes": 1223008
+    },
+    {
+      "src": "./offline-assets/basel-east-muttenz-pratteln_V2_873189f1.pdf",
+      "pages": 1,
+      "bytes": 1234744
+    },
+    {
+      "src": "./offline-assets/basel-klybeck-stucki-klybeck_V2_0f105747.pdf",
+      "pages": 4,
+      "bytes": 1319176
+    },
+    {
+      "src": "./offline-assets/basel-klybeck-stucki-stuecki-centered-current_V2_eb4414e5.pdf",
+      "pages": 2,
+      "bytes": 1274792
+    },
+    {
+      "src": "./offline-assets/basel-klybeck-stucki-stuecki_V2_94e572d6.pdf",
+      "pages": 1,
+      "bytes": 1200882
+    },
+    {
+      "src": "./offline-assets/basel-liestal-sissach-sissach-orientation-context_V2_1cdb50ac.pdf",
+      "pages": 1,
+      "bytes": 1177007
+    },
+    {
+      "src": "./offline-assets/basel-research-campus-core_V2_c4b55e74.pdf",
+      "pages": 3,
+      "bytes": 1429186
+    },
+    {
+      "src": "./offline-assets/basel-roche-kleinbasel_V2_925ad154.pdf",
+      "pages": 1,
+      "bytes": 1216736
+    },
+    {
+      "src": "./offline-assets/basel-rosental-mitte_V2_c7906b55.pdf",
+      "pages": 2,
+      "bytes": 1395069
+    },
+    {
+      "src": "./offline-assets/basel-st-johann-novartis-campus_V2_a6b87ce0.pdf",
+      "pages": 3,
+      "bytes": 1274384
+    },
+    {
+      "src": "./offline-assets/basel-supplemental-bioversys-basel_V2_43a1f08a.pdf",
+      "pages": 3,
+      "bytes": 1261825
+    },
+    {
+      "src": "./offline-assets/bubendorf-bubendorf-street-detail_V2_8062116e.pdf",
+      "pages": 1,
+      "bytes": 1103642
+    },
+    {
+      "src": "./offline-assets/liestal-sissach-liestal-street-detail-1_V2_e316792d.pdf",
+      "pages": 2,
+      "bytes": 1368645
+    },
+    {
+      "src": "./offline-assets/liestal-sissach-liestal-street-detail-2_V2_d0afe5f4.pdf",
+      "pages": 1,
+      "bytes": 1274237
+    },
+    {
+      "src": "./offline-assets/muttenz-pratteln-muttenz-street-detail_V2_d1a85f07.pdf",
+      "pages": 1,
+      "bytes": 1207203
+    },
+    {
+      "src": "./offline-assets/muttenz-pratteln-pratteln-street-detail_V2_1a57a99c.pdf",
+      "pages": 1,
+      "bytes": 1145915
+    },
+    {
+      "src": "./offline-assets/reinach-aesch-therwil-aesch-street-detail_V2_f03495ce.pdf",
+      "pages": 1,
+      "bytes": 957883
+    },
+    {
+      "src": "./offline-assets/reinach-aesch-therwil-reinach-street-detail_V2_67f33c76.pdf",
+      "pages": 2,
+      "bytes": 1162592
+    },
+    {
+      "src": "./offline-assets/reinach-aesch-therwil-therwil-street-detail_V2_157369f0.pdf",
+      "pages": 1,
+      "bytes": 1145606
+    },
+    {
+      "src": "./offline-assets/sbb-downtown-basel-street-detail_V2_7a9caa6a.pdf",
+      "pages": 4,
+      "bytes": 1469420
+    },
+    {
+      "src": "./offline-assets/schonenbuch-schoenenbuch-street-detail_V2_243759fc.pdf",
+      "pages": 1,
+      "bytes": 1129355
+    }
+  ],
+  "issues": [],
+  "hashUserNavigation": true,
+  "intelligenceHashNavigation": true,
+  "passed": true
+}

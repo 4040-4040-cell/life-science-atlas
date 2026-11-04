@@ -1,0 +1,1088 @@
+[
+  {
+    "canton": "BL",
+    "cluster": "muttenz-pratteln",
+    "record": {
+      "id": "muttenz-pratteln:availabilityEvidence:1",
+      "name": "GETEC open plots",
+      "kind": "availabilityEvidence",
+      "operator": null,
+      "address": null,
+      "status": "historical_only",
+      "facilityState": "historical",
+      "areaValue": null,
+      "areaUnit": null,
+      "areaBasis": "Area basis not disclosed",
+      "sourceAsOf": null,
+      "sourceIds": [
+        "bl:muttenz-pratteln:mp-getec-2019"
+      ],
+      "caveat": "Not a current land offer, and not a tenant vacancy figure.",
+      "facts": [
+        {
+          "label": "bl:muttenz-pratteln:metric:mp-park-openplots-2019",
+          "value": 14,
+          "unit": "ha",
+          "scope": "GETEC PARK.SWISS greenfield/brownfield plots",
+          "sourceAsOf": "2019-12-16",
+          "observedAsOf": "2026-11-04",
+          "evidenceStatus": "historical_operator_marketing_not_current_availability",
+          "sourceIds": [
+            "bl:muttenz-pratteln:mp-getec-2019"
+          ],
+          "notes": null,
+          "id": "bl:muttenz-pratteln:metric:mp-park-openplots-2019",
+          "sourceKey": "metricId",
+          "basis": "Then-marketed open plot land; not building area or tenant vacancy",
+          "qualifier": "approximately",
+          "comparator": null,
+          "metadata": {
+            "sourceDate": "2019-12-16",
+            "asOf": "2019-12-16",
+            "observedAt": "2026-11-04",
+            "locked": false,
+            "originalMetricId": "mp-park-openplots-2019"
+          }
+        }
+      ],
+      "sourceKey": "availabilityEvidence",
+      "observedAsOf": null,
+      "scope": null,
+      "areaQualifier": null,
+      "buildingReferences": [],
+      "metadata": {
+        "metricId": "bl:muttenz-pratteln:metric:mp-park-openplots-2019",
+        "timing": "Advertorial dated 2019-12-16 only"
+      }
+    }
+  },
+  {
+    "canton": "BL",
+    "cluster": "muttenz-pratteln",
+    "record": {
+      "id": "muttenz-pratteln:availabilityEvidence:2",
+      "name": "Ceres Tower office 06.01",
+      "kind": "availabilityEvidence",
+      "operator": null,
+      "address": "Hohenrainstrasse 24, Pratteln",
+      "status": "advertised_available_on_undated_live_operator_page_unconfirmed",
+      "facilityState": "unresolved",
+      "areaValue": 114,
+      "areaUnit": "m2",
+      "areaBasis": "Published Mietfläche; formal measurement standard unspecified",
+      "sourceAsOf": "publication_unknown",
+      "sourceIds": [
+        "bl:muttenz-pratteln:mp-ceres-offer"
+      ],
+      "caveat": "Listing linked to plan uploaded July 2024; upload date is not current availability confirmation. Not laboratory space by inference.",
+      "facts": [
+        {
+          "label": "Floor",
+          "value": "6th upper floor",
+          "unit": null,
+          "scope": null,
+          "sourceAsOf": null,
+          "observedAsOf": null,
+          "evidenceStatus": "advertised_available_on_undated_live_operator_page_unconfirmed",
+          "sourceIds": [
+            "bl:muttenz-pratteln:mp-ceres-offer"
+          ],
+          "notes": "Record-level citation; field-specific date/scope may not be separately disclosed.",
+          "id": null,
+          "sourceKey": "floor",
+          "basis": null,
+          "qualifier": null,
+          "comparator": null,
+          "metadata": {
+            "sourceAsOf": null,
+            "observedAsOf": null
+          }
+        },
+        {
+          "label": "bl:muttenz-pratteln:metric:mp-ceres-unit-0601",
+          "value": 114,
+          "unit": "m2",
+          "scope": "Ceres Tower office unit 06.01, sixth upper floor",
+          "sourceAsOf": "publication_unknown",
+          "observedAsOf": "2026-11-04",
+          "evidenceStatus": "advertised_available_not_confirmed_current",
+          "sourceIds": [
+            "bl:muttenz-pratteln:mp-ceres-offer"
+          ],
+          "notes": null,
+          "id": "bl:muttenz-pratteln:metric:mp-ceres-unit-0601",
+          "sourceKey": "metricId",
+          "basis": "Published Mietfläche; formal measurement standard unspecified",
+          "qualifier": null,
+          "comparator": null,
+          "metadata": {
+            "sourceDate": "publication_unknown",
+            "asOf": "undated_property_marketing",
+            "observedAt": "2026-11-04",
+            "locked": false,
+            "originalMetricId": "mp-ceres-unit-0601"
+          }
+        },
+        {
+          "label": "bl:muttenz-pratteln:metric:mp-ceres-office-asking-rent",
+          "value": 280,
+          "unit": "CHF/m2/year",
+          "scope": "Ceres Tower sixth/seventh upper-floor office marketing",
+          "sourceAsOf": "publication_unknown",
+          "observedAsOf": "2026-11-04",
+          "evidenceStatus": "advertised_asking_terms_unconfirmed_current",
+          "sourceIds": [
+            "bl:muttenz-pratteln:mp-ceres-offer"
+          ],
+          "notes": null,
+          "id": "bl:muttenz-pratteln:metric:mp-ceres-office-asking-rent",
+          "sourceKey": "rentMetricId",
+          "basis": "Published asking rent; not Santhera passing rent, executed transaction or laboratory rent",
+          "qualifier": null,
+          "comparator": null,
+          "metadata": {
+            "sourceDate": "publication_unknown",
+            "asOf": "undated_property_marketing",
+            "observedAt": "2026-11-04",
+            "locked": false,
+            "originalMetricId": "mp-ceres-office-asking-rent"
+          }
+        }
+      ],
+      "sourceKey": "availabilityEvidence",
+      "observedAsOf": null,
+      "scope": "Ceres Tower office unit 06.01, sixth upper floor",
+      "areaQualifier": null,
+      "buildingReferences": [],
+      "metadata": {
+        "metricId": "bl:muttenz-pratteln:metric:mp-ceres-unit-0601",
+        "floor": "6th upper floor",
+        "use": "office",
+        "deliveryDate": null,
+        "rentMetricId": "bl:muttenz-pratteln:metric:mp-ceres-office-asking-rent"
+      }
+    }
+  },
+  {
+    "canton": "BL",
+    "cluster": "muttenz-pratteln",
+    "record": {
+      "id": "muttenz-pratteln:availabilityEvidence:3",
+      "name": "Ceres Tower office 06.03",
+      "kind": "availabilityEvidence",
+      "operator": null,
+      "address": "Hohenrainstrasse 24, Pratteln",
+      "status": "advertised_available_on_undated_live_operator_page_unconfirmed",
+      "facilityState": "unresolved",
+      "areaValue": 113.4,
+      "areaUnit": "m2",
+      "areaBasis": "Published Mietfläche; formal measurement standard unspecified",
+      "sourceAsOf": "publication_unknown",
+      "sourceIds": [
+        "bl:muttenz-pratteln:mp-ceres-offer"
+      ],
+      "caveat": "Listing linked to plan uploaded August 2022; no current physical inspection or date-specific landlord confirmation.",
+      "facts": [
+        {
+          "label": "Floor",
+          "value": "6th upper floor",
+          "unit": null,
+          "scope": null,
+          "sourceAsOf": null,
+          "observedAsOf": null,
+          "evidenceStatus": "advertised_available_on_undated_live_operator_page_unconfirmed",
+          "sourceIds": [
+            "bl:muttenz-pratteln:mp-ceres-offer"
+          ],
+          "notes": "Record-level citation; field-specific date/scope may not be separately disclosed.",
+          "id": null,
+          "sourceKey": "floor",
+          "basis": null,
+          "qualifier": null,
+          "comparator": null,
+          "metadata": {
+            "sourceAsOf": null,
+            "observedAsOf": null
+          }
+        },
+        {
+          "label": "bl:muttenz-pratteln:metric:mp-ceres-unit-0603",
+          "value": 113.4,
+          "unit": "m2",
+          "scope": "Ceres Tower office unit 06.03, sixth upper floor",
+          "sourceAsOf": "publication_unknown",
+          "observedAsOf": "2026-11-04",
+          "evidenceStatus": "advertised_available_not_confirmed_current",
+          "sourceIds": [
+            "bl:muttenz-pratteln:mp-ceres-offer"
+          ],
+          "notes": null,
+          "id": "bl:muttenz-pratteln:metric:mp-ceres-unit-0603",
+          "sourceKey": "metricId",
+          "basis": "Published Mietfläche; formal measurement standard unspecified",
+          "qualifier": null,
+          "comparator": null,
+          "metadata": {
+            "sourceDate": "publication_unknown",
+            "asOf": "undated_property_marketing",
+            "observedAt": "2026-11-04",
+            "locked": false,
+            "originalMetricId": "mp-ceres-unit-0603"
+          }
+        },
+        {
+          "label": "bl:muttenz-pratteln:metric:mp-ceres-office-asking-rent",
+          "value": 280,
+          "unit": "CHF/m2/year",
+          "scope": "Ceres Tower sixth/seventh upper-floor office marketing",
+          "sourceAsOf": "publication_unknown",
+          "observedAsOf": "2026-11-04",
+          "evidenceStatus": "advertised_asking_terms_unconfirmed_current",
+          "sourceIds": [
+            "bl:muttenz-pratteln:mp-ceres-offer"
+          ],
+          "notes": null,
+          "id": "bl:muttenz-pratteln:metric:mp-ceres-office-asking-rent",
+          "sourceKey": "rentMetricId",
+          "basis": "Published asking rent; not Santhera passing rent, executed transaction or laboratory rent",
+          "qualifier": null,
+          "comparator": null,
+          "metadata": {
+            "sourceDate": "publication_unknown",
+            "asOf": "undated_property_marketing",
+            "observedAt": "2026-11-04",
+            "locked": false,
+            "originalMetricId": "mp-ceres-office-asking-rent"
+          }
+        }
+      ],
+      "sourceKey": "availabilityEvidence",
+      "observedAsOf": null,
+      "scope": "Ceres Tower office unit 06.03, sixth upper floor",
+      "areaQualifier": null,
+      "buildingReferences": [],
+      "metadata": {
+        "metricId": "bl:muttenz-pratteln:metric:mp-ceres-unit-0603",
+        "floor": "6th upper floor",
+        "use": "office",
+        "deliveryDate": null,
+        "rentMetricId": "bl:muttenz-pratteln:metric:mp-ceres-office-asking-rent"
+      }
+    }
+  },
+  {
+    "canton": "BL",
+    "cluster": "muttenz-pratteln",
+    "record": {
+      "id": "muttenz-pratteln:availabilityEvidence:4",
+      "name": "Ceres Tower office 07.01",
+      "kind": "availabilityEvidence",
+      "operator": null,
+      "address": "Hohenrainstrasse 24, Pratteln",
+      "status": "advertised_available_on_undated_live_operator_page_unconfirmed",
+      "facilityState": "unresolved",
+      "areaValue": 256.5,
+      "areaUnit": "m2",
+      "areaBasis": "Published Mietfläche; formal measurement standard unspecified",
+      "sourceAsOf": "publication_unknown",
+      "sourceIds": [
+        "bl:muttenz-pratteln:mp-ceres-offer"
+      ],
+      "caveat": "Listing linked to plan uploaded March 2024; no confirmed commencement or availability date.",
+      "facts": [
+        {
+          "label": "Floor",
+          "value": "7th upper floor",
+          "unit": null,
+          "scope": null,
+          "sourceAsOf": null,
+          "observedAsOf": null,
+          "evidenceStatus": "advertised_available_on_undated_live_operator_page_unconfirmed",
+          "sourceIds": [
+            "bl:muttenz-pratteln:mp-ceres-offer"
+          ],
+          "notes": "Record-level citation; field-specific date/scope may not be separately disclosed.",
+          "id": null,
+          "sourceKey": "floor",
+          "basis": null,
+          "qualifier": null,
+          "comparator": null,
+          "metadata": {
+            "sourceAsOf": null,
+            "observedAsOf": null
+          }
+        },
+        {
+          "label": "bl:muttenz-pratteln:metric:mp-ceres-unit-0701",
+          "value": 256.5,
+          "unit": "m2",
+          "scope": "Ceres Tower office unit 07.01, seventh upper floor",
+          "sourceAsOf": "publication_unknown",
+          "observedAsOf": "2026-11-04",
+          "evidenceStatus": "advertised_available_not_confirmed_current",
+          "sourceIds": [
+            "bl:muttenz-pratteln:mp-ceres-offer"
+          ],
+          "notes": null,
+          "id": "bl:muttenz-pratteln:metric:mp-ceres-unit-0701",
+          "sourceKey": "metricId",
+          "basis": "Published Mietfläche; formal measurement standard unspecified",
+          "qualifier": null,
+          "comparator": null,
+          "metadata": {
+            "sourceDate": "publication_unknown",
+            "asOf": "undated_property_marketing",
+            "observedAt": "2026-11-04",
+            "locked": false,
+            "originalMetricId": "mp-ceres-unit-0701"
+          }
+        },
+        {
+          "label": "bl:muttenz-pratteln:metric:mp-ceres-office-asking-rent",
+          "value": 280,
+          "unit": "CHF/m2/year",
+          "scope": "Ceres Tower sixth/seventh upper-floor office marketing",
+          "sourceAsOf": "publication_unknown",
+          "observedAsOf": "2026-11-04",
+          "evidenceStatus": "advertised_asking_terms_unconfirmed_current",
+          "sourceIds": [
+            "bl:muttenz-pratteln:mp-ceres-offer"
+          ],
+          "notes": null,
+          "id": "bl:muttenz-pratteln:metric:mp-ceres-office-asking-rent",
+          "sourceKey": "rentMetricId",
+          "basis": "Published asking rent; not Santhera passing rent, executed transaction or laboratory rent",
+          "qualifier": null,
+          "comparator": null,
+          "metadata": {
+            "sourceDate": "publication_unknown",
+            "asOf": "undated_property_marketing",
+            "observedAt": "2026-11-04",
+            "locked": false,
+            "originalMetricId": "mp-ceres-office-asking-rent"
+          }
+        }
+      ],
+      "sourceKey": "availabilityEvidence",
+      "observedAsOf": null,
+      "scope": "Ceres Tower office unit 07.01, seventh upper floor",
+      "areaQualifier": null,
+      "buildingReferences": [],
+      "metadata": {
+        "metricId": "bl:muttenz-pratteln:metric:mp-ceres-unit-0701",
+        "floor": "7th upper floor",
+        "use": "office",
+        "deliveryDate": null,
+        "rentMetricId": "bl:muttenz-pratteln:metric:mp-ceres-office-asking-rent"
+      }
+    }
+  },
+  {
+    "canton": "BL",
+    "cluster": "reinach-aesch-therwil",
+    "record": {
+      "id": "reinach-aesch-therwil:availabilityEvidence:1",
+      "name": "F.SG.01",
+      "kind": "availabilityEvidence",
+      "operator": null,
+      "address": null,
+      "status": "current_operator_advertised_offer_not_transaction_or_confirmed_handover",
+      "facilityState": "current_evidence",
+      "areaValue": 93,
+      "areaUnit": "m2",
+      "areaBasis": "advertised rental-unit area; gross/net measurement convention unspecified",
+      "sourceAsOf": null,
+      "sourceIds": [
+        "bl:reinach-aesch-therwil:s19"
+      ],
+      "caveat": "Not lab-ready evidence; measurement convention, services and reservation status not disclosed.",
+      "facts": [
+        {
+          "label": "Available from",
+          "value": null,
+          "unit": null,
+          "scope": null,
+          "sourceAsOf": null,
+          "observedAsOf": "2026-11-04",
+          "evidenceStatus": "current_operator_advertised_offer_not_transaction_or_confirmed_handover",
+          "sourceIds": [
+            "bl:reinach-aesch-therwil:s19"
+          ],
+          "notes": "Record-level citation; field-specific date/scope may not be separately disclosed.",
+          "id": null,
+          "sourceKey": "availableFrom",
+          "basis": null,
+          "qualifier": null,
+          "comparator": null,
+          "metadata": {
+            "sourceAsOf": null,
+            "observedAsOf": "2026-11-04"
+          }
+        },
+        {
+          "label": "bl:reinach-aesch-therwil:metric:tcr-f-sg-01-area",
+          "value": 93,
+          "unit": "m2",
+          "scope": "TechCenter offer F.SG.01 commercial",
+          "sourceAsOf": "publication-unknown",
+          "observedAsOf": "2026-11-04",
+          "evidenceStatus": "current_primary_operator_offer_not_independently_confirmed_vacancy",
+          "sourceIds": [
+            "bl:reinach-aesch-therwil:s19"
+          ],
+          "notes": null,
+          "id": "bl:reinach-aesch-therwil:metric:tcr-f-sg-01-area",
+          "sourceKey": "areaMetricId",
+          "basis": "advertised rental-unit area; gross/net measurement convention unspecified",
+          "qualifier": null,
+          "comparator": null,
+          "metadata": {
+            "sourceDate": null,
+            "sourceAsOf": "publication-unknown",
+            "observedAsOf": "2026-11-04",
+            "originalMetricId": "tcr-f-sg-01-area"
+          }
+        },
+        {
+          "label": "bl:reinach-aesch-therwil:metric:tcr-f-sg-01-rent",
+          "value": 195,
+          "unit": "CHF/m2/year",
+          "scope": "TechCenter offer F.SG.01 commercial",
+          "sourceAsOf": "publication-unknown",
+          "observedAsOf": "2026-11-04",
+          "evidenceStatus": "primary_operator_asking_rent_not_achieved_lease",
+          "sourceIds": [
+            "bl:reinach-aesch-therwil:s19"
+          ],
+          "notes": "Not a lab rent; service-charge and fit-out components require confirmation.",
+          "id": "bl:reinach-aesch-therwil:metric:tcr-f-sg-01-rent",
+          "sourceKey": "askingRentMetricId",
+          "basis": "source-labeled average net asking rent plus VAT",
+          "qualifier": null,
+          "comparator": null,
+          "metadata": {
+            "sourceDate": null,
+            "sourceAsOf": "publication-unknown",
+            "observedAsOf": "2026-11-04",
+            "originalMetricId": "tcr-f-sg-01-rent"
+          }
+        }
+      ],
+      "sourceKey": "availabilityEvidence",
+      "observedAsOf": "2026-11-04",
+      "scope": "TechCenter offer F.SG.01 commercial",
+      "areaQualifier": null,
+      "buildingReferences": [],
+      "metadata": {
+        "unitCode": "F.SG.01",
+        "propertyRecordId": "techcenter-campus",
+        "use": "commercial",
+        "areaMetricId": "bl:reinach-aesch-therwil:metric:tcr-f-sg-01-area",
+        "askingRentMetricId": "bl:reinach-aesch-therwil:metric:tcr-f-sg-01-rent",
+        "availableFrom": null,
+        "observedAsOf": "2026-11-04"
+      }
+    }
+  },
+  {
+    "canton": "BL",
+    "cluster": "reinach-aesch-therwil",
+    "record": {
+      "id": "reinach-aesch-therwil:availabilityEvidence:2",
+      "name": "F.U1.01",
+      "kind": "availabilityEvidence",
+      "operator": null,
+      "address": null,
+      "status": "current_operator_advertised_offer_not_transaction_or_confirmed_handover",
+      "facilityState": "current_evidence",
+      "areaValue": 3115,
+      "areaUnit": "m2",
+      "areaBasis": "advertised rental-unit area; gross/net measurement convention unspecified",
+      "sourceAsOf": null,
+      "sourceIds": [
+        "bl:reinach-aesch-therwil:s19"
+      ],
+      "caveat": "Storage is not automatically lab, GMP warehouse or cold-chain accommodation.",
+      "facts": [
+        {
+          "label": "Available from",
+          "value": null,
+          "unit": null,
+          "scope": null,
+          "sourceAsOf": null,
+          "observedAsOf": "2026-11-04",
+          "evidenceStatus": "current_operator_advertised_offer_not_transaction_or_confirmed_handover",
+          "sourceIds": [
+            "bl:reinach-aesch-therwil:s19"
+          ],
+          "notes": "Record-level citation; field-specific date/scope may not be separately disclosed.",
+          "id": null,
+          "sourceKey": "availableFrom",
+          "basis": null,
+          "qualifier": null,
+          "comparator": null,
+          "metadata": {
+            "sourceAsOf": null,
+            "observedAsOf": "2026-11-04"
+          }
+        },
+        {
+          "label": "bl:reinach-aesch-therwil:metric:tcr-f-u1-01-area",
+          "value": 3115,
+          "unit": "m2",
+          "scope": "TechCenter offer F.U1.01 storage",
+          "sourceAsOf": "publication-unknown",
+          "observedAsOf": "2026-11-04",
+          "evidenceStatus": "current_primary_operator_offer_not_independently_confirmed_vacancy",
+          "sourceIds": [
+            "bl:reinach-aesch-therwil:s19"
+          ],
+          "notes": null,
+          "id": "bl:reinach-aesch-therwil:metric:tcr-f-u1-01-area",
+          "sourceKey": "areaMetricId",
+          "basis": "advertised rental-unit area; gross/net measurement convention unspecified",
+          "qualifier": null,
+          "comparator": null,
+          "metadata": {
+            "sourceDate": null,
+            "sourceAsOf": "publication-unknown",
+            "observedAsOf": "2026-11-04",
+            "originalMetricId": "tcr-f-u1-01-area"
+          }
+        },
+        {
+          "label": "bl:reinach-aesch-therwil:metric:tcr-f-u1-01-rent",
+          "value": 120,
+          "unit": "CHF/m2/year",
+          "scope": "TechCenter offer F.U1.01 storage",
+          "sourceAsOf": "publication-unknown",
+          "observedAsOf": "2026-11-04",
+          "evidenceStatus": "primary_operator_asking_rent_not_achieved_lease",
+          "sourceIds": [
+            "bl:reinach-aesch-therwil:s19"
+          ],
+          "notes": "Not a lab or qualified pharmaceutical warehouse rent.",
+          "id": "bl:reinach-aesch-therwil:metric:tcr-f-u1-01-rent",
+          "sourceKey": "askingRentMetricId",
+          "basis": "source-labeled average net asking rent plus VAT",
+          "qualifier": null,
+          "comparator": null,
+          "metadata": {
+            "sourceDate": null,
+            "sourceAsOf": "publication-unknown",
+            "observedAsOf": "2026-11-04",
+            "originalMetricId": "tcr-f-u1-01-rent"
+          }
+        }
+      ],
+      "sourceKey": "availabilityEvidence",
+      "observedAsOf": "2026-11-04",
+      "scope": "TechCenter offer F.U1.01 storage",
+      "areaQualifier": null,
+      "buildingReferences": [],
+      "metadata": {
+        "unitCode": "F.U1.01",
+        "propertyRecordId": "techcenter-campus",
+        "use": "storage",
+        "areaMetricId": "bl:reinach-aesch-therwil:metric:tcr-f-u1-01-area",
+        "askingRentMetricId": "bl:reinach-aesch-therwil:metric:tcr-f-u1-01-rent",
+        "availableFrom": null,
+        "observedAsOf": "2026-11-04"
+      }
+    }
+  },
+  {
+    "canton": "BL",
+    "cluster": "reinach-aesch-therwil",
+    "record": {
+      "id": "reinach-aesch-therwil:availabilityEvidence:3",
+      "name": "F.U2.01",
+      "kind": "availabilityEvidence",
+      "operator": null,
+      "address": null,
+      "status": "current_operator_advertised_offer_not_transaction_or_confirmed_handover",
+      "facilityState": "current_evidence",
+      "areaValue": 2238,
+      "areaUnit": "m2",
+      "areaBasis": "advertised rental-unit area; gross/net measurement convention unspecified",
+      "sourceAsOf": null,
+      "sourceIds": [
+        "bl:reinach-aesch-therwil:s19"
+      ],
+      "caveat": "Storage is not automatically lab, GMP warehouse or cold-chain accommodation.",
+      "facts": [
+        {
+          "label": "Available from",
+          "value": null,
+          "unit": null,
+          "scope": null,
+          "sourceAsOf": null,
+          "observedAsOf": "2026-11-04",
+          "evidenceStatus": "current_operator_advertised_offer_not_transaction_or_confirmed_handover",
+          "sourceIds": [
+            "bl:reinach-aesch-therwil:s19"
+          ],
+          "notes": "Record-level citation; field-specific date/scope may not be separately disclosed.",
+          "id": null,
+          "sourceKey": "availableFrom",
+          "basis": null,
+          "qualifier": null,
+          "comparator": null,
+          "metadata": {
+            "sourceAsOf": null,
+            "observedAsOf": "2026-11-04"
+          }
+        },
+        {
+          "label": "bl:reinach-aesch-therwil:metric:tcr-f-u2-01-area",
+          "value": 2238,
+          "unit": "m2",
+          "scope": "TechCenter offer F.U2.01 storage",
+          "sourceAsOf": "publication-unknown",
+          "observedAsOf": "2026-11-04",
+          "evidenceStatus": "current_primary_operator_offer_not_independently_confirmed_vacancy",
+          "sourceIds": [
+            "bl:reinach-aesch-therwil:s19"
+          ],
+          "notes": null,
+          "id": "bl:reinach-aesch-therwil:metric:tcr-f-u2-01-area",
+          "sourceKey": "areaMetricId",
+          "basis": "advertised rental-unit area; gross/net measurement convention unspecified",
+          "qualifier": null,
+          "comparator": null,
+          "metadata": {
+            "sourceDate": null,
+            "sourceAsOf": "publication-unknown",
+            "observedAsOf": "2026-11-04",
+            "originalMetricId": "tcr-f-u2-01-area"
+          }
+        },
+        {
+          "label": "bl:reinach-aesch-therwil:metric:tcr-f-u2-01-rent",
+          "value": 120,
+          "unit": "CHF/m2/year",
+          "scope": "TechCenter offer F.U2.01 storage",
+          "sourceAsOf": "publication-unknown",
+          "observedAsOf": "2026-11-04",
+          "evidenceStatus": "primary_operator_asking_rent_not_achieved_lease",
+          "sourceIds": [
+            "bl:reinach-aesch-therwil:s19"
+          ],
+          "notes": "Not a lab or qualified pharmaceutical warehouse rent.",
+          "id": "bl:reinach-aesch-therwil:metric:tcr-f-u2-01-rent",
+          "sourceKey": "askingRentMetricId",
+          "basis": "source-labeled average net asking rent plus VAT",
+          "qualifier": null,
+          "comparator": null,
+          "metadata": {
+            "sourceDate": null,
+            "sourceAsOf": "publication-unknown",
+            "observedAsOf": "2026-11-04",
+            "originalMetricId": "tcr-f-u2-01-rent"
+          }
+        }
+      ],
+      "sourceKey": "availabilityEvidence",
+      "observedAsOf": "2026-11-04",
+      "scope": "TechCenter offer F.U2.01 storage",
+      "areaQualifier": null,
+      "buildingReferences": [],
+      "metadata": {
+        "unitCode": "F.U2.01",
+        "propertyRecordId": "techcenter-campus",
+        "use": "storage",
+        "areaMetricId": "bl:reinach-aesch-therwil:metric:tcr-f-u2-01-area",
+        "askingRentMetricId": "bl:reinach-aesch-therwil:metric:tcr-f-u2-01-rent",
+        "availableFrom": null,
+        "observedAsOf": "2026-11-04"
+      }
+    }
+  },
+  {
+    "canton": "BL",
+    "cluster": "reinach-aesch-therwil",
+    "record": {
+      "id": "reinach-aesch-therwil:availabilityEvidence:4",
+      "name": "D.02.01",
+      "kind": "availabilityEvidence",
+      "operator": null,
+      "address": null,
+      "status": "current_operator_advertised_offer_not_transaction_or_confirmed_handover",
+      "facilityState": "current_evidence",
+      "areaValue": 1000,
+      "areaUnit": "m2",
+      "areaBasis": "advertised rental-unit area; gross/net measurement convention unspecified",
+      "sourceAsOf": null,
+      "sourceIds": [
+        "bl:reinach-aesch-therwil:s19"
+      ],
+      "caveat": "Office rent is not a wet-lab comparable.",
+      "facts": [
+        {
+          "label": "Available from",
+          "value": null,
+          "unit": null,
+          "scope": null,
+          "sourceAsOf": null,
+          "observedAsOf": "2026-11-04",
+          "evidenceStatus": "current_operator_advertised_offer_not_transaction_or_confirmed_handover",
+          "sourceIds": [
+            "bl:reinach-aesch-therwil:s19"
+          ],
+          "notes": "Record-level citation; field-specific date/scope may not be separately disclosed.",
+          "id": null,
+          "sourceKey": "availableFrom",
+          "basis": null,
+          "qualifier": null,
+          "comparator": null,
+          "metadata": {
+            "sourceAsOf": null,
+            "observedAsOf": "2026-11-04"
+          }
+        },
+        {
+          "label": "bl:reinach-aesch-therwil:metric:tcr-d-02-01-area",
+          "value": 1000,
+          "unit": "m2",
+          "scope": "TechCenter offer D.02.01 office",
+          "sourceAsOf": "publication-unknown",
+          "observedAsOf": "2026-11-04",
+          "evidenceStatus": "current_primary_operator_offer_not_independently_confirmed_vacancy",
+          "sourceIds": [
+            "bl:reinach-aesch-therwil:s19"
+          ],
+          "notes": null,
+          "id": "bl:reinach-aesch-therwil:metric:tcr-d-02-01-area",
+          "sourceKey": "areaMetricId",
+          "basis": "advertised rental-unit area; gross/net measurement convention unspecified",
+          "qualifier": null,
+          "comparator": null,
+          "metadata": {
+            "sourceDate": null,
+            "sourceAsOf": "publication-unknown",
+            "observedAsOf": "2026-11-04",
+            "originalMetricId": "tcr-d-02-01-area"
+          }
+        },
+        {
+          "label": "bl:reinach-aesch-therwil:metric:tcr-d-02-01-rent",
+          "value": 225,
+          "unit": "CHF/m2/year",
+          "scope": "TechCenter offer D.02.01 office",
+          "sourceAsOf": "publication-unknown",
+          "observedAsOf": "2026-11-04",
+          "evidenceStatus": "primary_operator_asking_rent_not_achieved_lease",
+          "sourceIds": [
+            "bl:reinach-aesch-therwil:s19"
+          ],
+          "notes": "Office offer not a wet-lab comparable.",
+          "id": "bl:reinach-aesch-therwil:metric:tcr-d-02-01-rent",
+          "sourceKey": "askingRentMetricId",
+          "basis": "source-labeled average net asking rent plus VAT",
+          "qualifier": null,
+          "comparator": null,
+          "metadata": {
+            "sourceDate": null,
+            "sourceAsOf": "publication-unknown",
+            "observedAsOf": "2026-11-04",
+            "originalMetricId": "tcr-d-02-01-rent"
+          }
+        }
+      ],
+      "sourceKey": "availabilityEvidence",
+      "observedAsOf": "2026-11-04",
+      "scope": "TechCenter offer D.02.01 office",
+      "areaQualifier": null,
+      "buildingReferences": [],
+      "metadata": {
+        "unitCode": "D.02.01",
+        "propertyRecordId": "techcenter-campus",
+        "use": "office",
+        "areaMetricId": "bl:reinach-aesch-therwil:metric:tcr-d-02-01-area",
+        "askingRentMetricId": "bl:reinach-aesch-therwil:metric:tcr-d-02-01-rent",
+        "availableFrom": null,
+        "observedAsOf": "2026-11-04"
+      }
+    }
+  },
+  {
+    "canton": "BL",
+    "cluster": "reinach-aesch-therwil",
+    "record": {
+      "id": "reinach-aesch-therwil:availabilityEvidence:5",
+      "name": "D.SG.01",
+      "kind": "availabilityEvidence",
+      "operator": null,
+      "address": null,
+      "status": "current_operator_advertised_offer_not_transaction_or_confirmed_handover",
+      "facilityState": "current_evidence",
+      "areaValue": 739,
+      "areaUnit": "m2",
+      "areaBasis": "advertised rental-unit area; gross/net measurement convention unspecified",
+      "sourceAsOf": null,
+      "sourceIds": [
+        "bl:reinach-aesch-therwil:s19"
+      ],
+      "caveat": "Not lab-ready evidence; measurement convention and fit-out scope unspecified.",
+      "facts": [
+        {
+          "label": "Available from",
+          "value": null,
+          "unit": null,
+          "scope": null,
+          "sourceAsOf": null,
+          "observedAsOf": "2026-11-04",
+          "evidenceStatus": "current_operator_advertised_offer_not_transaction_or_confirmed_handover",
+          "sourceIds": [
+            "bl:reinach-aesch-therwil:s19"
+          ],
+          "notes": "Record-level citation; field-specific date/scope may not be separately disclosed.",
+          "id": null,
+          "sourceKey": "availableFrom",
+          "basis": null,
+          "qualifier": null,
+          "comparator": null,
+          "metadata": {
+            "sourceAsOf": null,
+            "observedAsOf": "2026-11-04"
+          }
+        },
+        {
+          "label": "bl:reinach-aesch-therwil:metric:tcr-d-sg-01-area",
+          "value": 739,
+          "unit": "m2",
+          "scope": "TechCenter offer D.SG.01 commercial",
+          "sourceAsOf": "publication-unknown",
+          "observedAsOf": "2026-11-04",
+          "evidenceStatus": "current_primary_operator_offer_not_independently_confirmed_vacancy",
+          "sourceIds": [
+            "bl:reinach-aesch-therwil:s19"
+          ],
+          "notes": null,
+          "id": "bl:reinach-aesch-therwil:metric:tcr-d-sg-01-area",
+          "sourceKey": "areaMetricId",
+          "basis": "advertised rental-unit area; gross/net measurement convention unspecified",
+          "qualifier": null,
+          "comparator": null,
+          "metadata": {
+            "sourceDate": null,
+            "sourceAsOf": "publication-unknown",
+            "observedAsOf": "2026-11-04",
+            "originalMetricId": "tcr-d-sg-01-area"
+          }
+        },
+        {
+          "label": "bl:reinach-aesch-therwil:metric:tcr-d-sg-01-rent",
+          "value": 195,
+          "unit": "CHF/m2/year",
+          "scope": "TechCenter offer D.SG.01 commercial",
+          "sourceAsOf": "publication-unknown",
+          "observedAsOf": "2026-11-04",
+          "evidenceStatus": "primary_operator_asking_rent_not_achieved_lease",
+          "sourceIds": [
+            "bl:reinach-aesch-therwil:s19"
+          ],
+          "notes": "Not a lab rent; service-charge and fit-out components require confirmation.",
+          "id": "bl:reinach-aesch-therwil:metric:tcr-d-sg-01-rent",
+          "sourceKey": "askingRentMetricId",
+          "basis": "source-labeled average net asking rent plus VAT",
+          "qualifier": null,
+          "comparator": null,
+          "metadata": {
+            "sourceDate": null,
+            "sourceAsOf": "publication-unknown",
+            "observedAsOf": "2026-11-04",
+            "originalMetricId": "tcr-d-sg-01-rent"
+          }
+        }
+      ],
+      "sourceKey": "availabilityEvidence",
+      "observedAsOf": "2026-11-04",
+      "scope": "TechCenter offer D.SG.01 commercial",
+      "areaQualifier": null,
+      "buildingReferences": [],
+      "metadata": {
+        "unitCode": "D.SG.01",
+        "propertyRecordId": "techcenter-campus",
+        "use": "commercial",
+        "areaMetricId": "bl:reinach-aesch-therwil:metric:tcr-d-sg-01-area",
+        "askingRentMetricId": "bl:reinach-aesch-therwil:metric:tcr-d-sg-01-rent",
+        "availableFrom": null,
+        "observedAsOf": "2026-11-04"
+      }
+    }
+  },
+  {
+    "canton": "BL",
+    "cluster": "reinach-aesch-therwil",
+    "record": {
+      "id": "reinach-aesch-therwil:availabilityEvidence:6",
+      "name": "D.U1.01",
+      "kind": "availabilityEvidence",
+      "operator": null,
+      "address": null,
+      "status": "current_operator_advertised_range_not_a_single_summed_demise",
+      "facilityState": "current_evidence",
+      "areaValue": null,
+      "areaUnit": "m2",
+      "areaBasis": "operator-advertised area range; count/combination of rooms unspecified",
+      "sourceAsOf": null,
+      "sourceIds": [
+        "bl:reinach-aesch-therwil:s19"
+      ],
+      "caveat": "Room count and combination unknown; do not sum range into vacant area.",
+      "facts": [
+        {
+          "label": "Available from",
+          "value": null,
+          "unit": null,
+          "scope": null,
+          "sourceAsOf": null,
+          "observedAsOf": "2026-11-04",
+          "evidenceStatus": "current_operator_advertised_range_not_a_single_summed_demise",
+          "sourceIds": [
+            "bl:reinach-aesch-therwil:s19"
+          ],
+          "notes": "Record-level citation; field-specific date/scope may not be separately disclosed.",
+          "id": null,
+          "sourceKey": "availableFrom",
+          "basis": null,
+          "qualifier": null,
+          "comparator": null,
+          "metadata": {
+            "sourceAsOf": null,
+            "observedAsOf": "2026-11-04"
+          }
+        },
+        {
+          "label": "bl:reinach-aesch-therwil:metric:tcr-d-u1-01-area-range",
+          "value": [
+            8,
+            121
+          ],
+          "unit": "m2",
+          "scope": "TechCenter offer D.U1.01 storage",
+          "sourceAsOf": "publication-unknown",
+          "observedAsOf": "2026-11-04",
+          "evidenceStatus": "current_primary_operator_offer_range_not_vacancy_total",
+          "sourceIds": [
+            "bl:reinach-aesch-therwil:s19"
+          ],
+          "notes": "Do not add a range endpoint to other units to estimate aggregate vacancy.",
+          "id": "bl:reinach-aesch-therwil:metric:tcr-d-u1-01-area-range",
+          "sourceKey": "areaMetricId",
+          "basis": "operator-advertised area range; count/combination of rooms unspecified",
+          "qualifier": null,
+          "comparator": null,
+          "metadata": {
+            "sourceDate": null,
+            "sourceAsOf": "publication-unknown",
+            "observedAsOf": "2026-11-04",
+            "originalMetricId": "tcr-d-u1-01-area-range"
+          }
+        },
+        {
+          "label": "bl:reinach-aesch-therwil:metric:tcr-d-u1-01-rent",
+          "value": 120,
+          "unit": "CHF/m2/year",
+          "scope": "TechCenter offer D.U1.01 storage range",
+          "sourceAsOf": "publication-unknown",
+          "observedAsOf": "2026-11-04",
+          "evidenceStatus": "primary_operator_asking_rent_not_achieved_lease",
+          "sourceIds": [
+            "bl:reinach-aesch-therwil:s19"
+          ],
+          "notes": "Not a lab rent.",
+          "id": "bl:reinach-aesch-therwil:metric:tcr-d-u1-01-rent",
+          "sourceKey": "askingRentMetricId",
+          "basis": "source-labeled average net asking rent plus VAT",
+          "qualifier": null,
+          "comparator": null,
+          "metadata": {
+            "sourceDate": null,
+            "sourceAsOf": "publication-unknown",
+            "observedAsOf": "2026-11-04",
+            "originalMetricId": "tcr-d-u1-01-rent"
+          }
+        }
+      ],
+      "sourceKey": "availabilityEvidence",
+      "observedAsOf": "2026-11-04",
+      "scope": "TechCenter offer D.U1.01 storage",
+      "areaQualifier": null,
+      "buildingReferences": [],
+      "metadata": {
+        "unitCode": "D.U1.01",
+        "propertyRecordId": "techcenter-campus",
+        "use": "storage",
+        "areaMetricId": "bl:reinach-aesch-therwil:metric:tcr-d-u1-01-area-range",
+        "askingRentMetricId": "bl:reinach-aesch-therwil:metric:tcr-d-u1-01-rent",
+        "availableFrom": null,
+        "observedAsOf": "2026-11-04"
+      }
+    }
+  },
+  {
+    "canton": "BL",
+    "cluster": "reinach-aesch-therwil",
+    "record": {
+      "id": "reinach-aesch-therwil:availabilityEvidence:7",
+      "name": "availabilityEvidence evidence",
+      "kind": "availabilityEvidence",
+      "operator": null,
+      "address": null,
+      "status": "operator_current_lab_offer_unit_widget_unresolved",
+      "facilityState": "unresolved",
+      "areaValue": null,
+      "areaUnit": null,
+      "areaBasis": "Area basis not disclosed",
+      "sourceAsOf": null,
+      "sourceIds": [
+        "bl:reinach-aesch-therwil:s7",
+        "bl:reinach-aesch-therwil:s17",
+        "bl:reinach-aesch-therwil:s20"
+      ],
+      "caveat": "Widget remained Loading after browser rendering and recheck. No third-party headline area or rent promoted to verified vacancy. Custom/shell products and ready-to-use chemistry rooms remain separate.",
+      "facts": [
+        {
+          "label": "Available from",
+          "value": null,
+          "unit": null,
+          "scope": null,
+          "sourceAsOf": null,
+          "observedAsOf": "2026-11-04",
+          "evidenceStatus": "operator_current_lab_offer_unit_widget_unresolved",
+          "sourceIds": [
+            "bl:reinach-aesch-therwil:s7",
+            "bl:reinach-aesch-therwil:s17",
+            "bl:reinach-aesch-therwil:s20"
+          ],
+          "notes": "Record-level citation; field-specific date/scope may not be separately disclosed.",
+          "id": null,
+          "sourceKey": "availableFrom",
+          "basis": null,
+          "qualifier": null,
+          "comparator": null,
+          "metadata": {
+            "sourceAsOf": null,
+            "observedAsOf": "2026-11-04"
+          }
+        }
+      ],
+      "sourceKey": "availabilityEvidence",
+      "observedAsOf": "2026-11-04",
+      "scope": null,
+      "areaQualifier": null,
+      "buildingReferences": [],
+      "metadata": {
+        "unitCode": null,
+        "propertyRecordId": "icity-neuhof-11",
+        "use": "laboratory and office products",
+        "areaMetricId": null,
+        "askingRentMetricId": null,
+        "availableFrom": null,
+        "observedAsOf": "2026-11-04"
+      }
+    }
+  }
+]

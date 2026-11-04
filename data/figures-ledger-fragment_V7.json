@@ -1,0 +1,86 @@
+{
+  "project": "BioAtlas corrected V7 release",
+  "last_updated": "2026-11-04",
+  "figures": [
+    {
+      "id": "bioatlas-baseline-unique-companies-v7",
+      "metric": "baseline-unique-companies",
+      "value": "479",
+      "scope": "Current retained baseline company admissions across atlas; not current-company/occupancy census",
+      "period": "Retained corrected release V7",
+      "source": "Source-linked current API / immutable snapshot_V7; specific retained final applied reviews",
+      "source_ids": [
+        "snapshot_V7",
+        "2706723384a341e5fdb9e07ae9da74fc0b08be436cf3c1dce7b3e555cb888db7"
+      ],
+      "as_of_date": "2026-11-04",
+      "verified": false,
+      "locked": true,
+      "notes": "Baseline figures confirmed by parent/user; no eligibility recensus. Versioned additive ledger fragment for parent merge; historical seed figures remain historical."
+    },
+    {
+      "id": "bioatlas-baseline-company-region-memberships-v7",
+      "metric": "baseline-company-region-memberships",
+      "value": "502",
+      "scope": "One baseline company assignment per hub; companies repeat across hubs, not additive unique companies",
+      "period": "Retained corrected release V7",
+      "source": "Source-linked current API / immutable snapshot_V7; specific retained final applied reviews",
+      "source_ids": [
+        "snapshot_V7",
+        "2706723384a341e5fdb9e07ae9da74fc0b08be436cf3c1dce7b3e555cb888db7"
+      ],
+      "as_of_date": "2026-11-04",
+      "verified": false,
+      "locked": true,
+      "notes": "Baseline figures confirmed by parent/user; no eligibility recensus. Versioned additive ledger fragment for parent merge; historical seed figures remain historical."
+    },
+    {
+      "id": "bioatlas-retained-profile-ids-v7",
+      "metric": "retained-profile-ids",
+      "value": "1276",
+      "scope": "All retained profile IDs, including imported research observations and institutional references",
+      "period": "Retained corrected release V7",
+      "source": "Source-linked current API / immutable snapshot_V7; specific retained final applied reviews",
+      "source_ids": [
+        "snapshot_V7",
+        "2706723384a341e5fdb9e07ae9da74fc0b08be436cf3c1dce7b3e555cb888db7"
+      ],
+      "as_of_date": "2026-11-04",
+      "verified": false,
+      "locked": false,
+      "notes": "Baseline figures confirmed by parent/user; no eligibility recensus. Versioned additive ledger fragment for parent merge; historical seed figures remain historical."
+    },
+    {
+      "id": "bioatlas-boulder-operating-site-records-v7",
+      "metric": "boulder-operating-site-records",
+      "value": "13",
+      "scope": "Current source-supported Boulder site records; 5505 Central signed/opening-unconfirmed excluded",
+      "period": "Retained corrected release V7",
+      "source": "Source-linked current API / immutable snapshot_V7; specific retained final applied reviews",
+      "source_ids": [
+        "snapshot_V7",
+        "2706723384a341e5fdb9e07ae9da74fc0b08be436cf3c1dce7b3e555cb888db7"
+      ],
+      "as_of_date": "2026-11-04",
+      "verified": false,
+      "locked": false,
+      "notes": "Baseline figures confirmed by parent/user; no eligibility recensus. Versioned additive ledger fragment for parent merge; historical seed figures remain historical."
+    },
+    {
+      "id": "bioatlas-boulder-typed-plan-records-v7",
+      "metric": "boulder-typed-plan-records",
+      "value": "1",
+      "scope": "Only explicitly typed site plan/signed-unconfirmed records; not all planning actions",
+      "period": "Retained corrected release V7",
+      "source": "Source-linked current API / immutable snapshot_V7; specific retained final applied reviews",
+      "source_ids": [
+        "snapshot_V7",
+        "2706723384a341e5fdb9e07ae9da74fc0b08be436cf3c1dce7b3e555cb888db7"
+      ],
+      "as_of_date": "2026-11-04",
+      "verified": false,
+      "locked": false,
+      "notes": "Baseline figures confirmed by parent/user; no eligibility recensus. Versioned additive ledger fragment for parent merge; historical seed figures remain historical."
+    }
+  ]
+}

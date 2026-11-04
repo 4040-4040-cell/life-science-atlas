@@ -1,0 +1,12 @@
+{
+  "snapshotSha256": "1d9d3a9295aa894ec44fc1db33d599734bedc78fd2d6e9a825ba83a92f83903d",
+  "priorSha256": "2706723384a341e5fdb9e07ae9da74fc0b08be436cf3c1dce7b3e555cb888db7",
+  "profiles": 1276,
+  "regions": 11,
+  "sites": 1652,
+  "aerials": 81,
+  "newCantonAerials": 24,
+  "priorFramesUnchanged": true,
+  "priorCompanyDataUnchanged": true,
+  "scope": "All 11 regions and summaries freshly checked; prior 1276 complete profiles preserved with protected live spot checks and unchanged-master receipt. Not a new company census."
+}

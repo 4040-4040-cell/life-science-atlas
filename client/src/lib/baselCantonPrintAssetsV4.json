@@ -1,0 +1,25 @@
+{
+  "edition": "V4",
+  "asOf": "2026-11-04",
+  "paper": "A3 landscape",
+  "cantons": {
+    "basel-stadt": {
+      "title": "Basel-Stadt",
+      "imageUrl": "/manus-storage/basel_BS_canton-overview_V4_e205071a.png",
+      "pdfUrl": "/manus-storage/basel_BS_canton-overview_V4_0fd02513.pdf",
+      "bookPdfUrl": "/manus-storage/basel_BS_building-book_V4_f341ed27.pdf",
+      "asOf": "2026-11-04",
+      "pages": 1
+    },
+    "basel-landschaft": {
+      "title": "Basel-Landschaft",
+      "imageUrl": "/manus-storage/basel_BL_canton-overview_V4_f8a97ba6.png",
+      "pdfUrl": "/manus-storage/basel_BL_canton-overview_V4_264f3005.pdf",
+      "bookPdfUrl": "/manus-storage/basel_BL_building-book_V4_6297e042.pdf",
+      "asOf": "2026-11-04",
+      "pages": 1
+    }
+  },
+  "combinedBookPdfUrl": "/manus-storage/basel_BS_BL_building-book_V4_9985da97.pdf",
+  "sourceDataZipUrl": "/manus-storage/Basel_Cantons_Print_and_Data_V4_73d76a95.zip"
+}

@@ -1,0 +1,6 @@
+{
+  "scripts/offline-cache/snapshot_V8.json.gz": "1d9d3a9295aa894ec44fc1db33d599734bedc78fd2d6e9a825ba83a92f83903d",
+  "data/baselCantonDetail_offline_V3.json": "2fde5aecbec9afe81ee32cdf5ed8992656812c727edbe2f88b91e3bcf4959fe0",
+  "figures-ledger.json": "5f6178296c1a106abccbedfa341874594bb799b5b993fab0df321eb06f277bb0",
+  "server/atlas/router.ts": "540ca417b586ee62383a47b3693b63aab303bd214efeab02c95b97c3b685791e"
+}

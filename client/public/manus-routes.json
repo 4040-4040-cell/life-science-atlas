@@ -1,1 +1,44 @@
-{"routes":[{"path":"/","title":"Life Science Atlas · Hub comparison"},{"path":"/hub/:regionId","title":"Regional intelligence workspace"},{"path":"/print/:regionId","title":"One-page market print sheet"},{"path":"/methodology","title":"Methodology & coverage"}]}
+{
+  "routes": [
+    {
+      "path": "/",
+      "title": "Life Science Atlas \u00b7 Hub comparison"
+    },
+    {
+      "path": "/hub/:regionId",
+      "title": "Regional intelligence workspace"
+    },
+    {
+      "path": "/intelligence/:regionId",
+      "title": "Market intelligence and primary-area comparison"
+    },
+    {
+      "path": "/print/:regionId",
+      "title": "One-page market intelligence print sheet"
+    },
+    {
+      "path": "/methodology",
+      "title": "Methodology & coverage"
+    },
+    {
+      "path": "/canton/basel-stadt",
+      "title": "Basel-Stadt building inventory"
+    },
+    {
+      "path": "/canton/basel-landschaft",
+      "title": "Basel-Landschaft building inventory"
+    },
+    {
+      "path": "/hub/:regionId/company/:companyId",
+      "title": "Exact company record"
+    },
+    {
+      "path": "/print/canton/basel-stadt",
+      "title": "basel-stadt one-page canton overview"
+    },
+    {
+      "path": "/print/canton/basel-landschaft",
+      "title": "basel-landschaft one-page canton overview"
+    }
+  ]
+}

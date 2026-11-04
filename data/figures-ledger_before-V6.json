@@ -1,0 +1,1650 @@
+{
+  "project": "Life Science Atlas / client application",
+  "last_updated": "2026-11-04",
+  "figures": [
+    {
+      "id": "web-atlas-baseline_company_profiles-20261102",
+      "metric": "baseline company profiles",
+      "value": "480",
+      "scope": "This generated application seed only, not a market census or tenant count",
+      "period": "2026-11-02 build",
+      "source": "data/seed-counts.json and immutable seed input hashes",
+      "as_of_date": "2026-11-02",
+      "verified": true,
+      "locked": false,
+      "notes": "Generated-record count; baseline/research/reference grains remain distinct."
+    },
+    {
+      "id": "web-atlas-research_only_profiles-20261102",
+      "metric": "research only profiles",
+      "value": "773",
+      "scope": "This generated application seed only, not a market census or tenant count",
+      "period": "2026-11-02 build",
+      "source": "data/seed-counts.json and immutable seed input hashes",
+      "as_of_date": "2026-11-02",
+      "verified": true,
+      "locked": false,
+      "notes": "Generated-record count; baseline/research/reference grains remain distinct."
+    },
+    {
+      "id": "web-atlas-institutional_reference_profiles-20261102",
+      "metric": "institutional reference profiles",
+      "value": "23",
+      "scope": "This generated application seed only, not a market census or tenant count",
+      "period": "2026-11-02 build",
+      "source": "data/seed-counts.json and immutable seed input hashes",
+      "as_of_date": "2026-11-02",
+      "verified": true,
+      "locked": false,
+      "notes": "Generated-record count; baseline/research/reference grains remain distinct."
+    },
+    {
+      "id": "web-atlas-site_rows-20261102",
+      "metric": "site rows",
+      "value": "1648",
+      "scope": "This generated application seed only, not a market census or tenant count",
+      "period": "2026-11-02 build",
+      "source": "data/seed-counts.json and immutable seed input hashes",
+      "as_of_date": "2026-11-02",
+      "verified": true,
+      "locked": false,
+      "notes": "Generated-record count; baseline/research/reference grains remain distinct."
+    },
+    {
+      "id": "web-atlas-aerial_views-20261102",
+      "metric": "aerial views",
+      "value": "57",
+      "scope": "This generated application seed only, not a market census or tenant count",
+      "period": "2026-11-02 build",
+      "source": "data/seed-counts.json and immutable seed input hashes",
+      "as_of_date": "2026-11-02",
+      "verified": true,
+      "locked": false,
+      "notes": "Generated-record count; baseline/research/reference grains remain distinct."
+    },
+    {
+      "id": "web-atlas-original_import_observations-20261102",
+      "metric": "original import observations",
+      "value": "1107",
+      "scope": "This generated application seed only, not a market census or tenant count",
+      "period": "2026-11-02 build",
+      "source": "data/seed-counts.json and immutable seed input hashes",
+      "as_of_date": "2026-11-02",
+      "verified": true,
+      "locked": false,
+      "notes": "Generated-record count; baseline/research/reference grains remain distinct."
+    },
+    {
+      "id": "sec-cfo-gco_e2dfe3f6013a3ea81210-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "43.094",
+      "unit": "USD millions",
+      "scope": "10x Genomics, Inc.; Global reporting entity: 10x Genomics, Inc.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001628280-26-054491",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1770787/000162828026054491/0001628280-26-054491-index.html"
+      ],
+      "as_of_date": "2026-08-07",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -43.094 USD millions. Native SEC USD value 43094000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_1da902a853cb493cceab-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "4.376",
+      "unit": "USD millions",
+      "scope": "908 Devices; Global reporting entity: 908 DEVICES\u00a0INC.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001104659-26-093731",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1555279/000110465926093731/0001104659-26-093731-index.html"
+      ],
+      "as_of_date": "2026-08-11",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -4.376 USD millions. Native SEC USD value 4376000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_3ab2fef92c7c1d8d6997-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "7265.0",
+      "unit": "USD millions",
+      "scope": "AbbVie; Global reporting entity: AbbVie Inc.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001551152-26-000026",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1551152/000155115226000026/0001551152-26-000026-index.html"
+      ],
+      "as_of_date": "2026-08-03",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -7265.0 USD millions. Native SEC USD value 7265000000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_0d62f5a9a6604c3ba1fd-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "134.762",
+      "unit": "USD millions",
+      "scope": "Acadia Pharmaceuticals; Global reporting entity: ACADIA PHARMACEUTICALS INC.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001193125-26-333243",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1070494/000119312526333243/0001193125-26-333243-index.html"
+      ],
+      "as_of_date": "2026-08-05",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -134.762 USD millions. Native SEC USD value 134762000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_6f304971a651f8ae0210-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "239.024",
+      "unit": "USD millions",
+      "scope": "AdaptHealth; Global reporting entity: AdaptHealth Corp.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001628280-26-052646",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1725255/000162828026052646/ahco-20260630.htm"
+      ],
+      "as_of_date": "2026-08-04",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -239.024 USD millions. Native SEC USD value 239024000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_0e3bd1fb072a94039794-2025-11-01-2026-07-31",
+      "metric": "Signed operating cash flow",
+      "value": "1064.0",
+      "unit": "USD millions",
+      "scope": "Agilent Technologies, Inc.; Global reporting entity: AGILENT TECHNOLOGIES, INC.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2025-11-01 to 2026-07-31",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001090872-26-000064",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1090872/000109087226000064/0001090872-26-000064-index.html"
+      ],
+      "as_of_date": "2026-09-01",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -1064.0 USD millions. Native SEC USD value 1064000000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_2420b7e937e1471be817-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "397.228",
+      "unit": "USD millions",
+      "scope": "Alnylam Pharmaceuticals; Global reporting entity: ALNYLAM PHARMACEUTICALS, INC.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001178670-26-000062",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1178670/000117867026000062/0001178670-26-000062-index.html"
+      ],
+      "as_of_date": "2026-07-30",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -397.228 USD millions. Native SEC USD value 397228000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_c2161b2fb3b090b9d9ee-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "21.803",
+      "unit": "USD millions",
+      "scope": "Alphatec Holdings; Global reporting entity: ALPHATEC HOLDINGS, INC.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001193125-26-333051",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1350653/000119312526333051/0001193125-26-333051-index.html"
+      ],
+      "as_of_date": "2026-08-04",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -21.803 USD millions. Native SEC USD value 21803000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_48272715346d6e3b4674-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "6191.0",
+      "unit": "USD millions",
+      "scope": "Amgen; Global reporting entity: Amgen Inc.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0000318154-26-000126",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/318154/000031815426000126/0000318154-26-000126-index.html"
+      ],
+      "as_of_date": "2026-08-05",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -6191.0 USD millions. Native SEC USD value 6191000000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_352ff76df7abb1e053ad-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "222.18",
+      "unit": "USD millions",
+      "scope": "AptarGroup; Global reporting entity: AptarGroup,\u00a0Inc; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0000896622-26-000168",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/896622/000089662226000168/0000896622-26-000168-index.html"
+      ],
+      "as_of_date": "2026-07-31",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -222.18 USD millions. Native SEC USD value 222180000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_1158ade37657d8433653-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "14.878",
+      "unit": "USD millions",
+      "scope": "Arcutis Biotherapeutics; Global reporting entity: ARCUTIS BIOTHERAPEUTICS, INC.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001787306-26-000051",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1787306/000178730626000051/0001787306-26-000051-index.html"
+      ],
+      "as_of_date": "2026-08-05",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -14.878 USD millions. Native SEC USD value 14878000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_d2602cf168327bf22658-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "18.196",
+      "unit": "USD millions",
+      "scope": "AtriCure; Global reporting entity: AtriCure, Inc.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001323885-26-000035",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1323885/000132388526000035/0001323885-26-000035-index.html"
+      ],
+      "as_of_date": "2026-07-27",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -18.196 USD millions. Native SEC USD value 18196000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_d17a164aaf6ce660b81a-2026-01-01-2026-09-30",
+      "metric": "Signed operating cash flow",
+      "value": "432.0",
+      "unit": "USD millions",
+      "scope": "Avantor; Global reporting entity: Avantor, Inc.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-09-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001628280-26-067751",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1722482/000162828026067751/0001628280-26-067751-index.html"
+      ],
+      "as_of_date": "2026-10-28",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -432.0 USD millions. Native SEC USD value 432000000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_37c46347c3797dcc3747-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "498.0",
+      "unit": "USD millions",
+      "scope": "Baxter International; Global reporting entity: BAXTER INTERNATIONAL INC.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001628280-26-051118",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/10456/000162828026051118/0001628280-26-051118-index.html"
+      ],
+      "as_of_date": "2026-07-30",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -498.0 USD millions. Native SEC USD value 498000000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_5e657ff6158d3e2a6d23-2025-10-01-2025-12-31",
+      "metric": "Signed operating cash flow",
+      "value": "657.0",
+      "unit": "USD millions",
+      "scope": "BD; Global reporting entity: BECTON, DICKINSON AND COMPANY; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2025-10-01 to 2025-12-31",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0000010795-26-000005",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/10795/000001079526000005/0000010795-26-000005-index.html"
+      ],
+      "as_of_date": "2026-02-09",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -657.0 USD millions. Native SEC USD value 657000000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_4df80e9d7ecd48b49e72-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "24.566",
+      "unit": "USD millions",
+      "scope": "BillionToOne, Inc.; Global reporting entity: BillionToOne, Inc.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0002070849-26-000050",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/2070849/000207084926000050/0002070849-26-000050-index.html"
+      ],
+      "as_of_date": "2026-08-05",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -24.566 USD millions. Native SEC USD value 24566000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_24541c996caf62a4570c-2026-01-01-2026-09-30",
+      "metric": "Signed operating cash flow",
+      "value": "1735.2",
+      "unit": "USD millions",
+      "scope": "Biogen; Global reporting entity: BIOGEN INC.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-09-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0000875045-26-000096",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/875045/000087504526000096/0000875045-26-000096-index.html"
+      ],
+      "as_of_date": "2026-10-28",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -1735.2 USD millions. Native SEC USD value 1735200000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_188152b5332b2214de95-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "388.76",
+      "unit": "USD millions",
+      "scope": "Biomarin Pharmaceutical Inc; Global reporting entity: BIOMARIN PHARMACEUTICAL INC; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001048477-26-000016",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1048477/000104847726000016/0001048477-26-000016-index.html"
+      ],
+      "as_of_date": "2026-08-06",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -388.76 USD millions. Native SEC USD value 388760000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_41426245161e6c00f407-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "206.8",
+      "unit": "USD millions",
+      "scope": "Bio-Rad Laboratories, Inc.; Global reporting entity: BIO-RAD LABORATORIES, INC.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0000012208-26-000048",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/12208/000001220826000048/0000012208-26-000048-index.html"
+      ],
+      "as_of_date": "2026-08-04",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -206.8 USD millions. Native SEC USD value 206800000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_3587d9f0ba282df85f31-2025-07-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "292.073",
+      "unit": "USD millions",
+      "scope": "Bio-Techne; Global reporting entity: BIO-TECHNE Corp; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2025-07-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001104659-26-100322",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/842023/000110465926100322/0001104659-26-100322-index.html"
+      ],
+      "as_of_date": "2026-08-24",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -292.073 USD millions. Native SEC USD value 292073000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_9394d747417bbca0fb2e-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "1822.0",
+      "unit": "USD millions",
+      "scope": "Boston Scientific; Global reporting entity: BOSTON SCIENTIFIC CORPORATION; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0000885725-26-000053",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/885725/000088572526000053/0000885725-26-000053-index.html"
+      ],
+      "as_of_date": "2026-08-03",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -1822.0 USD millions. Native SEC USD value 1822000000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_45ab8969e18b2e13fd4b-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "4497.0",
+      "unit": "USD millions",
+      "scope": "Bristol Myers Squibb; Global reporting entity: BRISTOL-MYERS SQUIBB COMPANY; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0000014272-26-000020",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/14272/000001427226000020/0000014272-26-000020-index.html"
+      ],
+      "as_of_date": "2026-07-30",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -4497.0 USD millions. Native SEC USD value 4497000000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_5f0503ebeb4a9b59eee4-2025-07-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "5174.0",
+      "unit": "USD millions",
+      "scope": "Cardinal Health; Global reporting entity: Cardinal Health, Inc.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2025-07-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0000721371-26-000038",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/721371/000072137126000038/0000721371-26-000038-index.html"
+      ],
+      "as_of_date": "2026-08-11",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -5174.0 USD millions. Native SEC USD value 5174000000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_6c48ac1b954b085edc7c-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "0.339",
+      "unit": "USD millions",
+      "scope": "Celularity; Global reporting entity: Celularity Inc.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001493152-26-047787",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1752828/000149315226047787/0001493152-26-047787-index.html"
+      ],
+      "as_of_date": "2026-10-20",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -0.339 USD millions. Native SEC USD value 339000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_eaeca89c62c10dfb12e7-2025-10-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "1687.53",
+      "unit": "USD millions",
+      "scope": "Cencora; Global reporting entity: CENCORA, INC.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2025-10-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001140859-26-000034",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1140859/000114085926000034/0001140859-26-000034-index.html"
+      ],
+      "as_of_date": "2026-08-05",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -1687.53 USD millions. Native SEC USD value 1687530000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_04121fed8d29fd1052e6-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "21.732",
+      "unit": "USD millions",
+      "scope": "Certara; Global reporting entity: Certara, Inc.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001827090-26-000028",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1827090/000182709026000028/0001827090-26-000028-index.html"
+      ],
+      "as_of_date": "2026-08-04",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -21.732 USD millions. Native SEC USD value 21732000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_fcd64bcd4cbba1e64599-2025-12-28-2026-06-27",
+      "metric": "Signed operating cash flow",
+      "value": "220.802",
+      "unit": "USD millions",
+      "scope": "Charles River Laboratories; Global reporting entity: CHARLES RIVER LABORATORIES INTERNATIONAL,\u00a0INC.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2025-12-28 to 2026-06-27",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001100682-26-000118",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1100682/000110068226000118/0001100682-26-000118-index.html"
+      ],
+      "as_of_date": "2026-08-05",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -220.802 USD millions. Native SEC USD value 220802000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_2efe1b71e7504e4449ca-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "128.619",
+      "unit": "USD millions",
+      "scope": "CorMedix; Global reporting entity: CORMEDIX INC.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001410098-26-000056",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1410098/000141009826000056/0001410098-26-000056-index.html"
+      ],
+      "as_of_date": "2026-08-13",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -128.619 USD millions. Native SEC USD value 128619000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_35100dc320d02d283926-2026-01-01-2026-09-25",
+      "metric": "Signed operating cash flow",
+      "value": "4742.0",
+      "unit": "USD millions",
+      "scope": "Danaher Corporation; Global reporting entity: DANAHER CORPORATION; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-09-25",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0000313616-26-000199",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/313616/000031361626000199/0000313616-26-000199-index.html"
+      ],
+      "as_of_date": "2026-10-21",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -4742.0 USD millions. Native SEC USD value 4742000000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_739bde84abd79db8bb7f-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "794.8",
+      "unit": "USD millions",
+      "scope": "Dexcom; Global reporting entity: DEXCOM, INC.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001093557-26-000143",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1093557/000109355726000143/0001093557-26-000143-index.html"
+      ],
+      "as_of_date": "2026-07-30",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -794.8 USD millions. Native SEC USD value 794800000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_704fc5b8a45e65e4cce2-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "695.7",
+      "unit": "USD millions",
+      "scope": "Edwards Lifesciences; Global reporting entity: Edwards Lifesciences Corporation; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001099800-26-000043",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1099800/000109980026000043/0001099800-26-000043-index.html"
+      ],
+      "as_of_date": "2026-08-04",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -695.7 USD millions. Native SEC USD value 695700000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_9e5c34648271eac0843e-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "290.0",
+      "unit": "USD millions",
+      "scope": "Elanco Animal Health; Global reporting entity: Elanco Animal Health Incorporated; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001739104-26-000043",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1739104/000173910426000043/0001739104-26-000043-index.html"
+      ],
+      "as_of_date": "2026-08-05",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -290.0 USD millions. Native SEC USD value 290000000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_0e76abd0a03b5c1a9cb3-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "16023.0",
+      "unit": "USD millions",
+      "scope": "Eli Lilly and Company; Global reporting entity: ELI LILLY AND COMPANY; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0000059478-26-000081",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/59478/000005947826000081/0000059478-26-000081-index.html"
+      ],
+      "as_of_date": "2026-08-05",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -16023.0 USD millions. Native SEC USD value 16023000000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_01044852d66c8f9af590-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "22.3",
+      "unit": "USD millions",
+      "scope": "Emergent BioSolutions Inc.; Global reporting entity: EMERGENT BIOSOLUTIONS INC.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001367644-26-000082",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1367644/000136764426000082/0001367644-26-000082-index.html"
+      ],
+      "as_of_date": "2026-08-06",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -22.3 USD millions. Native SEC USD value 22300000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_156c2a981f833a852c6f-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "14.66",
+      "unit": "USD millions",
+      "scope": "Eton Pharmaceuticals; Global reporting entity: Eton Pharmaceuticals, Inc.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001437749-26-027684",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1710340/000143774926027684/0001437749-26-027684-index.html"
+      ],
+      "as_of_date": "2026-08-13",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -14.66 USD millions. Native SEC USD value 14660000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_116dbec7dbd84d6c8e1c-2026-01-03-2026-07-03",
+      "metric": "Signed operating cash flow",
+      "value": "559.586",
+      "unit": "USD millions",
+      "scope": "Exelixis, Inc.; Global reporting entity: Exelixis Inc; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-03 to 2026-07-03",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0000939767-26-000098",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/939767/000093976726000098/0000939767-26-000098-index.html"
+      ],
+      "as_of_date": "2026-08-05",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -559.586 USD millions. Native SEC USD value 559586000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_50f0697a25ea8786d667-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "11.9",
+      "unit": "USD millions",
+      "scope": "Fortrea; Global reporting entity: FORTREA HOLDINGS INC.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001628280-26-050597",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1965040/000162828026050597/0001628280-26-050597-index.html"
+      ],
+      "as_of_date": "2026-07-29",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -11.9 USD millions. Native SEC USD value 11900000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_a8011e30a17d73946af6-2026-01-01-2026-09-30",
+      "metric": "Signed operating cash flow",
+      "value": "1365.0",
+      "unit": "USD millions",
+      "scope": "GE HealthCare Technologies; Global reporting entity: GE HEALTHCARE TECHNOLOGIES INC.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-09-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001932393-26-000059",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1932393/000193239326000059/0001932393-26-000059-index.html"
+      ],
+      "as_of_date": "2026-10-28",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -1365.0 USD millions. Native SEC USD value 1365000000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_351b29a1a88ff768fe50-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "6117.0",
+      "unit": "USD millions",
+      "scope": "Gilead Sciences, Inc.; Global reporting entity: GILEAD SCIENCES, INC.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0000882095-26-000031",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/882095/000088209526000031/0000882095-26-000031-index.html"
+      ],
+      "as_of_date": "2026-08-06",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -6117.0 USD millions. Native SEC USD value 6117000000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_b085b02bff4afeb5d0ad-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "2.297",
+      "unit": "USD millions",
+      "scope": "Glaukos; Global reporting entity: GLAUKOS Corp; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001193125-26-324201",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1192448/000119312526324201/0001193125-26-324201-index.html"
+      ],
+      "as_of_date": "2026-07-29",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -2.297 USD millions. Native SEC USD value 2297000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_8286e0acbf149b411d26-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "412.105",
+      "unit": "USD millions",
+      "scope": "Globus Medical; Global reporting entity: GLOBUS MEDICAL, INC.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001628280-26-054450",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1237831/000162828026054450/0001628280-26-054450-index.html"
+      ],
+      "as_of_date": "2026-08-06",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -412.105 USD millions. Native SEC USD value 412105000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_0f86c2bb655cb1db0dd8-2026-03-29-2026-06-27",
+      "metric": "Signed operating cash flow",
+      "value": "52.323",
+      "unit": "USD millions",
+      "scope": "Haemonetics; Global reporting entity: Haemonetics Corporation; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-03-29 to 2026-06-27",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0000313143-26-000120",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/313143/000031314326000120/0000313143-26-000120-index.html"
+      ],
+      "as_of_date": "2026-08-06",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -52.323 USD millions. Native SEC USD value 52323000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_67f854122c3dbffbd587-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "420.969",
+      "unit": "USD millions",
+      "scope": "Halozyme Therapeutics; Global reporting entity: HALOZYME THERAPEUTICS, INC.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001159036-26-000104",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1159036/000115903626000104/0001159036-26-000104-index.html"
+      ],
+      "as_of_date": "2026-08-06",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -420.969 USD millions. Native SEC USD value 420969000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_b6124efc0dc768797e88-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "120.192",
+      "unit": "USD millions",
+      "scope": "Harmony Biosciences; Global reporting entity: HARMONY BIOSCIENCES HOLDINGS,\u00a0INC.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001104659-26-090090",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1802665/000110465926090090/0001104659-26-090090-index.html"
+      ],
+      "as_of_date": "2026-08-04",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -120.192 USD millions. Native SEC USD value 120192000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_92d571ff1dda075da935-2025-12-28-2026-06-27",
+      "metric": "Signed operating cash flow",
+      "value": "145.0",
+      "unit": "USD millions",
+      "scope": "Henry Schein; Global reporting entity: HENRY SCHEIN, INC.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2025-12-28 to 2026-06-27",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001000228-26-000045",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1000228/000100022826000045/hsic-20260627.htm"
+      ],
+      "as_of_date": "2026-08-04",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -145.0 USD millions. Native SEC USD value 145000000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_5bc24ec7755fa981a6c4-2025-12-29-2026-06-28",
+      "metric": "Signed operating cash flow",
+      "value": "490.0",
+      "unit": "USD millions",
+      "scope": "Illumina; Global reporting entity: ILLUMINA, INC.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2025-12-29 to 2026-06-28",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001110803-26-000160",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1110803/000111080326000160/ilmn-20260628.htm"
+      ],
+      "as_of_date": "2026-07-31",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -490.0 USD millions. Native SEC USD value 490000000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_84bf6ac0fb934f827d03-2026-01-01-2026-03-31",
+      "metric": "Signed operating cash flow",
+      "value": "369.351",
+      "unit": "USD millions",
+      "scope": "Incyte Corporation; Global reporting entity: INCYTE CORPORATION; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-03-31",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0000879169-26-000026",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/879169/000087916926000026/0000879169-26-000026-index.html"
+      ],
+      "as_of_date": "2026-04-28",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -369.351 USD millions. Native SEC USD value 369351000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_5c124325614aee28f1fb-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "36.077",
+      "unit": "USD millions",
+      "scope": "Inspire Medical Systems; Global reporting entity: Inspire Medical Systems,\u00a0Inc.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001609550-26-000047",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1609550/000160955026000047/0001609550-26-000047-index.html"
+      ],
+      "as_of_date": "2026-08-03",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -36.077 USD millions. Native SEC USD value 36077000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_91eb20eb09fbbcf3696a-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "202.2",
+      "unit": "USD millions",
+      "scope": "Insulet; Global reporting entity: INSULET CORPORATION; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001145197-26-000169",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000169/0001145197-26-000169-index.html"
+      ],
+      "as_of_date": "2026-08-05",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -202.2 USD millions. Native SEC USD value 202200000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_047726dad216dcb0be5f-2026-01-01-2026-09-30",
+      "metric": "Signed operating cash flow",
+      "value": "3197.0",
+      "unit": "USD millions",
+      "scope": "Intuitive Surgical Inc; Global reporting entity: Intuitive Surgical, Inc.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-09-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001035267-26-000071",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000071/0001035267-26-000071-index.html"
+      ],
+      "as_of_date": "2026-10-21",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -3197.0 USD millions. Native SEC USD value 3197000000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_57321f13f25f25fae3f5-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "24.907",
+      "unit": "USD millions",
+      "scope": "iRhythm Holdings, Inc.; Global reporting entity: iRhythm Holdings, Inc.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001388658-26-000072",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1388658/000138865826000072/0001388658-26-000072-index.html"
+      ],
+      "as_of_date": "2026-08-06",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -24.907 USD millions. Native SEC USD value 24907000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_7bad8eba1dea19b23941-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "63.397",
+      "unit": "USD millions",
+      "scope": "Ironwood Pharmaceuticals, Inc.; Global reporting entity: IRONWOOD PHARMACEUTICALS,\u00a0INC.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001104659-26-091987",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1446847/000110465926091987/0001104659-26-091987-index.html"
+      ],
+      "as_of_date": "2026-08-06",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -63.397 USD millions. Native SEC USD value 63397000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_0e0000e79d033b9146ef-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "0.147",
+      "unit": "USD millions",
+      "scope": "Janux Therapeutics; Global reporting entity: Janux Therapeutics, Inc.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001193125-26-338078",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1817713/000119312526338078/0001193125-26-338078-index.html"
+      ],
+      "as_of_date": "2026-08-06",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -0.147 USD millions. Native SEC USD value 147000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_2cde2ccc283a7fd4e3fc-2025-12-29-2026-09-27",
+      "metric": "Signed operating cash flow",
+      "value": "18850.0",
+      "unit": "USD millions",
+      "scope": "Johnson & Johnson; Global reporting entity: Johnson & Johnson; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2025-12-29 to 2026-09-27",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0000200406-26-000197",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/200406/000020040626000197/0000200406-26-000197-index.html"
+      ],
+      "as_of_date": "2026-10-21",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -18850.0 USD millions. Native SEC USD value 18850000000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_e259457e92f020bae5a5-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "155.171",
+      "unit": "USD millions",
+      "scope": "Krystal Biotech; Global reporting entity: Krystal Biotech, Inc.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001711279-26-000057",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1711279/000171127926000057/0001711279-26-000057-index.html"
+      ],
+      "as_of_date": "2026-08-03",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -155.171 USD millions. Native SEC USD value 155171000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_049f08359d6f1705aac6-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "217.33",
+      "unit": "USD millions",
+      "scope": "Lantheus; Global reporting entity: Lantheus Holdings, Inc.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001193125-26-336795",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1521036/000119312526336795/0001193125-26-336795-index.html"
+      ],
+      "as_of_date": "2026-08-06",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -217.33 USD millions. Native SEC USD value 217330000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_ab58332d2b095d10034c-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "12.657",
+      "unit": "USD millions",
+      "scope": "Maravai LifeSciences; Global reporting entity: Maravai LifeSciences Holdings, Inc.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001823239-26-000059",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1823239/000182323926000059/0001823239-26-000059-index.html"
+      ],
+      "as_of_date": "2026-08-07",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -12.657 USD millions. Native SEC USD value 12657000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_0d3a80e4642a0d819c31-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "9288.0",
+      "unit": "USD millions",
+      "scope": "Merck & Co.; Global reporting entity: Merck\u00a0& Co., Inc.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0000310158-26-000212",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/310158/000031015826000212/0000310158-26-000212-index.html"
+      ],
+      "as_of_date": "2026-08-07",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -9288.0 USD millions. Native SEC USD value 9288000000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_1483675423da90e4a0ff-2026-06-01-2026-08-31",
+      "metric": "Signed operating cash flow",
+      "value": "12.9",
+      "unit": "USD millions",
+      "scope": "Neogen Corporation; Global reporting entity: Neogen Corporation; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-06-01 to 2026-08-31",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001193125-26-416954",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/711377/000119312526416954/0001193125-26-416954-index.html"
+      ],
+      "as_of_date": "2026-10-07",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -12.9 USD millions. Native SEC USD value 12900000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_83cf6169ad5cf8eb3372-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "282.2",
+      "unit": "USD millions",
+      "scope": "Neurocrine Biosciences; Global reporting entity: NEUROCRINE BIOSCIENCES INC; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0000914475-26-000037",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/914475/000091447526000037/0000914475-26-000037-index.html"
+      ],
+      "as_of_date": "2026-07-31",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -282.2 USD millions. Native SEC USD value 282200000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_decd1c149f2e639a091a-2025-12-01-2026-08-31",
+      "metric": "Signed operating cash flow",
+      "value": "447.144",
+      "unit": "USD millions",
+      "scope": "Nurix Therapeutics, Inc.; Global reporting entity: NURIX THERAPEUTICS, INC.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2025-12-01 to 2026-08-31",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001549595-26-000049",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1549595/000154959526000049/0001549595-26-000049-index.html"
+      ],
+      "as_of_date": "2026-10-13",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -447.144 USD millions. Native SEC USD value 447144000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_74c8ccb8a7caefcb6052-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "122.814",
+      "unit": "USD millions",
+      "scope": "Omnicell, Inc.; Global reporting entity: OMNICELL,\u00a0INC; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0000926326-26-000022",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/926326/000092632626000022/0000926326-26-000022-index.html"
+      ],
+      "as_of_date": "2026-08-05",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -122.814 USD millions. Native SEC USD value 122814000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_f6b6eadfc9968ba90e9d-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "332.0",
+      "unit": "USD millions",
+      "scope": "Organon; Global reporting entity: Organon & Co.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001628280-26-051230",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1821825/000162828026051230/0001628280-26-051230-index.html"
+      ],
+      "as_of_date": "2026-07-31",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -332.0 USD millions. Native SEC USD value 332000000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_696cc4f69cc421c6031c-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "133.055",
+      "unit": "USD millions",
+      "scope": "Penumbra Inc; Global reporting entity: Penumbra, Inc; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001321732-26-000037",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1321732/000132173226000037/0001321732-26-000037-index.html"
+      ],
+      "as_of_date": "2026-07-30",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -133.055 USD millions. Native SEC USD value 133055000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_69d9f7657d4a7ec043cf-2026-01-01-2026-06-28",
+      "metric": "Signed operating cash flow",
+      "value": "3450.0",
+      "unit": "USD millions",
+      "scope": "Pfizer; Global reporting entity: PFIZER INC; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-28",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0000078003-26-000095",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/78003/000007800326000095/0000078003-26-000095-index.html"
+      ],
+      "as_of_date": "2026-08-04",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -3450.0 USD millions. Native SEC USD value 3450000000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_7a02de4796c1a3ec1cfe-2025-07-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "68.954",
+      "unit": "USD millions",
+      "scope": "Phibro Animal Health; Global reporting entity: Phibro Animal Health Corporation; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2025-07-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001104659-26-101493",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1069899/000110465926101493/0001104659-26-101493-index.html"
+      ],
+      "as_of_date": "2026-08-26",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -68.954 USD millions. Native SEC USD value 68954000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_c9e6ac74e29f33a3b873-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "170.109",
+      "unit": "USD millions",
+      "scope": "Protagonist Therapeutics, Inc; Global reporting entity: Protagonist Therapeutics, Inc; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001104659-26-091123",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1377121/000110465926091123/0001104659-26-091123-index.html"
+      ],
+      "as_of_date": "2026-08-05",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -170.109 USD millions. Native SEC USD value 170109000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_3b12dc8ae2cf56a1cd8e-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "70.071",
+      "unit": "USD millions",
+      "scope": "PTC Therapeutics; Global reporting entity: PTC Therapeutics,\u00a0Inc.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001070081-26-000017",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1070081/000107008126000017/0001070081-26-000017-index.html"
+      ],
+      "as_of_date": "2026-07-30",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -70.071 USD millions. Native SEC USD value 70071000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_6447cf2ef25efb5cfa98-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "17.04",
+      "unit": "USD millions",
+      "scope": "Puma Biotechnology; Global reporting entity: PUMA BIOTECHNOLOGY, INC.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001437749-26-026311",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1401667/000143774926026311/0001437749-26-026311-index.html"
+      ],
+      "as_of_date": "2026-08-06",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -17.04 USD millions. Native SEC USD value 17040000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_90e7aabd6d4ac587f21a-2026-01-01-2026-09-30",
+      "metric": "Signed operating cash flow",
+      "value": "1486.0",
+      "unit": "USD millions",
+      "scope": "Quest Diagnostics; Global reporting entity: Quest Diagnostics Inc; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-09-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001022079-26-000108",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1022079/000102207926000108/0001022079-26-000108-index.html"
+      ],
+      "as_of_date": "2026-10-23",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -1486.0 USD millions. Native SEC USD value 1486000000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_802518db21f06c8a2e23-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "1891.9",
+      "unit": "USD millions",
+      "scope": "Regeneron Pharmaceuticals; Global reporting entity: REGENERON PHARMACEUTICALS, INC.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0000872589-26-000025",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/872589/000087258926000025/0000872589-26-000025-index.html"
+      ],
+      "as_of_date": "2026-07-30",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -1891.9 USD millions. Native SEC USD value 1891900000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_1da1212641d43819418c-2025-07-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "1805.829",
+      "unit": "USD millions",
+      "scope": "ResMed; Global reporting entity: ResMed Inc.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2025-07-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0000943819-26-000047",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/943819/000094381926000047/0000943819-26-000047-index.html"
+      ],
+      "as_of_date": "2026-08-13",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -1805.829 USD millions. Native SEC USD value 1805829000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_3735211729c3ac44d707-2025-12-29-2026-07-05",
+      "metric": "Signed operating cash flow",
+      "value": "307.173",
+      "unit": "USD millions",
+      "scope": "Revvity; Global reporting entity: REVVITY, INC; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2025-12-29 to 2026-07-05",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0000031791-26-000027",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/31791/000003179126000027/0000031791-26-000027-index.html"
+      ],
+      "as_of_date": "2026-08-11",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -307.173 USD millions. Native SEC USD value 307173000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_f9769c4ab2ec0f70fab9-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "33.378",
+      "unit": "USD millions",
+      "scope": "Rigel Pharmaceuticals Inc; Global reporting entity: RIGEL PHARMACEUTICALS, INC.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001034842-26-000052",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1034842/000103484226000052/0001034842-26-000052-index.html"
+      ],
+      "as_of_date": "2026-08-04",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -33.378 USD millions. Native SEC USD value 33378000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_b88f26816635024edae8-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "10.509",
+      "unit": "USD millions",
+      "scope": "Spero Therapeutics; Global reporting entity: Spero Therapeutics, Inc.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001193125-26-346795",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1701108/000119312526346795/0001193125-26-346795-index.html"
+      ],
+      "as_of_date": "2026-08-12",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -10.509 USD millions. Native SEC USD value 10509000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_09792abb14956e93ecf2-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "1842.0",
+      "unit": "USD millions",
+      "scope": "Stryker; Global reporting entity: STRYKER CORP; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0000310764-26-000050",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/310764/000031076426000050/0000310764-26-000050-index.html"
+      ],
+      "as_of_date": "2026-07-31",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -1842.0 USD millions. Native SEC USD value 1842000000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_c06195a16c280836144f-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "61.714",
+      "unit": "USD millions",
+      "scope": "Supernus Pharmaceuticals, Inc.; Global reporting entity: SUPERNUS PHARMACEUTICALS,\u00a0INC.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001356576-26-000037",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1356576/000135657626000037/0001356576-26-000037-index.html"
+      ],
+      "as_of_date": "2026-08-03",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -61.714 USD millions. Native SEC USD value 61714000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_b8550b535d19df82178d-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "36.571",
+      "unit": "USD millions",
+      "scope": "Tarsus Pharmaceuticals; Global reporting entity: TARSUS PHARMACEUTICALS, INC.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001819790-26-000064",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1819790/000181979026000064/0001819790-26-000064-index.html"
+      ],
+      "as_of_date": "2026-08-06",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -36.571 USD millions. Native SEC USD value 36571000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_be709092449b6ca7109d-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "21.369",
+      "unit": "USD millions",
+      "scope": "TG Therapeutics; Global reporting entity: TG THERAPEUTICS, INC.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001437749-26-025955",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1001316/000143774926025955/0001437749-26-025955-index.html"
+      ],
+      "as_of_date": "2026-08-05",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -21.369 USD millions. Native SEC USD value 21369000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_294662ff56a87dbe04ee-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "17.705",
+      "unit": "USD millions",
+      "scope": "Travere Therapeutics; Global reporting entity: TRAVERE THERAPEUTICS, INC.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001438533-26-000063",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1438533/000143853326000063/0001438533-26-000063-index.html"
+      ],
+      "as_of_date": "2026-08-04",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -17.705 USD millions. Native SEC USD value 17705000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_c4a57737d146bd7b17f2-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "776.9",
+      "unit": "USD millions",
+      "scope": "United Therapeutics Corporation; Global reporting entity: United Therapeutics Corporation; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001082554-26-000027",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1082554/000108255426000027/0001082554-26-000027-index.html"
+      ],
+      "as_of_date": "2026-08-05",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -776.9 USD millions. Native SEC USD value 776900000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_bd1b78d7797bd2f6f201-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "0.724",
+      "unit": "USD millions",
+      "scope": "Vaxart, Inc.; Global reporting entity: Vaxart, Inc.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001437749-26-026289",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/72444/000143774926026289/0001437749-26-026289-index.html"
+      ],
+      "as_of_date": "2026-08-06",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -0.724 USD millions. Native SEC USD value 724000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_0b7c89352ab97bac6d4c-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "81.041",
+      "unit": "USD millions",
+      "scope": "Veracyte, Inc.; Global reporting entity: VERACYTE, INC.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001384101-26-000044",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1384101/000138410126000044/0001384101-26-000044-index.html"
+      ],
+      "as_of_date": "2026-07-31",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -81.041 USD millions. Native SEC USD value 81041000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_006578e912f2763eb055-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "32.574",
+      "unit": "USD millions",
+      "scope": "Vericel; Global reporting entity: VERICEL CORPORATION; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001628280-26-050836",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/887359/000162828026050836/0001628280-26-050836-index.html"
+      ],
+      "as_of_date": "2026-07-30",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -32.574 USD millions. Native SEC USD value 32574000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_94f84f59856b1110ee1a-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "2553.5",
+      "unit": "USD millions",
+      "scope": "Vertex Pharmaceuticals; Global reporting entity: VERTEX PHARMACEUTICALS INC / MA; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0000875320-26-000259",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/875320/000087532026000259/0000875320-26-000259-index.html"
+      ],
+      "as_of_date": "2026-08-04",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -2553.5 USD millions. Native SEC USD value 2553500000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_d1fd561cce24c3ea3c50-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "770.1",
+      "unit": "USD millions",
+      "scope": "Viatris Inc.; Global reporting entity: VIATRIS INC.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001792044-26-000041",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1792044/000179204426000041/0001792044-26-000041-index.html"
+      ],
+      "as_of_date": "2026-08-06",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -770.1 USD millions. Native SEC USD value 770100000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_1801b094021884d7a927-2026-01-01-2026-07-04",
+      "metric": "Signed operating cash flow",
+      "value": "198.0",
+      "unit": "USD millions",
+      "scope": "Waters; Global reporting entity: Waters Corporation; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-07-04",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001193125-26-344691",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1000697/000119312526344691/0001193125-26-344691-index.html"
+      ],
+      "as_of_date": "2026-08-11",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -198.0 USD millions. Native SEC USD value 198000000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_86756f567a15b6be3c0c-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "213.9",
+      "unit": "USD millions",
+      "scope": "West Pharmaceutical Services; Global reporting entity: WEST PHARMACEUTICAL SERVICES, INC.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0000105770-26-000099",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/105770/000010577026000099/0000105770-26-000099-index.html"
+      ],
+      "as_of_date": "2026-07-23",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -213.9 USD millions. Native SEC USD value 213900000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_a90154f9600abb70c158-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "18.133",
+      "unit": "USD millions",
+      "scope": "Xeris Biopharma Holdings; Global reporting entity: XERIS BIOPHARMA HOLDINGS, INC.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001867096-26-000065",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1867096/000186709626000065/0001867096-26-000065-index.html"
+      ],
+      "as_of_date": "2026-08-06",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -18.133 USD millions. Native SEC USD value 18133000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_8ad6e65f6e0551bc5569-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "807.2",
+      "unit": "USD millions",
+      "scope": "Zimmer Biomet Holdings; Global reporting entity: ZIMMER BIOMET HOLDINGS, INC.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001193125-26-335044",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1136869/000119312526335044/0001193125-26-335044-index.html"
+      ],
+      "as_of_date": "2026-08-05",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -807.2 USD millions. Native SEC USD value 807200000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "sec-cfo-gco_aab63e847d150fcadd46-2026-01-01-2026-06-30",
+      "metric": "Signed operating cash flow",
+      "value": "1056.0",
+      "unit": "USD millions",
+      "scope": "Zoetis; Global reporting entity: Zoetis Inc.; reported consolidated CFO, not cash use or local liquidity",
+      "period": "2026-01-01 to 2026-06-30",
+      "source": "SEC us-gaap.NetCashProvidedByUsedInOperatingActivities; accession 0001555280-26-000040",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1555280/000155528026000040/0001555280-26-000040-index.html"
+      ],
+      "as_of_date": "2026-08-06",
+      "confirmed_date": "2026-11-02",
+      "verified": true,
+      "locked": true,
+      "notes": "User-authorized correction of app CFO sign confirmed 2026-11-02. Previous app CFO: -1056.0 USD millions. Native SEC USD value 1056000000 / 1,000,000. Original correct signed cash-use ledger values are distinct metrics and unchanged. Manifest data/financial-corrections_V5.json."
+    },
+    {
+      "id": "print-market-pages-20261104",
+      "metric": "Prepared single-page market PDFs",
+      "value": "11",
+      "scope": "This print edition only; one page for each requested geographic hub, not company counts",
+      "period": "2026-11-04 delivery",
+      "source": "client/src/lib/marketPrintAssets.json and data/market-print-verification_V1.json",
+      "as_of_date": "2026-11-04",
+      "verified": true,
+      "locked": false,
+      "notes": "Artifact-generated count. Evidence/accounting dates remain with original fields."
+    },
+    {
+      "id": "offline-entity-profiles-20261104",
+      "metric": "Offline entity profiles",
+      "value": "1276",
+      "scope": "Retained application profiles including companies, unchecked research and institutional references; not a tenant census",
+      "period": "2026-11-04 delivery",
+      "source": "scripts/offline-cache/snapshot.json.gz; captured 2026-11-04T11:55:28.207Z",
+      "as_of_date": "2026-11-04",
+      "verified": true,
+      "locked": false,
+      "notes": "Artifact-generated count. Evidence/accounting dates remain with original fields."
+    }
+  ],
+  "financial_metric_source_of_truth": "Original V6 sourced cards and parent project figures-ledger; no source metric values changed in this build"
+}

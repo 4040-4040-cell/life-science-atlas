@@ -1,7 +1,8 @@
 import { useEffect, useRef, useState } from "react";
-import { useLocation } from "wouter";
+import { Link, useLocation } from "wouter";
 import { ArrowUpRight, MapPin, X } from "lucide-react";
 import type { CompanyProfile, Fact, MapSite, Source } from "@shared/atlas";
+import { operatingAffiliateLabel } from "@shared/operatingAffiliate";
 import {
   dateLabel,
   humanize,
@@ -167,7 +168,8 @@ export default function CompanyProfileDrawer({
     id ? `/profile/${encodeURIComponent(id)}` : null
   );
   const [location] = useLocation();
-  const currentRegionId = location.match(/^\/hub\/([^/?#]+)/)?.[1];
+  const cantonContext = /^\/canton\/basel-(?:stadt|landschaft)$/.test(location);
+  const currentRegionId = location.match(/^\/(?:hub|intelligence)\/([^/?#]+)/)?.[1] || (cantonContext ? "basel" : undefined);
   const currentRegion = currentRegionId
     ? regionPresentation({ id: currentRegionId, name: currentRegionId }).label
     : null;
@@ -289,13 +291,15 @@ export default function CompanyProfileDrawer({
                   {[
                     company.ticker,
                     company.listing,
-                    company.kind ? humanize(company.kind) : null,
+                    operatingAffiliateLabel(company) || (company.kind ? humanize(company.kind) : null),
                   ]
                     .filter(Boolean)
                     .join(" · ")}
                 </div>
+                <div className="profile-record-link"><Link href={`/hub/${currentRegionId || company.regionIds[0]}/company/${encodeURIComponent(company.id)}`}>Open exact company record</Link><small>Record {company.id}</small></div>
               </div>
             </header>
+            {cantonContext && <p className="section-caution">Company-wide and wider Basel-hub profile. The canton inventory carries the building-specific evidence.</p>}
             <details className="profile-overview-details">
               <summary>
                 Identity & occupancy assessment{" "}

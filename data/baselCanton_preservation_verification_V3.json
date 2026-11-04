@@ -1,0 +1,15 @@
+{
+  "verifiedAt": "2026-11-04T14:36:46.302266+00:00",
+  "originalV1V2CompanionsAndRawProducerSourcesUnchanged": true,
+  "allV2CantonFactsRowsMetadataAndSourceEntriesPreserved": true,
+  "onlyClusterAerialIdsReboundToNewVersionedFrames": true,
+  "newFrameCount": 24,
+  "framePinInstances": 255,
+  "distinctPostalRecordsWithFramePins": 150,
+  "noCompanyProfileSiteSourceMasterWrites": true,
+  "suppliedMaterialAuthorization": {
+    "reportedByParent": "User reply 2026-11-04 06:33:25 PT: You can use them not proprietary.",
+    "scope": "Supplied JLL material authorized for client work; provenance visibility retained; no broad publication or original private-deck bundling"
+  },
+  "finalCompanion": "data/baselCantonDetail_offline_V3.json"
+}

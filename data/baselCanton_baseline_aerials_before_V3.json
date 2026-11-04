@@ -1,0 +1,3513 @@
+[
+  {
+    "id": "basel-allschwil-bachgraben-main-campus",
+    "region_id": "basel",
+    "payload": {
+      "attribution": "© swisstopo (SWISSIMAGE)",
+      "bounds": [
+        7.532,
+        47.55,
+        7.568,
+        47.575
+      ],
+      "captureNote": "Acquisition years are scoped to intersecting source imagery; not live.",
+      "captureYears": [],
+      "exhibitUrl": "/manus-storage/basel-allschwil-bachgraben-main-campus_exhibit_da6c8d1c.jpg",
+      "id": "basel-allschwil-bachgraben-main-campus",
+      "imageBounds": [
+        7.522213394020482,
+        47.55,
+        7.577786605979515,
+        47.575
+      ],
+      "imageUrl": "/manus-storage/basel-allschwil-bachgraben-main-campus_swiss_aerial_a9a5059f.jpg",
+      "regionId": "basel",
+      "siteIds": [
+        "basel:site:alentis-allschwil",
+        "basel:site:basilea-allschwil",
+        "basel:site:bright-peak-allschwil",
+        "basel:site:idorsia-allschwil",
+        "basel:site:neurocrine-allschwil",
+        "basel:site:orbis-allschwil",
+        "basel:site:skan-allschwil-hq",
+        "basel-allschwil:anchor:switzerland-innovation-park-basel-area-main-campus-contact-orientation",
+        "basel:site:t3-allschwil"
+      ],
+      "sources": [
+        {
+          "id": "basel_allschwil_internal_hub_2025",
+          "publishedDate": "2025-10-31",
+          "retrievedDate": null,
+          "title": "Restricted source — metadata only",
+          "url": null,
+          "visibility": "internal"
+        },
+        {
+          "id": "basel_allschwil_internal_campus_2025",
+          "publishedDate": "2025-10-08",
+          "retrievedDate": null,
+          "title": "Restricted source — metadata only",
+          "url": null,
+          "visibility": "internal"
+        },
+        {
+          "id": "basel_allschwil_sip_main_campus",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Switzerland Innovation Park Basel Area  /  Main Campus",
+          "url": "https://sip-baselarea.com/maincampus/",
+          "visibility": "public"
+        },
+        {
+          "id": "basel_allschwil_sip_neurocrine",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Switzerland Innovation Park Basel Area  /  Neurocrine resident page",
+          "url": "https://sip-baselarea.com/resident/neurocrine/",
+          "visibility": "public"
+        },
+        {
+          "id": "basel_allschwil_skan_headquarters",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "SKAN Headquarters, Switzerland",
+          "url": "https://skan.com/en/company/locations/headquarters",
+          "visibility": "public"
+        },
+        {
+          "id": "basel_allschwil_skan_contact",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "SKAN  /  How can we help? Contact and support",
+          "url": "https://skan.com/en/contact",
+          "visibility": "public"
+        }
+      ],
+      "title": "Allschwil / Bachgraben / Main Campus"
+    }
+  },
+  {
+    "id": "basel-downtown-sbb-aeschen",
+    "region_id": "basel",
+    "payload": {
+      "attribution": "© swisstopo (SWISSIMAGE)",
+      "bounds": [
+        7.579,
+        47.538,
+        7.606,
+        47.558
+      ],
+      "captureNote": "Acquisition years are scoped to intersecting source imagery; not live.",
+      "captureYears": [],
+      "exhibitUrl": "/manus-storage/basel-downtown-sbb-aeschen_exhibit_a7d46d1f.jpg",
+      "id": "basel-downtown-sbb-aeschen",
+      "imageBounds": [
+        7.570276865772493,
+        47.53799999999999,
+        7.614723134227508,
+        47.55799999999999
+      ],
+      "imageUrl": "/manus-storage/basel-downtown-sbb-aeschen_swiss_aerial_9aab2443.jpg",
+      "regionId": "basel",
+      "siteIds": [
+        "basel:site:bayer-basel",
+        "basel:site:beone-basel",
+        "basel:site:granite-basel",
+        "basel:site:lonza-basel",
+        "basel:site:moderna-basel",
+        "basel:site:noema-basel",
+        "basel:site:sandoz-basel",
+        "basel:site:straumann-basel",
+        "basel:site:windward-basel-hq"
+      ],
+      "sources": [
+        {
+          "id": "basel-downtown:internal_basel_hub",
+          "publishedDate": "2025-10-31",
+          "retrievedDate": null,
+          "title": "Restricted source — metadata only",
+          "url": null,
+          "visibility": "internal"
+        },
+        {
+          "id": "basel-downtown:internal_main_campus",
+          "publishedDate": "2025-10-08",
+          "retrievedDate": null,
+          "title": "Restricted source — metadata only",
+          "url": null,
+          "visibility": "internal"
+        },
+        {
+          "id": "basel-downtown:baseline_sites",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Restricted source — metadata only",
+          "url": null,
+          "visibility": "internal"
+        },
+        {
+          "id": "basel-downtown:lonza_location",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Lonza  /  Basel, Switzerland",
+          "url": "https://www.lonza.com/about-us/our-locations/basel-switzerland",
+          "visibility": "public"
+        },
+        {
+          "id": "basel-downtown:beone_offices",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "BeOne Medicines  /  Our Offices",
+          "url": "https://beonemedicines.com/about/offices/",
+          "visibility": "public"
+        },
+        {
+          "id": "basel-downtown:noema_privacy",
+          "publishedDate": "2024-05-28",
+          "retrievedDate": null,
+          "title": "Noema Pharma AG  /  Privacy Policy",
+          "url": "https://noemapharma.com/privacy-policy/",
+          "visibility": "public"
+        },
+        {
+          "id": "basel-downtown:moderna_contact",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Moderna Switzerland  /  Nous contacter",
+          "url": "https://www.modernatx.com/fr-CH/contact-moderna",
+          "visibility": "public"
+        }
+      ],
+      "title": "Basel SBB / Aeschen / Downtown headquarters district"
+    }
+  },
+  {
+    "id": "basel-east-bubendorf",
+    "region_id": "basel",
+    "payload": {
+      "attribution": "© swisstopo (SWISSIMAGE)",
+      "bounds": [
+        7.716,
+        47.427,
+        7.758,
+        47.472
+      ],
+      "captureNote": "Acquisition years are scoped to intersecting source imagery; not live.",
+      "captureYears": [],
+      "exhibitUrl": "/manus-storage/basel-east-bubendorf_exhibit_4c0812d5.jpg",
+      "id": "basel-east-bubendorf",
+      "imageBounds": [
+        7.6870916624875365,
+        47.427,
+        7.786908337512466,
+        47.471999999999994
+      ],
+      "imageUrl": "/manus-storage/basel-east-bubendorf_swiss_aerial_2f7eda30.jpg",
+      "regionId": "basel",
+      "siteIds": [
+        "basel:site:bachem-bubendorf",
+        "basel:site:carbogen-bubendorf"
+      ],
+      "sources": [
+        {
+          "id": "basel-east:internal-basel-hub",
+          "publishedDate": "2025-10-31",
+          "retrievedDate": null,
+          "title": "Restricted source — metadata only",
+          "url": null,
+          "visibility": "internal"
+        },
+        {
+          "id": "basel-east:internal-main-campus",
+          "publishedDate": "2025-10-08",
+          "retrievedDate": null,
+          "title": "Restricted source — metadata only",
+          "url": null,
+          "visibility": "internal"
+        },
+        {
+          "id": "basel-east:baseline-sites",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Restricted source — metadata only",
+          "url": null,
+          "visibility": "internal"
+        },
+        {
+          "id": "basel-east:bachem-bubendorf",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Bachem Bubendorf  /  official site page",
+          "url": "https://www.bachem.com/about-bachem/our-locations/bubendorf/",
+          "visibility": "public"
+        },
+        {
+          "id": "basel-east:carbogen-locations",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "CARBOGEN AMCIS  /  Our Locations",
+          "url": "https://www.carbogen-amcis.com/locations",
+          "visibility": "public"
+        },
+        {
+          "id": "basel-east:primopus-facility",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Primopus  /  Basel, Switzerland Facility",
+          "url": "https://primopus.com/facilities/basel/",
+          "visibility": "public"
+        },
+        {
+          "id": "basel-east:primopus-contact",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Primopus  /  Contact / Our Locations",
+          "url": "https://primopus.com/contact/",
+          "visibility": "public"
+        }
+      ],
+      "title": "Bubendorf industrial satellites  /  Bachem / CARBOGEN AMCIS"
+    }
+  },
+  {
+    "id": "basel-east-muttenz-pratteln",
+    "region_id": "basel",
+    "payload": {
+      "attribution": "© swisstopo (SWISSIMAGE)",
+      "bounds": [
+        7.63,
+        47.515,
+        7.72,
+        47.553
+      ],
+      "captureNote": "Acquisition years are scoped to intersecting source imagery; not live.",
+      "captureYears": [],
+      "exhibitUrl": "/manus-storage/basel-east-muttenz-pratteln_exhibit_520dcf02.jpg",
+      "id": "basel-east-muttenz-pratteln",
+      "imageBounds": [
+        7.629999999999999,
+        47.513744954293095,
+        7.72,
+        47.55425410656835
+      ],
+      "imageUrl": "/manus-storage/basel-east-muttenz-pratteln_swiss_aerial_1215947a.jpg",
+      "regionId": "basel",
+      "siteIds": [
+        "basel:site:santhera-pratteln"
+      ],
+      "sources": [
+        {
+          "id": "basel-east:internal-basel-hub",
+          "publishedDate": "2025-10-31",
+          "retrievedDate": null,
+          "title": "Restricted source — metadata only",
+          "url": null,
+          "visibility": "internal"
+        },
+        {
+          "id": "basel-east:internal-main-campus",
+          "publishedDate": "2025-10-08",
+          "retrievedDate": null,
+          "title": "Restricted source — metadata only",
+          "url": null,
+          "visibility": "internal"
+        },
+        {
+          "id": "basel-east:baseline-sites",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Restricted source — metadata only",
+          "url": null,
+          "visibility": "internal"
+        },
+        {
+          "id": "basel-east:bachem-bubendorf",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Bachem Bubendorf  /  official site page",
+          "url": "https://www.bachem.com/about-bachem/our-locations/bubendorf/",
+          "visibility": "public"
+        },
+        {
+          "id": "basel-east:carbogen-locations",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "CARBOGEN AMCIS  /  Our Locations",
+          "url": "https://www.carbogen-amcis.com/locations",
+          "visibility": "public"
+        },
+        {
+          "id": "basel-east:primopus-facility",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Primopus  /  Basel, Switzerland Facility",
+          "url": "https://primopus.com/facilities/basel/",
+          "visibility": "public"
+        },
+        {
+          "id": "basel-east:primopus-contact",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Primopus  /  Contact / Our Locations",
+          "url": "https://primopus.com/contact/",
+          "visibility": "public"
+        }
+      ],
+      "title": "Muttenz / Schweizerhalle / Pratteln industrial corridor"
+    }
+  },
+  {
+    "id": "basel-germany-grenzach-wyhlen",
+    "region_id": "basel",
+    "payload": {
+      "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community; frame metadata: Vantor; ©swisstopo, ©Planet",
+      "bounds": [
+        7.642,
+        47.541,
+        7.675,
+        47.563
+      ],
+      "captureNote": "Acquisition years are scoped to intersecting source imagery; not live.",
+      "captureYears": [
+        2024
+      ],
+      "exhibitUrl": "/manus-storage/basel-germany-grenzach-wyhlen_exhibit_d9d05fe0.jpg",
+      "id": "basel-germany-grenzach-wyhlen",
+      "imageBounds": [
+        7.634052686481392,
+        47.541,
+        7.682947313518607,
+        47.563
+      ],
+      "imageUrl": "/manus-storage/basel-germany-grenzach-wyhlen_esri_aerial_9f59410b.jpg",
+      "regionId": "basel",
+      "siteIds": [],
+      "sources": [
+        {
+          "id": "basel:src_internal_basel_hub_2025_coverage_de",
+          "publishedDate": "2025-10-31",
+          "retrievedDate": null,
+          "title": "Restricted source — metadata only",
+          "url": null,
+          "visibility": "internal"
+        },
+        {
+          "id": "basel:src_internal_main_campus_2025_coverage_de",
+          "publishedDate": "2025-10-08",
+          "retrievedDate": null,
+          "title": "Restricted source — metadata only",
+          "url": null,
+          "visibility": "internal"
+        },
+        {
+          "id": "basel:src_idorsia_contact_coverage_de_20261102",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Idorsia  /  Contact and locations",
+          "url": "https://www.idorsia.com/contact.html",
+          "visibility": "public"
+        },
+        {
+          "id": "basel:src_roche_grenzach_location_coverage_de_20261102",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Roche Deutschland  /  Standort Grenzach",
+          "url": "https://www.roche.de/unternehmen/unsere-standorte/grenzach",
+          "visibility": "public"
+        },
+        {
+          "id": "basel:src_roche_grenzach_imprint_coverage_de_20261102",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Roche Medical Science  /  Impressum",
+          "url": "https://www.medical.roche.de/contact/impressum.html",
+          "visibility": "public"
+        }
+      ],
+      "title": "Grenzach-Wyhlen  /  Roche site context"
+    }
+  },
+  {
+    "id": "basel-germany-loerrach",
+    "region_id": "basel",
+    "payload": {
+      "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community; frame metadata: Vantor; ©swisstopo, ©Planet",
+      "bounds": [
+        7.649,
+        47.602,
+        7.687,
+        47.635
+      ],
+      "captureNote": "Acquisition years are scoped to intersecting source imagery; not live.",
+      "captureYears": [
+        2024
+      ],
+      "exhibitUrl": "/manus-storage/basel-germany-loerrach_exhibit_a65d2b1a.jpg",
+      "id": "basel-germany-loerrach",
+      "imageBounds": [
+        7.631282411963483,
+        47.602,
+        7.704717588036519,
+        47.635
+      ],
+      "imageUrl": "/manus-storage/basel-germany-loerrach_esri_aerial_f6d085d7.jpg",
+      "regionId": "basel",
+      "siteIds": [],
+      "sources": [
+        {
+          "id": "basel:src_internal_basel_hub_2025_coverage_de",
+          "publishedDate": "2025-10-31",
+          "retrievedDate": null,
+          "title": "Restricted source — metadata only",
+          "url": null,
+          "visibility": "internal"
+        },
+        {
+          "id": "basel:src_internal_main_campus_2025_coverage_de",
+          "publishedDate": "2025-10-08",
+          "retrievedDate": null,
+          "title": "Restricted source — metadata only",
+          "url": null,
+          "visibility": "internal"
+        },
+        {
+          "id": "basel:src_idorsia_contact_coverage_de_20261102",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Idorsia  /  Contact and locations",
+          "url": "https://www.idorsia.com/contact.html",
+          "visibility": "public"
+        },
+        {
+          "id": "basel:src_roche_grenzach_location_coverage_de_20261102",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Roche Deutschland  /  Standort Grenzach",
+          "url": "https://www.roche.de/unternehmen/unsere-standorte/grenzach",
+          "visibility": "public"
+        },
+        {
+          "id": "basel:src_roche_grenzach_imprint_coverage_de_20261102",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Roche Medical Science  /  Impressum",
+          "url": "https://www.medical.roche.de/contact/impressum.html",
+          "visibility": "public"
+        }
+      ],
+      "title": "Lörrach  /  Idorsia site context"
+    }
+  },
+  {
+    "id": "basel-huningue-industrial",
+    "region_id": "basel",
+    "payload": {
+      "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community; frame metadata: Vantor; ©swisstopo, ©Planet",
+      "bounds": [
+        7.559,
+        47.59,
+        7.594,
+        47.625
+      ],
+      "captureNote": "Acquisition years are scoped to intersecting source imagery; not live.",
+      "captureYears": [
+        2024,
+        2025
+      ],
+      "exhibitUrl": "/manus-storage/basel-huningue-industrial_exhibit_fcfb2c4d.jpg",
+      "id": "basel-huningue-industrial",
+      "imageBounds": [
+        7.537565294052086,
+        47.59,
+        7.615434705947915,
+        47.625
+      ],
+      "imageUrl": "/manus-storage/basel-huningue-industrial_esri_aerial_eb1c865c.jpg",
+      "regionId": "basel",
+      "siteIds": [],
+      "sources": [
+        {
+          "id": "basel-huningue:internal_basel_hub_2025",
+          "publishedDate": "2025-10-31",
+          "retrievedDate": null,
+          "title": "Restricted source — metadata only",
+          "url": null,
+          "visibility": "internal"
+        },
+        {
+          "id": "basel-huningue:internal_main_campus_2025",
+          "publishedDate": "2025-10-08",
+          "retrievedDate": null,
+          "title": "Restricted source — metadata only",
+          "url": null,
+          "visibility": "internal"
+        },
+        {
+          "id": "basel-huningue:delpharm_plant",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Delpharm  /  Huningue plant",
+          "url": "https://www.delpharm.com/en/our-sites/sites-france-europe/delpharm-network-in-europe-france-italy-netherlands-and-poland/-610",
+          "visibility": "public"
+        },
+        {
+          "id": "basel-huningue:novartis_campus",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Novartis France  /  Centre de biotechnologie de Huningue",
+          "url": "https://www.novartis.com/fr-fr/novartis-en-france/centre-de-biotechnologie-de-huningue",
+          "visibility": "public"
+        },
+        {
+          "id": "basel-huningue:municipal_novartis_address",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Ville de Huningue  /  Novartis Pharma SAS, Centre de biotechnologie",
+          "url": "https://www.huningue.fr/commerces/novartis-pharma/",
+          "visibility": "public"
+        }
+      ],
+      "title": "Huningue  /  French life-science industrial sites"
+    }
+  },
+  {
+    "id": "basel-klybeck-stucki-klybeck",
+    "region_id": "basel",
+    "payload": {
+      "attribution": "© swisstopo (SWISSIMAGE)",
+      "bounds": [
+        7.582,
+        47.5725,
+        7.596,
+        47.587
+      ],
+      "captureNote": "Acquisition years are scoped to intersecting source imagery; not live.",
+      "captureYears": [],
+      "exhibitUrl": "/manus-storage/basel-klybeck-stucki-klybeck_exhibit_ebed7173.jpg",
+      "id": "basel-klybeck-stucki-klybeck",
+      "imageBounds": [
+        7.572878459590032,
+        47.5725,
+        7.605121540409968,
+        47.586999999999996
+      ],
+      "imageUrl": "/manus-storage/basel-klybeck-stucki-klybeck_swiss_aerial_8de103a3.jpg",
+      "regionId": "basel",
+      "siteIds": [
+        "basel-klybeck-stucki:anchor:campus-klybeck-k-25-orientation-reference",
+        "basel:site:lifemine-basel"
+      ],
+      "sources": [
+        {
+          "id": "basel:klybeck-stucki:internal_basel_hub_2025",
+          "publishedDate": "2025-10-31",
+          "retrievedDate": null,
+          "title": "Restricted source — metadata only",
+          "url": null,
+          "visibility": "internal"
+        },
+        {
+          "id": "basel:klybeck-stucki:internal_main_campus_2025",
+          "publishedDate": "2025-10-08",
+          "retrievedDate": null,
+          "title": "Restricted source — metadata only",
+          "url": null,
+          "visibility": "internal"
+        },
+        {
+          "id": "basel:klybeck-stucki:baseline_sites",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Restricted source — metadata only",
+          "url": null,
+          "visibility": "internal"
+        },
+        {
+          "id": "basel:klybeck-stucki:campus_klybeck_official",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Campus Klybeck Basel  /  official campus overview",
+          "url": "https://www.campus-klybeck.ch/en/",
+          "visibility": "public"
+        },
+        {
+          "id": "basel:klybeck-stucki:lonza_stuecki_official",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Lonza  /  Basel, Stücki Technology Park, Switzerland",
+          "url": "https://www.lonza.com/about-us/our-locations/basel-stuecki-switzerland",
+          "visibility": "public"
+        },
+        {
+          "id": "basel:klybeck-stucki:stuecki_contact_official",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Stücki Park  /  Contact the Stücki Park",
+          "url": "https://www.stueckipark.ch/en/information-on/contact-us/",
+          "visibility": "public"
+        },
+        {
+          "id": "basel:klybeck-stucki:nbe_contact_official",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "NBE-Therapeutics AG  /  Contact",
+          "url": "https://nbe-therapeutics.com/contact",
+          "visibility": "public"
+        }
+      ],
+      "title": "Klybeck / Klybeckstrasse"
+    }
+  },
+  {
+    "id": "basel-klybeck-stucki-stuecki",
+    "region_id": "basel",
+    "payload": {
+      "attribution": "© swisstopo (SWISSIMAGE)",
+      "bounds": [
+        7.5945,
+        47.581,
+        7.6075,
+        47.5915
+      ],
+      "captureNote": "Acquisition years are scoped to intersecting source imagery; not live.",
+      "captureYears": [],
+      "exhibitUrl": "/manus-storage/basel-klybeck-stucki-stuecki_exhibit_5491ad5f.jpg",
+      "id": "basel-klybeck-stucki-stuecki",
+      "imageBounds": [
+        7.589324331505677,
+        47.580999999999996,
+        7.612675668494322,
+        47.5915
+      ],
+      "imageUrl": "/manus-storage/basel-klybeck-stucki-stuecki_swiss_aerial_dbba2c9d.jpg",
+      "regionId": "basel",
+      "siteIds": [],
+      "sources": [
+        {
+          "id": "basel:klybeck-stucki:internal_basel_hub_2025",
+          "publishedDate": "2025-10-31",
+          "retrievedDate": null,
+          "title": "Restricted source — metadata only",
+          "url": null,
+          "visibility": "internal"
+        },
+        {
+          "id": "basel:klybeck-stucki:internal_main_campus_2025",
+          "publishedDate": "2025-10-08",
+          "retrievedDate": null,
+          "title": "Restricted source — metadata only",
+          "url": null,
+          "visibility": "internal"
+        },
+        {
+          "id": "basel:klybeck-stucki:baseline_sites",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Restricted source — metadata only",
+          "url": null,
+          "visibility": "internal"
+        },
+        {
+          "id": "basel:klybeck-stucki:campus_klybeck_official",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Campus Klybeck Basel  /  official campus overview",
+          "url": "https://www.campus-klybeck.ch/en/",
+          "visibility": "public"
+        },
+        {
+          "id": "basel:klybeck-stucki:lonza_stuecki_official",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Lonza  /  Basel, Stücki Technology Park, Switzerland",
+          "url": "https://www.lonza.com/about-us/our-locations/basel-stuecki-switzerland",
+          "visibility": "public"
+        },
+        {
+          "id": "basel:klybeck-stucki:stuecki_contact_official",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Stücki Park  /  Contact the Stücki Park",
+          "url": "https://www.stueckipark.ch/en/information-on/contact-us/",
+          "visibility": "public"
+        },
+        {
+          "id": "basel:klybeck-stucki:nbe_contact_official",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "NBE-Therapeutics AG  /  Contact",
+          "url": "https://nbe-therapeutics.com/contact",
+          "visibility": "public"
+        }
+      ],
+      "title": "Stücki / Hochbergerstrasse"
+    }
+  },
+  {
+    "id": "basel-research-campus-core",
+    "region_id": "basel",
+    "payload": {
+      "attribution": "© swisstopo (SWISSIMAGE)",
+      "bounds": [
+        7.575,
+        47.558,
+        7.592,
+        47.571
+      ],
+      "captureNote": "Acquisition years are scoped to intersecting source imagery; not live.",
+      "captureYears": [],
+      "exhibitUrl": "/manus-storage/basel-research-campus-core_exhibit_6d08e6c1.jpg",
+      "id": "basel-research-campus-core",
+      "imageBounds": [
+        7.569050413518211,
+        47.55799999999999,
+        7.597949586481786,
+        47.571
+      ],
+      "imageUrl": "/manus-storage/basel-research-campus-core_swiss_aerial_9436c5b5.jpg",
+      "regionId": "basel",
+      "siteIds": [
+        "basel-research-campus:anchor:biozentrum-university-of-basel",
+        "basel-research-campus:anchor:eth-zurich-d-bsse-building-bss"
+      ],
+      "sources": [
+        {
+          "id": "basel:src_internal_basel_hub_jll_2025",
+          "publishedDate": "2025-10-31",
+          "retrievedDate": null,
+          "title": "Restricted source — metadata only",
+          "url": null,
+          "visibility": "internal"
+        },
+        {
+          "id": "basel:src_internal_sip_maincampus_2025",
+          "publishedDate": "2025-10-08",
+          "retrievedDate": null,
+          "title": "Restricted source — metadata only",
+          "url": null,
+          "visibility": "internal"
+        },
+        {
+          "id": "basel:src_biozentrum_contact_20261102",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Contact  /  Biozentrum, University of Basel",
+          "url": "https://www.biozentrum.unibas.ch/contact",
+          "visibility": "public"
+        },
+        {
+          "id": "basel:src_eth_dbsse_home_20261102",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Department of Biosystems Science and Engineering  /  ETH Zurich",
+          "url": "https://bsse.ethz.ch/",
+          "visibility": "public"
+        },
+        {
+          "id": "basel:src_usb_contact_20261102",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Contact us  /  University Hospital Basel",
+          "url": "https://www.unispital-basel.ch/en/kontakt",
+          "visibility": "public"
+        }
+      ],
+      "title": "Schällemätteli research campus and university hospital district"
+    }
+  },
+  {
+    "id": "basel-roche-kleinbasel",
+    "region_id": "basel",
+    "payload": {
+      "attribution": "© swisstopo (SWISSIMAGE)",
+      "bounds": [
+        7.598,
+        47.5545,
+        7.6145,
+        47.5645
+      ],
+      "captureNote": "Acquisition years are scoped to intersecting source imagery; not live.",
+      "captureYears": [],
+      "exhibitUrl": "/manus-storage/basel-roche-kleinbasel_exhibit_9e3e5141.jpg",
+      "id": "basel-roche-kleinbasel",
+      "imageBounds": [
+        7.595135994299606,
+        47.554500000000004,
+        7.6173640057003915,
+        47.564499999999995
+      ],
+      "imageUrl": "/manus-storage/basel-roche-kleinbasel_swiss_aerial_85926138.jpg",
+      "regionId": "basel",
+      "siteIds": [
+        "basel:site:roche-basel"
+      ],
+      "sources": [
+        {
+          "id": "basel-roche-rosental:internal-basel-hub",
+          "publishedDate": "2025-10-31",
+          "retrievedDate": null,
+          "title": "Restricted source — metadata only",
+          "url": null,
+          "visibility": "internal"
+        },
+        {
+          "id": "basel-roche-rosental:roche-basel-location",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Roche  /  Pharma R&D - Basel",
+          "url": "https://www.roche.com/innovation/structure/rnd-locations/pharma-basel",
+          "visibility": "public"
+        },
+        {
+          "id": "basel-roche-rosental:rosental-operator-location",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Rosental Mitte  /  Location",
+          "url": "https://rosentalmitte.ch/en/rosental-mitte/location",
+          "visibility": "public"
+        },
+        {
+          "id": "basel-roche-rosental:unibas-rosental-directions",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "University of Basel Department of Chemistry  /  Site Rosental",
+          "url": "https://chemie.unibas.ch/en/department/sites-and-directions/site-rosental/",
+          "visibility": "public"
+        },
+        {
+          "id": "basel-roche-rosental:basel-stadt-rosental",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Kanton Basel-Stadt  /  Rosental Mitte",
+          "url": "https://www.bs.ch/schwerpunkte/arealentwicklungen-im-kanton-basel-stadt/rosental-mitte",
+          "visibility": "public"
+        }
+      ],
+      "title": "Roche Kleinbasel campus"
+    }
+  },
+  {
+    "id": "basel-rosental-mitte",
+    "region_id": "basel",
+    "payload": {
+      "attribution": "© swisstopo (SWISSIMAGE)",
+      "bounds": [
+        7.5965,
+        47.5635,
+        7.6145,
+        47.5745
+      ],
+      "captureNote": "Acquisition years are scoped to intersecting source imagery; not live.",
+      "captureYears": [],
+      "exhibitUrl": "/manus-storage/basel-rosental-mitte_exhibit_70fb7610.jpg",
+      "id": "basel-rosental-mitte",
+      "imageBounds": [
+        7.593272376395151,
+        47.56349999999999,
+        7.617727623604846,
+        47.57449999999999
+      ],
+      "imageUrl": "/manus-storage/basel-rosental-mitte_swiss_aerial_9f36b990.jpg",
+      "regionId": "basel",
+      "siteIds": [
+        "basel-roche-rosental:anchor:rosental-mitte-campus-entrance"
+      ],
+      "sources": [
+        {
+          "id": "basel-roche-rosental:internal-basel-hub",
+          "publishedDate": "2025-10-31",
+          "retrievedDate": null,
+          "title": "Restricted source — metadata only",
+          "url": null,
+          "visibility": "internal"
+        },
+        {
+          "id": "basel-roche-rosental:roche-basel-location",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Roche  /  Pharma R&D - Basel",
+          "url": "https://www.roche.com/innovation/structure/rnd-locations/pharma-basel",
+          "visibility": "public"
+        },
+        {
+          "id": "basel-roche-rosental:rosental-operator-location",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Rosental Mitte  /  Location",
+          "url": "https://rosentalmitte.ch/en/rosental-mitte/location",
+          "visibility": "public"
+        },
+        {
+          "id": "basel-roche-rosental:unibas-rosental-directions",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "University of Basel Department of Chemistry  /  Site Rosental",
+          "url": "https://chemie.unibas.ch/en/department/sites-and-directions/site-rosental/",
+          "visibility": "public"
+        },
+        {
+          "id": "basel-roche-rosental:basel-stadt-rosental",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Kanton Basel-Stadt  /  Rosental Mitte",
+          "url": "https://www.bs.ch/schwerpunkte/arealentwicklungen-im-kanton-basel-stadt/rosental-mitte",
+          "visibility": "public"
+        }
+      ],
+      "title": "Rosental Mitte"
+    }
+  },
+  {
+    "id": "basel-st-johann-novartis-campus",
+    "region_id": "basel",
+    "payload": {
+      "attribution": "© swisstopo (SWISSIMAGE)",
+      "bounds": [
+        7.569,
+        47.569,
+        7.5865,
+        47.581
+      ],
+      "captureNote": "Acquisition years are scoped to intersecting source imagery; not live.",
+      "captureYears": [],
+      "exhibitUrl": "/manus-storage/basel-st-johann-novartis-campus_exhibit_5c517920.jpg",
+      "id": "basel-st-johann-novartis-campus",
+      "imageBounds": [
+        7.564409245869738,
+        47.568999999999996,
+        7.591090754130263,
+        47.580999999999996
+      ],
+      "imageUrl": "/manus-storage/basel-st-johann-novartis-campus_swiss_aerial_ef2800fb.jpg",
+      "regionId": "basel",
+      "siteIds": [
+        "basel:site:novartis-basel",
+        "basel-st-johann:anchor:novartis-pavillon-campus-orientation"
+      ],
+      "sources": [
+        {
+          "id": "basel-st-johann:src_internal_basel_hub_2025",
+          "publishedDate": "2025-10-31",
+          "retrievedDate": null,
+          "title": "Restricted source — metadata only",
+          "url": null,
+          "visibility": "internal"
+        },
+        {
+          "id": "basel-st-johann:src_novartis_locations",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Locations | Novartis",
+          "url": "https://www.novartis.com/about/locations",
+          "visibility": "public"
+        },
+        {
+          "id": "basel-st-johann:src_novartis_campus_getting_here",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Getting Here | Novartis Campus",
+          "url": "https://www.campus.novartis.com/en/inside-our-campus/getting-here",
+          "visibility": "public"
+        }
+      ],
+      "title": "St Johann / Novartis Campus"
+    }
+  },
+  {
+    "id": "basel-supplemental-bioversys-basel",
+    "region_id": "basel",
+    "payload": {
+      "attribution": "© swisstopo (SWISSIMAGE)",
+      "bounds": [
+        7.583683702745043,
+        47.5723547062262,
+        7.6106331612686295,
+        47.584474426394074
+      ],
+      "captureNote": "Acquisition years are scoped to intersecting source imagery; not live.",
+      "captureYears": [],
+      "exhibitUrl": "/manus-storage/basel-supplemental-bioversys-basel_exhibit_4b731887.jpg",
+      "id": "basel-supplemental-bioversys-basel",
+      "imageBounds": [
+        7.583683702745043,
+        47.572354706226186,
+        7.6106331612686295,
+        47.584474426394074
+      ],
+      "imageUrl": "/manus-storage/basel-supplemental-bioversys-basel_swiss_aerial_defc72bc.jpg",
+      "regionId": "basel",
+      "siteIds": [
+        "basel:site:bioversys-basel",
+        "basel-klybeck-stucki:anchor:campus-klybeck-k-25-orientation-reference",
+        "basel:site:lifemine-basel",
+        "basel:site:medartis-basel",
+        "basel:site:nbe-basel"
+      ],
+      "sources": [
+        {
+          "id": "basel:src_bioversys",
+          "publishedDate": "2026-10-28",
+          "retrievedDate": "2026-10-28",
+          "title": "BioVersys investor relations",
+          "url": "https://ir.bioversys.com/",
+          "visibility": "public"
+        }
+      ],
+      "title": "Basel / supplemental source-address node"
+    }
+  },
+  {
+    "id": "basel-supplemental-delpharm-huningue",
+    "region_id": "basel",
+    "payload": {
+      "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community; frame metadata: Vantor; ©swisstopo, ©Planet",
+      "bounds": [
+        7.566035270738207,
+        47.57824247063951,
+        7.592984729261794,
+        47.590360828009416
+      ],
+      "captureNote": "Acquisition years are scoped to intersecting source imagery; not live.",
+      "captureYears": [
+        2024,
+        2025
+      ],
+      "exhibitUrl": "/manus-storage/basel-supplemental-delpharm-huningue_exhibit_fe8d4615.jpg",
+      "id": "basel-supplemental-delpharm-huningue",
+      "imageBounds": [
+        7.5660352707382055,
+        47.57824247063951,
+        7.592984729261792,
+        47.590360828009416
+      ],
+      "imageUrl": "/manus-storage/basel-supplemental-delpharm-huningue_esri_aerial_b7046135.jpg",
+      "regionId": "basel",
+      "siteIds": [
+        "basel:site:delpharm-huningue"
+      ],
+      "sources": [
+        {
+          "id": "basel:src_delpharm",
+          "publishedDate": "2026-10-28",
+          "retrievedDate": "2026-10-28",
+          "title": "Delpharm Huningue plant",
+          "url": "https://www.delpharm.com/en/our-sites/sites-france-europe/delpharm-network-in-europe-france-italy-netherlands-and-poland/-610",
+          "visibility": "public"
+        },
+        {
+          "id": "basel-huningue:delpharm_plant",
+          "publishedDate": null,
+          "retrievedDate": "2026-11-02",
+          "title": "Delpharm  /  Huningue plant",
+          "url": "https://www.delpharm.com/en/our-sites/sites-france-europe/delpharm-network-in-europe-france-italy-netherlands-and-poland/-610",
+          "visibility": "public"
+        }
+      ],
+      "title": "Huningue / supplemental source-address node"
+    }
+  },
+  {
+    "id": "beach-carlsbad-core",
+    "region_id": "biotech-beach",
+    "payload": {
+      "attribution": "USGS, USDA, The National Map: Orthoimagery",
+      "bounds": [
+        -117.325,
+        33.105,
+        -117.218,
+        33.163
+      ],
+      "captureNote": "Catalog acquisition years intersecting frame, not a claim that every pixel has the same acquisition date.",
+      "captureYears": [
+        2023
+      ],
+      "exhibitUrl": "/manus-storage/beach-carlsbad-core_exhibit_058eaaad.jpg",
+      "id": "beach-carlsbad-core",
+      "imageBounds": [
+        -117.32499999999997,
+        33.104132640957744,
+        -117.21800000000002,
+        33.16386677755281
+      ],
+      "imageUrl": "/manus-storage/beach-carlsbad-core_naip_990188cc.jpg",
+      "regionId": "biotech-beach",
+      "siteIds": [
+        "biotech-beach:site:alphatec-holdings-carlsbad-hq",
+        "biotech-beach:site:lineage-cell-therapeutics-carlsbad-hq"
+      ],
+      "sources": [
+        {
+          "id": "CARLSBAD_S1",
+          "publishedDate": "2019-09-26",
+          "retrievedDate": null,
+          "title": "Biotech by the Beach: Life Sciences Companies Move from the Bay Area to Carlsbad",
+          "url": "https://carlsbadlifeinaction.com/biotech-by-the-beach-life-sciences-companies-move-from-the-bay-area-to-carlsbad/",
+          "visibility": "public"
+        },
+        {
+          "id": "CARLSBAD_S2",
+          "publishedDate": "2001-09-05",
+          "retrievedDate": null,
+          "title": "Carlsbad Raceway Business Park  /  CEQAnet SCH 2001071072",
+          "url": "https://ceqanet.lci.ca.gov/2001071072/2",
+          "visibility": "public"
+        },
+        {
+          "id": "CARLSBAD_S3",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Economic Development services  /  City of Carlsbad",
+          "url": "https://www.carlsbadca.gov/departments/economic-development",
+          "visibility": "public"
+        }
+      ],
+      "title": "Carlsbad / Faraday / Salk / Palomar Airport corridor"
+    }
+  },
+  {
+    "id": "beach-carmel-core",
+    "region_id": "biotech-beach",
+    "payload": {
+      "attribution": "USGS, USDA, The National Map: Orthoimagery",
+      "bounds": [
+        -117.265,
+        32.908,
+        -117.214,
+        32.961
+      ],
+      "captureNote": "Catalog acquisition years intersecting frame, not a claim that every pixel has the same acquisition date.",
+      "captureYears": [
+        2023
+      ],
+      "exhibitUrl": "/manus-storage/beach-carmel-core_exhibit_dbf7d23e.jpg",
+      "id": "beach-carmel-core",
+      "imageBounds": [
+        -117.28686131407075,
+        32.908,
+        -117.19213868592925,
+        32.961000000000006
+      ],
+      "imageUrl": "/manus-storage/beach-carmel-core_naip_b5523beb.jpg",
+      "regionId": "biotech-beach",
+      "siteIds": [
+        "biotech-beach:site:aethlon-medical-san-diego-hq",
+        "biotech-beach:site:artiva-biotherapeutics-san-diego-hq",
+        "biotech-beach:site:connect-biopharma-san-diego-hq",
+        "biotech-beach:site:halozyme-therapeutics-san-diego-hq",
+        "biotech-beach:site:ibio-san-diego-hq",
+        "biotech-beach:site:janux-therapeutics-san-diego-hq",
+        "biotech-beach:site:tandem-diabetes-care-san-diego-hq",
+        "biotech-beach:site:travere-therapeutics-san-diego-hq"
+      ],
+      "sources": [
+        {
+          "id": "beach-carmel:S1",
+          "publishedDate": "2021-11-05",
+          "retrievedDate": null,
+          "title": "JLL  /  Sorrento Valley Corridor Market Study for the County of San Diego",
+          "url": "https://www.sandiegocounty.gov/content/dam/sdc/dgs/Doc/RES_MA_SorrentoValley.pdf",
+          "visibility": "public"
+        },
+        {
+          "id": "beach-carmel:S2",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "City of San Diego  /  Carmel Valley Community Plan",
+          "url": "https://www.sandiego.gov/planning/community-plans/carmel-valley",
+          "visibility": "public"
+        },
+        {
+          "id": "beach-carmel:S3",
+          "publishedDate": "2015-06",
+          "retrievedDate": null,
+          "title": "City of Solana Beach  /  Comprehensive Active Transportation Strategy, Final Plan",
+          "url": "https://www.cityofsolanabeach.ca.gov/sites/default/files/Solana%20Beach/Engineering%20%26%20Public%20Works/FINAL%20SB%20CATS%206-16-15.pdf",
+          "visibility": "public"
+        }
+      ],
+      "title": "Carmel Valley / Del Mar Heights / El Camino Real and High Bluff core"
+    }
+  },
+  {
+    "id": "beach-carmel-east",
+    "region_id": "biotech-beach",
+    "payload": {
+      "attribution": "USGS, USDA, The National Map: Orthoimagery",
+      "bounds": [
+        -117.217,
+        32.949,
+        -117.178,
+        32.979
+      ],
+      "captureNote": "Catalog acquisition years intersecting frame, not a claim that every pixel has the same acquisition date.",
+      "captureYears": [
+        2023
+      ],
+      "exhibitUrl": "/manus-storage/beach-carmel-east_exhibit_7763cde2.jpg",
+      "id": "beach-carmel-east",
+      "imageBounds": [
+        -117.22431723758045,
+        32.94899999999999,
+        -117.17068276241953,
+        32.979
+      ],
+      "imageUrl": "/manus-storage/beach-carmel-east_naip_1650509a.jpg",
+      "regionId": "biotech-beach",
+      "siteIds": [
+        "biotech-beach:site:neurocrine-biosciences-san-diego-hq"
+      ],
+      "sources": [
+        {
+          "id": "beach-carmel:S1",
+          "publishedDate": "2021-11-05",
+          "retrievedDate": null,
+          "title": "JLL  /  Sorrento Valley Corridor Market Study for the County of San Diego",
+          "url": "https://www.sandiegocounty.gov/content/dam/sdc/dgs/Doc/RES_MA_SorrentoValley.pdf",
+          "visibility": "public"
+        },
+        {
+          "id": "beach-carmel:S2",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "City of San Diego  /  Carmel Valley Community Plan",
+          "url": "https://www.sandiego.gov/planning/community-plans/carmel-valley",
+          "visibility": "public"
+        },
+        {
+          "id": "beach-carmel:S3",
+          "publishedDate": "2015-06",
+          "retrievedDate": null,
+          "title": "City of Solana Beach  /  Comprehensive Active Transportation Strategy, Final Plan",
+          "url": "https://www.cityofsolanabeach.ca.gov/sites/default/files/Solana%20Beach/Engineering%20%26%20Public%20Works/FINAL%20SB%20CATS%206-16-15.pdf",
+          "visibility": "public"
+        }
+      ],
+      "title": "Eastern Carmel Valley area / SR-56 / Edgewood Bend Court context"
+    }
+  },
+  {
+    "id": "beach-carmel-solana",
+    "region_id": "biotech-beach",
+    "payload": {
+      "attribution": "USGS, USDA, The National Map: Orthoimagery",
+      "bounds": [
+        -117.284,
+        32.977,
+        -117.249,
+        33.006
+      ],
+      "captureNote": "Catalog acquisition years intersecting frame, not a claim that every pixel has the same acquisition date.",
+      "captureYears": [
+        2023
+      ],
+      "exhibitUrl": "/manus-storage/beach-carmel-solana_exhibit_690b6c3e.jpg",
+      "id": "beach-carmel-solana",
+      "imageBounds": [
+        -117.29243140414286,
+        32.977,
+        -117.24056859585708,
+        33.006
+      ],
+      "imageUrl": "/manus-storage/beach-carmel-solana_naip_bb0773ef.jpg",
+      "regionId": "biotech-beach",
+      "siteIds": [
+        "biotech-beach:site:evoke-pharma-solana-beach-office"
+      ],
+      "sources": [
+        {
+          "id": "beach-carmel:S1",
+          "publishedDate": "2021-11-05",
+          "retrievedDate": null,
+          "title": "JLL  /  Sorrento Valley Corridor Market Study for the County of San Diego",
+          "url": "https://www.sandiegocounty.gov/content/dam/sdc/dgs/Doc/RES_MA_SorrentoValley.pdf",
+          "visibility": "public"
+        },
+        {
+          "id": "beach-carmel:S2",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "City of San Diego  /  Carmel Valley Community Plan",
+          "url": "https://www.sandiego.gov/planning/community-plans/carmel-valley",
+          "visibility": "public"
+        },
+        {
+          "id": "beach-carmel:S3",
+          "publishedDate": "2015-06",
+          "retrievedDate": null,
+          "title": "City of Solana Beach  /  Comprehensive Active Transportation Strategy, Final Plan",
+          "url": "https://www.cityofsolanabeach.ca.gov/sites/default/files/Solana%20Beach/Engineering%20%26%20Public%20Works/FINAL%20SB%20CATS%206-16-15.pdf",
+          "visibility": "public"
+        }
+      ],
+      "title": "Solana Beach / Stevens Avenue / Lomas Santa Fe corridor"
+    }
+  },
+  {
+    "id": "beach-los-angeles-duarte",
+    "region_id": "biotech-beach",
+    "payload": {
+      "attribution": "USGS, USDA, The National Map: Orthoimagery",
+      "bounds": [
+        -118,
+        34.1,
+        -117.94,
+        34.16
+      ],
+      "captureNote": "Catalog acquisition years intersecting frame, not a claim that every pixel has the same acquisition date.",
+      "captureYears": [
+        2023
+      ],
+      "exhibitUrl": "/manus-storage/beach-los-angeles-duarte_exhibit_2be4de72.jpg",
+      "id": "beach-los-angeles-duarte",
+      "imageBounds": [
+        -118.02436315028038,
+        34.099999999999994,
+        -117.91563684971958,
+        34.16
+      ],
+      "imageUrl": "/manus-storage/beach-los-angeles-duarte_naip_12ab79e6.jpg",
+      "regionId": "biotech-beach",
+      "siteIds": [
+        "biotech-beach:anchor:city-of-hope-duarte"
+      ],
+      "sources": [
+        {
+          "id": "LA_S1",
+          "publishedDate": "2025-07",
+          "retrievedDate": null,
+          "title": "LA County's Life Sciences Industry Cluster Strategy and Action Plan",
+          "url": "https://opportunity.lacounty.gov/wp-content/uploads/2025/07/DEO-Dalberg-Life-Sciences-Report_July14_vF.pdf",
+          "visibility": "public"
+        },
+        {
+          "id": "LA_S2",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "BioscienceLA Week 2025 - Investing in Local Life Science Innovation",
+          "url": "https://www.culvercity.gov/Events-directory/BioscienceLA-Week-2025",
+          "visibility": "public"
+        },
+        {
+          "id": "LA_S3",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Caltech and City of Hope Biomedical Research Initiative: Partners in Innovation",
+          "url": "https://www.caltech.edu/campus-life-events/calendar/caltech-and-city-of-hope-biomedical-research-initiative-partners-in-innovation",
+          "visibility": "public"
+        }
+      ],
+      "title": "Duarte and City of Hope"
+    }
+  },
+  {
+    "id": "beach-los-angeles-pasadena",
+    "region_id": "biotech-beach",
+    "payload": {
+      "attribution": "USGS, USDA, The National Map: Orthoimagery",
+      "bounds": [
+        -118.18,
+        34.12,
+        -118.07,
+        34.18
+      ],
+      "captureNote": "Catalog acquisition years intersecting frame, not a claim that every pixel has the same acquisition date.",
+      "captureYears": [
+        2023
+      ],
+      "exhibitUrl": "/manus-storage/beach-los-angeles-pasadena_exhibit_614d0a3c.jpg",
+      "id": "beach-los-angeles-pasadena",
+      "imageBounds": [
+        -118.17999999999998,
+        34.119655618157125,
+        -118.06999999999998,
+        34.180344135899055
+      ],
+      "imageUrl": "/manus-storage/beach-los-angeles-pasadena_naip_895d5133.jpg",
+      "regionId": "biotech-beach",
+      "siteIds": [],
+      "sources": [
+        {
+          "id": "LA_S1",
+          "publishedDate": "2025-07",
+          "retrievedDate": null,
+          "title": "LA County's Life Sciences Industry Cluster Strategy and Action Plan",
+          "url": "https://opportunity.lacounty.gov/wp-content/uploads/2025/07/DEO-Dalberg-Life-Sciences-Report_July14_vF.pdf",
+          "visibility": "public"
+        },
+        {
+          "id": "LA_S2",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "BioscienceLA Week 2025 - Investing in Local Life Science Innovation",
+          "url": "https://www.culvercity.gov/Events-directory/BioscienceLA-Week-2025",
+          "visibility": "public"
+        },
+        {
+          "id": "LA_S3",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Caltech and City of Hope Biomedical Research Initiative: Partners in Innovation",
+          "url": "https://www.caltech.edu/campus-life-events/calendar/caltech-and-city-of-hope-biomedical-research-initiative-partners-in-innovation",
+          "visibility": "public"
+        }
+      ],
+      "title": "Pasadena institutional and life-science node"
+    }
+  },
+  {
+    "id": "beach-los-angeles-west-central",
+    "region_id": "biotech-beach",
+    "payload": {
+      "attribution": "USGS, USDA, The National Map: Orthoimagery",
+      "bounds": [
+        -118.46,
+        33.99,
+        -118.185,
+        34.105
+      ],
+      "captureNote": "Catalog acquisition years intersecting frame, not a claim that every pixel has the same acquisition date.",
+      "captureYears": [
+        2023
+      ],
+      "exhibitUrl": "/manus-storage/beach-los-angeles-west-central_exhibit_b6e8796b.jpg",
+      "id": "beach-los-angeles-west-central",
+      "imageBounds": [
+        -118.45999999999998,
+        33.97153291951249,
+        -118.185,
+        34.123438038603275
+      ],
+      "imageUrl": "/manus-storage/beach-los-angeles-west-central_naip_8fbd6c3c.jpg",
+      "regionId": "biotech-beach",
+      "siteIds": [
+        "biotech-beach:site:puma-biotechnology-los-angeles-hq"
+      ],
+      "sources": [
+        {
+          "id": "LA_S1",
+          "publishedDate": "2025-07",
+          "retrievedDate": null,
+          "title": "LA County's Life Sciences Industry Cluster Strategy and Action Plan",
+          "url": "https://opportunity.lacounty.gov/wp-content/uploads/2025/07/DEO-Dalberg-Life-Sciences-Report_July14_vF.pdf",
+          "visibility": "public"
+        },
+        {
+          "id": "LA_S2",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "BioscienceLA Week 2025 - Investing in Local Life Science Innovation",
+          "url": "https://www.culvercity.gov/Events-directory/BioscienceLA-Week-2025",
+          "visibility": "public"
+        },
+        {
+          "id": "LA_S3",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Caltech and City of Hope Biomedical Research Initiative: Partners in Innovation",
+          "url": "https://www.caltech.edu/campus-life-events/calendar/caltech-and-city-of-hope-biomedical-research-initiative-partners-in-innovation",
+          "visibility": "public"
+        }
+      ],
+      "title": "Culver City and west/central Los Angeles"
+    }
+  },
+  {
+    "id": "beach-orange-aliso-viejo",
+    "region_id": "biotech-beach",
+    "payload": {
+      "attribution": "USGS, USDA, The National Map: Orthoimagery",
+      "bounds": [
+        -117.75,
+        33.55,
+        -117.7,
+        33.6
+      ],
+      "captureNote": "Catalog acquisition years intersecting frame, not a claim that every pixel has the same acquisition date.",
+      "captureYears": [
+        2023
+      ],
+      "exhibitUrl": "/manus-storage/beach-orange-aliso-viejo_exhibit_e86d9f85.jpg",
+      "id": "beach-orange-aliso-viejo",
+      "imageBounds": [
+        -117.77000922287789,
+        33.54999999999999,
+        -117.6799907771221,
+        33.6
+      ],
+      "imageUrl": "/manus-storage/beach-orange-aliso-viejo_naip_dead5013.jpg",
+      "regionId": "biotech-beach",
+      "siteIds": [
+        "biotech-beach:site:rxsight-aliso-viejo-hq"
+      ],
+      "sources": [
+        {
+          "id": "beach-orange:JLL2025",
+          "publishedDate": "2025-09-23",
+          "retrievedDate": null,
+          "title": "JLL  /  2025 Life Sciences Real Estate Perspective and Cluster Analysis",
+          "url": "https://www.jll.com/en-us/insights/market-outlook/life-sciences-real-estate-outlook",
+          "visibility": "public"
+        },
+        {
+          "id": "beach-orange:CSUF_OC2026",
+          "publishedDate": "2026-01",
+          "retrievedDate": null,
+          "title": "California State University, Fullerton, Center for Demographic Research  /  Orange County Cities 2026",
+          "url": "https://www.fullerton.edu/cdr/_resources/pdf/oc_map1.pdf",
+          "visibility": "public"
+        },
+        {
+          "id": "beach-orange:SC_MAPS",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "City of San Clemente  /  Community Maps",
+          "url": "https://www.sanclemente.gov/321/Community-Maps",
+          "visibility": "public"
+        }
+      ],
+      "title": "Aliso Viejo / Columbia business area"
+    }
+  },
+  {
+    "id": "beach-orange-irvine-tustin-newport-node-1",
+    "region_id": "biotech-beach",
+    "payload": {
+      "attribution": "USGS, USDA, The National Map: Orthoimagery",
+      "bounds": [
+        -117.89022014061436,
+        33.600834142209,
+        -117.85428752924959,
+        33.63075769361402
+      ],
+      "captureNote": "Catalog acquisition years intersecting frame, not a claim that every pixel has the same acquisition date.",
+      "captureYears": [
+        2023
+      ],
+      "exhibitUrl": "/manus-storage/beach-orange-irvine-tustin-newport-node-1_exhibit_b3ec388a.jpg",
+      "id": "beach-orange-irvine-tustin-newport-node-1",
+      "imageBounds": [
+        -117.89920329345556,
+        33.60083414220901,
+        -117.84530437640836,
+        33.63075769361402
+      ],
+      "imageUrl": "/manus-storage/beach-orange-irvine-tustin-newport-node-1_naip_500cf4c8.jpg",
+      "regionId": "biotech-beach",
+      "siteIds": [
+        "biotech-beach:site:evolus-newport-beach-hq"
+      ],
+      "sources": [
+        {
+          "id": "beach-orange:JLL2025",
+          "publishedDate": "2025-09-23",
+          "retrievedDate": null,
+          "title": "JLL  /  2025 Life Sciences Real Estate Perspective and Cluster Analysis",
+          "url": "https://www.jll.com/en-us/insights/market-outlook/life-sciences-real-estate-outlook",
+          "visibility": "public"
+        },
+        {
+          "id": "beach-orange:CSUF_OC2026",
+          "publishedDate": "2026-01",
+          "retrievedDate": null,
+          "title": "California State University, Fullerton, Center for Demographic Research  /  Orange County Cities 2026",
+          "url": "https://www.fullerton.edu/cdr/_resources/pdf/oc_map1.pdf",
+          "visibility": "public"
+        },
+        {
+          "id": "beach-orange:SC_MAPS",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "City of San Clemente  /  Community Maps",
+          "url": "https://www.sanclemente.gov/321/Community-Maps",
+          "visibility": "public"
+        }
+      ],
+      "title": "Newport Beach / Evolus area"
+    }
+  },
+  {
+    "id": "beach-orange-irvine-tustin-newport-node-2",
+    "region_id": "biotech-beach",
+    "payload": {
+      "attribution": "USGS, USDA, The National Map: Orthoimagery",
+      "bounds": [
+        -117.87066410443738,
+        33.68318079488182,
+        -117.83473149307262,
+        33.71307572967093
+      ],
+      "captureNote": "Catalog acquisition years intersecting frame, not a claim that every pixel has the same acquisition date.",
+      "captureYears": [
+        2023
+      ],
+      "exhibitUrl": "/manus-storage/beach-orange-irvine-tustin-newport-node-2_exhibit_730780c3.jpg",
+      "id": "beach-orange-irvine-tustin-newport-node-2",
+      "imageBounds": [
+        -117.87964725727858,
+        33.68318079488182,
+        -117.82574834023141,
+        33.71307572967093
+      ],
+      "imageUrl": "/manus-storage/beach-orange-irvine-tustin-newport-node-2_naip_d7d28057.jpg",
+      "regionId": "biotech-beach",
+      "siteIds": [
+        "biotech-beach:site:edwards-lifesciences-irvine-hq"
+      ],
+      "sources": [
+        {
+          "id": "beach-orange:JLL2025",
+          "publishedDate": "2025-09-23",
+          "retrievedDate": null,
+          "title": "JLL  /  2025 Life Sciences Real Estate Perspective and Cluster Analysis",
+          "url": "https://www.jll.com/en-us/insights/market-outlook/life-sciences-real-estate-outlook",
+          "visibility": "public"
+        },
+        {
+          "id": "beach-orange:CSUF_OC2026",
+          "publishedDate": "2026-01",
+          "retrievedDate": null,
+          "title": "California State University, Fullerton, Center for Demographic Research  /  Orange County Cities 2026",
+          "url": "https://www.fullerton.edu/cdr/_resources/pdf/oc_map1.pdf",
+          "visibility": "public"
+        },
+        {
+          "id": "beach-orange:SC_MAPS",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "City of San Clemente  /  Community Maps",
+          "url": "https://www.sanclemente.gov/321/Community-Maps",
+          "visibility": "public"
+        }
+      ],
+      "title": "Irvine / Edwards Lifesciences area"
+    }
+  },
+  {
+    "id": "beach-orange-irvine-tustin-newport-node-3",
+    "region_id": "biotech-beach",
+    "payload": {
+      "attribution": "USGS, USDA, The National Map: Orthoimagery",
+      "bounds": [
+        -117.82017766479339,
+        33.70246002854911,
+        -117.7842450534286,
+        33.73234825461574
+      ],
+      "captureNote": "Catalog acquisition years intersecting frame, not a claim that every pixel has the same acquisition date.",
+      "captureYears": [
+        2023
+      ],
+      "exhibitUrl": "/manus-storage/beach-orange-irvine-tustin-newport-node-3_exhibit_693e70e1.jpg",
+      "id": "beach-orange-irvine-tustin-newport-node-3",
+      "imageBounds": [
+        -117.82916081763459,
+        33.702460028549105,
+        -117.77526190058738,
+        33.732348254615744
+      ],
+      "imageUrl": "/manus-storage/beach-orange-irvine-tustin-newport-node-3_naip_bc806ba8.jpg",
+      "regionId": "biotech-beach",
+      "siteIds": [
+        "biotech-beach:site:avid-bioservices-tustin-hq-manufacturing"
+      ],
+      "sources": [
+        {
+          "id": "beach-orange:JLL2025",
+          "publishedDate": "2025-09-23",
+          "retrievedDate": null,
+          "title": "JLL  /  2025 Life Sciences Real Estate Perspective and Cluster Analysis",
+          "url": "https://www.jll.com/en-us/insights/market-outlook/life-sciences-real-estate-outlook",
+          "visibility": "public"
+        },
+        {
+          "id": "beach-orange:CSUF_OC2026",
+          "publishedDate": "2026-01",
+          "retrievedDate": null,
+          "title": "California State University, Fullerton, Center for Demographic Research  /  Orange County Cities 2026",
+          "url": "https://www.fullerton.edu/cdr/_resources/pdf/oc_map1.pdf",
+          "visibility": "public"
+        },
+        {
+          "id": "beach-orange:SC_MAPS",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "City of San Clemente  /  Community Maps",
+          "url": "https://www.sanclemente.gov/321/Community-Maps",
+          "visibility": "public"
+        }
+      ],
+      "title": "Tustin / Avid Bioservices area"
+    }
+  },
+  {
+    "id": "beach-orange-irvine-tustin-newport-node-4",
+    "region_id": "biotech-beach",
+    "payload": {
+      "attribution": "USGS, USDA, The National Map: Orthoimagery",
+      "bounds": [
+        -117.7838476775774,
+        33.630784500493895,
+        -117.74791506621261,
+        33.66069765087503
+      ],
+      "captureNote": "Catalog acquisition years intersecting frame, not a claim that every pixel has the same acquisition date.",
+      "captureYears": [
+        2023
+      ],
+      "exhibitUrl": "/manus-storage/beach-orange-irvine-tustin-newport-node-4_exhibit_bbd1ff49.jpg",
+      "id": "beach-orange-irvine-tustin-newport-node-4",
+      "imageBounds": [
+        -117.7928308304186,
+        33.630784500493895,
+        -117.73893191337142,
+        33.66069765087502
+      ],
+      "imageUrl": "/manus-storage/beach-orange-irvine-tustin-newport-node-4_naip_4fe22920.jpg",
+      "regionId": "biotech-beach",
+      "siteIds": [
+        "biotech-beach:site:tarsus-pharmaceuticals-irvine-hq"
+      ],
+      "sources": [
+        {
+          "id": "beach-orange:JLL2025",
+          "publishedDate": "2025-09-23",
+          "retrievedDate": null,
+          "title": "JLL  /  2025 Life Sciences Real Estate Perspective and Cluster Analysis",
+          "url": "https://www.jll.com/en-us/insights/market-outlook/life-sciences-real-estate-outlook",
+          "visibility": "public"
+        },
+        {
+          "id": "beach-orange:CSUF_OC2026",
+          "publishedDate": "2026-01",
+          "retrievedDate": null,
+          "title": "California State University, Fullerton, Center for Demographic Research  /  Orange County Cities 2026",
+          "url": "https://www.fullerton.edu/cdr/_resources/pdf/oc_map1.pdf",
+          "visibility": "public"
+        },
+        {
+          "id": "beach-orange:SC_MAPS",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "City of San Clemente  /  Community Maps",
+          "url": "https://www.sanclemente.gov/321/Community-Maps",
+          "visibility": "public"
+        }
+      ],
+      "title": "Irvine / Tarsus Pharmaceuticals area"
+    }
+  },
+  {
+    "id": "beach-orange-san-clemente",
+    "region_id": "biotech-beach",
+    "payload": {
+      "attribution": "USGS, USDA, The National Map: Orthoimagery",
+      "bounds": [
+        -117.635,
+        33.42,
+        -117.575,
+        33.475
+      ],
+      "captureNote": "Catalog acquisition years intersecting frame, not a claim that every pixel has the same acquisition date.",
+      "captureYears": [
+        2023
+      ],
+      "exhibitUrl": "/manus-storage/beach-orange-san-clemente_exhibit_5a4b09f3.jpg",
+      "id": "beach-orange-san-clemente",
+      "imageBounds": [
+        -117.65443724531315,
+        33.419999999999995,
+        -117.55556275468685,
+        33.475
+      ],
+      "imageUrl": "/manus-storage/beach-orange-san-clemente_naip_b2e7300c.jpg",
+      "regionId": "biotech-beach",
+      "siteIds": [
+        "biotech-beach:site:glaukos-san-clemente-hq"
+      ],
+      "sources": [
+        {
+          "id": "beach-orange:JLL2025",
+          "publishedDate": "2025-09-23",
+          "retrievedDate": null,
+          "title": "JLL  /  2025 Life Sciences Real Estate Perspective and Cluster Analysis",
+          "url": "https://www.jll.com/en-us/insights/market-outlook/life-sciences-real-estate-outlook",
+          "visibility": "public"
+        },
+        {
+          "id": "beach-orange:CSUF_OC2026",
+          "publishedDate": "2026-01",
+          "retrievedDate": null,
+          "title": "California State University, Fullerton, Center for Demographic Research  /  Orange County Cities 2026",
+          "url": "https://www.fullerton.edu/cdr/_resources/pdf/oc_map1.pdf",
+          "visibility": "public"
+        },
+        {
+          "id": "beach-orange:SC_MAPS",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "City of San Clemente  /  Community Maps",
+          "url": "https://www.sanclemente.gov/321/Community-Maps",
+          "visibility": "public"
+        }
+      ],
+      "title": "San Clemente / Avenida Fabricante business area"
+    }
+  },
+  {
+    "id": "beach-sorrento-main",
+    "region_id": "biotech-beach",
+    "payload": {
+      "attribution": "USGS, USDA, The National Map: Orthoimagery",
+      "bounds": [
+        -117.242,
+        32.879,
+        -117.168,
+        32.926
+      ],
+      "captureNote": "Catalog acquisition years intersecting frame, not a claim that every pixel has the same acquisition date.",
+      "captureYears": [
+        2023
+      ],
+      "exhibitUrl": "/manus-storage/beach-sorrento-main_exhibit_60536b4e.jpg",
+      "id": "beach-sorrento-main",
+      "imageBounds": [
+        -117.24698447224687,
+        32.87899999999999,
+        -117.16301552775316,
+        32.926
+      ],
+      "imageUrl": "/manus-storage/beach-sorrento-main_naip_3c74a0d9.jpg",
+      "regionId": "biotech-beach",
+      "siteIds": [
+        "biotech-beach:site:aethlon-medical-san-diego-hq",
+        "biotech-beach:site:arcturus-therapeutics-san-diego-hq",
+        "biotech-beach:site:artiva-biotherapeutics-san-diego-hq",
+        "biotech-beach:site:bionano-genomics-san-diego-hq",
+        "biotech-beach:site:boundless-bio-san-diego-hq",
+        "biotech-beach:site:cardiff-oncology-san-diego-hq",
+        "biotech-beach:site:connect-biopharma-san-diego-hq",
+        "biotech-beach:site:crinetics-pharmaceuticals-san-diego-site",
+        "biotech-beach:site:dexcom-san-diego-hq",
+        "biotech-beach:site:element-biosciences-san-diego-hq",
+        "biotech-beach:site:erasca-san-diego-hq",
+        "biotech-beach:site:gossamer-bio-san-diego-hq",
+        "biotech-beach:site:ibio-san-diego-hq",
+        "biotech-beach:site:immunitybio-san-diego-hq",
+        "biotech-beach:site:janux-therapeutics-san-diego-hq",
+        "biotech-beach:site:kura-oncology-san-diego-hq",
+        "biotech-beach:site:maravai-lifesciences-san-diego-hq",
+        "biotech-beach:site:quidelortho-san-diego-hq",
+        "biotech-beach:anchor:sanford-burnham-prebys-la-jolla",
+        "biotech-beach:anchor:scripps-research-la-jolla",
+        "biotech-beach:site:viking-therapeutics-san-diego-hq"
+      ],
+      "sources": [
+        {
+          "id": "SORRENTO_JLL_GENESIS",
+          "publishedDate": "2022-07-29",
+          "retrievedDate": null,
+          "title": "JLL: $165M refinancing arranged for San Diego life sciences campus",
+          "url": "https://www.jll.com/en-us/newsroom/refinancing-arranged-for-san-diego-life-sciences-campus",
+          "visibility": "public"
+        },
+        {
+          "id": "SORRENTO_JLL_HQ_POINT",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Headquarters Point: JLL life-sciences campus marketing",
+          "url": "https://www.headquarterspoint.com/",
+          "visibility": "public"
+        },
+        {
+          "id": "SORRENTO_CITY_PLAN",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "City of San Diego: Mira Mesa Community Plan and Local Coastal Program",
+          "url": "https://www.sandiego.gov/sites/default/files/2025-11/may-2025-mm-cpu-web-final.pdf",
+          "visibility": "public"
+        }
+      ],
+      "title": "Sorrento Valley-Sorrento Mesa aerial corridor"
+    }
+  },
+  {
+    "id": "beach-thousand-oaks-rancho-conejo",
+    "region_id": "biotech-beach",
+    "payload": {
+      "attribution": "USGS, USDA, The National Map: Orthoimagery",
+      "bounds": [
+        -118.96,
+        34.175,
+        -118.9,
+        34.225
+      ],
+      "captureNote": "Catalog acquisition years intersecting frame, not a claim that every pixel has the same acquisition date.",
+      "captureYears": [
+        2023
+      ],
+      "exhibitUrl": "/manus-storage/beach-thousand-oaks-rancho-conejo_exhibit_4026fc26.jpg",
+      "id": "beach-thousand-oaks-rancho-conejo",
+      "imageBounds": [
+        -118.97534020439537,
+        34.175,
+        -118.88465979560462,
+        34.225
+      ],
+      "imageUrl": "/manus-storage/beach-thousand-oaks-rancho-conejo_naip_a5808cc6.jpg",
+      "regionId": "biotech-beach",
+      "siteIds": [
+        "biotech-beach:site:amgen-thousand-oaks-hq"
+      ],
+      "sources": [
+        {
+          "id": "TO_JLL_2025",
+          "publishedDate": "2025-09-23",
+          "retrievedDate": null,
+          "title": "JLL  /  2025 Life Sciences Real Estate Perspective and Cluster Analysis",
+          "url": "https://www.jll.com/en-us/insights/market-outlook/life-sciences-real-estate-outlook",
+          "visibility": "public"
+        },
+        {
+          "id": "TO_RANCHO_CONEJO_CITY",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "City of Thousand Oaks  /  1100 Rancho Conejo Life-Sciences Campus, MND 2022-70188",
+          "url": "https://toaks.gov/index.php?section=environmental&projectsection=5&project=34",
+          "visibility": "public"
+        },
+        {
+          "id": "TO_WESTLAKE_NORTH_CITY",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "City of Westlake Village  /  Westlake North Specific Plan",
+          "url": "https://www.wlv.org/649/Westlake-North-Specific-Plan",
+          "visibility": "public"
+        }
+      ],
+      "title": "Thousand Oaks / Amgen and Rancho Conejo"
+    }
+  },
+  {
+    "id": "beach-thousand-oaks-westlake-village",
+    "region_id": "biotech-beach",
+    "payload": {
+      "attribution": "USGS, USDA, The National Map: Orthoimagery",
+      "bounds": [
+        -118.86,
+        34.13,
+        -118.79,
+        34.18
+      ],
+      "captureNote": "Catalog acquisition years intersecting frame, not a claim that every pixel has the same acquisition date.",
+      "captureYears": [
+        2023
+      ],
+      "exhibitUrl": "/manus-storage/beach-thousand-oaks-westlake-village_exhibit_48b7e9b6.jpg",
+      "id": "beach-thousand-oaks-westlake-village",
+      "imageBounds": [
+        -118.87031603066488,
+        34.129999999999995,
+        -118.77968396933514,
+        34.18
+      ],
+      "imageUrl": "/manus-storage/beach-thousand-oaks-westlake-village_naip_f0e65731.jpg",
+      "regionId": "biotech-beach",
+      "siteIds": [
+        "biotech-beach:site:arcutis-biotherapeutics-westlake-village-hq"
+      ],
+      "sources": [
+        {
+          "id": "TO_JLL_2025",
+          "publishedDate": "2025-09-23",
+          "retrievedDate": null,
+          "title": "JLL  /  2025 Life Sciences Real Estate Perspective and Cluster Analysis",
+          "url": "https://www.jll.com/en-us/insights/market-outlook/life-sciences-real-estate-outlook",
+          "visibility": "public"
+        },
+        {
+          "id": "TO_RANCHO_CONEJO_CITY",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "City of Thousand Oaks  /  1100 Rancho Conejo Life-Sciences Campus, MND 2022-70188",
+          "url": "https://toaks.gov/index.php?section=environmental&projectsection=5&project=34",
+          "visibility": "public"
+        },
+        {
+          "id": "TO_WESTLAKE_NORTH_CITY",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "City of Westlake Village  /  Westlake North Specific Plan",
+          "url": "https://www.wlv.org/649/Westlake-North-Specific-Plan",
+          "visibility": "public"
+        }
+      ],
+      "title": "Westlake Village / Townsgate and the US-101 corridor"
+    }
+  },
+  {
+    "id": "beach-torrey-core",
+    "region_id": "biotech-beach",
+    "payload": {
+      "attribution": "USGS, USDA, The National Map: Orthoimagery",
+      "bounds": [
+        -117.258,
+        32.865,
+        -117.215,
+        32.907
+      ],
+      "captureNote": "Catalog acquisition years intersecting frame, not a claim that every pixel has the same acquisition date.",
+      "captureYears": [
+        2023
+      ],
+      "exhibitUrl": "/manus-storage/beach-torrey-core_exhibit_c01795c6.jpg",
+      "id": "beach-torrey-core",
+      "imageBounds": [
+        -117.27401105113515,
+        32.864999999999995,
+        -117.19898894886485,
+        32.907
+      ],
+      "imageUrl": "/manus-storage/beach-torrey-core_naip_7441f6d4.jpg",
+      "regionId": "biotech-beach",
+      "siteIds": [
+        "biotech-beach:site:arcturus-therapeutics-san-diego-hq",
+        "biotech-beach:site:boundless-bio-san-diego-hq",
+        "biotech-beach:site:cardiff-oncology-san-diego-hq",
+        "biotech-beach:site:erasca-san-diego-hq",
+        "biotech-beach:site:gossamer-bio-san-diego-hq",
+        "biotech-beach:site:immunitybio-san-diego-hq",
+        "biotech-beach:anchor:salk-institute-la-jolla",
+        "biotech-beach:anchor:sanford-burnham-prebys-la-jolla",
+        "biotech-beach:anchor:scripps-research-la-jolla"
+      ],
+      "sources": [
+        {
+          "id": "beach-torrey:S01",
+          "publishedDate": "2025-04-01",
+          "retrievedDate": null,
+          "title": "JLL  /  San Diego trophy life sciences campus trades for $159.0M",
+          "url": "https://www.jll.com/en-us/newsroom/san-diego-trophy-life-sciences-campus-trades-for-159-million",
+          "visibility": "public"
+        },
+        {
+          "id": "beach-torrey:S02",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Salk Institute  /  Location and directions to the Salk Institute",
+          "url": "https://www.salk.edu/events/ronald-evans-symposium/location/",
+          "visibility": "public"
+        },
+        {
+          "id": "beach-torrey:S03",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "UC San Diego Facility Services  /  UC San Diego Addresses and Building Names",
+          "url": "https://facilityservices.ucsd.edu/information/addressing.html",
+          "visibility": "public"
+        }
+      ],
+      "title": "Torrey Pines research corridor and UC San Diego campus"
+    }
+  },
+  {
+    "id": "beach-utc-core",
+    "region_id": "biotech-beach",
+    "payload": {
+      "attribution": "USGS, USDA, The National Map: Orthoimagery",
+      "bounds": [
+        -117.239,
+        32.857,
+        -117.19,
+        32.899
+      ],
+      "captureNote": "Catalog acquisition years intersecting frame, not a claim that every pixel has the same acquisition date.",
+      "captureYears": [
+        2023
+      ],
+      "exhibitUrl": "/manus-storage/beach-utc-core_exhibit_3cb19d55.jpg",
+      "id": "beach-utc-core",
+      "imageBounds": [
+        -117.2520076653105,
+        32.85699999999999,
+        -117.17699233468949,
+        32.899
+      ],
+      "imageUrl": "/manus-storage/beach-utc-core_naip_d93be58a.jpg",
+      "regionId": "biotech-beach",
+      "siteIds": [
+        "biotech-beach:site:arcturus-therapeutics-san-diego-hq",
+        "biotech-beach:site:bionano-genomics-san-diego-hq",
+        "biotech-beach:site:boundless-bio-san-diego-hq",
+        "biotech-beach:site:calidi-biotherapeutics-san-diego-hq",
+        "biotech-beach:site:crinetics-pharmaceuticals-san-diego-site",
+        "biotech-beach:site:immunitybio-san-diego-hq",
+        "biotech-beach:site:kura-oncology-san-diego-hq"
+      ],
+      "sources": [
+        {
+          "id": "utc_jll_san_diego",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "JLL  /  San Diego",
+          "url": "https://www.jll.com/en-us/locations/san-diego",
+          "visibility": "public"
+        },
+        {
+          "id": "utc_city_plan_page",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "City of San Diego  /  University Community Plan",
+          "url": "https://www.sandiego.gov/planning/community-plans/university",
+          "visibility": "public"
+        },
+        {
+          "id": "utc_city_plan_2024",
+          "publishedDate": "2024-07",
+          "retrievedDate": null,
+          "title": "City of San Diego  /  University Community Plan, adopted July 2024",
+          "url": "https://www.sandiego.gov/sites/default/files/2025-01/university-community-plan-2024.pdf",
+          "visibility": "public"
+        }
+      ],
+      "title": "UTC / University City / Campus Point, Executive Drive and Towne Centre"
+    }
+  },
+  {
+    "id": "biotech-beach-additional-node-1",
+    "region_id": "biotech-beach",
+    "payload": {
+      "attribution": "USGS, USDA, The National Map: Orthoimagery",
+      "bounds": [
+        -117.28853356635014,
+        32.83432401706743,
+        -117.23901377619687,
+        32.86734699882738
+      ],
+      "captureNote": "Catalog acquisition years intersecting frame, not a claim that every pixel has the same acquisition date.",
+      "captureYears": [
+        2023
+      ],
+      "exhibitUrl": "/manus-storage/biotech-beach-additional-node-1_exhibit_14af3e41.jpg",
+      "id": "biotech-beach-additional-node-1",
+      "imageBounds": [
+        -117.29325547129412,
+        32.83432401706743,
+        -117.23429187125286,
+        32.86734699882737
+      ],
+      "imageUrl": "/manus-storage/biotech-beach-additional-node-1_naip_978c29d4.jpg",
+      "regionId": "biotech-beach",
+      "siteIds": [
+        "biotech-beach:site:ensysce-biosciences-la-jolla-hq",
+        "biotech-beach:site:equillium-la-jolla-hq"
+      ],
+      "sources": [
+        {
+          "id": "biotech-beach:s_eq",
+          "publishedDate": "2026-08-13",
+          "retrievedDate": "2026-10-28",
+          "title": "Equillium 10-Q filed 2026-08-13",
+          "url": "https://www.sec.gov/Archives/edgar/data/1746466/000119312526349235/eq-20260630.htm",
+          "visibility": "public"
+        },
+        {
+          "id": "biotech-beach:s_ensc",
+          "publishedDate": "2026-08-13",
+          "retrievedDate": "2026-10-28",
+          "title": "Ensysce Biosciences 10-Q filed 2026-08-13",
+          "url": "https://www.sec.gov/Archives/edgar/data/1716947/000149315226037817/form10-q.htm",
+          "visibility": "public"
+        }
+      ],
+      "title": "La Jolla / additional source-address node"
+    }
+  },
+  {
+    "id": "biotech-beach-additional-node-2",
+    "region_id": "biotech-beach",
+    "payload": {
+      "attribution": "USGS, USDA, The National Map: Orthoimagery",
+      "bounds": [
+        -117.12068783020315,
+        33.00421790005896,
+        -117.08834847997487,
+        33.03133449493612
+      ],
+      "captureNote": "Catalog acquisition years intersecting frame, not a claim that every pixel has the same acquisition date.",
+      "captureYears": [
+        2023
+      ],
+      "exhibitUrl": "/manus-storage/biotech-beach-additional-node-2_exhibit_f33ec80f.jpg",
+      "id": "biotech-beach-additional-node-2",
+      "imageBounds": [
+        -117.12877266776023,
+        33.00421790005896,
+        -117.08026364241776,
+        33.03133449493612
+      ],
+      "imageUrl": "/manus-storage/biotech-beach-additional-node-2_naip_2240399e.jpg",
+      "regionId": "biotech-beach",
+      "siteIds": [
+        "biotech-beach:site:modular-medical-san-diego-hq"
+      ],
+      "sources": [
+        {
+          "id": "biotech-beach:s_modd",
+          "publishedDate": "2026-08-14",
+          "retrievedDate": "2026-10-28",
+          "title": "Modular Medical 10-Q filed 2026-08-14",
+          "url": "https://www.sec.gov/Archives/edgar/data/1074871/000121390026090301/ea0300875-10q_modular.htm",
+          "visibility": "public"
+        }
+      ],
+      "title": "San Diego / additional source-address node"
+    }
+  },
+  {
+    "id": "gene-boston-charlestown",
+    "region_id": "genetown",
+    "payload": {
+      "attribution": "USGS, USDA, The National Map: Orthoimagery",
+      "bounds": [
+        -71.083,
+        42.369,
+        -71.043,
+        42.391
+      ],
+      "captureNote": "Catalog acquisition years intersecting frame, not a claim that every pixel has the same acquisition date.",
+      "captureYears": [
+        2023
+      ],
+      "exhibitUrl": "/manus-storage/gene-boston-charlestown_exhibit_561d39d2.jpg",
+      "id": "gene-boston-charlestown",
+      "imageBounds": [
+        -71.08533681959882,
+        42.36900000000001,
+        -71.04066318040117,
+        42.391
+      ],
+      "imageUrl": "/manus-storage/gene-boston-charlestown_naip_7f1249a4.jpg",
+      "regionId": "genetown",
+      "siteIds": [
+        "genetown:site:korro-bio-cambridge-hq",
+        "genetown:site:prime-medicine-cambridge-hq",
+        "genetown:site:solid-biosciences-charlestown-hq"
+      ],
+      "sources": [
+        {
+          "id": "gene-boston:S1",
+          "publishedDate": "2022-05-09",
+          "retrievedDate": null,
+          "title": "JLL  /  $193.76M construction loan secured for sustainable life sciences project",
+          "url": "https://www.jll.com/en-us/newsroom/construction-loan-secured-for-sustainable-life-sciences-project",
+          "visibility": "public"
+        },
+        {
+          "id": "gene-boston:S2",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Boston Planning Department  /  Longwood Medical Area: At a Glance",
+          "url": "http://www.bostonplans.org/neighborhoods/longwood-medical-area/at-a-glance",
+          "visibility": "public"
+        },
+        {
+          "id": "gene-boston:S3",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Boston Planning Department  /  PLAN: Charlestown",
+          "url": "http://www.bostonplans.org/planning-zoning/planning-initiatives/plan-charlestown",
+          "visibility": "public"
+        }
+      ],
+      "title": "Charlestown / Rutherford Avenue/Hood Park to Navy Yard"
+    }
+  },
+  {
+    "id": "gene-boston-longwood",
+    "region_id": "genetown",
+    "payload": {
+      "attribution": "USGS, USDA, The National Map: Orthoimagery",
+      "bounds": [
+        -71.119,
+        42.328,
+        -71.093,
+        42.35
+      ],
+      "captureNote": "Catalog acquisition years intersecting frame, not a claim that every pixel has the same acquisition date.",
+      "captureYears": [
+        2023
+      ],
+      "exhibitUrl": "/manus-storage/gene-boston-longwood_exhibit_f9fe7e6d.jpg",
+      "id": "gene-boston-longwood",
+      "imageBounds": [
+        -71.12832224975654,
+        42.328,
+        -71.08367775024347,
+        42.35
+      ],
+      "imageUrl": "/manus-storage/gene-boston-longwood_naip_1cee999b.jpg",
+      "regionId": "genetown",
+      "siteIds": [
+        "genetown:anchor:boston-childrens-hospital-boston",
+        "genetown:anchor:dana-farber-cancer-institute-boston",
+        "genetown:site:tango-therapeutics-boston-hq"
+      ],
+      "sources": [
+        {
+          "id": "gene-boston:S1",
+          "publishedDate": "2022-05-09",
+          "retrievedDate": null,
+          "title": "JLL  /  $193.76M construction loan secured for sustainable life sciences project",
+          "url": "https://www.jll.com/en-us/newsroom/construction-loan-secured-for-sustainable-life-sciences-project",
+          "visibility": "public"
+        },
+        {
+          "id": "gene-boston:S2",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Boston Planning Department  /  Longwood Medical Area: At a Glance",
+          "url": "http://www.bostonplans.org/neighborhoods/longwood-medical-area/at-a-glance",
+          "visibility": "public"
+        },
+        {
+          "id": "gene-boston:S3",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Boston Planning Department  /  PLAN: Charlestown",
+          "url": "http://www.bostonplans.org/planning-zoning/planning-initiatives/plan-charlestown",
+          "visibility": "public"
+        }
+      ],
+      "title": "Longwood / medical campus and Brookline Avenue/Fenway approach"
+    }
+  },
+  {
+    "id": "gene-boston-seaport",
+    "region_id": "genetown",
+    "payload": {
+      "attribution": "USGS, USDA, The National Map: Orthoimagery",
+      "bounds": [
+        -71.061,
+        42.336,
+        -71.015,
+        42.358
+      ],
+      "captureNote": "Catalog acquisition years intersecting frame, not a claim that every pixel has the same acquisition date.",
+      "captureYears": [
+        2023
+      ],
+      "exhibitUrl": "/manus-storage/gene-boston-seaport_exhibit_27988431.jpg",
+      "id": "gene-boston-seaport",
+      "imageBounds": [
+        -71.061,
+        42.33566739996498,
+        -71.015,
+        42.358332481898465
+      ],
+      "imageUrl": "/manus-storage/gene-boston-seaport_naip_efca2389.jpg",
+      "regionId": "genetown",
+      "siteIds": [
+        "genetown:site:elicio-therapeutics-boston-hq",
+        "genetown:site:haemonetics-boston-hq",
+        "genetown:site:ironwood-pharmaceuticals-boston-hq",
+        "genetown:site:rapport-therapeutics-boston-hq",
+        "genetown:site:vertex-pharmaceuticals-boston-hq"
+      ],
+      "sources": [
+        {
+          "id": "gene-boston:S1",
+          "publishedDate": "2022-05-09",
+          "retrievedDate": null,
+          "title": "JLL  /  $193.76M construction loan secured for sustainable life sciences project",
+          "url": "https://www.jll.com/en-us/newsroom/construction-loan-secured-for-sustainable-life-sciences-project",
+          "visibility": "public"
+        },
+        {
+          "id": "gene-boston:S2",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Boston Planning Department  /  Longwood Medical Area: At a Glance",
+          "url": "http://www.bostonplans.org/neighborhoods/longwood-medical-area/at-a-glance",
+          "visibility": "public"
+        },
+        {
+          "id": "gene-boston:S3",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Boston Planning Department  /  PLAN: Charlestown",
+          "url": "http://www.bostonplans.org/planning-zoning/planning-initiatives/plan-charlestown",
+          "visibility": "public"
+        }
+      ],
+      "title": "Seaport / Fort Point to Raymond L. Flynn Marine Park"
+    }
+  },
+  {
+    "id": "gene-cambridge-cambridgeport",
+    "region_id": "genetown",
+    "payload": {
+      "attribution": "USGS, USDA, The National Map: Orthoimagery",
+      "bounds": [
+        -71.1195,
+        42.3505,
+        -71.091,
+        42.3675
+      ],
+      "captureNote": "Catalog acquisition years intersecting frame, not a claim that every pixel has the same acquisition date.",
+      "captureYears": [
+        2023
+      ],
+      "exhibitUrl": "/manus-storage/gene-cambridge-cambridgeport_exhibit_946dafd4.jpg",
+      "id": "gene-cambridge-cambridgeport",
+      "imageBounds": [
+        -71.12250450008088,
+        42.3505,
+        -71.08799549991907,
+        42.36749999999999
+      ],
+      "imageUrl": "/manus-storage/gene-cambridge-cambridgeport_naip_615ebcc1.jpg",
+      "regionId": "genetown",
+      "siteIds": [
+        "genetown:site:aera-therapeutics-cambridge",
+        "genetown:site:agios-pharmaceuticals-cambridge-hq",
+        "genetown:site:fulcrum-therapeutics-cambridge-hq",
+        "genetown:site:intellia-therapeutics-cambridge-hq",
+        "genetown:anchor:massachusetts-institute-of-technology-cambridge",
+        "genetown:anchor:ragon-institute-cambridge",
+        "genetown:site:relay-therapeutics-cambridge-hq",
+        "genetown:site:spero-therapeutics-cambridge-hq",
+        "genetown:site:vericel-cambridge-hq"
+      ],
+      "sources": [
+        {
+          "id": "gene-cambridge:S1",
+          "publishedDate": "2022-08-15",
+          "retrievedDate": null,
+          "title": "JLL arranges $230M financing for Somerville life sciences development",
+          "url": "https://www.jll.com/en-us/newsroom/jll-arranges-financing-for-somerville-life-sciences",
+          "visibility": "public"
+        },
+        {
+          "id": "gene-cambridge:S2",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Cambridge Neighborhood Planning  /  City of Cambridge Community Development Department",
+          "url": "https://www.cambridgema.gov/cdd/planud/neighplan",
+          "visibility": "public"
+        },
+        {
+          "id": "gene-cambridge:S3",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Neighborhood Map Gallery  /  City of Cambridge Community Development Department",
+          "url": "https://www.cambridgema.gov/cdd/factsandmaps/mapgalleries/neighborhood",
+          "visibility": "public"
+        }
+      ],
+      "title": "Cambridgeport / Sidney Street-Landsdowne Street corridor"
+    }
+  },
+  {
+    "id": "gene-cambridge-kendall-east",
+    "region_id": "genetown",
+    "payload": {
+      "attribution": "USGS, USDA, The National Map: Orthoimagery",
+      "bounds": [
+        -71.1005,
+        42.3565,
+        -71.0665,
+        42.379
+      ],
+      "captureNote": "Catalog acquisition years intersecting frame, not a claim that every pixel has the same acquisition date.",
+      "captureYears": [
+        2023
+      ],
+      "exhibitUrl": "/manus-storage/gene-cambridge-kendall-east_exhibit_ff7064f3.jpg",
+      "id": "gene-cambridge-kendall-east",
+      "imageBounds": [
+        -71.10634001922374,
+        42.35649999999998,
+        -71.06065998077626,
+        42.37899999999999
+      ],
+      "imageUrl": "/manus-storage/gene-cambridge-kendall-east_naip_75ee965a.jpg",
+      "regionId": "genetown",
+      "siteIds": [
+        "genetown:site:aera-therapeutics-cambridge",
+        "genetown:site:akebia-therapeutics-cambridge-hq",
+        "genetown:site:alnylam-pharmaceuticals-cambridge-hq",
+        "genetown:site:amylyx-pharmaceuticals-cambridge-hq",
+        "genetown:site:astrazeneca-kendall-rd-centre",
+        "genetown:site:beam-therapeutics-cambridge-hq",
+        "genetown:site:biogen-cambridge-hq",
+        "genetown:site:black-diamond-therapeutics-cambridge-hq",
+        "genetown:anchor:broad-institute-cambridge",
+        "genetown:site:editas-medicine-cambridge-hq",
+        "genetown:site:fulcrum-therapeutics-cambridge-hq",
+        "genetown:site:generate-biomedicines-somerville-hq",
+        "genetown:site:immuneering-cambridge-hq",
+        "genetown:site:korro-bio-cambridge-hq",
+        "genetown:anchor:massachusetts-general-hospital-boston",
+        "genetown:anchor:massachusetts-institute-of-technology-cambridge",
+        "genetown:site:moderna-cambridge-hq",
+        "genetown:site:prime-medicine-cambridge-hq",
+        "genetown:anchor:ragon-institute-cambridge",
+        "genetown:site:relay-therapeutics-cambridge-hq",
+        "genetown:site:sarepta-therapeutics-cambridge-hq",
+        "genetown:site:scholar-rock-cambridge-hq",
+        "genetown:anchor:whitehead-institute-cambridge"
+      ],
+      "sources": [
+        {
+          "id": "gene-cambridge:S1",
+          "publishedDate": "2022-08-15",
+          "retrievedDate": null,
+          "title": "JLL arranges $230M financing for Somerville life sciences development",
+          "url": "https://www.jll.com/en-us/newsroom/jll-arranges-financing-for-somerville-life-sciences",
+          "visibility": "public"
+        },
+        {
+          "id": "gene-cambridge:S2",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Cambridge Neighborhood Planning  /  City of Cambridge Community Development Department",
+          "url": "https://www.cambridgema.gov/cdd/planud/neighplan",
+          "visibility": "public"
+        },
+        {
+          "id": "gene-cambridge:S3",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Neighborhood Map Gallery  /  City of Cambridge Community Development Department",
+          "url": "https://www.cambridgema.gov/cdd/factsandmaps/mapgalleries/neighborhood",
+          "visibility": "public"
+        }
+      ],
+      "title": "Kendall Square / East Cambridge / Cambridge Crossing"
+    }
+  },
+  {
+    "id": "gene-cambridge-somerville-adjacent",
+    "region_id": "genetown",
+    "payload": {
+      "attribution": "USGS, USDA, The National Map: Orthoimagery",
+      "bounds": [
+        -71.103,
+        42.371,
+        -71.075,
+        42.3865
+      ],
+      "captureNote": "Catalog acquisition years intersecting frame, not a claim that every pixel has the same acquisition date.",
+      "captureYears": [
+        2023
+      ],
+      "exhibitUrl": "/manus-storage/gene-cambridge-somerville-adjacent_exhibit_4e8b0c09.jpg",
+      "id": "gene-cambridge-somerville-adjacent",
+      "imageBounds": [
+        -71.10473699130958,
+        42.37099999999999,
+        -71.0732630086904,
+        42.3865
+      ],
+      "imageUrl": "/manus-storage/gene-cambridge-somerville-adjacent_naip_cd61b65b.jpg",
+      "regionId": "genetown",
+      "siteIds": [
+        "genetown:site:generate-biomedicines-somerville-hq"
+      ],
+      "sources": [
+        {
+          "id": "gene-cambridge:S1",
+          "publishedDate": "2022-08-15",
+          "retrievedDate": null,
+          "title": "JLL arranges $230M financing for Somerville life sciences development",
+          "url": "https://www.jll.com/en-us/newsroom/jll-arranges-financing-for-somerville-life-sciences",
+          "visibility": "public"
+        },
+        {
+          "id": "gene-cambridge:S2",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Cambridge Neighborhood Planning  /  City of Cambridge Community Development Department",
+          "url": "https://www.cambridgema.gov/cdd/planud/neighplan",
+          "visibility": "public"
+        },
+        {
+          "id": "gene-cambridge:S3",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Neighborhood Map Gallery  /  City of Cambridge Community Development Department",
+          "url": "https://www.cambridgema.gov/cdd/factsandmaps/mapgalleries/neighborhood",
+          "visibility": "public"
+        }
+      ],
+      "title": "Adjacent Somerville: Boynton Yards / Union Square / McGrath corridor"
+    }
+  },
+  {
+    "id": "gene-north-billerica",
+    "region_id": "genetown",
+    "payload": {
+      "attribution": "USGS, USDA, The National Map: Orthoimagery",
+      "bounds": [
+        -71.305,
+        42.515,
+        -71.245,
+        42.57
+      ],
+      "captureNote": "Catalog acquisition years intersecting frame, not a claim that every pixel has the same acquisition date.",
+      "captureYears": [
+        2023
+      ],
+      "exhibitUrl": "/manus-storage/gene-north-billerica_exhibit_bd07c008.jpg",
+      "id": "gene-north-billerica",
+      "imageBounds": [
+        -71.33098717110354,
+        42.515,
+        -71.21901282889647,
+        42.57
+      ],
+      "imageUrl": "/manus-storage/gene-north-billerica_naip_bfa91e17.jpg",
+      "regionId": "genetown",
+      "siteIds": [
+        "genetown:site:bruker-billerica-hq",
+        "genetown:site:quanterix-billerica-hq"
+      ],
+      "sources": [
+        {
+          "id": "gene-north:S1",
+          "publishedDate": "2022-05-18",
+          "retrievedDate": null,
+          "title": "JLL  /  Purpose-built GMP development site near Boston trades hands",
+          "url": "https://www.jll.com/en-us/newsroom/purpose-built-gmp-development-site-near-boston-trades-hands",
+          "visibility": "public"
+        },
+        {
+          "id": "gene-north:S2",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "JLL  /  93 Labs, 200 Ballardvale St, Wilmington",
+          "url": "https://property.jll.com/listings/ballardvale-park-bldg-1-200-ballardvale-st-north",
+          "visibility": "public"
+        },
+        {
+          "id": "gene-north:S3",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Bruker  /  Directions to Billerica, MA",
+          "url": "https://www.bruker.com/en/services/training/mass-spectrometry/america/directions-to-billerica.html",
+          "visibility": "public"
+        }
+      ],
+      "title": "Billerica / Middlesex Turnpike / Manning Road / Route 3"
+    }
+  },
+  {
+    "id": "gene-north-wilmington",
+    "region_id": "genetown",
+    "payload": {
+      "attribution": "USGS, USDA, The National Map: Orthoimagery",
+      "bounds": [
+        -71.2,
+        42.55,
+        -71.12,
+        42.62
+      ],
+      "captureNote": "Catalog acquisition years intersecting frame, not a claim that every pixel has the same acquisition date.",
+      "captureYears": [
+        2023
+      ],
+      "exhibitUrl": "/manus-storage/gene-north-wilmington_exhibit_6f34b9e8.jpg",
+      "id": "gene-north-wilmington",
+      "imageBounds": [
+        -71.23130496214642,
+        42.55,
+        -71.08869503785355,
+        42.620000000000005
+      ],
+      "imageUrl": "/manus-storage/gene-north-wilmington_naip_0222e503.jpg",
+      "regionId": "genetown",
+      "siteIds": [
+        "genetown:site:charles-river-laboratories-wilmington-hq"
+      ],
+      "sources": [
+        {
+          "id": "gene-north:S1",
+          "publishedDate": "2022-05-18",
+          "retrievedDate": null,
+          "title": "JLL  /  Purpose-built GMP development site near Boston trades hands",
+          "url": "https://www.jll.com/en-us/newsroom/purpose-built-gmp-development-site-near-boston-trades-hands",
+          "visibility": "public"
+        },
+        {
+          "id": "gene-north:S2",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "JLL  /  93 Labs, 200 Ballardvale St, Wilmington",
+          "url": "https://property.jll.com/listings/ballardvale-park-bldg-1-200-ballardvale-st-north",
+          "visibility": "public"
+        },
+        {
+          "id": "gene-north:S3",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Bruker  /  Directions to Billerica, MA",
+          "url": "https://www.bruker.com/en/services/training/mass-spectrometry/america/directions-to-billerica.html",
+          "visibility": "public"
+        }
+      ],
+      "title": "Wilmington / Ballardvale Street / I-93"
+    }
+  },
+  {
+    "id": "gene-northwest-01-node-1",
+    "region_id": "genetown",
+    "payload": {
+      "attribution": "USGS, USDA, The National Map: Orthoimagery",
+      "bounds": [
+        -71.27946827000437,
+        42.4021600887107,
+        -71.2305099238126,
+        42.4577314452404
+      ],
+      "captureNote": "Catalog acquisition years intersecting frame, not a claim that every pixel has the same acquisition date.",
+      "captureYears": [
+        2023
+      ],
+      "exhibitUrl": "/manus-storage/gene-northwest-01-node-1_exhibit_5a7d3f37.jpg",
+      "id": "gene-northwest-01-node-1",
+      "imageBounds": [
+        -71.31145619195644,
+        42.402160088710694,
+        -71.19852200186052,
+        42.4577314452404
+      ],
+      "imageUrl": "/manus-storage/gene-northwest-01-node-1_naip_b95539af.jpg",
+      "regionId": "genetown",
+      "siteIds": [
+        "genetown:site:agenus-lexington-hq",
+        "genetown:site:dyne-therapeutics-waltham-hq",
+        "genetown:site:keros-therapeutics-waltham-hq",
+        "genetown:site:q32-bio-waltham-hq",
+        "genetown:site:tscan-therapeutics-waltham-hq",
+        "genetown:site:voyager-therapeutics-lexington-hq",
+        "genetown:site:xilio-therapeutics-waltham-hq",
+        "genetown:site:zenas-biopharma-waltham-hq"
+      ],
+      "sources": [
+        {
+          "id": "gene-northwest:S01",
+          "publishedDate": "2024-09-09",
+          "retrievedDate": null,
+          "title": "JLL  /  $150M refinancing secured for Boston-area life sciences building",
+          "url": "https://www.jll.com/en-us/newsroom/refinancing-secured-for-boston-area-life-sciences-building",
+          "visibility": "public"
+        },
+        {
+          "id": "gene-northwest:S02",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Town of Lexington Economic Development Office  /  Life Sciences Outlook 2020",
+          "url": "https://www.lexingtonma.gov/DocumentCenter/View/885/Life-Science-Outlook-2020-",
+          "visibility": "public"
+        },
+        {
+          "id": "gene-northwest:S03",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Town of Burlington  /  Burlington Mall Road Area Mobility Action Plan",
+          "url": "https://www.burlington.org/1343/Mall-Road-Mobility-Action-Plan-by-MAPC-2",
+          "visibility": "public"
+        }
+      ],
+      "title": "Lexington / Voyager Therapeutics area"
+    }
+  },
+  {
+    "id": "gene-northwest-01-node-2",
+    "region_id": "genetown",
+    "payload": {
+      "attribution": "USGS, USDA, The National Map: Orthoimagery",
+      "bounds": [
+        -71.28304706058738,
+        42.467731566518275,
+        -71.17653934092061,
+        42.54106960781428
+      ],
+      "captureNote": "Catalog acquisition years intersecting frame, not a claim that every pixel has the same acquisition date.",
+      "captureYears": [
+        2023
+      ],
+      "exhibitUrl": "/manus-storage/gene-northwest-01-node-2_exhibit_85c9e12f.jpg",
+      "id": "gene-northwest-01-node-2",
+      "imageBounds": [
+        -71.30440204846096,
+        42.467731566518275,
+        -71.15518435304703,
+        42.54106960781428
+      ],
+      "imageUrl": "/manus-storage/gene-northwest-01-node-2_naip_2d5ef943.jpg",
+      "regionId": "genetown",
+      "siteIds": [
+        "genetown:site:908-devices-burlington-hq",
+        "genetown:site:bruker-billerica-hq",
+        "genetown:site:butterfly-network-burlington-hq",
+        "genetown:site:fractyl-health-burlington-hq",
+        "genetown:site:lantheus-bedford-hq",
+        "genetown:site:quanterix-billerica-hq",
+        "genetown:site:stoke-therapeutics-bedford-hq"
+      ],
+      "sources": [
+        {
+          "id": "gene-northwest:S01",
+          "publishedDate": "2024-09-09",
+          "retrievedDate": null,
+          "title": "JLL  /  $150M refinancing secured for Boston-area life sciences building",
+          "url": "https://www.jll.com/en-us/newsroom/refinancing-secured-for-boston-area-life-sciences-building",
+          "visibility": "public"
+        },
+        {
+          "id": "gene-northwest:S02",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Town of Lexington Economic Development Office  /  Life Sciences Outlook 2020",
+          "url": "https://www.lexingtonma.gov/DocumentCenter/View/885/Life-Science-Outlook-2020-",
+          "visibility": "public"
+        },
+        {
+          "id": "gene-northwest:S03",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Town of Burlington  /  Burlington Mall Road Area Mobility Action Plan",
+          "url": "https://www.burlington.org/1343/Mall-Road-Mobility-Action-Plan-by-MAPC-2",
+          "visibility": "public"
+        }
+      ],
+      "title": "Bedford / Stoke Therapeutics area"
+    }
+  },
+  {
+    "id": "gene-waltham-crescent",
+    "region_id": "genetown",
+    "payload": {
+      "attribution": "USGS, USDA, The National Map: Orthoimagery",
+      "bounds": [
+        -71.252,
+        42.363,
+        -71.232,
+        42.375
+      ],
+      "captureNote": "Catalog acquisition years intersecting frame, not a claim that every pixel has the same acquisition date.",
+      "captureYears": [
+        2023
+      ],
+      "exhibitUrl": "/manus-storage/gene-waltham-crescent_exhibit_eb5bd8eb.jpg",
+      "id": "gene-waltham-crescent",
+      "imageBounds": [
+        -71.25418158583864,
+        42.36299999999999,
+        -71.22981841416136,
+        42.37499999999999
+      ],
+      "imageUrl": "/manus-storage/gene-waltham-crescent_naip_8c9e813b.jpg",
+      "regionId": "genetown",
+      "siteIds": [
+        "genetown:site:spyre-therapeutics-waltham-hq",
+        "genetown:site:viridian-therapeutics-waltham-hq"
+      ],
+      "sources": [
+        {
+          "id": "gene-waltham:S1",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "JLL  /  225 Wyman Office Park, 225 Wyman St, Waltham",
+          "url": "https://property.jll.com/listings/office-225-wyman-st-128-mass-pike",
+          "visibility": "public"
+        },
+        {
+          "id": "gene-waltham:S2",
+          "publishedDate": "2021-12-02",
+          "retrievedDate": null,
+          "title": "Boston Properties Executes Three Leases Totaling 166,000 SF at 880 Winter Street in Waltham, MA",
+          "url": "https://investors.bxp.com/news-releases/news-release-details/boston-properties-executes-three-leases-totaling-166000-sf-880",
+          "visibility": "public"
+        },
+        {
+          "id": "gene-waltham:S3",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Waltham Watch Factory  /  Location of The Watch Factory",
+          "url": "https://www.walthamwatchfactory.com/location/",
+          "visibility": "public"
+        }
+      ],
+      "title": "Crescent Street / Watch Factory and Charles River"
+    }
+  },
+  {
+    "id": "gene-waltham-north-128",
+    "region_id": "genetown",
+    "payload": {
+      "attribution": "USGS, USDA, The National Map: Orthoimagery",
+      "bounds": [
+        -71.294,
+        42.388,
+        -71.24,
+        42.435
+      ],
+      "captureNote": "Catalog acquisition years intersecting frame, not a claim that every pixel has the same acquisition date.",
+      "captureYears": [
+        2023
+      ],
+      "exhibitUrl": "/manus-storage/gene-waltham-north-128_exhibit_4811a92c.jpg",
+      "id": "gene-waltham-north-128",
+      "imageBounds": [
+        -71.31474353041169,
+        42.388000000000005,
+        -71.2192564695883,
+        42.435
+      ],
+      "imageUrl": "/manus-storage/gene-waltham-north-128_naip_c62a520b.jpg",
+      "regionId": "genetown",
+      "siteIds": [
+        "genetown:site:dyne-therapeutics-waltham-hq",
+        "genetown:site:q32-bio-waltham-hq",
+        "genetown:site:revvity-waltham-hq",
+        "genetown:site:tscan-therapeutics-waltham-hq",
+        "genetown:site:voyager-therapeutics-lexington-hq",
+        "genetown:site:xilio-therapeutics-waltham-hq",
+        "genetown:site:zenas-biopharma-waltham-hq"
+      ],
+      "sources": [
+        {
+          "id": "gene-waltham:S1",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "JLL  /  225 Wyman Office Park, 225 Wyman St, Waltham",
+          "url": "https://property.jll.com/listings/office-225-wyman-st-128-mass-pike",
+          "visibility": "public"
+        },
+        {
+          "id": "gene-waltham:S2",
+          "publishedDate": "2021-12-02",
+          "retrievedDate": null,
+          "title": "Boston Properties Executes Three Leases Totaling 166,000 SF at 880 Winter Street in Waltham, MA",
+          "url": "https://investors.bxp.com/news-releases/news-release-details/boston-properties-executes-three-leases-totaling-166000-sf-880",
+          "visibility": "public"
+        },
+        {
+          "id": "gene-waltham:S3",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "Waltham Watch Factory  /  Location of The Watch Factory",
+          "url": "https://www.walthamwatchfactory.com/location/",
+          "visibility": "public"
+        }
+      ],
+      "title": "North Waltham / Route 128, Winter Street and Wyman Street"
+    }
+  },
+  {
+    "id": "gene-watertown-arsenal-east-end",
+    "region_id": "genetown",
+    "payload": {
+      "attribution": "USGS, USDA, The National Map: Orthoimagery",
+      "bounds": [
+        -71.179,
+        42.351,
+        -71.136,
+        42.376
+      ],
+      "captureNote": "Catalog acquisition years intersecting frame, not a claim that every pixel has the same acquisition date.",
+      "captureYears": [
+        2023
+      ],
+      "exhibitUrl": "/manus-storage/gene-watertown-arsenal-east-end_exhibit_251ceb16.jpg",
+      "id": "gene-watertown-arsenal-east-end",
+      "imageBounds": [
+        -71.18287608246682,
+        42.351000000000006,
+        -71.13212391753316,
+        42.376
+      ],
+      "imageUrl": "/manus-storage/gene-watertown-arsenal-east-end_naip_f27160c7.jpg",
+      "regionId": "genetown",
+      "siteIds": [
+        "genetown:site:acrivon-therapeutics-watertown-hq",
+        "genetown:site:c4-therapeutics-watertown-hq",
+        "genetown:site:foghorn-therapeutics-watertown-hq",
+        "genetown:site:seismic-therapeutic-watertown-office",
+        "genetown:site:x4-pharmaceuticals-boston-hq"
+      ],
+      "sources": [
+        {
+          "id": "gene-watertown:JLL_LINX",
+          "publishedDate": "2024-09-30",
+          "retrievedDate": null,
+          "title": "JLL  /  $94M refinancing secured for Boston-area life sciences asset",
+          "url": "https://www.jll.com/en-us/newsroom/refinancing-secured-for-boston-area-life-sciences-asses",
+          "visibility": "public"
+        },
+        {
+          "id": "gene-watertown:JLL_ARSENAL_YARDS",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "JLL  /  Arsenal Yards, Watertown lab listing",
+          "url": "https://property.jll.com/listings/arsenal-yards-200-arsenal-st-boston",
+          "visibility": "public"
+        },
+        {
+          "id": "gene-watertown:CITY_COMPREHENSIVE_PLAN",
+          "publishedDate": "2023-09-21",
+          "retrievedDate": null,
+          "title": "City of Watertown  /  Watertown Comprehensive Plan, adopted 2023",
+          "url": "https://s3-us-west-2.amazonaws.com/mysocialpinpoint/uploads/redactor_assets/documents/7b3bf1501cd2e454ecde9019205a0d284c0a02e0c46ccc3cc439239c21e88e39/85387/Watertown-Comprehensive-Plan_Adopted-230921.pdf",
+          "visibility": "public"
+        }
+      ],
+      "title": "Arsenal Street / East End core"
+    }
+  },
+  {
+    "id": "gene-watertown-pleasant-street",
+    "region_id": "genetown",
+    "payload": {
+      "attribution": "USGS, USDA, The National Map: Orthoimagery",
+      "bounds": [
+        -71.224,
+        42.362,
+        -71.179,
+        42.38
+      ],
+      "captureNote": "Catalog acquisition years intersecting frame, not a claim that every pixel has the same acquisition date.",
+      "captureYears": [
+        2023
+      ],
+      "exhibitUrl": "/manus-storage/gene-watertown-pleasant-street_exhibit_a67559ed.jpg",
+      "id": "gene-watertown-pleasant-street",
+      "imageBounds": [
+        -71.224,
+        42.35991771918638,
+        -71.17899999999999,
+        42.382081615169525
+      ],
+      "imageUrl": "/manus-storage/gene-watertown-pleasant-street_naip_774b8a67.jpg",
+      "regionId": "genetown",
+      "siteIds": [
+        "genetown:site:eyepoint-watertown-hq"
+      ],
+      "sources": [
+        {
+          "id": "gene-watertown:JLL_LINX",
+          "publishedDate": "2024-09-30",
+          "retrievedDate": null,
+          "title": "JLL  /  $94M refinancing secured for Boston-area life sciences asset",
+          "url": "https://www.jll.com/en-us/newsroom/refinancing-secured-for-boston-area-life-sciences-asses",
+          "visibility": "public"
+        },
+        {
+          "id": "gene-watertown:JLL_ARSENAL_YARDS",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "JLL  /  Arsenal Yards, Watertown lab listing",
+          "url": "https://property.jll.com/listings/arsenal-yards-200-arsenal-st-boston",
+          "visibility": "public"
+        },
+        {
+          "id": "gene-watertown:CITY_COMPREHENSIVE_PLAN",
+          "publishedDate": "2023-09-21",
+          "retrievedDate": null,
+          "title": "City of Watertown  /  Watertown Comprehensive Plan, adopted 2023",
+          "url": "https://s3-us-west-2.amazonaws.com/mysocialpinpoint/uploads/redactor_assets/documents/7b3bf1501cd2e454ecde9019205a0d284c0a02e0c46ccc3cc439239c21e88e39/85387/Watertown-Comprehensive-Plan_Adopted-230921.pdf",
+          "visibility": "public"
+        }
+      ],
+      "title": "Pleasant Street / western Watertown satellite"
+    }
+  },
+  {
+    "id": "gene-west-south-acton",
+    "region_id": "genetown",
+    "payload": {
+      "attribution": "USGS, USDA, The National Map: Orthoimagery",
+      "bounds": [
+        -71.505,
+        42.43,
+        -71.38,
+        42.54
+      ],
+      "captureNote": "Catalog acquisition years intersecting frame, not a claim that every pixel has the same acquisition date.",
+      "captureYears": [
+        2023
+      ],
+      "exhibitUrl": "/manus-storage/gene-west-south-acton_exhibit_a7681ad0.jpg",
+      "id": "gene-west-south-acton",
+      "imageBounds": [
+        -71.55437140311967,
+        42.43,
+        -71.3306285968803,
+        42.540000000000006
+      ],
+      "imageUrl": "/manus-storage/gene-west-south-acton_naip_35db4211.jpg",
+      "regionId": "genetown",
+      "siteIds": [
+        "genetown:site:insulet-acton-hq"
+      ],
+      "sources": [
+        {
+          "id": "gene-west-south:S1",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "JLL  /  Boston office locations and real estate services",
+          "url": "https://www.jll.com/en-us/locations/boston",
+          "visibility": "public"
+        },
+        {
+          "id": "gene-west-south:S2",
+          "publishedDate": "2024-05",
+          "retrievedDate": null,
+          "title": "MassGIS Data: Municipalities",
+          "url": "https://www.mass.gov/info-details/massgis-data-municipalities",
+          "visibility": "public"
+        }
+      ],
+      "title": "Acton / Nagog Park satellite"
+    }
+  },
+  {
+    "id": "gene-west-south-framingham-milford",
+    "region_id": "genetown",
+    "payload": {
+      "attribution": "USGS, USDA, The National Map: Orthoimagery",
+      "bounds": [
+        -71.57,
+        42.11,
+        -71.37,
+        42.36
+      ],
+      "captureNote": "Catalog acquisition years intersecting frame, not a claim that every pixel has the same acquisition date.",
+      "captureYears": [
+        2023
+      ],
+      "exhibitUrl": "/manus-storage/gene-west-south-framingham-milford_exhibit_e6b669f8.jpg",
+      "id": "gene-west-south-framingham-milford",
+      "imageBounds": [
+        -71.72324403179478,
+        42.11,
+        -71.21675596820519,
+        42.36
+      ],
+      "imageUrl": "/manus-storage/gene-west-south-framingham-milford_naip_bb4537ac.jpg",
+      "regionId": "genetown",
+      "siteIds": [
+        "genetown:site:waters-milford-hq"
+      ],
+      "sources": [
+        {
+          "id": "gene-west-south:S1",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "JLL  /  Boston office locations and real estate services",
+          "url": "https://www.jll.com/en-us/locations/boston",
+          "visibility": "public"
+        },
+        {
+          "id": "gene-west-south:S2",
+          "publishedDate": "2024-05",
+          "retrievedDate": null,
+          "title": "MassGIS Data: Municipalities",
+          "url": "https://www.mass.gov/info-details/massgis-data-municipalities",
+          "visibility": "public"
+        }
+      ],
+      "title": "Framingham-Milford western satellites"
+    }
+  },
+  {
+    "id": "gene-west-south-needham-canton-node-1",
+    "region_id": "genetown",
+    "payload": {
+      "attribution": "USGS, USDA, The National Map: Orthoimagery",
+      "bounds": [
+        -71.2297931831034,
+        42.2830666695132,
+        -71.19386057173861,
+        42.30964508360798
+      ],
+      "captureNote": "Catalog acquisition years intersecting frame, not a claim that every pixel has the same acquisition date.",
+      "captureYears": [
+        2023
+      ],
+      "exhibitUrl": "/manus-storage/gene-west-south-needham-canton-node-1_exhibit_3bcf5811.jpg",
+      "id": "gene-west-south-needham-canton-node-1",
+      "imageBounds": [
+        -71.23877633594459,
+        42.2830666695132,
+        -71.18487741889741,
+        42.30964508360799
+      ],
+      "imageUrl": "/manus-storage/gene-west-south-needham-canton-node-1_naip_d33ebad1.jpg",
+      "regionId": "genetown",
+      "siteIds": [
+        "genetown:site:candel-therapeutics-needham-hq"
+      ],
+      "sources": [
+        {
+          "id": "gene-west-south:S1",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "JLL  /  Boston office locations and real estate services",
+          "url": "https://www.jll.com/en-us/locations/boston",
+          "visibility": "public"
+        },
+        {
+          "id": "gene-west-south:S2",
+          "publishedDate": "2024-05",
+          "retrievedDate": null,
+          "title": "MassGIS Data: Municipalities",
+          "url": "https://www.mass.gov/info-details/massgis-data-municipalities",
+          "visibility": "public"
+        }
+      ],
+      "title": "Needham / Candel Therapeutics area"
+    }
+  },
+  {
+    "id": "gene-west-south-needham-canton-node-2",
+    "region_id": "genetown",
+    "payload": {
+      "attribution": "USGS, USDA, The National Map: Orthoimagery",
+      "bounds": [
+        -71.13463024481538,
+        42.14420643221664,
+        -71.09869763345061,
+        42.17084336117385
+      ],
+      "captureNote": "Catalog acquisition years intersecting frame, not a claim that every pixel has the same acquisition date.",
+      "captureYears": [
+        2023
+      ],
+      "exhibitUrl": "/manus-storage/gene-west-south-needham-canton-node-2_exhibit_4d4aaef1.jpg",
+      "id": "gene-west-south-needham-canton-node-2",
+      "imageBounds": [
+        -71.14361339765658,
+        42.14420643221664,
+        -71.0897144806094,
+        42.17084336117385
+      ],
+      "imageUrl": "/manus-storage/gene-west-south-needham-canton-node-2_naip_c59e2196.jpg",
+      "regionId": "genetown",
+      "siteIds": [
+        "genetown:site:organogenesis-canton-hq"
+      ],
+      "sources": [
+        {
+          "id": "gene-west-south:S1",
+          "publishedDate": null,
+          "retrievedDate": null,
+          "title": "JLL  /  Boston office locations and real estate services",
+          "url": "https://www.jll.com/en-us/locations/boston",
+          "visibility": "public"
+        },
+        {
+          "id": "gene-west-south:S2",
+          "publishedDate": "2024-05",
+          "retrievedDate": null,
+          "title": "MassGIS Data: Municipalities",
+          "url": "https://www.mass.gov/info-details/massgis-data-municipalities",
+          "visibility": "public"
+        }
+      ],
+      "title": "Canton / Organogenesis area"
+    }
+  },
+  {
+    "id": "genetown-additional-node-1",
+    "region_id": "genetown",
+    "payload": {
+      "attribution": "USGS, USDA, The National Map: Orthoimagery",
+      "bounds": [
+        -71.57702904227415,
+        42.35073266042519,
+        -71.54468969204585,
+        42.37462802446964
+      ],
+      "captureNote": "Catalog acquisition years intersecting frame, not a claim that every pixel has the same acquisition date.",
+      "captureYears": [
+        2023
+      ],
+      "exhibitUrl": "/manus-storage/genetown-additional-node-1_exhibit_c9a02020.jpg",
+      "id": "genetown-additional-node-1",
+      "imageBounds": [
+        -71.58511387983121,
+        42.35073266042519,
+        -71.53660485448879,
+        42.37462802446963
+      ],
+      "imageUrl": "/manus-storage/genetown-additional-node-1_naip_8ef1a4a9.jpg",
+      "regionId": "genetown",
+      "siteIds": [
+        "genetown:site:boston-scientific-boston-hq"
+      ],
+      "sources": [
+        {
+          "id": "genetown:S051",
+          "publishedDate": "2026-02-17",
+          "retrievedDate": "2026-10-28",
+          "title": "BOSTON SCIENTIFIC CORP 10-K filed 2026-02-17",
+          "url": "https://www.sec.gov/Archives/edgar/data/885725/000088572526000010/bsx-20251231.htm",
+          "visibility": "public"
+        }
+      ],
+      "title": "Boston / additional source-address node"
+    }
+  },
+  {
+    "id": "genetown-additional-node-2",
+    "region_id": "genetown",
+    "payload": {
+      "attribution": "USGS, USDA, The National Map: Orthoimagery",
+      "bounds": [
+        -71.16977457456514,
+        42.37516558700655,
+        -71.12516167833884,
+        42.410962217196264
+      ],
+      "captureNote": "Catalog acquisition years intersecting frame, not a claim that every pixel has the same acquisition date.",
+      "captureYears": [
+        2023
+      ],
+      "exhibitUrl": "/manus-storage/genetown-additional-node-2_exhibit_4587a1d4.jpg",
+      "id": "genetown-additional-node-2",
+      "imageBounds": [
+        -71.18382036755631,
+        42.37516558700654,
+        -71.11111588534769,
+        42.41096221719626
+      ],
+      "imageUrl": "/manus-storage/genetown-additional-node-2_naip_43899c75.jpg",
+      "regionId": "genetown",
+      "siteIds": [
+        "genetown:site:alltrna-cambridge",
+        "genetown:site:arbor-biotechnologies-cambridge",
+        "genetown:site:metavia-cambridge-hq"
+      ],
+      "sources": [
+        {
+          "id": "genetown:S059",
+          "publishedDate": "2026-03-26",
+          "retrievedDate": "2026-10-28",
+          "title": "MetaVia Inc. 10-K filed 2026-03-26",
+          "url": "https://www.sec.gov/Archives/edgar/data/1638287/000110465926034911/mtva-20251231x10k.htm",
+          "visibility": "public"
+        },
+        {
+          "id": "genetown:S002",
+          "publishedDate": "2025-12-11",
+          "retrievedDate": "2026-10-28",
+          "title": "City of Cambridge Life Sciences and Technology Company Listing",
+          "url": "https://data.cambridgema.gov/Economic-Development/Life-Sciences-and-Technology-Company-Listing/fv53-bvhy",
+          "visibility": "public"
+        }
+      ],
+      "title": "Cambridge / additional source-address node"
+    }
+  },
+  {
+    "id": "genetown-additional-node-3",
+    "region_id": "genetown",
+    "payload": {
+      "attribution": "USGS, USDA, The National Map: Orthoimagery",
+      "bounds": [
+        -71.27979060466215,
+        42.373737604865475,
+        -71.24745125443384,
+        42.39762421932365
+      ],
+      "captureNote": "Catalog acquisition years intersecting frame, not a claim that every pixel has the same acquisition date.",
+      "captureYears": [
+        2023
+      ],
+      "exhibitUrl": "/manus-storage/genetown-additional-node-3_exhibit_d534d446.jpg",
+      "id": "genetown-additional-node-3",
+      "imageBounds": [
+        -71.28787544221922,
+        42.37373760486547,
+        -71.23936641687676,
+        42.39762421932365
+      ],
+      "imageUrl": "/manus-storage/genetown-additional-node-3_naip_bffaeae4.jpg",
+      "regionId": "genetown",
+      "siteIds": [
+        "genetown:site:revvity-waltham-hq",
+        "genetown:site:sionna-therapeutics-waltham-hq"
+      ],
+      "sources": [
+        {
+          "id": "genetown:S064",
+          "publishedDate": "2026-03-02",
+          "retrievedDate": "2026-10-28",
+          "title": "Sionna Therapeutics, Inc. 10-K filed 2026-03-02",
+          "url": "https://www.sec.gov/Archives/edgar/data/2036042/000162828026012996/sionna-20251231.htm",
+          "visibility": "public"
+        }
+      ],
+      "title": "Waltham / additional source-address node"
+    }
+  },
+  {
+    "id": "genetown-additional-node-4",
+    "region_id": "genetown",
+    "payload": {
+      "attribution": "USGS, USDA, The National Map: Orthoimagery",
+      "bounds": [
+        -71.09637207567614,
+        42.33442709348358,
+        -71.05805799427985,
+        42.36283425917228
+      ],
+      "captureNote": "Catalog acquisition years intersecting frame, not a claim that every pixel has the same acquisition date.",
+      "captureYears": [
+        2023
+      ],
+      "exhibitUrl": "/manus-storage/genetown-additional-node-4_exhibit_845a44b7.jpg",
+      "id": "genetown-additional-node-4",
+      "imageBounds": [
+        -71.10604271664201,
+        42.33442709348358,
+        -71.04838735331396,
+        42.36283425917229
+      ],
+      "imageUrl": "/manus-storage/genetown-additional-node-4_naip_eff329a3.jpg",
+      "regionId": "genetown",
+      "siteIds": [
+        "genetown:site:beam-therapeutics-cambridge-hq",
+        "genetown:site:bicara-therapeutics-boston-hq",
+        "genetown:anchor:broad-institute-cambridge",
+        "genetown:site:immuneering-cambridge-hq",
+        "genetown:anchor:massachusetts-general-hospital-boston",
+        "genetown:anchor:massachusetts-institute-of-technology-cambridge",
+        "genetown:site:vor-biopharma-boston-hq",
+        "genetown:anchor:whitehead-institute-cambridge"
+      ],
+      "sources": [
+        {
+          "id": "genetown:S040",
+          "publishedDate": "2026-03-30",
+          "retrievedDate": "2026-10-28",
+          "title": "Vor Biopharma Inc. 10-K filed 2026-03-30",
+          "url": "https://www.sec.gov/Archives/edgar/data/1817229/000119312526130451/vor-20251231.htm",
+          "visibility": "public"
+        },
+        {
+          "id": "genetown:S048",
+          "publishedDate": "2026-03-30",
+          "retrievedDate": "2026-10-28",
+          "title": "Bicara Therapeutics Inc. 10-K filed 2026-03-30",
+          "url": "https://www.sec.gov/Archives/edgar/data/2023658/000162828026022010/bcax-20251231.htm",
+          "visibility": "public"
+        }
+      ],
+      "title": "Boston / additional source-address node"
+    }
+  }
+]

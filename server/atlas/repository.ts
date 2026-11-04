@@ -6,6 +6,7 @@ import { AtlasError, type CompanyFilters } from "./validation";
 import { keyHash } from "./ingest";
 import { applyModelOverlay, effectivePriority, effectiveScore, modelOverlaySelection } from "./overlays";
 import { projectFactObservations, retainedFacts } from "./facts";
+import { applyCorrectiveProjection, correctiveProjectionSelection, effectiveCashValue, effectiveGlobalEvidence, equalValues } from "./presence-cash-corrections";
 
 export const METHODOLOGY = "Source-supported baseline records and imported research observations remain separate evidence layers. Companywide financials are not local capital or guaranteed lease credit. Missing facts remain unknown. City reference and unchecked research coordinates are not verified site pins. Nearby/city context is not a formal peer group. Analytical aerial zones are not official submarket boundaries. Cash sorting normalizes disclosed million/billion units but does not apply currency conversion.";
 
@@ -33,8 +34,9 @@ async function regionsWithCounts(): Promise<AtlasRegion[]> {
 export async function getOverview(): Promise<OverviewResponse> {
   const ingestion = await readyIngestion();
   const db = getAtlasDb();
+  const classifiedCompanies = db.select({ evidence: effectiveGlobalEvidence().as("effective_evidence") }).from(t.atlasCompanies).where(sql`json_unquote(json_extract(${t.atlasCompanies.summary}, '$.kind')) != 'institution_reference'`).as("classified_companies");
   const [regions, companyCounts, siteCount, aerialCount] = await Promise.all([
-    regionsWithCounts(), db.select({ evidence: t.atlasCompanies.evidence, total: count() }).from(t.atlasCompanies).where(sql`json_unquote(json_extract(${t.atlasCompanies.summary}, '$.kind')) != 'institution_reference'`).groupBy(t.atlasCompanies.evidence), db.select({ total: count() }).from(t.atlasSites), db.select({ total: count() }).from(t.atlasAerials),
+    regionsWithCounts(), db.select({ evidence: classifiedCompanies.evidence, total: count() }).from(classifiedCompanies).groupBy(classifiedCompanies.evidence), db.select({ total: count() }).from(t.atlasSites), db.select({ total: count() }).from(t.atlasAerials),
   ]);
   return { regions, totals: { baselineProfiles: Number(companyCounts.find(c => c.evidence === "baseline")?.total ?? 0), researchProfiles: Number(companyCounts.find(c => c.evidence === "research")?.total ?? 0), sites: Number(siteCount[0].total), aerialViews: Number(aerialCount[0].total) }, asOf: ingestion.asOf, methodology: METHODOLOGY };
 }
@@ -44,15 +46,15 @@ export async function getRegion(id: string): Promise<RegionResponse> {
   const db = getAtlasDb();
   const [regions, companies, sites, aerials, zones] = await Promise.all([
     regionsWithCounts(),
-    db.select({ summary: t.atlasCompanies.summary, modelOverlay: modelOverlaySelection(), evidence: t.atlasCompanyRegions.evidence }).from(t.atlasCompanies).innerJoin(t.atlasCompanyRegions, eq(t.atlasCompanyRegions.companyId, t.atlasCompanies.id)).where(eq(t.atlasCompanyRegions.regionId, id)).orderBy(asc(t.atlasCompanies.name), asc(t.atlasCompanies.id)),
+    db.select({ summary: t.atlasCompanies.summary, modelOverlay: modelOverlaySelection(), correctiveProjection: correctiveProjectionSelection(), evidence: t.atlasCompanyRegions.evidence }).from(t.atlasCompanies).innerJoin(t.atlasCompanyRegions, eq(t.atlasCompanyRegions.companyId, t.atlasCompanies.id)).where(eq(t.atlasCompanyRegions.regionId, id)).orderBy(asc(t.atlasCompanies.name), asc(t.atlasCompanies.id)),
     db.select({ payload: t.atlasSites.payload }).from(t.atlasSites).where(eq(t.atlasSites.regionId, id)),
     db.select({ payload: t.atlasAerials.payload }).from(t.atlasAerials).where(eq(t.atlasAerials.regionId, id)),
     db.select({ payload: t.atlasZones.payload }).from(t.atlasZones).where(eq(t.atlasZones.regionId, id)),
   ]);
-  return { region: regions.find(r => r.id === id)!, companies: companies.map(c => ({ ...applyModelOverlay(c.summary, c.modelOverlay), evidence: c.evidence })), sites: sites.map(s => s.payload), aerials: aerials.map(a => a.payload), zones: zones.map(z => z.payload) };
+  return { region: regions.find(r => r.id === id)!, companies: companies.map(c => ({ ...applyModelOverlay(applyCorrectiveProjection(c.summary, c.correctiveProjection), c.modelOverlay), evidence: c.evidence })), sites: sites.map(s => s.payload), aerials: aerials.map(a => a.payload), zones: zones.map(z => z.payload) };
 }
 export function regionEvidence(region?: string): SQL<"baseline" | "research"> {
-  return region ? sql`(select ${t.atlasCompanyRegions.evidence} from ${t.atlasCompanyRegions} where ${t.atlasCompanyRegions.companyId} = ${t.atlasCompanies.id} and ${t.atlasCompanyRegions.regionId} = ${region} limit 1)` : sql`${t.atlasCompanies.evidence}`;
+  return region ? sql`(select ${t.atlasCompanyRegions.evidence} from ${t.atlasCompanyRegions} where ${t.atlasCompanyRegions.companyId} = ${t.atlasCompanies.id} and ${t.atlasCompanyRegions.regionId} = ${region} limit 1)` : effectiveGlobalEvidence();
 }
 // Evidence presence is independent of the collapsed baseline/research-only census
 // classification. One master company may occur in both regional evidence layers.
@@ -94,7 +96,7 @@ export function companyWhere(f: CompanyFilters): SQL | undefined {
   return and(...clauses);
 }
 function ordering(f: CompanyFilters) {
-  const field = f.sort === "cash" ? t.atlasCompanies.cashValue : f.sort === "employees" ? t.atlasCompanies.employeeValue : effectiveScore();
+  const field = f.sort === "cash" ? effectiveCashValue() : f.sort === "employees" ? t.atlasCompanies.employeeValue : effectiveScore();
   return f.sort === "name" ? [asc(t.atlasCompanies.name), asc(t.atlasCompanies.id)] : [desc(f.sort === "score" ? sql`effective_score` : field), asc(t.atlasCompanies.name), asc(t.atlasCompanies.id)];
 }
 export async function getCompanies(f: CompanyFilters): Promise<CompanyListResponse> {
@@ -102,8 +104,8 @@ export async function getCompanies(f: CompanyFilters): Promise<CompanyListRespon
   if (f.region) await requireRegion(f.region);
   await requireFrame(f);
   const db = getAtlasDb(); const where = companyWhere(f);
-  const [rows, counts] = await Promise.all([db.select({ summary: t.atlasCompanies.summary, sortScore: effectiveScore().as("effective_score"), modelOverlay: modelOverlaySelection(), evidence: projectedEvidence(f) }).from(t.atlasCompanies).where(where).orderBy(...ordering(f)).limit(f.limit).offset((f.page - 1) * f.limit), db.select({ total: count() }).from(t.atlasCompanies).where(where)]);
-  return { items: rows.map(r => ({ ...applyModelOverlay(r.summary, r.modelOverlay), evidence: r.evidence })), total: Number(counts[0].total), page: f.page, limit: f.limit };
+  const [rows, counts] = await Promise.all([db.select({ summary: t.atlasCompanies.summary, sortScore: effectiveScore().as("effective_score"), modelOverlay: modelOverlaySelection(), correctiveProjection: correctiveProjectionSelection(), evidence: projectedEvidence(f) }).from(t.atlasCompanies).where(where).orderBy(...ordering(f)).limit(f.limit).offset((f.page - 1) * f.limit), db.select({ total: count() }).from(t.atlasCompanies).where(where)]);
+  return { items: rows.map(r => ({ ...applyModelOverlay(applyCorrectiveProjection(r.summary, r.correctiveProjection), r.modelOverlay), evidence: r.evidence })), total: Number(counts[0].total), page: f.page, limit: f.limit };
 }
 export type ProfileResponse = CompanyProfile & { peerContext: { label: string; basis: string; formalPeers: false } };
 async function completedFactObservations(companyIds: string[]) {
@@ -114,8 +116,10 @@ export async function getProfile(id: string): Promise<ProfileResponse> {
   const db = getAtlasDb();
   const [row] = await db.select({ payload: t.atlasProfiles.payload }).from(t.atlasProfiles).where(eq(t.atlasProfiles.companyId, id)).limit(1);
   if (!row) throw new AtlasError(404, "PROFILE_NOT_FOUND", "Company profile not found.");
-  const [modelRow] = await db.select({ modelOverlay: modelOverlaySelection() }).from(t.atlasCompanies).where(eq(t.atlasCompanies.id, id)).limit(1);
-  const p = applyModelOverlay(row.payload, modelRow?.modelOverlay ?? null);
+  const [modelRow] = await db.select({ modelOverlay: modelOverlaySelection(), correctiveProjection: correctiveProjectionSelection() }).from(t.atlasCompanies).where(eq(t.atlasCompanies.id, id)).limit(1);
+  const p = applyModelOverlay(applyCorrectiveProjection(row.payload, modelRow?.correctiveProjection ?? null), modelRow?.modelOverlay ?? null);
+  const metadata = (modelRow?.correctiveProjection as { profileMetadata?: { beforeGaps: string[]; afterGaps: string[] } } | null)?.profileMetadata;
+  if (metadata && equalValues(p.gaps, metadata.beforeGaps)) p.gaps = metadata.afterGaps;
   const [ownSites, storedFacts, storedEvents, storedSources, factObservations] = await Promise.all([
     db.select({ payload: t.atlasSites.payload }).from(t.atlasSites).where(eq(t.atlasSites.companyId, id)),
     db.select({ payload: t.atlasObservations.payload }).from(t.atlasObservations).where(and(eq(t.atlasObservations.companyId, id), sql`${t.atlasObservations.observationId} is null`, sql`${t.atlasObservations.siteId} is null`)),
@@ -135,10 +139,10 @@ export async function getProfile(id: string): Promise<ProfileResponse> {
   const matches = sites.map(s => and(eq(t.atlasSites.regionId, s.regionId), or(s.zone ? eq(t.atlasSites.zone, s.zone) : undefined, s.city ? eq(t.atlasSites.city, s.city) : undefined))).filter((x): x is SQL => !!x);
   let peers: CompanySummary[] = [];
   if (matches.length) {
-    const rows = await db.select({ summary: t.atlasCompanies.summary, modelOverlay: modelOverlaySelection(), zone: t.atlasSites.zone, city: t.atlasSites.city, regionId: t.atlasSites.regionId }).from(t.atlasSites).innerJoin(t.atlasCompanies, eq(t.atlasCompanies.id, t.atlasSites.companyId)).where(and(ne(t.atlasCompanies.id, id), or(...matches))).orderBy(asc(t.atlasCompanies.name)).limit(200);
+    const rows = await db.select({ summary: t.atlasCompanies.summary, modelOverlay: modelOverlaySelection(), correctiveProjection: correctiveProjectionSelection(), zone: t.atlasSites.zone, city: t.atlasSites.city, regionId: t.atlasSites.regionId }).from(t.atlasSites).innerJoin(t.atlasCompanies, eq(t.atlasCompanies.id, t.atlasSites.companyId)).where(and(ne(t.atlasCompanies.id, id), or(...matches))).orderBy(asc(t.atlasCompanies.name)).limit(200);
     rows.sort((a, b) => Number(sites.some(s => s.zone && s.zone === b.zone && s.regionId === b.regionId)) - Number(sites.some(s => s.zone && s.zone === a.zone && s.regionId === a.regionId)));
     const seen = new Set<string>();
-    peers = rows.filter(r => { if (seen.has(r.summary.id)) return false; seen.add(r.summary.id); return true; }).slice(0, 8).map(r => applyModelOverlay(r.summary, r.modelOverlay));
+    peers = rows.filter(r => { if (seen.has(r.summary.id)) return false; seen.add(r.summary.id); return true; }).slice(0, 8).map(r => applyModelOverlay(applyCorrectiveProjection(r.summary, r.correctiveProjection), r.modelOverlay));
   }
   return { ...p, facts, events, sources, sites, peers, peerContext: { label: "Nearby / city context — not formal peers", basis: "Shared supported zone membership where available; otherwise shared city within the same region. No formal peer relationship is asserted.", formalPeers: false } };
 }
@@ -168,7 +172,7 @@ export async function getExportRows(f: CompanyFilters) {
   const rows: { summary: CompanySummary; profile: CompanyProfile }[] = [];
   let offset = 0;
   while (true) {
-    const batch = await db.select({ summary: t.atlasCompanies.summary, sortScore: effectiveScore().as("effective_score"), modelOverlay: modelOverlaySelection(), profile: t.atlasProfiles.payload, evidence: projectedEvidence(f) }).from(t.atlasCompanies).innerJoin(t.atlasProfiles, eq(t.atlasProfiles.companyId, t.atlasCompanies.id)).where(companyWhere(f)).orderBy(...ordering(f)).limit(200).offset(offset);
+    const batch = await db.select({ summary: t.atlasCompanies.summary, sortScore: effectiveScore().as("effective_score"), modelOverlay: modelOverlaySelection(), correctiveProjection: correctiveProjectionSelection(), profile: t.atlasProfiles.payload, evidence: projectedEvidence(f) }).from(t.atlasCompanies).innerJoin(t.atlasProfiles, eq(t.atlasProfiles.companyId, t.atlasCompanies.id)).where(companyWhere(f)).orderBy(...ordering(f)).limit(200).offset(offset);
     if (batch.length) {
       const ids = batch.map(r => r.summary.id);
       const [extraSources, storedFacts, factObservations] = await Promise.all([
@@ -180,7 +184,7 @@ export async function getExportRows(f: CompanyFilters) {
         const knownSources = new Set(r.profile.sources.map(source => source.id));
         const sources = [...r.profile.sources, ...extraSources.filter(source => source.companyId === r.summary.id && source.key === keyHash(r.summary.id, source.sourceId) && !knownSources.has(source.sourceId)).map(source => source.payload)];
         const facts = projectFactObservations(retainedFacts(r.profile.facts, storedFacts.filter(fact => fact.companyId === r.summary.id).map(fact => fact.payload)), factObservations.filter(fact => fact.companyId === r.summary.id).map(fact => fact.payload));
-        return { summary: { ...applyModelOverlay(r.summary, r.modelOverlay), evidence: r.evidence }, profile: { ...r.profile, facts, sources } };
+        return { summary: { ...applyModelOverlay(applyCorrectiveProjection(r.summary, r.correctiveProjection), r.modelOverlay), evidence: r.evidence }, profile: { ...applyCorrectiveProjection(r.profile, r.correctiveProjection), facts, sources } };
       }));
     }
     if (batch.length < 200) break; offset += batch.length;

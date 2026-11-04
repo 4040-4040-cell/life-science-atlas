@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "canton": "basel-stadt",
+      "width": 1440,
+      "nativePointerGroups": 6,
+      "nativePointerRecords": 21,
+      "keyboardActivated": true,
+      "imageTop": 444.546875,
+      "errors": []
+    },
+    {
+      "canton": "basel-landschaft",
+      "width": 1440,
+      "nativePointerGroups": 2,
+      "nativePointerRecords": 14,
+      "keyboardActivated": true,
+      "imageTop": 444.546875,
+      "errors": []
+    },
+    {
+      "canton": "basel-stadt",
+      "width": 390,
+      "nativePointerGroups": 2,
+      "nativePointerRecords": 21,
+      "keyboardActivated": true,
+      "imageTop": 651.828125,
+      "errors": []
+    },
+    {
+      "canton": "basel-landschaft",
+      "width": 390,
+      "nativePointerGroups": 1,
+      "nativePointerRecords": 14,
+      "keyboardActivated": true,
+      "imageTop": 651.828125,
+      "errors": []
+    }
+  ]
+}

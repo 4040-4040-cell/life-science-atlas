@@ -1,0 +1,12 @@
+{
+  "url": "/manus-storage/Basel_Corrected_Register_and_Print_V1_426d7928.zip",
+  "asOf": "2026-11-04",
+  "availabilityCsvUrls": {
+    "BS": "/manus-storage/Basel_BS_Availability_V1_b93a67cd.csv",
+    "BL": "/manus-storage/Basel_BL_Availability_V1_ab24877a.csv"
+  },
+  "companyCsvUrls": {
+    "BS": "/manus-storage/Basel_BS_Company_Evidence_V1_01be4abc.csv",
+    "BL": "/manus-storage/Basel_BL_Company_Evidence_V1_1a73e977.csv"
+  }
+}

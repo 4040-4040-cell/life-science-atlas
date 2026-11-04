@@ -1,0 +1,62 @@
+{
+  "handoff": "reviewed_handoff_V1.json",
+  "propertyPatches": 95,
+  "additionalRecords": 122,
+  "primarySources": 43,
+  "projects": {
+    "campus-klybeck": {
+      "researchedUnits": 13,
+      "contributionUnits": 5,
+      "selectedCurrentM2": 2195.5,
+      "selectedFutureM2": 0
+    },
+    "neues-klybeck": {
+      "researchedUnits": 7,
+      "contributionUnits": 7,
+      "selectedCurrentM2": 6627,
+      "selectedFutureM2": 0
+    },
+    "all": {
+      "researchedUnits": 4,
+      "contributionUnits": 2,
+      "selectedCurrentM2": 0,
+      "selectedFutureM2": 5100
+    },
+    "hope": {
+      "researchedUnits": 4,
+      "contributionUnits": 0,
+      "selectedCurrentM2": 0,
+      "selectedFutureM2": 0
+    },
+    "scale": {
+      "researchedUnits": 3,
+      "contributionUnits": 0,
+      "selectedCurrentM2": 0,
+      "selectedFutureM2": 0
+    },
+    "sonuvo": {
+      "researchedUnits": 24,
+      "contributionUnits": 12,
+      "selectedCurrentM2": 20646,
+      "selectedFutureM2": 0
+    },
+    "stuecki": {
+      "researchedUnits": 19,
+      "contributionUnits": 10,
+      "selectedCurrentM2": 7607,
+      "selectedFutureM2": 0
+    },
+    "muttenz": {
+      "researchedUnits": 1,
+      "contributionUnits": 0,
+      "selectedCurrentM2": 0,
+      "selectedFutureM2": 0
+    },
+    "hortus": {
+      "researchedUnits": 2,
+      "contributionUnits": 0,
+      "selectedCurrentM2": 0,
+      "selectedFutureM2": 0
+    }
+  }
+}

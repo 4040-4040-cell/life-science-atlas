@@ -1,0 +1,15 @@
+{
+  "version": "atlas-web-v6-20261104",
+  "snapshotPath": "/home/ubuntu/bioatlas/scripts/offline-cache/snapshot_V6.json.gz",
+  "sha256": "c01b8146f1f22b2006942d39df360ce696bfc35360d2f99106b7159970bdbe11",
+  "correctedSeedSha256": "09d08d007a057b5643cbddadfc641387116f9426b081b4356b48ef44e48b7c69",
+  "manifestSha256": "533c35364cb60ea5297f44e7fc8457ccafbfcb48d7051be8e9d0a36c81f5ca79",
+  "fullLiveProfiles": 1276,
+  "regions": 11,
+  "sites": 1652,
+  "profileIdsPreserved": true,
+  "allCashHeadlinesEqualDetailed": true,
+  "OrbisResearchLeadPreserved": true,
+  "priorSnapshotNotOverwritten": true,
+  "capturedAt": "2026-11-04T12:55:53.864Z"
+}

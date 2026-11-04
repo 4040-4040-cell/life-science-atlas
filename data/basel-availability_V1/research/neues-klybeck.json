@@ -1,0 +1,207 @@
+{
+  "id": "neues-klybeck",
+  "retrievedDate": "2026-11-04",
+  "sources": [
+    {
+      "url": "https://neuesklybeck.ch/de/objekte/gebaeude-132",
+      "title": "WKL-132 — Vollausgebaute Büroflächen mit Blick auf den Rhein",
+      "publishedDate": null,
+      "retrievedDate": "2026-11-04",
+      "evidenceExcerpt": "Adresse: Klybeckstrasse 191, 4057 Basel. Die bezugsbereiten Büroflächen in der 3.-6. Etage sind optimal auf zeitgemässe Open-Space-Konzepte ausgelegt und verfügen über ausgebaute Sitzungszimmer, Fokusräume, Nasszellen sowie je eine Teeküche pro Stockwerk. Auf einen Blick: 4'168 m² Gesamtfläche; 3.-6. Etage; sofort verfügbar. Alle verfügbaren Räume: 3. OG — Büro — 1'042 m²; 4. OG — Büro — 1'042 m²; 5. OG — Büro — 1'042 m²; 6. OG — Büro — 1'042 m². Max Koller von JLL steht Ihnen gerne für weitere Auskünfte zur Verfügung."
+    },
+    {
+      "url": "https://neuesklybeck.ch/de/objekte/gebaeude-136",
+      "title": "WKL-136 — Funktional ausgebaute Labor- und Büroräume mitten im Quartier",
+      "publishedDate": null,
+      "retrievedDate": "2026-11-04",
+      "evidenceExcerpt": "Adresse: Klybeckstrasse 191, 4057 Basel. In direkter Rheinnähe vermieten wir im Gebäude WKL-136 funktional ausgebaute und bezugsbereite Labor- und Büroräume auf insgesamt sechs Etagen. Im 1. und 2. Obergeschoss stehen Flächen von rund 2’600 m² zur Verfügung. Es sind zudem Teilflächen ab 90 m² als abschliessbare Einheiten verfügbar, inklusive gemeinschaftlich genutzter Einrichtungen wie Aufenthaltsraum mit Küche, WCs und Duschen. Das Gebäude WKL-136 ist ab sofort verfügbar. Alle verfügbaren Räume: 1. OG — Büro/Labor — 1'590 m²; 2. OG — Büro — 173 m²; 2. OG — Labor — 696 m²."
+    },
+    {
+      "url": "https://neuesklybeck.ch/de/objekte",
+      "title": "Verfügbare Mietobjekte im Überblick — Neues Klybeck",
+      "publishedDate": null,
+      "retrievedDate": "2026-11-04",
+      "evidenceExcerpt": "Entdecken Sie alle aktuell verfügbaren Flächen auf einen Blick. WKL-132: Im modernsten Gebäude des Neuen Klybeck vermieten wir aktuell vollausgebaute Büroflächen mit Blick auf den Rhein. WKL-136: Büros und Laborräume im Herzen des Neuen Klybeck. FLOW: Wo Entwicklung neuen Raum findet: Hier entstehen 19'000 m² zukunftsorientierte Büro- und Laborflächen. Welche Objekte sind aktuell verfügbar? Alle aktuell verfügbaren Objekte sind in der Rubrik «Objekte» aufgelistet."
+    }
+  ],
+  "units": [
+    {
+      "building": "WKL-132",
+      "floor": "3. OG",
+      "address": "Klybeckstrasse 191, 4057 Basel",
+      "areaM2": 1042,
+      "areaQualifier": "exact advertised unit area",
+      "useType": "office",
+      "areaBasis": "fully fitted office space; measurement standard not stated",
+      "availabilityState": "current_marketed",
+      "availableFrom": "immediately",
+      "sourceUrl": "https://neuesklybeck.ch/de/objekte/gebaeude-132",
+      "overlapGroup": "neues-klybeck-wkl132-marketed-floors-3-6",
+      "includeInTotal": true,
+      "notes": "Distinct floor offer; counted once despite duplicate responsive-table text. Overlaps the excluded 4,168 m² building offer subtotal, not the other floor offers. Advertised as immediately available on retrieval; actual vacancy was not specifically confirmed. Office only, not laboratory space."
+    },
+    {
+      "building": "WKL-132",
+      "floor": "4. OG",
+      "address": "Klybeckstrasse 191, 4057 Basel",
+      "areaM2": 1042,
+      "areaQualifier": "exact advertised unit area",
+      "useType": "office",
+      "areaBasis": "fully fitted office space; measurement standard not stated",
+      "availabilityState": "current_marketed",
+      "availableFrom": "immediately",
+      "sourceUrl": "https://neuesklybeck.ch/de/objekte/gebaeude-132",
+      "overlapGroup": "neues-klybeck-wkl132-marketed-floors-3-6",
+      "includeInTotal": true,
+      "notes": "Distinct floor offer; counted once despite duplicate responsive-table text. Overlaps the excluded 4,168 m² building offer subtotal, not the other floor offers. Advertised as immediately available on retrieval; actual vacancy was not specifically confirmed. Office only, not laboratory space."
+    },
+    {
+      "building": "WKL-132",
+      "floor": "5. OG",
+      "address": "Klybeckstrasse 191, 4057 Basel",
+      "areaM2": 1042,
+      "areaQualifier": "exact advertised unit area",
+      "useType": "office",
+      "areaBasis": "fully fitted office space; measurement standard not stated",
+      "availabilityState": "current_marketed",
+      "availableFrom": "immediately",
+      "sourceUrl": "https://neuesklybeck.ch/de/objekte/gebaeude-132",
+      "overlapGroup": "neues-klybeck-wkl132-marketed-floors-3-6",
+      "includeInTotal": true,
+      "notes": "Distinct floor offer; counted once despite duplicate responsive-table text. Overlaps the excluded 4,168 m² building offer subtotal, not the other floor offers. Advertised as immediately available on retrieval; actual vacancy was not specifically confirmed. Office only, not laboratory space."
+    },
+    {
+      "building": "WKL-132",
+      "floor": "6. OG",
+      "address": "Klybeckstrasse 191, 4057 Basel",
+      "areaM2": 1042,
+      "areaQualifier": "exact advertised unit area",
+      "useType": "office",
+      "areaBasis": "fully fitted office space; measurement standard not stated",
+      "availabilityState": "current_marketed",
+      "availableFrom": "immediately",
+      "sourceUrl": "https://neuesklybeck.ch/de/objekte/gebaeude-132",
+      "overlapGroup": "neues-klybeck-wkl132-marketed-floors-3-6",
+      "includeInTotal": true,
+      "notes": "Distinct floor offer; counted once despite duplicate responsive-table text. Overlaps the excluded 4,168 m² building offer subtotal, not the other floor offers. Advertised as immediately available on retrieval; actual vacancy was not specifically confirmed. Office only, not laboratory space."
+    },
+    {
+      "building": "WKL-136",
+      "floor": "1. OG",
+      "address": "Klybeckstrasse 191, 4057 Basel",
+      "areaM2": 1590,
+      "areaQualifier": "exact advertised mixed-use unit area; lab share unspecified",
+      "useType": "office/laboratory",
+      "areaBasis": "functionally fitted mixed office and laboratory space; not 1,590 m² of fitted laboratory-only area; measurement standard not stated",
+      "availabilityState": "current_marketed",
+      "availableFrom": "immediately",
+      "sourceUrl": "https://neuesklybeck.ch/de/objekte/gebaeude-136",
+      "overlapGroup": "neues-klybeck-wkl136-marketed-floors-1-2",
+      "includeInTotal": true,
+      "notes": "Distinct 1st-floor offer; counted once despite duplicate responsive-table text. Overlaps the excluded approximate 2,600 m² headline and the unallocated from-90-m² subdivision offer. Complementary to the two 2nd-floor rows. Include in total marketed premises area only, not a fitted-lab-only total. Advertised as immediately available on retrieval; actual vacancy was not specifically confirmed."
+    },
+    {
+      "building": "WKL-136",
+      "floor": "2. OG",
+      "address": "Klybeckstrasse 191, 4057 Basel",
+      "areaM2": 173,
+      "areaQualifier": "exact advertised office unit area",
+      "useType": "office",
+      "areaBasis": "functionally fitted office space; measurement standard not stated",
+      "availabilityState": "current_marketed",
+      "availableFrom": "immediately",
+      "sourceUrl": "https://neuesklybeck.ch/de/objekte/gebaeude-136",
+      "overlapGroup": "neues-klybeck-wkl136-marketed-floors-1-2",
+      "includeInTotal": true,
+      "notes": "Separately listed office component on the 2nd floor; complementary to the 696 m² laboratory row, not a duplicate of it. Counted once despite duplicate responsive-table text. Overlaps the excluded approximate 2,600 m² headline and possible subdivision offers. Office only, not laboratory space. Advertised as immediately available on retrieval; actual vacancy was not specifically confirmed."
+    },
+    {
+      "building": "WKL-136",
+      "floor": "2. OG",
+      "address": "Klybeckstrasse 191, 4057 Basel",
+      "areaM2": 696,
+      "areaQualifier": "exact advertised laboratory unit area",
+      "useType": "laboratory",
+      "areaBasis": "functionally fitted laboratory space as advertised; measurement standard and biosafety classification not stated",
+      "availabilityState": "current_marketed",
+      "availableFrom": "immediately",
+      "sourceUrl": "https://neuesklybeck.ch/de/objekte/gebaeude-136",
+      "overlapGroup": "neues-klybeck-wkl136-marketed-floors-1-2",
+      "includeInTotal": true,
+      "notes": "Separately listed laboratory component on the 2nd floor; complementary to the 173 m² office row, not a duplicate of it. Counted once despite duplicate responsive-table text. Overlaps the excluded approximate 2,600 m² headline and possible subdivision offers. This is the only explicit laboratory-only area in the detailed offers checked. Advertised as immediately available on retrieval; actual vacancy was not specifically confirmed."
+    }
+  ],
+  "excludedTotals": [
+    {
+      "building": "WKL-132",
+      "areaM2": 4168,
+      "areaQualifier": "advertised offer subtotal, not whole-building stock",
+      "areaBasis": "fully fitted offices on floors 3–6",
+      "sourceUrl": "https://neuesklybeck.ch/de/objekte/gebaeude-132",
+      "overlapGroup": "neues-klybeck-wkl132-marketed-floors-3-6",
+      "includeInTotal": false,
+      "reason": "Exactly equals the four distinct 1,042 m² floor offers. Adding this subtotal would count the same premises twice. The narrative's approximately 1,000 m² per floor is also an approximation of these offers, not extra area."
+    },
+    {
+      "building": "WKL-136",
+      "areaM2": 2600,
+      "areaQualifier": "approximate marketed headline: rund 2’600 m²",
+      "areaBasis": "mixed laboratory and office availability on floors 1–2",
+      "sourceUrl": "https://neuesklybeck.ch/de/objekte/gebaeude-136",
+      "overlapGroup": "neues-klybeck-wkl136-marketed-floors-1-2",
+      "includeInTotal": false,
+      "reason": "Overlaps the detailed offers. The listed 1,590 + 173 + 696 m² sum to 2,459 m², 141 m² less than the approximate headline. Retain both observations; do not invent a fourth unit, allocate the difference to laboratory space, or add the headline to its constituent rows."
+    },
+    {
+      "building": "WKL-136",
+      "areaM2": 90,
+      "areaQualifier": "minimum advertised subdivision size, not a separate unit",
+      "areaBasis": "lockable partial areas with shared amenities; office/laboratory allocation unspecified",
+      "sourceUrl": "https://neuesklybeck.ch/de/objekte/gebaeude-136",
+      "overlapGroup": "neues-klybeck-wkl136-marketed-floors-1-2",
+      "includeInTotal": false,
+      "reason": "Teilflächen ab 90 m² describes a subdivision option within the marketed offer, not an additional 90 m² of availability."
+    },
+    {
+      "building": "Rhystadt Klybeck site (site level)",
+      "areaM2": 160000,
+      "areaQualifier": "uploaded property-row value; not reverified in this targeted pass",
+      "areaBasis": "site land area, not lettable or vacant floor area",
+      "sourceUrl": null,
+      "overlapGroup": "neues-klybeck-campus",
+      "includeInTotal": false,
+      "reason": "Preserved as an excluded incoming observation from incoming_properties.json, source row 12. Campus/site area cannot be treated as availability or added to constituent WKL-132 and WKL-136 leasing areas."
+    },
+    {
+      "building": "FLOW",
+      "areaM2": 19000,
+      "areaQualifier": "project office/laboratory area advertised on the overview",
+      "areaBasis": "planned mixed office and laboratory project capacity",
+      "sourceUrl": "https://neuesklybeck.ch/de/objekte",
+      "overlapGroup": "neues-klybeck-campus",
+      "includeInTotal": false,
+      "reason": "Outside the assigned WKL-132/WKL-136 listing scope. Not current vacancy and not laboratory-only area. No separate FLOW availability verification was performed."
+    },
+    {
+      "building": "Historical brochure observations",
+      "areaM2": null,
+      "areaQualifier": "historical, including any November 2025 brochure availability",
+      "areaBasis": "historical marketing only",
+      "sourceUrl": null,
+      "overlapGroup": "neues-klybeck-campus",
+      "includeInTotal": false,
+      "reason": "No historical brochure was used to establish current vacancy. Current marketed rows above are based on the actual live owner-branded leasing pages retrieved on 2026-11-04."
+    }
+  ],
+  "gaps": [
+    "The primary owner-branded pages advertise immediate availability, but no specific owner or letting-agent confirmation of actual vacancy was obtained. All included units are current_marketed, not owner-confirmed vacant; the whole buildings are not asserted vacant.",
+    "No publication or last-update date was visible in the retrieved leasing pages. publishedDate remains null; retrieval on 2026-11-04 is not evidence of webpage recency.",
+    "WKL-136's approximate 2,600 m² headline differs from the 2,459 m² detailed unit sum. The unexplained 141 m² is not included in totals.",
+    "The office/laboratory split within WKL-136's 1,590 m² first-floor offer is unknown. Total marketed premises across the seven detailed rows are 6,627 m²: 4,341 m² office-only, 1,590 m² mixed office/laboratory and 696 m² explicitly laboratory-only. The 6,627 m² total must not be called fitted laboratory area or owner-confirmed vacancy.",
+    "WKL-136 workshop and storage space in the basement is mentioned without a published area or distinct availability schedule. No additional basement area was counted.",
+    "No measurement convention such as NLA, GLA or SIA 416, laboratory biosafety classification, equipment inventory or current tenant-demise map was published in the retrieved extracts.",
+    "Uploaded tenant and lease observations were not reverified because this pass was limited to the two assigned leasing listings. Rhystadt's WKL-136.EG contact address alone was not promoted into an owner_occupied unit record.",
+    "The ALL/SENN 5,100 m² leasing-page versus FAQ conflict referenced in the task constraints belongs to a different project, not WKL-132/WKL-136, and was not imported into this project's units or totals.",
+    "Research stopped after one targeted source-resolution pass: search followed by retrieval of the two building pages and their owner-branded leasing overview."
+  ]
+}

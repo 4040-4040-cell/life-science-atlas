@@ -1,0 +1,10 @@
+{
+  "format": 1,
+  "version": "V1",
+  "beforeSha256": "5f6178296c1a106abccbedfa341874594bb799b5b993fab0df321eb06f277bb0",
+  "afterSha256": "7cacf184ee90fc97201429c86e5420c7d088da655f36dd78d026efdcd30c64f0",
+  "registerSha256": "c23fd1be97d15d9b65f18df0725edb68f467b9f30acbf1a5a75c3d169c5b0793",
+  "preservedPriorFigures": 115,
+  "addedOrRefreshedRegisterFigures": 25,
+  "unrelatedFigureChanges": 0
+}

@@ -1,0 +1,16 @@
+{
+  "asOf": "2026-11-04",
+  "userInstruction": "Finish the Basel corrections before publishing",
+  "publicationPermittedBeforeCorrections": false,
+  "requiredBeforeDelivery": [
+    "Source-reviewed non-overlapping building/floor availability register",
+    "Company lists distinguish supported operations, contacts, campus residents and registry-only leads",
+    "Corrected Basel hub and separate city/land one-page PDFs",
+    "All-market offline site with the same register and print files",
+    "Real pointer clicks on co-located canton map records",
+    "One-page paper and actual file-based no-network browser checks"
+  ],
+  "visibilityChangeRequested": false,
+  "status": "corrections_verified_complete",
+  "qualityGate": "data/final-basel-release_gate_V1.json"
+}

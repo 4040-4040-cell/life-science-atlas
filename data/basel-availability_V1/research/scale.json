@@ -1,0 +1,131 @@
+{
+  "id": "scale",
+  "retrievedDate": "2026-11-04",
+  "researchCutoff": "2026-11-04",
+  "sources": [
+    {
+      "url": "https://senn.com/projekt/scale-allschwil/",
+      "title": "SCALE Allschwil: Labor, Büro, Produktion ab 2030 - SENN",
+      "publishedDate": null,
+      "retrievedDate": "2026-11-04",
+      "evidenceExcerpt": "Bis zu 28’000 m2 Labor-, Büro- oder R&D- und Produktionsfläche Tür zu Tür, 5’000 m2 pro Etage! ... Eigentümerin: SENN, St. Gallen ... Nutzfläche: 28’000 m² ... Fertigstellung: 2030 ... SCALE ist ab 2030 bezugsbereit. ... Es sind Mietflächen ab 2’000 m2 verfügbar. ... FAQ: 28’000 m² Fläche, rund 6’000 m² pro Etage, die sich als Labor, Büro oder R&D- und Produktionsfläche nutzen lässt, einzeln oder kombiniert."
+    },
+    {
+      "url": "https://scalebasel.com/",
+      "title": "SCALE — 28,000 m² by Herzog & de Meuron | Main Campus Allschwil",
+      "publishedDate": null,
+      "retrievedDate": "2026-11-04",
+      "evidenceExcerpt": "Usable space 28,000 m² ... Ready 2030 ... 28,000 m² Total usable space ... > 5,000 m² Per floor, labs, offices or production side by side ... from 369 m² Compact office or laboratory ... 4,485 m² One full floor ... 2,475 m² per floor One entire wing ... 28,000 m² The whole building ... The standard floor — the typical floor repeated across levels 1 to 4 ... West 1 966.8 m² West 2 458.8 m² West 3 369.2 m² West 4 680.0 m² East 1 390.4 m² East 2 570.6 m² East 3 680.0 m² East 4 369.2 m² ... Planning status June 2026, unit boundaries indicative and subject to change. ... Total usable space approx. 28,000 m² ... Typical floor approx. 4,500 m² lettable ... Units available from 350 m², plus your share of the generous common areas. ... Ready for occupancy in 2030. ... Developer SENN, St. Gallen."
+    },
+    {
+      "url": "https://sip-baselarea.com/maincampus/",
+      "title": "Switzerland Innovation Park Basel Area Main Campus",
+      "publishedDate": null,
+      "retrievedDate": "2026-11-04",
+      "evidenceExcerpt": "Scale: A strategic opportunity coming in 2030: 28’000 m² of hyper flexible Lab-, Office- or GMP-Space designed by Herzog & de Meuron. ... Flexible office or GMP space 2030."
+    },
+    {
+      "url": "https://www.homegate.ch/rent/4003535752",
+      "title": "SCALE – Flexible Office, Laboratory, and Production Spaces",
+      "publishedDate": null,
+      "retrievedDate": "2026-11-04",
+      "evidenceExcerpt": "Location: Hegenheimermattweg 169, 4123 Allschwil ... Main information: Available from: By agreement; Type: Office; Floor: 2; Number of floors: 4; Minimum floor space: 350 m²; Land area: 28000 m²; Year built: 2028. ... Description: Ready for occupancy: from 2030; Spaces: from approximately 350 m²; Project size: around 28,000 m² of usable space; Use: office, laboratory, GMP production, or individual combinations; Fit-out: flexible and individually plannable. ... Advertiser: SENN Resources AG ... Listing ID 4003535752."
+    }
+  ],
+  "units": [
+    {
+      "building": "SCALE Allschwil",
+      "floor": "Whole building; all levels and both wings",
+      "address": null,
+      "areaM2": 28000,
+      "areaQualifier": "Up to 28,000 m² on SENN project page; approximately 28,000 m² total usable space on dedicated leasing site. Whole-building build-to-suit opportunity, not an exact measured vacant balance.",
+      "useType": "Flexible laboratory, office, R&D and/or GMP production; use mix and fit-out to be agreed",
+      "areaBasis": "Total building usable area (Nutzfläche), including potentially shared/common-area allocations; not fitted laboratory area",
+      "availabilityState": "future_marketed",
+      "availableFrom": "2030",
+      "sourceUrl": "https://senn.com/projekt/scale-allschwil/",
+      "overlapGroup": "sip-main-campus-scale",
+      "includeInTotal": true,
+      "notes": "Current primary-source marketing for future occupancy only. SENN identifies itself as owner and developer; its public marketing is not a specific owner confirmation of vacancy or an exact uncommitted balance. The dedicated leasing page offers the whole building, wings, floors and smaller units, all overlapping this maximum. Include once only in future-marketed mixed-use capacity, never in current vacancy or fitted-lab totals. No tenant reservation balance is disclosed. Homegate advertises Hegenheimermattweg 169, 4123 Allschwil, but the developer-owned sites identify only the Main Campus location; the portal also invites contact for the exact address. Retain the advertised address as provisional and do not use it to merge SCALE with the separate ALL building at the same incoming-row address. The incoming row's 28,000 m² and 2030 are corroborated as marketing/specification figures, not current vacancy."
+    },
+    {
+      "building": "SCALE Allschwil — divisible letting offer",
+      "floor": "2 in portal metadata; not a uniquely identified suite",
+      "address": "Hegenheimermattweg 169, 4123 Allschwil",
+      "areaM2": 350,
+      "areaQualifier": "From approximately 350 m²; minimum marketed unit size, not a separate exact available unit",
+      "useType": "Flexible office, laboratory and/or GMP production",
+      "areaBasis": "Minimum divisible space in developer's portal listing; common-area share additional; not fitted laboratory area",
+      "availabilityState": "future_marketed",
+      "availableFrom": "2030",
+      "sourceUrl": "https://www.homegate.ch/rent/4003535752",
+      "overlapGroup": "sip-main-campus-scale",
+      "includeInTotal": false,
+      "notes": "Listing is placed by SENN Resources AG and links directly to scalebasel.com. Minimum-space offer is a subset of the whole-building opportunity, not incremental supply. Address and floor are portal-advertised metadata, not a confirmed distinct physical suite. The description explicitly says occupancy from 2030, despite structured fields saying availability by agreement and year built 2028. The dedicated leasing site's footer also offers units from 350 m²; its detailed layout has a smallest unit of 369.2 m², while the SENN project page markets spaces from 2,000 m². Preserve the minimum-size conflict; no publication or update date establishes which page is newer."
+    },
+    {
+      "building": "SCALE Allschwil — typical-floor layout",
+      "floor": "Typical floor repeated across levels 1 to 4; illustrative layout, not four separately confirmed vacant lots",
+      "address": null,
+      "areaM2": 4485,
+      "areaQualifier": "4,485 m² for one full floor in leasing-site selector; technical specification rounds to approximately 4,500 m² lettable",
+      "useType": "Flexible laboratory, office and/or production",
+      "areaBasis": "Indicative usable/lettable subdivision layout, planning status June 2026; not fitted laboratory area",
+      "availabilityState": "future_marketed",
+      "availableFrom": "2030",
+      "sourceUrl": "https://scalebasel.com/",
+      "overlapGroup": "sip-main-campus-scale",
+      "includeInTotal": false,
+      "notes": "Illustrative one-floor option is already contained in the 28,000 m² whole-building figure. Do not multiply by levels or add floors, wings or suite areas to that figure. Page says boundaries are indicative and subject to change. It presents eight typical-floor areas: West 1 966.8, West 2 458.8, West 3 369.2, West 4 680.0, East 1 390.4, East 2 570.6, East 3 680.0 and East 4 369.2 m². These are subdivision examples, not a tenant-by-tenant availability schedule. The same dedicated page also advertises more than 5,000 m² per floor; SENN's headline says 5,000 m² and its FAQ says around 6,000 m². Possible usable/lettable/common-area scope differences are not reconciled by a published measurement schedule, so do not substitute one number for another or treat them as distinct supply."
+    }
+  ],
+  "excludedTotals": [
+    {
+      "label": "Main Campus commercial-space total",
+      "areaM2": 115000,
+      "areaQualifier": "115,000 m² on dedicated leasing site; over 115,000 m² lab/office space in SENN FAQ",
+      "sourceUrl": "https://scalebasel.com/",
+      "overlapGroup": "sip-main-campus",
+      "reason": "Campus-wide capacity including SCALE and constituent buildings. Not available-space inventory and not additional to building rows. Exclude from availability sums."
+    },
+    {
+      "label": "SCALE full-floor, wing and suite options",
+      "areaM2": null,
+      "sourceUrl": "https://scalebasel.com/",
+      "overlapGroup": "sip-main-campus-scale",
+      "reason": "The 4,485 m² typical floor, approximately 4,500 m² lettable-floor specification, 2,475 m²-per-floor West wing, approximately 1,050 m² department option, and 369.2–966.8 m² example suites overlap the 28,000 m² total. None is incremental supply; no separate commitment/vacancy schedule is supplied."
+    },
+    {
+      "label": "SCALE per-floor marketing figures",
+      "areaM2": null,
+      "sourceUrl": "https://senn.com/projekt/scale-allschwil/",
+      "overlapGroup": "sip-main-campus-scale",
+      "reason": "5,000 m² headline, around 6,000 m² FAQ, and dedicated leasing site's more-than-5,000 m² statement are floor-scale specifications with unresolved scope differences, not additional marketed totals."
+    },
+    {
+      "label": "Homegate 28,000 m² structured land-area field",
+      "areaM2": 28000,
+      "sourceUrl": "https://www.homegate.ch/rent/4003535752",
+      "overlapGroup": "sip-main-campus-scale",
+      "reason": "Portal calls this Land area while its description and primary developer pages call 28,000 m² usable building space. Do not treat the structured label as independently verified site area or add it to the usable-area offer."
+    },
+    {
+      "label": "Historical brochure availability and incoming aggregate",
+      "areaM2": null,
+      "sourceUrl": null,
+      "overlapGroup": "sip-main-campus-scale",
+      "reason": "Incoming row refers to a 2025 brochure schedule of 2029/2030. No historical brochure is used to establish current vacancy. Incoming 28,000 m² availability is corroborated only as the future whole-building marketed maximum and is not counted again."
+    }
+  ],
+  "gaps": [
+    "No specific owner confirmation of vacant or uncommitted area was obtained. Public developer advertising establishes future marketing, not owner-confirmed vacancy.",
+    "No current fitted-laboratory area or fixed office/lab/GMP split is disclosed; all 28,000 m² must remain mixed-use/build-to-suit capacity.",
+    "No unique currently available suite schedule, tenant commitment balance, or exact uncommitted whole-building balance is published in the sources reviewed.",
+    "The exact physical SCALE street address remains unconfirmed: developer's portal advertises Hegenheimermattweg 169 but developer-owned pages give only Main Campus, Allschwil. Do not conflate with ALL.",
+    "Minimum letting sizes conflict: SENN project page from 2,000 m²; dedicated site and SENN portal listing from 350 m²; detailed layout smallest unit 369.2 m². Retained without assuming webpage recency.",
+    "Floor figures differ within and between primary pages: 5,000 m² headline, around 6,000 m² SENN FAQ, more than 5,000 m² dedicated-site overview, versus 4,485 m² layout and approximately 4,500 m² lettable specification. Definitions and common-area treatment require clarification.",
+    "SENN's Homegate listing has structured availability By agreement and year built 2028, versus descriptive and developer-owned-page occupancy from 2030. The record uses 2030 future marketing and preserves the conflicting metadata rather than inferring present availability.",
+    "No publication or last-update date is displayed in the reviewed webpages. Published dates are null. June 2026 is the dedicated site's stated planning status, and 20 November 2025 is its cited drawing date, neither a webpage publication date.",
+    "One targeted source-resolution pass completed; separate ALL, HQ, HORTUS and HOPE availability is outside this SCALE-only record."
+  ]
+}

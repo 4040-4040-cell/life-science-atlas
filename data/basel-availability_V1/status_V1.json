@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "asOf": "2026-11-04",
+  "register": "baselAvailabilityRegisterV1.json",
+  "handoff": "reviewed_handoff_V1.json",
+  "verification": "final-verification_V1.json",
+  "sourceCompanyRows": 245,
+  "sourcePropertyRows": 95,
+  "availabilityRecords": 217,
+  "dataTestsPassed": 15,
+  "apiTestsPassed": 5,
+  "typecheck": "passed",
+  "registerSha256": "c23fd1be97d15d9b65f18df0725edb68f467b9f30acbf1a5a75c3d169c5b0793"
+}

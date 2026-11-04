@@ -1,0 +1,63 @@
+{
+  "asOf": "2026-11-04",
+  "inputs": [
+    {
+      "file": "Basel_BaselLandschaft_Companies_V1.csv",
+      "sha256": "b03742e3339e039d68fddd74b30a4df1cb9ef4fb4b0e34c4e3a214ce24d80dac",
+      "rowCount": 107,
+      "admission": "research_input_only",
+      "occupancyVerifiedByThisReview": false
+    },
+    {
+      "file": "Basel_BaselLandschaft_CampusesBuildings_V1.csv",
+      "sha256": "7ee68a0a518b89404a51eeeeba2185530d6ea760ccaa2e861587cef8eb14f34e",
+      "rowCount": 38,
+      "admission": "research_input_only",
+      "occupancyVerifiedByThisReview": false
+    },
+    {
+      "file": "Basel_BaselStadt_CampusesBuildings_V1.csv",
+      "sha256": "f577178faf76795ec9b61f9327c7f04a463ae02ab71fa825c478926d8b31d42e",
+      "rowCount": 57,
+      "admission": "research_input_only",
+      "occupancyVerifiedByThisReview": false
+    },
+    {
+      "file": "Basel_BaselStadt_Companies_V1.csv",
+      "sha256": "55ac479cb9cc1be2030c3ac71080c221be8ba47ead0bc95db2d78bf674706993",
+      "rowCount": 138,
+      "admission": "research_input_only",
+      "occupancyVerifiedByThisReview": false
+    }
+  ],
+  "masterModified": false,
+  "findings": [
+    {
+      "id": "bs-k410-overlap",
+      "finding": "K-410 area appears inside the Campus Klybeck 15,400 m2 aggregate and separately as 3,100 m2. Source article mixes office, commercial, storage and lab uses, not lab-only vacant space. Do not sum campus and component records.",
+      "sourceUrl": "https://www.campus-klybeck.ch/de/2026/09/17/diese-flaechen-sind-heute-schon-im-klybeck-verfuegbar/",
+      "sourcePublicationDate": "2026-09-17"
+    },
+    {
+      "id": "all-availability-conflict",
+      "finding": "Dedicated ALL leasing page states 5,100 m2 available from 2027, comprising 4,000 plus 1,100 m2. SENN general project FAQ states about 4,000 plus just under 1,400 m2. Retain both observations and flag the discrepancy. No owner-confirmed vacancy is inferred.",
+      "sourceUrls": [
+        "https://allbasel.com/en/",
+        "https://senn.com/projekt/all-allschwil/"
+      ]
+    },
+    {
+      "id": "jll-forecast-extract-correction",
+      "finding": "Original supplied EMEA2026_ClusterReport.pptx slide 12 places Basel in 10,000–15,000 m2/year forecast category. Average annual life-science laboratory take-up, 2/3-year outlook, excluding take-up from other sectors. This is not measured net absorption or a separate forecast for each canton. Earlier internal extract overlooked this slide."
+    },
+    {
+      "id": "supply-years-invalid",
+      "finding": "Uploaded supply totals mix existing, future, office, commercial and flexible lab space, with overlap. Dividing these by regional forecast lab take-up does not establish years of current supply or time to lease-up."
+    },
+    {
+      "id": "address-evidence",
+      "finding": "Active Swiss-register status and registered addresses do not establish staffed operations, lab function, leased area, suite occupancy or rooftop coordinate precision."
+    }
+  ],
+  "nextUse": "Building and floor availability observations require unique building/floor keys, use type, measurement basis, delivery date and current marketing versus confirmed availability states. Company additions remain leads pending physical-presence checks."
+}

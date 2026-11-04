@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "mode": "online",
+      "canton": "basel-stadt",
+      "actualMapRecordClick": true,
+      "currentOfferRows": 32,
+      "operatingEvidenceRows": 5,
+      "filteredCsv": true,
+      "phoneNoOverflow": true,
+      "oneTabloidPage": true
+    },
+    {
+      "mode": "online",
+      "canton": "basel-landschaft",
+      "actualMapRecordClick": true,
+      "currentOfferRows": 26,
+      "operatingEvidenceRows": 11,
+      "filteredCsv": true,
+      "phoneNoOverflow": true,
+      "oneTabloidPage": true
+    },
+    {
+      "mode": "offline",
+      "canton": "basel-stadt",
+      "actualMapRecordClick": true,
+      "currentOfferRows": 32,
+      "operatingEvidenceRows": 5,
+      "filteredCsv": true,
+      "phoneNoOverflow": true,
+      "oneTabloidPage": true
+    },
+    {
+      "mode": "offline",
+      "canton": "basel-landschaft",
+      "actualMapRecordClick": true,
+      "currentOfferRows": 26,
+      "operatingEvidenceRows": 11,
+      "filteredCsv": true,
+      "phoneNoOverflow": true,
+      "oneTabloidPage": true
+    }
+  ],
+  "errors": [],
+  "externalRequests": []
+}

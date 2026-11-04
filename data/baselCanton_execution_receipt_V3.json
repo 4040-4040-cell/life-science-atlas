@@ -1,0 +1,111 @@
+{
+  "status": "persisted",
+  "executedAt": "2026-11-04T14:30:21.911Z",
+  "version": "V3",
+  "inputPaths": {
+    "producer": "/home/ubuntu/life-science-atlas/basel_building_detail_V1/data/basel_client_aerial_DTOs_V2.json",
+    "manifest": "/home/ubuntu/life-science-atlas/basel_building_detail_V1/data/public_asset_manifest_V2.json",
+    "rawResearch": "/home/ubuntu/life-science-atlas/market_intelligence_V2/data/baselCantonDetail_V2.json",
+    "base": "data/baselCantonDetail_offline_V2.json",
+    "uploads": "data/baselCantonAssets_upload_receipt_V3.json",
+    "companion": "data/baselCantonDetail_offline_V3.json",
+    "frames": "data/baselCantonAerials_V3.json",
+    "receipt": "data/baselCanton_execution_receipt_V3.json"
+  },
+  "inputHashes": {
+    "producer": "24494b6369d0ba3cb9a6606b4874631a29416f8e1f9d91bbd0c5253383f39ce1",
+    "manifest": "d9cd022fffba088cb4be1ec527b712791a5cb326354bc279b2aa592178e11b2d",
+    "rawResearch": "aaa18b80a88edfa904a5c16857574e5edbec70d2e8342874dc26169331b2f07a",
+    "base": "a7c0cd37f1fc87358b0773c9d5c10410842b19f649048054ddf1194cff90cfec"
+  },
+  "outputHashes": {
+    "companion": "2fde5aecbec9afe81ee32cdf5ed8992656812c727edbe2f88b91e3bcf4959fe0",
+    "frames": "4cebfdf4e7761bfe6cfcc9d515082129863c22ae7a60f62d0a2230917968bdbf"
+  },
+  "insertedFrames": 24,
+  "insertedDocuments": 2,
+  "skippedExactExisting": false,
+  "dbCountsBefore": {
+    "atlas_companies": 1276,
+    "atlas_profiles": 1276,
+    "atlas_sites": 1652,
+    "atlas_sources": 5239
+  },
+  "dbCountsAfter": {
+    "atlas_companies": 1276,
+    "atlas_profiles": 1276,
+    "atlas_sites": 1652,
+    "atlas_sources": 5239
+  },
+  "masterFingerprintBefore": {
+    "atlas_companies": "34c22fb90eb071d106ec1f5855bf049d164266eff800c59a7d1eced0c92ee1df",
+    "atlas_profiles": "7a6bdbcd9eec78f360362c8cc1c35809bbe88ac4a0fc7b6e1c2b0c2ffb514bf8",
+    "atlas_sites": "61eabad63bded93baf87889474e632cc382c6c3a9c9d8ee1d80a4b08bf87dea5",
+    "atlas_sources": "243b1c6ffaeca210c1f1391d8ce2074a3e3cadd8f9e0b1bfcc62edd337caffb5"
+  },
+  "masterFingerprintAfter": {
+    "atlas_companies": "34c22fb90eb071d106ec1f5855bf049d164266eff800c59a7d1eced0c92ee1df",
+    "atlas_profiles": "7a6bdbcd9eec78f360362c8cc1c35809bbe88ac4a0fc7b6e1c2b0c2ffb514bf8",
+    "atlas_sites": "61eabad63bded93baf87889474e632cc382c6c3a9c9d8ee1d80a4b08bf87dea5",
+    "atlas_sources": "243b1c6ffaeca210c1f1391d8ce2074a3e3cadd8f9e0b1bfcc62edd337caffb5"
+  },
+  "originalAerialCount": 57,
+  "originalAerialHash": "fbc9795e198cf72101913d85949154e2dd80f4c0bf01d05e527144e06de306eb",
+  "globalAerialCount": 81,
+  "baselAerialCount": 39,
+  "exactNewAerialIds": [
+    "basel-canton-v3:basel-allschwil-bachgraben-main-campus",
+    "basel-canton-v3:basel-downtown-sbb-aeschen",
+    "basel-canton-v3:basel-east-bubendorf",
+    "basel-canton-v3:basel-east-muttenz-pratteln",
+    "basel-canton-v3:basel-klybeck-stucki-klybeck",
+    "basel-canton-v3:basel-klybeck-stucki-stuecki",
+    "basel-canton-v3:basel-research-campus-core",
+    "basel-canton-v3:basel-roche-kleinbasel",
+    "basel-canton-v3:basel-rosental-mitte",
+    "basel-canton-v3:basel-st-johann-novartis-campus",
+    "basel-canton-v3:basel-supplemental-bioversys-basel",
+    "basel-canton-v3:basel-klybeck-stucki-stuecki-centered-current",
+    "basel-canton-v3:sbb-downtown-basel-street-detail",
+    "basel-canton-v3:allschwil-allschwil-street-detail",
+    "basel-canton-v3:muttenz-pratteln-muttenz-street-detail",
+    "basel-canton-v3:muttenz-pratteln-pratteln-street-detail",
+    "basel-canton-v3:bubendorf-bubendorf-street-detail",
+    "basel-canton-v3:reinach-aesch-therwil-aesch-street-detail",
+    "basel-canton-v3:reinach-aesch-therwil-reinach-street-detail",
+    "basel-canton-v3:reinach-aesch-therwil-therwil-street-detail",
+    "basel-canton-v3:liestal-sissach-liestal-street-detail-1",
+    "basel-canton-v3:liestal-sissach-liestal-street-detail-2",
+    "basel-canton-v3:schonenbuch-schoenenbuch-street-detail",
+    "basel-canton-v3:basel-liestal-sissach-sissach-orientation-context"
+  ],
+  "documents": [
+    {
+      "id": "basel-canton:basel-landschaft:V3",
+      "canton_id": "basel-landschaft",
+      "version": "V3",
+      "source_hash": "aaa18b80a88edfa904a5c16857574e5edbec70d2e8342874dc26169331b2f07a",
+      "content_hash": "7cf6ca44e345209370b02d0b9495697b1b04cd50483262f901694ef7b6f43a9e"
+    },
+    {
+      "id": "basel-canton:basel-stadt:V3",
+      "canton_id": "basel-stadt",
+      "version": "V3",
+      "source_hash": "aaa18b80a88edfa904a5c16857574e5edbec70d2e8342874dc26169331b2f07a",
+      "content_hash": "fbd3008cf458ee30040424f21d2b4cd6993ab2216b288208a4406364809a10ec"
+    }
+  ],
+  "sourceResearchHash": "aaa18b80a88edfa904a5c16857574e5edbec70d2e8342874dc26169331b2f07a",
+  "sourceRecords": 482,
+  "acceptedPostalReferences": 150,
+  "unresolvedReferences": 332,
+  "exactCanonicalBindings": 421,
+  "restrictedRedactions": [],
+  "companyMasterWrites": 0,
+  "profileMasterWrites": 0,
+  "siteMasterWrites": 0,
+  "sourceMasterWrites": 0,
+  "companionPath": "data/baselCantonDetail_offline_V3.json",
+  "framePath": "data/baselCantonAerials_V3.json",
+  "uploadReceiptPath": "data/baselCantonAssets_upload_receipt_V3.json"
+}

@@ -1,0 +1,1683 @@
+{
+  "version": "atlas-web-v7-20261104",
+  "asOf": "2026-11-04",
+  "snapshotVerification": {
+    "version": "atlas-web-v7-20261104",
+    "snapshotPath": "/home/ubuntu/bioatlas/scripts/offline-cache/snapshot_V7.json.gz",
+    "sha256": "2706723384a341e5fdb9e07ae9da74fc0b08be436cf3c1dce7b3e555cb888db7",
+    "correctedSeedSha256": "a6788af941ab4a39dea32f56611e9ae0eb047cb33684b30d74fdc2d77a8549d4",
+    "manifestSha256": "ad49214612e9287479d07d5b9203e3f0fa71cc5724d1704b65e320b1be3c7027",
+    "cashManifestSha256": "533c35364cb60ea5297f44e7fc8457ccafbfcb48d7051be8e9d0a36c81f5ca79",
+    "baseSnapshotSha256": "c01b8146f1f22b2006942d39df360ce696bfc35360d2f99106b7159970bdbe11",
+    "fullLiveProfilesFetched": 3,
+    "profilesPreserved": 1276,
+    "regions": 11,
+    "sites": 1652,
+    "baselineUniqueCompanies": 479,
+    "baselineCompanyRegionMemberships": 502,
+    "profileIdsPreserved": true,
+    "allRawPriorFieldsRetained": true,
+    "boundedApiAgreement": true,
+    "priorSnapshotNotOverwritten": true,
+    "sourceRecordsDelta": 1,
+    "metricObservationsDelta": 2,
+    "capturedAt": "2026-11-04T14:16:01.899Z"
+  },
+  "siteChanges": [
+    {
+      "siteId": "boulder:site:corden-colorado",
+      "companyId": "gco_70cd08d154f30063bd4f",
+      "canonicalFieldChanges": {
+        "facts": {
+          "before": [
+            {
+              "asOf": null,
+              "key": "company_occupied_area",
+              "label": "Company-occupied area",
+              "notes": "No source-backed value retained in normalized input.",
+              "periodStart": null,
+              "scope": null,
+              "section": "Sites and leases",
+              "sourceIds": [],
+              "status": "unknown",
+              "unit": "sq ft",
+              "value": null
+            },
+            {
+              "asOf": null,
+              "key": "gross_area",
+              "label": "Gross building/campus area",
+              "notes": "No source-backed value retained in normalized input.",
+              "periodStart": null,
+              "scope": null,
+              "section": "Sites and leases",
+              "sourceIds": [],
+              "status": "unknown",
+              "unit": "sq ft",
+              "value": null
+            },
+            {
+              "asOf": null,
+              "key": "net_area",
+              "label": "Net area",
+              "notes": "No source-backed value retained in normalized input.",
+              "periodStart": null,
+              "scope": null,
+              "section": "Sites and leases",
+              "sourceIds": [],
+              "status": "unknown",
+              "unit": "sq ft",
+              "value": null
+            },
+            {
+              "asOf": null,
+              "key": "campus_available_area",
+              "label": "Campus availability",
+              "notes": "No source-backed value retained in normalized input.",
+              "periodStart": null,
+              "scope": null,
+              "section": "Sites and leases",
+              "sourceIds": [],
+              "status": "unknown",
+              "unit": "sq ft",
+              "value": null
+            },
+            {
+              "asOf": null,
+              "key": "local_jobs",
+              "label": "Local/site employees",
+              "notes": "No source-backed value retained in normalized input.",
+              "periodStart": null,
+              "scope": null,
+              "section": "Workforce",
+              "sourceIds": [],
+              "status": "unknown",
+              "unit": "people",
+              "value": null
+            },
+            {
+              "asOf": null,
+              "key": "occupancy_interest",
+              "label": "Owned / leased interest",
+              "notes": null,
+              "periodStart": null,
+              "scope": "This site only",
+              "section": "Sites and leases",
+              "sourceIds": [],
+              "status": "unknown",
+              "unit": null,
+              "value": null
+            },
+            {
+              "asOf": null,
+              "key": "owner_name",
+              "label": "Named owner / landlord",
+              "notes": null,
+              "periodStart": null,
+              "scope": "This site only",
+              "section": "Sites and leases",
+              "sourceIds": [],
+              "status": "unknown",
+              "unit": null,
+              "value": null
+            },
+            {
+              "asOf": null,
+              "key": "lease_expiry",
+              "label": "Lease expiry",
+              "notes": null,
+              "periodStart": null,
+              "scope": "This site only",
+              "section": "Sites and leases",
+              "sourceIds": [],
+              "status": "unknown",
+              "unit": null,
+              "value": null
+            },
+            {
+              "asOf": null,
+              "key": "renewal_options",
+              "label": "Renewal options",
+              "notes": null,
+              "periodStart": null,
+              "scope": "This site only",
+              "section": "Sites and leases",
+              "sourceIds": [],
+              "status": "unknown",
+              "unit": null,
+              "value": null
+            }
+          ],
+          "after": [
+            {
+              "asOf": null,
+              "key": "company_occupied_area",
+              "label": "Company-occupied area",
+              "notes": "No source-backed value retained in normalized input.",
+              "periodStart": null,
+              "scope": null,
+              "section": "Sites and leases",
+              "sourceIds": [],
+              "status": "unknown",
+              "unit": "sq ft",
+              "value": null
+            },
+            {
+              "asOf": null,
+              "key": "gross_area",
+              "label": "Gross building/campus area",
+              "notes": "No source-backed value retained in normalized input.",
+              "periodStart": null,
+              "scope": null,
+              "section": "Sites and leases",
+              "sourceIds": [],
+              "status": "unknown",
+              "unit": "sq ft",
+              "value": null
+            },
+            {
+              "asOf": null,
+              "key": "net_area",
+              "label": "Net area",
+              "notes": "No source-backed value retained in normalized input.",
+              "periodStart": null,
+              "scope": null,
+              "section": "Sites and leases",
+              "sourceIds": [],
+              "status": "unknown",
+              "unit": "sq ft",
+              "value": null
+            },
+            {
+              "asOf": null,
+              "key": "campus_available_area",
+              "label": "Campus availability",
+              "notes": "No source-backed value retained in normalized input.",
+              "periodStart": null,
+              "scope": null,
+              "section": "Sites and leases",
+              "sourceIds": [],
+              "status": "unknown",
+              "unit": "sq ft",
+              "value": null
+            },
+            {
+              "asOf": null,
+              "key": "local_jobs",
+              "label": "Local/site employees",
+              "notes": "No source-backed value retained in normalized input.",
+              "periodStart": null,
+              "scope": null,
+              "section": "Workforce",
+              "sourceIds": [],
+              "status": "unknown",
+              "unit": "people",
+              "value": null
+            },
+            {
+              "asOf": null,
+              "key": "occupancy_interest",
+              "label": "Owned / leased interest",
+              "notes": null,
+              "periodStart": null,
+              "scope": "This site only",
+              "section": "Sites and leases",
+              "sourceIds": [],
+              "status": "unknown",
+              "unit": null,
+              "value": null
+            },
+            {
+              "asOf": null,
+              "key": "owner_name",
+              "label": "Named owner / landlord",
+              "notes": null,
+              "periodStart": null,
+              "scope": "This site only",
+              "section": "Sites and leases",
+              "sourceIds": [],
+              "status": "unknown",
+              "unit": null,
+              "value": null
+            },
+            {
+              "asOf": null,
+              "key": "lease_expiry",
+              "label": "Lease expiry",
+              "notes": null,
+              "periodStart": null,
+              "scope": "This site only",
+              "section": "Sites and leases",
+              "sourceIds": [],
+              "status": "unknown",
+              "unit": null,
+              "value": null
+            },
+            {
+              "asOf": null,
+              "key": "renewal_options",
+              "label": "Renewal options",
+              "notes": null,
+              "periodStart": null,
+              "scope": "This site only",
+              "section": "Sites and leases",
+              "sourceIds": [],
+              "status": "unknown",
+              "unit": null,
+              "value": null
+            },
+            {
+              "key": "site_presence_status_v7",
+              "label": "5505 Central lab status",
+              "value": "Signed lease; lab opening and occupancy commencement unconfirmed",
+              "unit": null,
+              "scope": "This specific 5505 Central lab only; not a company eligibility or closure decision",
+              "asOf": "2026-03-04",
+              "periodStart": null,
+              "status": "reported_signed_opening_unconfirmed",
+              "sourceIds": [
+                "boulder:s15"
+              ],
+              "notes": "Completed building and lease announcement do not establish lab operations. No older operating site invented.",
+              "section": "Sites and leases"
+            }
+          ]
+        },
+        "physicalStatus": {
+          "before": "current",
+          "after": "lease_signed_opening_not_confirmed"
+        },
+        "retainedPresenceObservations": {
+          "before": null,
+          "after": [
+            {
+              "version": "atlas-web-v6-20261104",
+              "site": {
+                "address": "5505 Central, Boulder, Colorado",
+                "city": "Boulder",
+                "company": "CordenPharma Colorado",
+                "country": "United States",
+                "evidence": "baseline",
+                "facts": [
+                  {
+                    "asOf": null,
+                    "key": "company_occupied_area",
+                    "label": "Company-occupied area",
+                    "notes": "No source-backed value retained in normalized input.",
+                    "periodStart": null,
+                    "scope": null,
+                    "section": "Sites and leases",
+                    "sourceIds": [],
+                    "status": "unknown",
+                    "unit": "sq ft",
+                    "value": null
+                  },
+                  {
+                    "asOf": null,
+                    "key": "gross_area",
+                    "label": "Gross building/campus area",
+                    "notes": "No source-backed value retained in normalized input.",
+                    "periodStart": null,
+                    "scope": null,
+                    "section": "Sites and leases",
+                    "sourceIds": [],
+                    "status": "unknown",
+                    "unit": "sq ft",
+                    "value": null
+                  },
+                  {
+                    "asOf": null,
+                    "key": "net_area",
+                    "label": "Net area",
+                    "notes": "No source-backed value retained in normalized input.",
+                    "periodStart": null,
+                    "scope": null,
+                    "section": "Sites and leases",
+                    "sourceIds": [],
+                    "status": "unknown",
+                    "unit": "sq ft",
+                    "value": null
+                  },
+                  {
+                    "asOf": null,
+                    "key": "campus_available_area",
+                    "label": "Campus availability",
+                    "notes": "No source-backed value retained in normalized input.",
+                    "periodStart": null,
+                    "scope": null,
+                    "section": "Sites and leases",
+                    "sourceIds": [],
+                    "status": "unknown",
+                    "unit": "sq ft",
+                    "value": null
+                  },
+                  {
+                    "asOf": null,
+                    "key": "local_jobs",
+                    "label": "Local/site employees",
+                    "notes": "No source-backed value retained in normalized input.",
+                    "periodStart": null,
+                    "scope": null,
+                    "section": "Workforce",
+                    "sourceIds": [],
+                    "status": "unknown",
+                    "unit": "people",
+                    "value": null
+                  },
+                  {
+                    "asOf": null,
+                    "key": "occupancy_interest",
+                    "label": "Owned / leased interest",
+                    "notes": null,
+                    "periodStart": null,
+                    "scope": "This site only",
+                    "section": "Sites and leases",
+                    "sourceIds": [],
+                    "status": "unknown",
+                    "unit": null,
+                    "value": null
+                  },
+                  {
+                    "asOf": null,
+                    "key": "owner_name",
+                    "label": "Named owner / landlord",
+                    "notes": null,
+                    "periodStart": null,
+                    "scope": "This site only",
+                    "section": "Sites and leases",
+                    "sourceIds": [],
+                    "status": "unknown",
+                    "unit": null,
+                    "value": null
+                  },
+                  {
+                    "asOf": null,
+                    "key": "lease_expiry",
+                    "label": "Lease expiry",
+                    "notes": null,
+                    "periodStart": null,
+                    "scope": "This site only",
+                    "section": "Sites and leases",
+                    "sourceIds": [],
+                    "status": "unknown",
+                    "unit": null,
+                    "value": null
+                  },
+                  {
+                    "asOf": null,
+                    "key": "renewal_options",
+                    "label": "Renewal options",
+                    "notes": null,
+                    "periodStart": null,
+                    "scope": "This site only",
+                    "section": "Sites and leases",
+                    "sourceIds": [],
+                    "status": "unknown",
+                    "unit": null,
+                    "value": null
+                  }
+                ],
+                "functions": [
+                  "manufacturing"
+                ],
+                "id": "boulder:site:corden-colorado",
+                "isAnchor": false,
+                "latitude": 40.01499,
+                "longitude": -105.27055,
+                "physicalStatus": "current",
+                "precision": "city_centroid",
+                "profileId": "gco_70cd08d154f30063bd4f",
+                "referenceType": null,
+                "regionId": "boulder",
+                "sourceIds": [
+                  "boulder:s15"
+                ],
+                "zone": null
+              }
+            }
+          ]
+        }
+      },
+      "decision": "Signed lease / lab opening unconfirmed; non-operating typed plan record. Baseline admission retained; eligibility not re-reviewed.",
+      "witness": {
+        "file": "/home/ubuntu/life-science-atlas/market_intelligence_V2/research/boulder_review.json",
+        "sha256": "a7aa9e1648ef80df6b8c0429e304e4075526bb113a559b444f777fc3a00bb8bd",
+        "sourceId": "boulder:s15",
+        "status": "lease_signed_opening_not_confirmed"
+      }
+    },
+    {
+      "siteId": "uk:site:randox-laboratories-uk-hq",
+      "companyId": "gco_9e75314396ae9567e3cb",
+      "canonicalFieldChanges": {
+        "facts": {
+          "before": [
+            {
+              "asOf": null,
+              "key": "company_occupied_area",
+              "label": "Company-occupied area",
+              "notes": "No source-backed value retained in normalized input.",
+              "periodStart": null,
+              "scope": null,
+              "section": "Sites and leases",
+              "sourceIds": [],
+              "status": "unknown",
+              "unit": "sq ft",
+              "value": null
+            },
+            {
+              "asOf": null,
+              "key": "gross_area",
+              "label": "Gross building/campus area",
+              "notes": "No source-backed value retained in normalized input.",
+              "periodStart": null,
+              "scope": null,
+              "section": "Sites and leases",
+              "sourceIds": [],
+              "status": "unknown",
+              "unit": "sq ft",
+              "value": null
+            },
+            {
+              "asOf": null,
+              "key": "net_area",
+              "label": "Net area",
+              "notes": "No source-backed value retained in normalized input.",
+              "periodStart": null,
+              "scope": null,
+              "section": "Sites and leases",
+              "sourceIds": [],
+              "status": "unknown",
+              "unit": "sq ft",
+              "value": null
+            },
+            {
+              "asOf": null,
+              "key": "campus_available_area",
+              "label": "Campus availability",
+              "notes": "No source-backed value retained in normalized input.",
+              "periodStart": null,
+              "scope": null,
+              "section": "Sites and leases",
+              "sourceIds": [],
+              "status": "unknown",
+              "unit": "sq ft",
+              "value": null
+            },
+            {
+              "asOf": null,
+              "key": "local_jobs",
+              "label": "Local/site employees",
+              "notes": "No source-backed value retained in normalized input.",
+              "periodStart": null,
+              "scope": null,
+              "section": "Workforce",
+              "sourceIds": [],
+              "status": "unknown",
+              "unit": "people",
+              "value": null
+            },
+            {
+              "asOf": null,
+              "key": "occupancy_interest",
+              "label": "Owned / leased interest",
+              "notes": null,
+              "periodStart": null,
+              "scope": "This site only",
+              "section": "Sites and leases",
+              "sourceIds": [],
+              "status": "unknown",
+              "unit": null,
+              "value": null
+            },
+            {
+              "asOf": null,
+              "key": "owner_name",
+              "label": "Named owner / landlord",
+              "notes": null,
+              "periodStart": null,
+              "scope": "This site only",
+              "section": "Sites and leases",
+              "sourceIds": [],
+              "status": "unknown",
+              "unit": null,
+              "value": null
+            },
+            {
+              "asOf": null,
+              "key": "lease_expiry",
+              "label": "Lease expiry",
+              "notes": null,
+              "periodStart": null,
+              "scope": "This site only",
+              "section": "Sites and leases",
+              "sourceIds": [],
+              "status": "unknown",
+              "unit": null,
+              "value": null
+            },
+            {
+              "asOf": null,
+              "key": "renewal_options",
+              "label": "Renewal options",
+              "notes": null,
+              "periodStart": null,
+              "scope": "This site only",
+              "section": "Sites and leases",
+              "sourceIds": [],
+              "status": "unknown",
+              "unit": null,
+              "value": null
+            }
+          ],
+          "after": [
+            {
+              "asOf": null,
+              "key": "company_occupied_area",
+              "label": "Company-occupied area",
+              "notes": "No source-backed value retained in normalized input.",
+              "periodStart": null,
+              "scope": null,
+              "section": "Sites and leases",
+              "sourceIds": [],
+              "status": "unknown",
+              "unit": "sq ft",
+              "value": null
+            },
+            {
+              "asOf": null,
+              "key": "gross_area",
+              "label": "Gross building/campus area",
+              "notes": "No source-backed value retained in normalized input.",
+              "periodStart": null,
+              "scope": null,
+              "section": "Sites and leases",
+              "sourceIds": [],
+              "status": "unknown",
+              "unit": "sq ft",
+              "value": null
+            },
+            {
+              "asOf": null,
+              "key": "net_area",
+              "label": "Net area",
+              "notes": "No source-backed value retained in normalized input.",
+              "periodStart": null,
+              "scope": null,
+              "section": "Sites and leases",
+              "sourceIds": [],
+              "status": "unknown",
+              "unit": "sq ft",
+              "value": null
+            },
+            {
+              "asOf": null,
+              "key": "campus_available_area",
+              "label": "Campus availability",
+              "notes": "No source-backed value retained in normalized input.",
+              "periodStart": null,
+              "scope": null,
+              "section": "Sites and leases",
+              "sourceIds": [],
+              "status": "unknown",
+              "unit": "sq ft",
+              "value": null
+            },
+            {
+              "asOf": null,
+              "key": "local_jobs",
+              "label": "Local/site employees",
+              "notes": "No source-backed value retained in normalized input.",
+              "periodStart": null,
+              "scope": null,
+              "section": "Workforce",
+              "sourceIds": [],
+              "status": "unknown",
+              "unit": "people",
+              "value": null
+            },
+            {
+              "asOf": null,
+              "key": "occupancy_interest",
+              "label": "Owned / leased interest",
+              "notes": null,
+              "periodStart": null,
+              "scope": "This site only",
+              "section": "Sites and leases",
+              "sourceIds": [],
+              "status": "unknown",
+              "unit": null,
+              "value": null
+            },
+            {
+              "asOf": null,
+              "key": "owner_name",
+              "label": "Named owner / landlord",
+              "notes": null,
+              "periodStart": null,
+              "scope": "This site only",
+              "section": "Sites and leases",
+              "sourceIds": [],
+              "status": "unknown",
+              "unit": null,
+              "value": null
+            },
+            {
+              "asOf": null,
+              "key": "lease_expiry",
+              "label": "Lease expiry",
+              "notes": null,
+              "periodStart": null,
+              "scope": "This site only",
+              "section": "Sites and leases",
+              "sourceIds": [],
+              "status": "unknown",
+              "unit": null,
+              "value": null
+            },
+            {
+              "asOf": null,
+              "key": "renewal_options",
+              "label": "Renewal options",
+              "notes": null,
+              "periodStart": null,
+              "scope": "This site only",
+              "section": "Sites and leases",
+              "sourceIds": [],
+              "status": "unknown",
+              "unit": null,
+              "value": null
+            },
+            {
+              "key": "city_reference_resolution_v7",
+              "label": "City reference disambiguation",
+              "value": "Crumlin, Northern Ireland (GB / NIR), GeoNames 2651804",
+              "unit": null,
+              "scope": "City reference only; not the Randox building",
+              "asOf": "2026-11-04",
+              "periodStart": null,
+              "status": "retained_gazetteer_city_reference",
+              "sourceIds": [
+                "uk:s125",
+                "uk:s126",
+                "v7:geonames:2651804:crumlin-gb-nir"
+              ],
+              "notes": "BT29 source address resolves the homonym; original South Wales coordinates retained in the prior presence observation.",
+              "section": "Sites and leases"
+            }
+          ]
+        },
+        "latitude": {
+          "before": 51.67778,
+          "after": 54.62054
+        },
+        "longitude": {
+          "before": -3.13528,
+          "after": -6.21414
+        },
+        "retainedPresenceObservations": {
+          "before": null,
+          "after": [
+            {
+              "version": "atlas-web-v6-20261104",
+              "site": {
+                "address": "55 Diamond Road, Crumlin BT29 4QY, Crumlin",
+                "city": "Crumlin",
+                "company": "Randox Laboratories",
+                "country": "GB",
+                "evidence": "baseline",
+                "facts": [
+                  {
+                    "asOf": null,
+                    "key": "company_occupied_area",
+                    "label": "Company-occupied area",
+                    "notes": "No source-backed value retained in normalized input.",
+                    "periodStart": null,
+                    "scope": null,
+                    "section": "Sites and leases",
+                    "sourceIds": [],
+                    "status": "unknown",
+                    "unit": "sq ft",
+                    "value": null
+                  },
+                  {
+                    "asOf": null,
+                    "key": "gross_area",
+                    "label": "Gross building/campus area",
+                    "notes": "No source-backed value retained in normalized input.",
+                    "periodStart": null,
+                    "scope": null,
+                    "section": "Sites and leases",
+                    "sourceIds": [],
+                    "status": "unknown",
+                    "unit": "sq ft",
+                    "value": null
+                  },
+                  {
+                    "asOf": null,
+                    "key": "net_area",
+                    "label": "Net area",
+                    "notes": "No source-backed value retained in normalized input.",
+                    "periodStart": null,
+                    "scope": null,
+                    "section": "Sites and leases",
+                    "sourceIds": [],
+                    "status": "unknown",
+                    "unit": "sq ft",
+                    "value": null
+                  },
+                  {
+                    "asOf": null,
+                    "key": "campus_available_area",
+                    "label": "Campus availability",
+                    "notes": "No source-backed value retained in normalized input.",
+                    "periodStart": null,
+                    "scope": null,
+                    "section": "Sites and leases",
+                    "sourceIds": [],
+                    "status": "unknown",
+                    "unit": "sq ft",
+                    "value": null
+                  },
+                  {
+                    "asOf": null,
+                    "key": "local_jobs",
+                    "label": "Local/site employees",
+                    "notes": "No source-backed value retained in normalized input.",
+                    "periodStart": null,
+                    "scope": null,
+                    "section": "Workforce",
+                    "sourceIds": [],
+                    "status": "unknown",
+                    "unit": "people",
+                    "value": null
+                  },
+                  {
+                    "asOf": null,
+                    "key": "occupancy_interest",
+                    "label": "Owned / leased interest",
+                    "notes": null,
+                    "periodStart": null,
+                    "scope": "This site only",
+                    "section": "Sites and leases",
+                    "sourceIds": [],
+                    "status": "unknown",
+                    "unit": null,
+                    "value": null
+                  },
+                  {
+                    "asOf": null,
+                    "key": "owner_name",
+                    "label": "Named owner / landlord",
+                    "notes": null,
+                    "periodStart": null,
+                    "scope": "This site only",
+                    "section": "Sites and leases",
+                    "sourceIds": [],
+                    "status": "unknown",
+                    "unit": null,
+                    "value": null
+                  },
+                  {
+                    "asOf": null,
+                    "key": "lease_expiry",
+                    "label": "Lease expiry",
+                    "notes": null,
+                    "periodStart": null,
+                    "scope": "This site only",
+                    "section": "Sites and leases",
+                    "sourceIds": [],
+                    "status": "unknown",
+                    "unit": null,
+                    "value": null
+                  },
+                  {
+                    "asOf": null,
+                    "key": "renewal_options",
+                    "label": "Renewal options",
+                    "notes": null,
+                    "periodStart": null,
+                    "scope": "This site only",
+                    "section": "Sites and leases",
+                    "sourceIds": [],
+                    "status": "unknown",
+                    "unit": null,
+                    "value": null
+                  }
+                ],
+                "functions": [
+                  "manufacturing"
+                ],
+                "id": "uk:site:randox-laboratories-uk-hq",
+                "isAnchor": false,
+                "latitude": 51.67778,
+                "longitude": -3.13528,
+                "physicalStatus": "current",
+                "precision": "city_centroid",
+                "profileId": "gco_9e75314396ae9567e3cb",
+                "referenceType": null,
+                "regionId": "uk",
+                "sourceIds": [
+                  "uk:s125",
+                  "uk:s126"
+                ],
+                "zone": null
+              }
+            }
+          ]
+        },
+        "sourceIds": {
+          "before": [
+            "uk:s125",
+            "uk:s126"
+          ],
+          "after": [
+            "uk:s125",
+            "uk:s126",
+            "v7:geonames:2651804:crumlin-gb-nir"
+          ]
+        }
+      },
+      "decision": "Country GB / admin1 NIR and retained BT29 source address select Northern Ireland Crumlin city reference; no building/tenancy precision upgrade.",
+      "witness": {
+        "file": "/home/ubuntu/life-science-atlas/assets/geonames/cities1000.txt",
+        "sha256": "ad741df1a6e0c4ced691c182201d0bad9f983c2cb06b70c842f70f053ba7d509",
+        "record": "2651804\tCrumlin\tCrumlin\tCromghlinn\t54.62054\t-6.21414\tP\tPPL\tGB\t\tNIR\tN09000001\t\t\t5149\t\t73\tEurope/London\t2021-08-26",
+        "geonameId": "2651804",
+        "country": "GB",
+        "admin1": "NIR",
+        "addressSourceIds": [
+          "uk:s125",
+          "uk:s126"
+        ],
+        "addressPostcode": "BT29 4QY"
+      }
+    }
+  ],
+  "producerAssignmentChanges": [
+    {
+      "regionId": "biocapital",
+      "companyId": "claude_csv:5c6eedfb4fa8:100",
+      "name": "NovaBridge Biosciences",
+      "fields": {
+        "areaId": {
+          "before": "biocapital-area-rockville-i-270",
+          "after": "biocapital-rockville-i270-comparison"
+        },
+        "area": {
+          "before": "Rockville/I-270",
+          "after": "Rockville / I-270 wider family"
+        }
+      }
+    },
+    {
+      "regionId": "biocapital",
+      "companyId": "claude_csv:5c6eedfb4fa8:103",
+      "name": "NRx Pharmaceuticals",
+      "fields": {
+        "areaId": {
+          "before": "biocapital-area-wilmington-de",
+          "after": "biocapital-wilmington-de-comparison"
+        },
+        "area": {
+          "before": "Wilmington DE",
+          "after": "Wilmington, DE"
+        }
+      }
+    },
+    {
+      "regionId": "biocapital",
+      "companyId": "claude_csv:5c6eedfb4fa8:104",
+      "name": "Inhibikase Therapeutics",
+      "fields": {
+        "areaId": {
+          "before": "biocapital-area-wilmington-de",
+          "after": "biocapital-wilmington-de-comparison"
+        },
+        "area": {
+          "before": "Wilmington DE",
+          "after": "Wilmington, DE"
+        }
+      }
+    },
+    {
+      "regionId": "biocapital",
+      "companyId": "claude_csv:5c6eedfb4fa8:105",
+      "name": "IGC Pharma",
+      "fields": {
+        "areaId": {
+          "before": "biocapital-area-rockville-i-270",
+          "after": "biocapital-rockville-i270-comparison"
+        },
+        "area": {
+          "before": "Rockville/I-270",
+          "after": "Rockville / I-270 wider family"
+        }
+      }
+    },
+    {
+      "regionId": "biocapital",
+      "companyId": "claude_csv:5c6eedfb4fa8:106",
+      "name": "Shuttle Pharmaceuticals",
+      "fields": {
+        "areaId": {
+          "before": "biocapital-area-rockville-i-270",
+          "after": "biocapital-rockville-i270-comparison"
+        },
+        "area": {
+          "before": "Rockville/I-270",
+          "after": "Rockville / I-270 wider family"
+        }
+      }
+    },
+    {
+      "regionId": "biocapital",
+      "companyId": "claude_csv:5c6eedfb4fa8:108",
+      "name": "BullFrog AI",
+      "fields": {
+        "areaId": {
+          "before": "biocapital-area-rockville-i-270",
+          "after": "biocapital-rockville-i270-comparison"
+        },
+        "area": {
+          "before": "Rockville/I-270",
+          "after": "Rockville / I-270 wider family"
+        }
+      }
+    },
+    {
+      "regionId": "biocapital",
+      "companyId": "claude_csv:5c6eedfb4fa8:109",
+      "name": "Elutia",
+      "fields": {
+        "areaId": {
+          "before": "biocapital-area-rockville-i-270",
+          "after": "biocapital-rockville-i270-comparison"
+        },
+        "area": {
+          "before": "Rockville/I-270",
+          "after": "Rockville / I-270 wider family"
+        }
+      }
+    },
+    {
+      "regionId": "biocapital",
+      "companyId": "claude_csv:5c6eedfb4fa8:110",
+      "name": "20/20 Biolabs",
+      "fields": {
+        "areaId": {
+          "before": "biocapital-area-rockville-i-270",
+          "after": "biocapital-rockville-i270-comparison"
+        },
+        "area": {
+          "before": "Rockville/I-270",
+          "after": "Rockville / I-270 wider family"
+        }
+      }
+    },
+    {
+      "regionId": "biocapital",
+      "companyId": "claude_csv:5c6eedfb4fa8:113",
+      "name": "60 Degrees Pharmaceuticals",
+      "fields": {
+        "areaId": {
+          "before": "biocapital-area-washington-dc",
+          "after": "biocapital-washington-dc-comparison"
+        },
+        "area": {
+          "before": "Washington DC",
+          "after": "Washington, DC"
+        }
+      }
+    },
+    {
+      "regionId": "biocapital",
+      "companyId": "claude_csv:5c6eedfb4fa8:129",
+      "name": "MilliporeSigma (BioReliance)",
+      "fields": {
+        "areaId": {
+          "before": "biocapital-area-rockville-i-270",
+          "after": "biocapital-rockville-i270-comparison"
+        },
+        "area": {
+          "before": "Rockville/I-270",
+          "after": "Rockville / I-270 wider family"
+        }
+      }
+    },
+    {
+      "regionId": "biocapital",
+      "companyId": "claude_csv:5c6eedfb4fa8:130",
+      "name": "Bora Pharmaceuticals (Bora Biologics)",
+      "fields": {
+        "areaId": {
+          "before": "biocapital-area-rockville-i-270",
+          "after": "biocapital-rockville-i270-comparison"
+        },
+        "area": {
+          "before": "Rockville/I-270",
+          "after": "Rockville / I-270 wider family"
+        }
+      }
+    },
+    {
+      "regionId": "biocapital",
+      "companyId": "claude_csv:5c6eedfb4fa8:137",
+      "name": "Noramco",
+      "fields": {
+        "areaId": {
+          "before": "biocapital-area-wilmington-de",
+          "after": "biocapital-wilmington-de-comparison"
+        },
+        "area": {
+          "before": "Wilmington DE",
+          "after": "Wilmington, DE"
+        }
+      }
+    },
+    {
+      "regionId": "biocapital",
+      "companyId": "claude_csv:5c6eedfb4fa8:144",
+      "name": "ATCC",
+      "fields": {
+        "areaId": {
+          "before": "biocapital-area-rockville-i-270",
+          "after": "biocapital-rockville-i270-comparison"
+        },
+        "area": {
+          "before": "Rockville/I-270",
+          "after": "Rockville / I-270 wider family"
+        }
+      }
+    },
+    {
+      "regionId": "biocapital",
+      "companyId": "claude_csv:5c6eedfb4fa8:146",
+      "name": "Meso Scale Diagnostics",
+      "fields": {
+        "areaId": {
+          "before": "biocapital-area-rockville-i-270",
+          "after": "biocapital-rockville-i270-comparison"
+        },
+        "area": {
+          "before": "Rockville/I-270",
+          "after": "Rockville / I-270 wider family"
+        }
+      }
+    },
+    {
+      "regionId": "biocapital",
+      "companyId": "claude_csv:5c6eedfb4fa8:152",
+      "name": "NiKang Therapeutics",
+      "fields": {
+        "areaId": {
+          "before": "biocapital-area-wilmington-de",
+          "after": "biocapital-wilmington-de-comparison"
+        },
+        "area": {
+          "before": "Wilmington DE",
+          "after": "Wilmington, DE"
+        }
+      }
+    },
+    {
+      "regionId": "biocapital",
+      "companyId": "claude_csv:5c6eedfb4fa8:153",
+      "name": "Kolon TissueGene",
+      "fields": {
+        "areaId": {
+          "before": "biocapital-area-rockville-i-270",
+          "after": "biocapital-rockville-i270-comparison"
+        },
+        "area": {
+          "before": "Rockville/I-270",
+          "after": "Rockville / I-270 wider family"
+        }
+      }
+    },
+    {
+      "regionId": "biocapital",
+      "companyId": "claude_csv:5c6eedfb4fa8:155",
+      "name": "Synnovation Therapeutics",
+      "fields": {
+        "areaId": {
+          "before": "biocapital-area-wilmington-de",
+          "after": "biocapital-wilmington-de-comparison"
+        },
+        "area": {
+          "before": "Wilmington DE",
+          "after": "Wilmington, DE"
+        }
+      }
+    },
+    {
+      "regionId": "biocapital",
+      "companyId": "claude_csv:5c6eedfb4fa8:156",
+      "name": "Georgiamune",
+      "fields": {
+        "areaId": {
+          "before": "biocapital-area-rockville-i-270",
+          "after": "biocapital-rockville-i270-comparison"
+        },
+        "area": {
+          "before": "Rockville/I-270",
+          "after": "Rockville / I-270 wider family"
+        }
+      }
+    },
+    {
+      "regionId": "biocapital",
+      "companyId": "claude_csv:5c6eedfb4fa8:160",
+      "name": "OncoC4",
+      "fields": {
+        "areaId": {
+          "before": "biocapital-area-rockville-i-270",
+          "after": "biocapital-rockville-i270-comparison"
+        },
+        "area": {
+          "before": "Rockville/I-270",
+          "after": "Rockville / I-270 wider family"
+        }
+      }
+    },
+    {
+      "regionId": "biocapital",
+      "companyId": "claude_csv:5c6eedfb4fa8:94",
+      "name": "Senseonics",
+      "fields": {
+        "areaId": {
+          "before": "biocapital-area-rockville-i-270",
+          "after": "biocapital-rockville-i270-comparison"
+        },
+        "area": {
+          "before": "Rockville/I-270",
+          "after": "Rockville / I-270 wider family"
+        }
+      }
+    },
+    {
+      "regionId": "biocapital",
+      "companyId": "claude_csv:5c6eedfb4fa8:98",
+      "name": "Zymeworks",
+      "fields": {
+        "areaId": {
+          "before": "biocapital-area-wilmington-de",
+          "after": "biocapital-wilmington-de-comparison"
+        },
+        "area": {
+          "before": "Wilmington DE",
+          "after": "Wilmington, DE"
+        }
+      }
+    },
+    {
+      "regionId": "biocapital",
+      "companyId": "gco_01044852d66c8f9af590",
+      "name": "Emergent BioSolutions Inc.",
+      "fields": {
+        "areaId": {
+          "before": "biocapital-area-rockville-i-270",
+          "after": "biocapital-rockville-i270-comparison"
+        },
+        "area": {
+          "before": "Rockville/I-270",
+          "after": "Rockville / I-270 wider family"
+        }
+      }
+    },
+    {
+      "regionId": "biocapital",
+      "companyId": "gco_0e13862ad5ee78f21491",
+      "name": "Samsung Biologics",
+      "fields": {
+        "areaId": {
+          "before": "biocapital-area-rockville",
+          "after": "biocapital-rockville-city-component"
+        },
+        "area": {
+          "before": "Rockville",
+          "after": "Rockville city — nested I-270 component"
+        }
+      }
+    },
+    {
+      "regionId": "biocapital",
+      "companyId": "gco_12567c97def003d04d64",
+      "name": "Vanda Pharmaceuticals Inc.",
+      "fields": {
+        "areaId": {
+          "before": "biocapital-area-washington-dc",
+          "after": "biocapital-washington-dc-comparison"
+        },
+        "area": {
+          "before": "Washington DC",
+          "after": "Washington, DC"
+        }
+      }
+    },
+    {
+      "regionId": "biocapital",
+      "companyId": "gco_17df5ec444abc10bff23",
+      "name": "MacroGenics, Inc.",
+      "fields": {
+        "areaId": {
+          "before": "biocapital-area-rockville-i-270",
+          "after": "biocapital-rockville-i270-comparison"
+        },
+        "area": {
+          "before": "Rockville/I-270",
+          "after": "Rockville / I-270 wider family"
+        }
+      }
+    },
+    {
+      "regionId": "biocapital",
+      "companyId": "gco_35100dc320d02d283926",
+      "name": "Danaher Corporation",
+      "fields": {
+        "areaId": {
+          "before": "biocapital-area-washington-dc",
+          "after": "biocapital-washington-dc-comparison"
+        },
+        "area": {
+          "before": "Washington DC",
+          "after": "Washington, DC"
+        }
+      }
+    },
+    {
+      "regionId": "biocapital",
+      "companyId": "gco_385b38c1709f3af19913",
+      "name": "Prelude Therapeutics Inc.",
+      "fields": {
+        "areaId": {
+          "before": "biocapital-area-wilmington-de",
+          "after": "biocapital-wilmington-de-comparison"
+        },
+        "area": {
+          "before": "Wilmington DE",
+          "after": "Wilmington, DE"
+        }
+      }
+    },
+    {
+      "regionId": "biocapital",
+      "companyId": "gco_6a73fa2f851e43cc87f6",
+      "name": "MaxCyte, Inc.",
+      "fields": {
+        "areaId": {
+          "before": "biocapital-area-rockville-i-270",
+          "after": "biocapital-rockville-i270-comparison"
+        },
+        "area": {
+          "before": "Rockville/I-270",
+          "after": "Rockville / I-270 wider family"
+        }
+      }
+    },
+    {
+      "regionId": "biocapital",
+      "companyId": "gco_805500be830ef976f672",
+      "name": "Novavax, Inc.",
+      "fields": {
+        "areaId": {
+          "before": "biocapital-area-rockville-i-270",
+          "after": "biocapital-rockville-i270-comparison"
+        },
+        "area": {
+          "before": "Rockville/I-270",
+          "after": "Rockville / I-270 wider family"
+        }
+      }
+    },
+    {
+      "regionId": "biocapital",
+      "companyId": "gco_84bf6ac0fb934f827d03",
+      "name": "Incyte Corporation",
+      "fields": {
+        "areaId": {
+          "before": "biocapital-area-wilmington-de",
+          "after": "biocapital-wilmington-de-comparison"
+        },
+        "area": {
+          "before": "Wilmington DE",
+          "after": "Wilmington, DE"
+        }
+      }
+    },
+    {
+      "regionId": "biocapital",
+      "companyId": "gco_859f011c4ffa88b7a469",
+      "name": "Adial Pharmaceuticals, Inc.",
+      "fields": {
+        "primarySiteId": {
+          "before": "claude_csv:5c6eedfb4fa8:site:111",
+          "after": "biocapital:site:adial-pharmaceuticals-hq"
+        },
+        "areaId": {
+          "before": "biocapital-area-charlottesville",
+          "after": "biocapital-area-glen-allen"
+        },
+        "area": {
+          "before": "Charlottesville",
+          "after": "Glen Allen"
+        },
+        "address": {
+          "before": "1180 Seminole Trail, Suite 495, Charlottesville, VA",
+          "after": "4870 Sadler Road, Suite 300, Glen Allen, VA"
+        },
+        "sourceIds": {
+          "before": [
+            "import:claude_csv:5c6eedfb4fa8:111",
+            "import-address:claude_csv:5c6eedfb4fa8:111"
+          ],
+          "after": [
+            "biocapital:S38"
+          ]
+        }
+      }
+    },
+    {
+      "regionId": "biocapital",
+      "companyId": "gco_8c3025f2df90bf5c7074",
+      "name": "Precigen, Inc.",
+      "fields": {
+        "areaId": {
+          "before": "biocapital-area-rockville-i-270",
+          "after": "biocapital-rockville-i270-comparison"
+        },
+        "area": {
+          "before": "Rockville/I-270",
+          "after": "Rockville / I-270 wider family"
+        }
+      }
+    },
+    {
+      "regionId": "biocapital",
+      "companyId": "gco_9484b0138ca17fd017d2",
+      "name": "Altimmune, Inc.",
+      "fields": {
+        "areaId": {
+          "before": "biocapital-area-rockville-i-270",
+          "after": "biocapital-rockville-i270-comparison"
+        },
+        "area": {
+          "before": "Rockville/I-270",
+          "after": "Rockville / I-270 wider family"
+        }
+      }
+    },
+    {
+      "regionId": "biocapital",
+      "companyId": "gco_b211e28a1eaffdf507c5",
+      "name": "Theriva Biologics, Inc.",
+      "fields": {
+        "areaId": {
+          "before": "biocapital-area-rockville-i-270",
+          "after": "biocapital-rockville-i270-comparison"
+        },
+        "area": {
+          "before": "Rockville/I-270",
+          "after": "Rockville / I-270 wider family"
+        }
+      }
+    },
+    {
+      "regionId": "biocapital",
+      "companyId": "gco_c06195a16c280836144f",
+      "name": "Supernus Pharmaceuticals, Inc.",
+      "fields": {
+        "areaId": {
+          "before": "biocapital-area-rockville-i-270",
+          "after": "biocapital-rockville-i270-comparison"
+        },
+        "area": {
+          "before": "Rockville/I-270",
+          "after": "Rockville / I-270 wider family"
+        }
+      }
+    },
+    {
+      "regionId": "biocapital",
+      "companyId": "gco_e79afbc118f62c69ce69",
+      "name": "GSK",
+      "fields": {
+        "areaId": {
+          "before": "biocapital-area-rockville-i-270",
+          "after": "biocapital-rockville-i270-comparison"
+        },
+        "area": {
+          "before": "Rockville/I-270",
+          "after": "Rockville / I-270 wider family"
+        }
+      }
+    },
+    {
+      "regionId": "biocapital",
+      "companyId": "gco_eca28143269097e60472",
+      "name": "REGENXBIO Inc.",
+      "fields": {
+        "areaId": {
+          "before": "biocapital-area-rockville-i-270",
+          "after": "biocapital-rockville-i270-comparison"
+        },
+        "area": {
+          "before": "Rockville/I-270",
+          "after": "Rockville / I-270 wider family"
+        }
+      }
+    },
+    {
+      "regionId": "seattle",
+      "companyId": "claude_csv:5c6eedfb4fa8:966",
+      "name": "Absci",
+      "fields": {
+        "area": {
+          "before": "Vancouver/Clark County",
+          "after": "Vancouver/Clark County — outside Puget Sound core"
+        }
+      }
+    },
+    {
+      "regionId": "seattle",
+      "companyId": "claude_csv:5c6eedfb4fa8:987",
+      "name": "Jubilant HollisterStier",
+      "fields": {
+        "area": {
+          "before": "Spokane",
+          "after": "Spokane — outside Puget Sound core"
+        }
+      }
+    },
+    {
+      "regionId": "uk",
+      "companyId": "gco_9e75314396ae9567e3cb",
+      "name": "Randox Laboratories",
+      "fields": {
+        "sourceIds": {
+          "before": [
+            "uk:s125",
+            "uk:s126"
+          ],
+          "after": [
+            "uk:s125",
+            "uk:s126",
+            "v7:geonames:2651804:crumlin-gb-nir"
+          ]
+        }
+      }
+    }
+  ],
+  "aggregateChanges": [
+    {
+      "regionId": "boulder",
+      "fields": {
+        "operatingSites": {
+          "before": 14,
+          "after": 13
+        },
+        "plannedProjectLeads": {
+          "before": 0,
+          "after": 1
+        }
+      }
+    }
+  ],
+  "preservation": {
+    "companyIds": 1276,
+    "siteIds": 1652,
+    "baselineUniqueCompanies": 479,
+    "baselineCompanyRegionMemberships": 502,
+    "unrelatedPrimarySiteAssignmentsUnchanged": true,
+    "parentBaselineDeltaUnchanged": true,
+    "sourceRecordsDelta": 1,
+    "metricObservationsDelta": 2,
+    "allCashHubTotalsUnchanged": true,
+    "currentApiEqualsV7OfflineSource": true
+  },
+  "labelsAndRules": {
+    "baseline": "Retained source-supported corrected baseline admissions, not a current-company census or verified tenancy. V7 corrects specific location/status fields only; CordenPharma admission is preserved without an independent eligibility review. Basel Orbis V6 classification remains unchanged.",
+    "research": "Research counts are selected company/site observation assignment records, not unique or incremental companies. Source records may duplicate baseline entities and recur across locations; attached research sites remain retained even when not additional primary assignments. Institutional references are separate. No automatic company or ambiguous parent-alias merge.",
+    "primaryArea": "Each baseline company and each selected research assignment record is assigned once per hub. Reviewed Adial current Glen Allen site and exact S38 address witness precede its unchecked Charlottesville import; unrelated primary assignments retain their previous reported-HQ/precision/stable-city selector. Supported signed/planned site is a non-operating fallback. Additional observations remain retained; not a new headquarters/eligibility census.",
+    "priority": "Preserved V5 baseline analyst-priority model only; A/B/C are analyst assumptions, not credit. U and combined tier totals count assignment records, including overlapping research observations. Imported tiers excluded.",
+    "cash": "Verified exact cash and cash equivalents only; numeric USD millions; period end 2025-11-04 or later; latest retained period per reporting entity; one allocation per hub; companywide reporting-entity context, not local capital or demand. Cash and investments excluded.",
+    "events": "Dated retained physical actions in 2025-2026; planned/completed/unknown status preserved. No financing or clinical headline converted to footprint action.",
+    "nonadditivity": "Company-region profiles and reporting-entity cash overlap across hubs; hub totals are not additive.",
+    "addressSites": "Supported current address-matched sites are counted at their actual retained area, separately from single primary company assignments. Planned sites are excluded.",
+    "typedPlans": "Typed plan records count only retained sites explicitly typed planned, planned_not_commissioned, or lease_signed_opening_not_confirmed. Separate planned/construction action evidence is not exhaustively tallied here. Zero typed plan records does not mean no planning actions.",
+    "entityScope": "Baseline profile IDs include retained operating legal entities and brands/affiliates; not unique consolidated parents, independent private firms or independent borrowers. Each profile ID assigned once per hub; physical sites remain in their own geography. Parent/reporting-entity cash allocated once, never imputed to an affiliate. No BI local employee aggregate or new consolidated group census is inferred.",
+    "orbisAssociation": "Orbis Allschwil association is operator-reported; current site function and company-specific address remain unverified and research-only. Known Epalinges headquarters does not prove absence of an Allschwil association; no closure or nonpresence finding is inferred."
+  },
+  "areaAliases": [
+    {
+      "id": "biocapital-washington-dc-comparison",
+      "name": "Washington, DC",
+      "ids": [
+        "biocapital-area-washington",
+        "biocapital-area-washington-dc"
+      ],
+      "labels": [
+        "Washington",
+        "Washington DC",
+        "Washington, DC"
+      ]
+    },
+    {
+      "id": "biocapital-wilmington-de-comparison",
+      "name": "Wilmington, DE",
+      "ids": [
+        "biocapital-area-wilmington",
+        "biocapital-area-wilmington-de"
+      ],
+      "labels": [
+        "Wilmington",
+        "Wilmington DE",
+        "Wilmington, DE"
+      ]
+    },
+    {
+      "id": "biocapital-rockville-i270-comparison",
+      "name": "Rockville / I-270 wider family",
+      "ids": [
+        "biocapital-area-rockville-i-270"
+      ],
+      "labels": [
+        "Rockville/I-270"
+      ],
+      "scopeNote": "Wider retained-label assignment family, not a formal boundary; Rockville city physical-site component remains separately counted and explicitly nested, not duplicated."
+    },
+    {
+      "id": "biocapital-rockville-city-component",
+      "name": "Rockville city — nested I-270 component",
+      "ids": [
+        "biocapital-area-rockville"
+      ],
+      "labels": [
+        "Rockville"
+      ],
+      "nestedWithinFamilyId": "biocapital-rockville-i270-comparison",
+      "scopeNote": "Separate Rockville city physical-site row within the wider retained Rockville / I-270 comparison family. Counts are not copied into a parent subtotal."
+    }
+  ],
+  "outsideCoreResearchRecords": [
+    {
+      "companyId": "claude_csv:5c6eedfb4fa8:966",
+      "name": "Absci",
+      "areaId": "seattle-area-vancouver-clark-county",
+      "area": "Vancouver/Clark County — outside Puget Sound core",
+      "class": "research",
+      "primarySiteId": "claude_csv:5c6eedfb4fa8:site:966",
+      "assignmentBasis": "retained site zone label; provider may be unverified",
+      "sourceIds": [
+        "import:claude_csv:5c6eedfb4fa8:966",
+        "import-address:claude_csv:5c6eedfb4fa8:966"
+      ],
+      "precision": "provider_unchecked_street",
+      "headquartersFunctionReported": true,
+      "tier": "U",
+      "prioritySourceIds": [],
+      "website": "https://www.absci.com/",
+      "logoUrl": null,
+      "address": "18105 SE Mill Plain Blvd, Vancouver, WA",
+      "areaCode": "15",
+      "primaryPhysicalStatus": "unknown",
+      "assignmentRecordType": "company_site_research_observation",
+      "outsideCore": true,
+      "geographyScope": "Outside core King / Snohomish / Pierce counties; retained wider Washington research observation"
+    },
+    {
+      "companyId": "claude_csv:5c6eedfb4fa8:987",
+      "name": "Jubilant HollisterStier",
+      "areaId": "seattle-area-spokane",
+      "area": "Spokane — outside Puget Sound core",
+      "class": "research",
+      "primarySiteId": "claude_csv:5c6eedfb4fa8:site:987",
+      "assignmentBasis": "retained site zone label; provider may be unverified",
+      "sourceIds": [
+        "import:claude_csv:5c6eedfb4fa8:987",
+        "import-address:claude_csv:5c6eedfb4fa8:987"
+      ],
+      "precision": "provider_unchecked_street",
+      "headquartersFunctionReported": false,
+      "tier": "U",
+      "prioritySourceIds": [],
+      "website": "https://www.jublhs.com/",
+      "logoUrl": null,
+      "address": "3525 N Regal Street, Spokane, WA",
+      "areaCode": "14",
+      "primaryPhysicalStatus": "unknown",
+      "assignmentRecordType": "company_site_research_observation",
+      "outsideCore": true,
+      "geographyScope": "Outside core King / Snohomish / Pierce counties; retained wider Washington research observation"
+    }
+  ],
+  "limitations": "Bounded API verification of all headers/summaries at capture plus three full profiles. Other 1273 full profiles retained unchanged from V6; no new current-company eligibility census. Print maps/layout and packaging are delegated, not certified by this data audit.",
+  "ownershipRecords": [
+    {
+      "companyId": "gco_4770f3a112b9769fac17",
+      "name": "T3 Pharmaceuticals AG",
+      "parent": "Boehringer Ingelheim",
+      "rawKindPreserved": "baseline_company",
+      "listing": "subsidiary",
+      "ownershipLabel": "Operating affiliate of Boehringer Ingelheim",
+      "sourceIds": [
+        "v6:presence:t3-basel:t3_parent_portfolio"
+      ],
+      "independentPrivateFirm": false,
+      "operatingSitesPreserved": true
+    },
+    {
+      "companyId": "gco_7a1b3460a09f20347048",
+      "name": "NBE Therapeutics AG",
+      "parent": "Boehringer Ingelheim",
+      "rawKindPreserved": "baseline_company",
+      "listing": "subsidiary",
+      "ownershipLabel": "Operating affiliate of Boehringer Ingelheim",
+      "sourceIds": [
+        "v6:presence:nbe-allschwil:nbe_parent_opening_20250403"
+      ],
+      "independentPrivateFirm": false,
+      "operatingSitesPreserved": true
+    }
+  ]
+}

@@ -1,0 +1,1463 @@
+{
+  "version": "cash-extraction-V6",
+  "asOf": "2026-11-04",
+  "bound": {
+    "staleDays": 365,
+    "selected": 13,
+    "maximum": 20,
+    "requestRatePerSecond": 3.333,
+    "noBulkLLM": true
+  },
+  "policy": "Cash and cash equivalents only. USD only, exact retained listed reporting CIK, instant/form/filed cutoff. Combined restricted-cash taxonomy requires an actual consolidated balance-sheet cash-only line witness; no blanket alternate-tag fallback. Never investments or currency conversion.",
+  "results": [
+    {
+      "companyId": "gco_e2dfe3f6013a3ea81210",
+      "name": "10x Genomics, Inc.",
+      "before": {
+        "key": "cash_and_cash_equivalents",
+        "label": "Cash and cash equivalents",
+        "value": 344.067,
+        "unit": "USD millions",
+        "scope": "Global reporting entity: 10x Genomics, Inc.",
+        "asOf": "2024-12-31",
+        "periodStart": null,
+        "status": "verified",
+        "sourceIds": [
+          "biotech-bay:SEC_FACT_1770787_000177078725000013"
+        ],
+        "notes": "Cash and equivalents only; reviewed investment aggregation not available",
+        "section": "Companywide financials"
+      },
+      "decision": "correct_verified_current_cash",
+      "errors": [],
+      "cik": 1770787,
+      "retainedIdentitySourceIds": [
+        "biotech-bay:SEC_FACT_1770787_000162828026007822",
+        "biotech-bay:SEC_FACT_1770787_000162828026054491",
+        "biotech-bay:SEC_FACT_1770787_000177078725000013",
+        "retained_filing:biotech-bay:SEC_FACT_1770787_000162828026007822"
+      ],
+      "identity": {
+        "cik": 1770787,
+        "reportingEntity": "10x Genomics, Inc.",
+        "companyfactsEntity": "10x Genomics, Inc.",
+        "ticker": "TXG",
+        "exchanges": [
+          "Nasdaq"
+        ],
+        "matchBasis": "Retained exact SEC_FACT CIK/source mapping plus same CIK in submissions and companyfacts and exact current listed ticker. No partial-name matching.",
+        "submissionsEvidence": {
+          "path": "scripts/v6-sec-cache/submissions-CIK0001770787.json",
+          "sha256": "5995726c4dc4487d7eb0b4eb21c6ed2c3b53ece749cbe1d6a1ce80950ef09d15",
+          "retrievedDate": "2026-11-04",
+          "reused": true
+        }
+      },
+      "companyfactsEvidence": {
+        "path": "scripts/v6-sec-cache/companyfacts-CIK0001770787.json",
+        "sha256": "2f61e04b1626c1c2d1f4d43810aa79e5651a901f79993ed49ad3870c17a80e07",
+        "retrievedDate": "2026-11-04",
+        "reused": true
+      },
+      "standardTagLatest": {
+        "tag": "CashAndCashEquivalentsAtCarryingValue",
+        "end": "2024-12-31",
+        "val": 344067000,
+        "accn": "0001770787-25-000013",
+        "fy": 2024,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "frame": "CY2024Q4I"
+      },
+      "after": {
+        "key": "cash_and_cash_equivalents",
+        "label": "Cash and cash equivalents",
+        "value": 502.512,
+        "unit": "USD millions",
+        "scope": "Companywide consolidated SEC reporting entity: 10x Genomics, Inc. (CIK 1770787); not local capital or lease credit",
+        "asOf": "2026-06-30",
+        "periodStart": null,
+        "status": "primary_filing_reported",
+        "sourceIds": [
+          "v6:SEC_CASH_1770787_000162828026054491"
+        ],
+        "notes": "Cash and cash equivalents only; investments excluded. Native CashEquivalentsAtCarryingValue, USD instant, 10-Q filed 2026-08-07. Selected by latest calendar instant, filing date, then approved concept; retained original observations are preserved.",
+        "section": "Companywide financials"
+      },
+      "sources": [
+        {
+          "id": "v6:SEC_CASH_1770787_000162828026054491",
+          "title": "10x Genomics, Inc. 10-Q \u2014 consolidated cash and cash equivalents at 2026-06-30",
+          "url": "https://www.sec.gov/Archives/edgar/data/1770787/000162828026054491/txg-20260630.htm",
+          "publishedDate": "2026-08-07",
+          "retrievedDate": "2026-11-04",
+          "visibility": "public"
+        }
+      ],
+      "nativeEvidence": {
+        "namespace": "us-gaap",
+        "tag": "CashEquivalentsAtCarryingValue",
+        "val": 502512000,
+        "end": "2026-06-30",
+        "unit": "USD",
+        "rowLabel": "Cash and cash equivalents",
+        "rowText": "Cash and cash equivalents $ 502,512 $ 473,966",
+        "contextId": "c-4",
+        "unitId": "usd",
+        "sourceWitness": "Entity-wide consolidated balance-sheet cash-only label in actual inline XBRL filing; investments/restricted cash are not admitted by tag fallback.",
+        "accn": "0001628280-26-054491",
+        "filed": "2026-08-07",
+        "form": "10-Q",
+        "reportingEntity": "10x Genomics, Inc.",
+        "cik": 1770787,
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/1770787/000162828026054491/txg-20260630.htm",
+        "filingEvidence": {
+          "path": "scripts/v6-sec-cache/1770787-0001628280-26-054491.html",
+          "sha256": "ec480c386c8803820a6556ce06e231f5d1eed398bd8710caa0ea8e3ec56a4912",
+          "retrievedDate": "2026-11-04",
+          "reused": true
+        },
+        "companyfactsEvidence": {
+          "path": "scripts/v6-sec-cache/companyfacts-CIK0001770787.json",
+          "sha256": "2f61e04b1626c1c2d1f4d43810aa79e5651a901f79993ed49ad3870c17a80e07",
+          "retrievedDate": "2026-11-04",
+          "reused": true
+        }
+      }
+    },
+    {
+      "companyId": "gco_6f304971a651f8ae0210",
+      "name": "AdaptHealth",
+      "before": {
+        "key": "cash_and_cash_equivalents",
+        "label": "Cash and cash equivalents",
+        "value": 0.744766,
+        "unit": "USD millions",
+        "scope": "Global reporting entity: AdaptHealth Corp.",
+        "asOf": "2019-03-31",
+        "periodStart": null,
+        "status": "verified",
+        "sourceIds": [
+          "pharm-country:SEC_FACT_1725255_000110465919029321"
+        ],
+        "notes": "Cash and equivalents only; reviewed investment aggregation not available",
+        "section": "Companywide financials"
+      },
+      "decision": "correct_verified_current_cash",
+      "errors": [],
+      "cik": 1725255,
+      "retainedIdentitySourceIds": [
+        "pharm-country:SEC_FACT_1725255_000110465919029321",
+        "pharm-country:SEC_FACT_1725255_000162828026011213",
+        "pharm-country:SEC_FACT_1725255_000162828026052646"
+      ],
+      "identity": {
+        "cik": 1725255,
+        "reportingEntity": "AdaptHealth Corp.",
+        "companyfactsEntity": "AdaptHealth Corp.",
+        "ticker": "AHCO",
+        "exchanges": [
+          "Nasdaq"
+        ],
+        "matchBasis": "Retained exact SEC_FACT CIK/source mapping plus same CIK in submissions and companyfacts and exact current listed ticker. No partial-name matching.",
+        "submissionsEvidence": {
+          "path": "scripts/v6-sec-cache/submissions-CIK0001725255.json",
+          "sha256": "3f3dbb8677b4dde758e2ffc581e5548930871a76058f53e3ff8a13796d648ed5",
+          "retrievedDate": "2026-11-04",
+          "reused": true
+        }
+      },
+      "companyfactsEvidence": {
+        "path": "scripts/v6-sec-cache/companyfacts-CIK0001725255.json",
+        "sha256": "6b34b178d0597ee147c0efbaf85f6835bfd154486935dd3400a369e1a576e852",
+        "retrievedDate": "2026-11-04",
+        "reused": true
+      },
+      "standardTagLatest": {
+        "tag": "CashAndCashEquivalentsAtCarryingValue",
+        "end": "2019-03-31",
+        "val": 744766,
+        "accn": "0001104659-19-029321",
+        "fy": 2019,
+        "fp": "Q1",
+        "form": "10-Q",
+        "filed": "2019-05-14",
+        "frame": "CY2019Q1I"
+      },
+      "after": {
+        "key": "cash_and_cash_equivalents",
+        "label": "Cash and cash equivalents",
+        "value": 80.687,
+        "unit": "USD millions",
+        "scope": "Companywide consolidated SEC reporting entity: AdaptHealth Corp. (CIK 1725255); not local capital or lease credit",
+        "asOf": "2026-09-30",
+        "periodStart": null,
+        "status": "primary_filing_reported",
+        "sourceIds": [
+          "v6:SEC_CASH_1725255_000162828026069570"
+        ],
+        "notes": "Cash and cash equivalents only; investments excluded. Native CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsIncludingDisposalGroupAndDiscontinuedOperations, USD instant, 10-Q filed 2026-11-03. Selected by latest calendar instant, filing date, then approved concept; retained original observations are preserved.",
+        "section": "Companywide financials"
+      },
+      "sources": [
+        {
+          "id": "v6:SEC_CASH_1725255_000162828026069570",
+          "title": "AdaptHealth Corp. 10-Q \u2014 consolidated cash and cash equivalents at 2026-09-30",
+          "url": "https://www.sec.gov/Archives/edgar/data/1725255/000162828026069570/ahco-20260930.htm",
+          "publishedDate": "2026-11-03",
+          "retrievedDate": "2026-11-04",
+          "visibility": "public"
+        }
+      ],
+      "nativeEvidence": {
+        "namespace": "us-gaap",
+        "tag": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsIncludingDisposalGroupAndDiscontinuedOperations",
+        "val": 80687000,
+        "end": "2026-09-30",
+        "unit": "USD",
+        "rowLabel": "Cash",
+        "rowText": "Cash $ 80,687 $ 106,136",
+        "contextId": "c-3",
+        "unitId": "usd",
+        "sourceWitness": "Entity-wide consolidated balance-sheet cash-only label in actual inline XBRL filing; investments/restricted cash are not admitted by tag fallback.",
+        "accn": "0001628280-26-069570",
+        "filed": "2026-11-03",
+        "form": "10-Q",
+        "reportingEntity": "AdaptHealth Corp.",
+        "cik": 1725255,
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/1725255/000162828026069570/ahco-20260930.htm",
+        "filingEvidence": {
+          "path": "scripts/v6-sec-cache/1725255-0001628280-26-069570.html",
+          "sha256": "012bbe3aae68f9beffad79f3d6c889d61c5be3bd94d1b5d722d6efdfdaf48ba8",
+          "retrievedDate": "2026-11-04",
+          "reused": true
+        },
+        "companyfactsEvidence": {
+          "path": "scripts/v6-sec-cache/companyfacts-CIK0001725255.json",
+          "sha256": "6b34b178d0597ee147c0efbaf85f6835bfd154486935dd3400a369e1a576e852",
+          "retrievedDate": "2026-11-04",
+          "reused": true
+        }
+      }
+    },
+    {
+      "companyId": "gco_24541c996caf62a4570c",
+      "name": "Biogen",
+      "before": {
+        "key": "cash_and_cash_equivalents",
+        "label": "Cash and cash equivalents",
+        "value": 2913.7,
+        "unit": "USD millions",
+        "scope": "Global reporting entity: BIOGEN INC.",
+        "asOf": "2019-12-31",
+        "periodStart": null,
+        "status": "verified",
+        "sourceIds": [
+          "bio-nc:SEC_FACT_875045_000087504520000005"
+        ],
+        "notes": "Cash and equivalents only; reviewed investment aggregation not available",
+        "section": "Companywide financials"
+      },
+      "decision": "correct_verified_current_cash",
+      "errors": [],
+      "cik": 875045,
+      "retainedIdentitySourceIds": [
+        "bio-nc:SEC_FACT_875045_000087504520000005",
+        "bio-nc:SEC_FACT_875045_000087504526000013",
+        "bio-nc:SEC_FACT_875045_000087504526000096",
+        "genetown:SEC_FACT_875045_000087504520000005",
+        "genetown:SEC_FACT_875045_000087504526000013",
+        "genetown:SEC_FACT_875045_000087504526000096"
+      ],
+      "identity": {
+        "cik": 875045,
+        "reportingEntity": "BIOGEN INC.",
+        "companyfactsEntity": "BIOGEN INC.",
+        "ticker": "BIIB",
+        "exchanges": [
+          "Nasdaq"
+        ],
+        "matchBasis": "Retained exact SEC_FACT CIK/source mapping plus same CIK in submissions and companyfacts and exact current listed ticker. No partial-name matching.",
+        "submissionsEvidence": {
+          "path": "scripts/v6-sec-cache/submissions-CIK0000875045.json",
+          "sha256": "7636c83dab37ea29956b874270161da783f2e76a1606414221919bcb7f53b383",
+          "retrievedDate": "2026-11-04",
+          "reused": true
+        }
+      },
+      "companyfactsEvidence": {
+        "path": "scripts/v6-sec-cache/companyfacts-CIK0000875045.json",
+        "sha256": "61389e4963242629c5440129978761851e52624625fecff6fa504cf852b1fc5e",
+        "retrievedDate": "2026-11-04",
+        "reused": true
+      },
+      "standardTagLatest": {
+        "tag": "CashAndCashEquivalentsAtCarryingValue",
+        "end": "2019-12-31",
+        "val": 2913700000,
+        "accn": "0000875045-20-000005",
+        "fy": 2019,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2020-02-06",
+        "frame": "CY2019Q4I"
+      },
+      "after": {
+        "key": "cash_and_cash_equivalents",
+        "label": "Cash and cash equivalents",
+        "value": 1303.9,
+        "unit": "USD millions",
+        "scope": "Companywide consolidated SEC reporting entity: BIOGEN INC. (CIK 875045); not local capital or lease credit",
+        "asOf": "2026-09-30",
+        "periodStart": null,
+        "status": "primary_filing_reported",
+        "sourceIds": [
+          "v6:SEC_CASH_875045_000087504526000096"
+        ],
+        "notes": "Cash and cash equivalents only; investments excluded. Native CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents, USD instant, 10-Q filed 2026-10-28. Selected by latest calendar instant, filing date, then approved concept; retained original observations are preserved.",
+        "section": "Companywide financials"
+      },
+      "sources": [
+        {
+          "id": "v6:SEC_CASH_875045_000087504526000096",
+          "title": "BIOGEN INC. 10-Q \u2014 consolidated cash and cash equivalents at 2026-09-30",
+          "url": "https://www.sec.gov/Archives/edgar/data/875045/000087504526000096/biib-20260930.htm",
+          "publishedDate": "2026-10-28",
+          "retrievedDate": "2026-11-04",
+          "visibility": "public"
+        }
+      ],
+      "nativeEvidence": {
+        "namespace": "us-gaap",
+        "tag": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+        "val": 1303900000,
+        "end": "2026-09-30",
+        "unit": "USD",
+        "rowLabel": "Cash and cash equivalents",
+        "rowText": "Cash and cash equivalents $ 1,303.9 $ 3,008.5",
+        "contextId": "c-22",
+        "unitId": "usd",
+        "sourceWitness": "Entity-wide consolidated balance-sheet cash-only label in actual inline XBRL filing; investments/restricted cash are not admitted by tag fallback.",
+        "accn": "0000875045-26-000096",
+        "filed": "2026-10-28",
+        "form": "10-Q",
+        "reportingEntity": "BIOGEN INC.",
+        "cik": 875045,
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/875045/000087504526000096/biib-20260930.htm",
+        "filingEvidence": {
+          "path": "scripts/v6-sec-cache/875045-0000875045-26-000096.html",
+          "sha256": "24008e430a4933164c5e1b5ae25b96d5023eaa0a450d6268862d3c0626573f16",
+          "retrievedDate": "2026-11-04",
+          "reused": true
+        },
+        "companyfactsEvidence": {
+          "path": "scripts/v6-sec-cache/companyfacts-CIK0000875045.json",
+          "sha256": "61389e4963242629c5440129978761851e52624625fecff6fa504cf852b1fc5e",
+          "retrievedDate": "2026-11-04",
+          "reused": true
+        }
+      }
+    },
+    {
+      "companyId": "gco_f76aa953b1180783ad22",
+      "name": "Calidi Biotherapeutics",
+      "before": {
+        "key": "cash_and_cash_equivalents",
+        "label": "Cash and cash equivalents",
+        "value": 9.6,
+        "unit": "USD millions",
+        "scope": "Global reporting entity: Calidi Biotherapeutics, Inc.",
+        "asOf": "2024-12-31",
+        "periodStart": null,
+        "status": "verified",
+        "sourceIds": [
+          "biotech-beach:SEC_FACT_1855485_000164117225001810"
+        ],
+        "notes": "Cash and equivalents only; reviewed investment aggregation not available",
+        "section": "Companywide financials"
+      },
+      "decision": "correct_verified_current_cash",
+      "errors": [],
+      "cik": 1855485,
+      "retainedIdentitySourceIds": [
+        "biotech-beach:SEC_FACT_1855485_000149315224010158",
+        "biotech-beach:SEC_FACT_1855485_000149315226013242",
+        "biotech-beach:SEC_FACT_1855485_000149315226037847",
+        "biotech-beach:SEC_FACT_1855485_000164117225001810"
+      ],
+      "identity": {
+        "cik": 1855485,
+        "reportingEntity": "Calidi Biotherapeutics, Inc.",
+        "companyfactsEntity": "Calidi Biotherapeutics, Inc.",
+        "ticker": "CLDI",
+        "exchanges": [
+          "NYSE",
+          "OTC"
+        ],
+        "matchBasis": "Retained exact SEC_FACT CIK/source mapping plus same CIK in submissions and companyfacts and exact current listed ticker. No partial-name matching.",
+        "submissionsEvidence": {
+          "path": "scripts/v6-sec-cache/submissions-CIK0001855485.json",
+          "sha256": "9150cf38aba5a1f826ceee0b6736c417ba3fcc373c30864eca80c25e6ed464ff",
+          "retrievedDate": "2026-11-04",
+          "reused": true
+        }
+      },
+      "companyfactsEvidence": {
+        "path": "scripts/v6-sec-cache/companyfacts-CIK0001855485.json",
+        "sha256": "cee5bcb17267f2683b0e32bc7855962df8b75eaa8e203dfe43552815b3a9182b",
+        "retrievedDate": "2026-11-04",
+        "reused": true
+      },
+      "standardTagLatest": {
+        "tag": "CashAndCashEquivalentsAtCarryingValue",
+        "end": "2024-12-31",
+        "val": 9600000,
+        "accn": "0001641172-25-001810",
+        "fy": 2024,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2025-03-31",
+        "frame": "CY2024Q4I"
+      },
+      "after": {
+        "key": "cash_and_cash_equivalents",
+        "label": "Cash and cash equivalents",
+        "value": 4.071,
+        "unit": "USD millions",
+        "scope": "Companywide consolidated SEC reporting entity: Calidi Biotherapeutics, Inc. (CIK 1855485); not local capital or lease credit",
+        "asOf": "2026-06-30",
+        "periodStart": null,
+        "status": "primary_filing_reported",
+        "sourceIds": [
+          "v6:SEC_CASH_1855485_000149315226037847"
+        ],
+        "notes": "Cash and cash equivalents only; investments excluded. Native Cash, USD instant, 10-Q filed 2026-08-13. Selected by latest calendar instant, filing date, then approved concept; retained original observations are preserved.",
+        "section": "Companywide financials"
+      },
+      "sources": [
+        {
+          "id": "v6:SEC_CASH_1855485_000149315226037847",
+          "title": "Calidi Biotherapeutics, Inc. 10-Q \u2014 consolidated cash and cash equivalents at 2026-06-30",
+          "url": "https://www.sec.gov/Archives/edgar/data/1855485/000149315226037847/form10-q.htm",
+          "publishedDate": "2026-08-13",
+          "retrievedDate": "2026-11-04",
+          "visibility": "public"
+        }
+      ],
+      "nativeEvidence": {
+        "namespace": "us-gaap",
+        "tag": "Cash",
+        "val": 4071000,
+        "end": "2026-06-30",
+        "unit": "USD",
+        "rowLabel": "Cash",
+        "rowText": "Cash $ 4,071 $ 5,600",
+        "contextId": "AsOf2026-06-30",
+        "unitId": "USD",
+        "sourceWitness": "Entity-wide consolidated balance-sheet cash-only label in actual inline XBRL filing; investments/restricted cash are not admitted by tag fallback.",
+        "accn": "0001493152-26-037847",
+        "filed": "2026-08-13",
+        "form": "10-Q",
+        "reportingEntity": "Calidi Biotherapeutics, Inc.",
+        "cik": 1855485,
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/1855485/000149315226037847/form10-q.htm",
+        "filingEvidence": {
+          "path": "/home/ubuntu/life-science-atlas/assets/primary_logo_cache/a0fe3c64ba7a8845afed254475fc37e3c0c265096713a90744042053a21320f4.gz",
+          "sha256": "1c8b3b3adf2c23849d1add5a3863b92f9d213d1016b0361836d1c18511585cea",
+          "retrievedDate": null,
+          "retained": true
+        },
+        "companyfactsEvidence": {
+          "path": "scripts/v6-sec-cache/companyfacts-CIK0001855485.json",
+          "sha256": "cee5bcb17267f2683b0e32bc7855962df8b75eaa8e203dfe43552815b3a9182b",
+          "retrievedDate": "2026-11-04",
+          "reused": true
+        }
+      }
+    },
+    {
+      "companyId": "gco_bca8b187d472466a89ea",
+      "name": "CEL-SCI Corporation",
+      "before": {
+        "key": "cash_and_cash_equivalents",
+        "label": "Cash and cash equivalents",
+        "value": 5.13507,
+        "unit": "USD millions",
+        "scope": "Global reporting entity: CEL-SCI CORPORATION",
+        "asOf": "2023-06-30",
+        "periodStart": null,
+        "status": "verified",
+        "sourceIds": [
+          "biocapital:SEC_FACT_725363_000165495423010485"
+        ],
+        "notes": "Cash and equivalents only; reviewed investment aggregation not available",
+        "section": "Companywide financials"
+      },
+      "decision": "correct_verified_current_cash",
+      "errors": [],
+      "cik": 725363,
+      "retainedIdentitySourceIds": [
+        "biocapital:SEC_FACT_725363_000165495417011501",
+        "biocapital:SEC_FACT_725363_000165495423010485",
+        "biocapital:SEC_FACT_725363_000165495425014303",
+        "biocapital:SEC_FACT_725363_000165495426007657"
+      ],
+      "identity": {
+        "cik": 725363,
+        "reportingEntity": "CEL SCI CORP",
+        "companyfactsEntity": "CEL-SCI CORPORATION",
+        "ticker": "CVM",
+        "exchanges": [
+          "NYSE"
+        ],
+        "matchBasis": "Retained exact SEC_FACT CIK/source mapping plus same CIK in submissions and companyfacts and exact current listed ticker. No partial-name matching.",
+        "submissionsEvidence": {
+          "path": "scripts/v6-sec-cache/submissions-CIK0000725363.json",
+          "sha256": "1f72fdda0a82ab67104b4895f5ce5758751030493d6df2fd49863a4b3e7fb747",
+          "retrievedDate": "2026-11-04",
+          "reused": true
+        }
+      },
+      "companyfactsEvidence": {
+        "path": "scripts/v6-sec-cache/companyfacts-CIK0000725363.json",
+        "sha256": "3f1c9e73e41eafad8cc30db098e4fa8374aff946c8db450e7057badbff0e0cb2",
+        "retrievedDate": "2026-11-04",
+        "reused": true
+      },
+      "standardTagLatest": {
+        "tag": "CashAndCashEquivalentsAtCarryingValue",
+        "end": "2023-06-30",
+        "val": 5135070,
+        "accn": "0001654954-23-010485",
+        "fy": 2023,
+        "fp": "Q3",
+        "form": "10-Q",
+        "filed": "2023-08-10",
+        "frame": "CY2023Q2I"
+      },
+      "after": {
+        "key": "cash_and_cash_equivalents",
+        "label": "Cash and cash equivalents",
+        "value": 6.527381,
+        "unit": "USD millions",
+        "scope": "Companywide consolidated SEC reporting entity: CEL SCI CORP (CIK 725363); not local capital or lease credit",
+        "asOf": "2026-06-30",
+        "periodStart": null,
+        "status": "primary_filing_reported",
+        "sourceIds": [
+          "v6:SEC_CASH_725363_000165495426007657"
+        ],
+        "notes": "Cash and cash equivalents only; investments excluded. Native CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents, USD instant, 10-Q filed 2026-08-14. Selected by latest calendar instant, filing date, then approved concept; retained original observations are preserved.",
+        "section": "Companywide financials"
+      },
+      "sources": [
+        {
+          "id": "v6:SEC_CASH_725363_000165495426007657",
+          "title": "CEL SCI CORP 10-Q \u2014 consolidated cash and cash equivalents at 2026-06-30",
+          "url": "https://www.sec.gov/Archives/edgar/data/725363/000165495426007657/cvm_10q.htm",
+          "publishedDate": "2026-08-14",
+          "retrievedDate": "2026-11-04",
+          "visibility": "public"
+        }
+      ],
+      "nativeEvidence": {
+        "namespace": "us-gaap",
+        "tag": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+        "val": 6527381,
+        "end": "2026-06-30",
+        "unit": "USD",
+        "rowLabel": "Cash and cash equivalents",
+        "rowText": "Cash and cash equivalents $ 6,527,381 $ 10,953,460",
+        "contextId": "AsOf2026-06-30",
+        "unitId": "USD",
+        "sourceWitness": "Entity-wide consolidated balance-sheet cash-only label in actual inline XBRL filing; investments/restricted cash are not admitted by tag fallback.",
+        "accn": "0001654954-26-007657",
+        "filed": "2026-08-14",
+        "form": "10-Q",
+        "reportingEntity": "CEL SCI CORP",
+        "cik": 725363,
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/725363/000165495426007657/cvm_10q.htm",
+        "filingEvidence": {
+          "path": "scripts/v6-sec-cache/725363-0001654954-26-007657.html",
+          "sha256": "f7814f5a080eef46f034ec0c3a25c6c0abaae7dc9c9607a909fa503ac71985dc",
+          "retrievedDate": "2026-11-04",
+          "reused": true
+        },
+        "companyfactsEvidence": {
+          "path": "scripts/v6-sec-cache/companyfacts-CIK0000725363.json",
+          "sha256": "3f1c9e73e41eafad8cc30db098e4fa8374aff946c8db450e7057badbff0e0cb2",
+          "retrievedDate": "2026-11-04",
+          "reused": true
+        }
+      }
+    },
+    {
+      "companyId": "gco_35100dc320d02d283926",
+      "name": "Danaher Corporation",
+      "before": {
+        "key": "cash_and_cash_equivalents",
+        "label": "Cash and cash equivalents",
+        "value": 5687.7,
+        "unit": "USD millions",
+        "scope": "Global reporting entity: DANAHER CORPORATION",
+        "asOf": "2020-10-02",
+        "periodStart": null,
+        "status": "verified",
+        "sourceIds": [
+          "biocapital:SEC_FACT_313616_000031361620000142"
+        ],
+        "notes": "Cash and equivalents only; reviewed investment aggregation not available",
+        "section": "Companywide financials"
+      },
+      "decision": "correct_verified_current_cash",
+      "errors": [],
+      "cik": 313616,
+      "retainedIdentitySourceIds": [
+        "biocapital:SEC_FACT_313616_000031361620000142",
+        "biocapital:SEC_FACT_313616_000031361626000062",
+        "biocapital:SEC_FACT_313616_000031361626000199"
+      ],
+      "identity": {
+        "cik": 313616,
+        "reportingEntity": "DANAHER CORP /DE/",
+        "companyfactsEntity": "DANAHER CORPORATION",
+        "ticker": "DHR",
+        "exchanges": [
+          "NYSE"
+        ],
+        "matchBasis": "Retained exact SEC_FACT CIK/source mapping plus same CIK in submissions and companyfacts and exact current listed ticker. No partial-name matching.",
+        "submissionsEvidence": {
+          "path": "scripts/v6-sec-cache/submissions-CIK0000313616.json",
+          "sha256": "99d739cf0cdffd73cc9011c5d474ec2e8e54d6fd117497169183a233581a40f0",
+          "retrievedDate": "2026-11-04",
+          "reused": true
+        }
+      },
+      "companyfactsEvidence": {
+        "path": "scripts/v6-sec-cache/companyfacts-CIK0000313616.json",
+        "sha256": "490c60712f8b9aafe5ad232e8d053a26205b5517f8f4679432503f7768574efb",
+        "retrievedDate": "2026-11-04",
+        "reused": true
+      },
+      "standardTagLatest": {
+        "tag": "CashAndCashEquivalentsAtCarryingValue",
+        "end": "2020-10-02",
+        "val": 5687700000,
+        "accn": "0000313616-20-000142",
+        "fy": 2020,
+        "fp": "Q3",
+        "form": "10-Q",
+        "filed": "2020-10-22",
+        "frame": "CY2020Q3I"
+      },
+      "after": {
+        "key": "cash_and_cash_equivalents",
+        "label": "Cash and cash equivalents",
+        "value": 5682.0,
+        "unit": "USD millions",
+        "scope": "Companywide consolidated SEC reporting entity: DANAHER CORP /DE/ (CIK 313616); not local capital or lease credit",
+        "asOf": "2026-09-25",
+        "periodStart": null,
+        "status": "primary_filing_reported",
+        "sourceIds": [
+          "v6:SEC_CASH_313616_000031361626000199"
+        ],
+        "notes": "Cash and cash equivalents only; investments excluded. Native CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents, USD instant, 10-Q filed 2026-10-21. Selected by latest calendar instant, filing date, then approved concept; retained original observations are preserved.",
+        "section": "Companywide financials"
+      },
+      "sources": [
+        {
+          "id": "v6:SEC_CASH_313616_000031361626000199",
+          "title": "DANAHER CORP /DE/ 10-Q \u2014 consolidated cash and cash equivalents at 2026-09-25",
+          "url": "https://www.sec.gov/Archives/edgar/data/313616/000031361626000199/dhr-20260925.htm",
+          "publishedDate": "2026-10-21",
+          "retrievedDate": "2026-11-04",
+          "visibility": "public"
+        }
+      ],
+      "nativeEvidence": {
+        "namespace": "us-gaap",
+        "tag": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+        "val": 5682000000,
+        "end": "2026-09-25",
+        "unit": "USD",
+        "rowLabel": "Cash and equivalents",
+        "rowText": "Cash and equivalents $ 5,682 $ 4,615",
+        "contextId": "c-15",
+        "unitId": "usd",
+        "sourceWitness": "Entity-wide consolidated balance-sheet cash-only label in actual inline XBRL filing; investments/restricted cash are not admitted by tag fallback.",
+        "accn": "0000313616-26-000199",
+        "filed": "2026-10-21",
+        "form": "10-Q",
+        "reportingEntity": "DANAHER CORP /DE/",
+        "cik": 313616,
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/313616/000031361626000199/dhr-20260925.htm",
+        "filingEvidence": {
+          "path": "scripts/v6-sec-cache/313616-0000313616-26-000199.html",
+          "sha256": "b44252aa7285f8c69b9d6d7b42b8000bdc097eeed5ae06d1beb75e2adfdc332d",
+          "retrievedDate": "2026-11-04",
+          "reused": true
+        },
+        "companyfactsEvidence": {
+          "path": "scripts/v6-sec-cache/companyfacts-CIK0000313616.json",
+          "sha256": "490c60712f8b9aafe5ad232e8d053a26205b5517f8f4679432503f7768574efb",
+          "retrievedDate": "2026-11-04",
+          "reused": true
+        }
+      }
+    },
+    {
+      "companyId": "gco_351b29a1a88ff768fe50",
+      "name": "Gilead Sciences, Inc.",
+      "before": {
+        "key": "cash_and_cash_equivalents",
+        "label": "Cash and cash equivalents",
+        "value": 5412.0,
+        "unit": "USD millions",
+        "scope": "Global reporting entity: GILEAD SCIENCES, INC.",
+        "asOf": "2022-12-31",
+        "periodStart": null,
+        "status": "verified",
+        "sourceIds": [
+          "biotech-bay:SEC_FACT_882095_000088209523000007"
+        ],
+        "notes": "Cash and equivalents only; reviewed investment aggregation not available",
+        "section": "Companywide financials"
+      },
+      "decision": "correct_verified_current_cash",
+      "errors": [],
+      "cik": 882095,
+      "retainedIdentitySourceIds": [
+        "biotech-bay:SEC_FACT_882095_000088209523000007",
+        "biotech-bay:SEC_FACT_882095_000088209526000006",
+        "biotech-bay:SEC_FACT_882095_000088209526000031"
+      ],
+      "identity": {
+        "cik": 882095,
+        "reportingEntity": "GILEAD SCIENCES, INC.",
+        "companyfactsEntity": "GILEAD SCIENCES, INC.",
+        "ticker": "GILD",
+        "exchanges": [
+          "Nasdaq"
+        ],
+        "matchBasis": "Retained exact SEC_FACT CIK/source mapping plus same CIK in submissions and companyfacts and exact current listed ticker. No partial-name matching.",
+        "submissionsEvidence": {
+          "path": "scripts/v6-sec-cache/submissions-CIK0000882095.json",
+          "sha256": "5380f37eb79f1663baf7431f0dcb5f6ca56be869821c070e43cad01574aa7daa",
+          "retrievedDate": "2026-11-04",
+          "reused": true
+        }
+      },
+      "companyfactsEvidence": {
+        "path": "scripts/v6-sec-cache/companyfacts-CIK0000882095.json",
+        "sha256": "1c6c241ddb137215b2d1c2496e64895b3287ae59ae2fe963cf4fa725d0856e3d",
+        "retrievedDate": "2026-11-04",
+        "reused": true
+      },
+      "standardTagLatest": {
+        "tag": "CashAndCashEquivalentsAtCarryingValue",
+        "end": "2022-12-31",
+        "val": 5412000000,
+        "accn": "0000882095-23-000007",
+        "fy": 2022,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2023-02-22",
+        "frame": "CY2022Q4I"
+      },
+      "after": {
+        "key": "cash_and_cash_equivalents",
+        "label": "Cash and cash equivalents",
+        "value": 6437.0,
+        "unit": "USD millions",
+        "scope": "Companywide consolidated SEC reporting entity: GILEAD SCIENCES, INC. (CIK 882095); not local capital or lease credit",
+        "asOf": "2026-09-30",
+        "periodStart": null,
+        "status": "primary_filing_reported",
+        "sourceIds": [
+          "v6:SEC_CASH_882095_000088209526000039"
+        ],
+        "notes": "Cash and cash equivalents only; investments excluded. Native CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents, USD instant, 10-Q filed 2026-10-30. Selected by latest calendar instant, filing date, then approved concept; retained original observations are preserved.",
+        "section": "Companywide financials"
+      },
+      "sources": [
+        {
+          "id": "v6:SEC_CASH_882095_000088209526000039",
+          "title": "GILEAD SCIENCES, INC. 10-Q \u2014 consolidated cash and cash equivalents at 2026-09-30",
+          "url": "https://www.sec.gov/Archives/edgar/data/882095/000088209526000039/gild-20260930.htm",
+          "publishedDate": "2026-10-30",
+          "retrievedDate": "2026-11-04",
+          "visibility": "public"
+        }
+      ],
+      "nativeEvidence": {
+        "namespace": "us-gaap",
+        "tag": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+        "val": 6437000000,
+        "end": "2026-09-30",
+        "unit": "USD",
+        "rowLabel": "Cash and cash equivalents",
+        "rowText": "Cash and cash equivalents $ 6,437 $ 7,564",
+        "contextId": "c-3",
+        "unitId": "usd",
+        "sourceWitness": "Entity-wide consolidated balance-sheet cash-only label in actual inline XBRL filing; investments/restricted cash are not admitted by tag fallback.",
+        "accn": "0000882095-26-000039",
+        "filed": "2026-10-30",
+        "form": "10-Q",
+        "reportingEntity": "GILEAD SCIENCES, INC.",
+        "cik": 882095,
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/882095/000088209526000039/gild-20260930.htm",
+        "filingEvidence": {
+          "path": "scripts/v6-sec-cache/882095-0000882095-26-000039.html",
+          "sha256": "34e4e5272d07b2357acc1615637c173813220ab54d9f4c37b2f5780f15c7c9e0",
+          "retrievedDate": "2026-11-04",
+          "reused": true
+        },
+        "companyfactsEvidence": {
+          "path": "scripts/v6-sec-cache/companyfacts-CIK0000882095.json",
+          "sha256": "1c6c241ddb137215b2d1c2496e64895b3287ae59ae2fe963cf4fa725d0856e3d",
+          "retrievedDate": "2026-11-04",
+          "reused": true
+        }
+      }
+    },
+    {
+      "companyId": "gco_92d571ff1dda075da935",
+      "name": "Henry Schein",
+      "before": {
+        "key": "cash_and_cash_equivalents",
+        "label": "Cash and cash equivalents",
+        "value": 88.115,
+        "unit": "USD millions",
+        "scope": "Global reporting entity: HENRY SCHEIN, INC.",
+        "asOf": "2019-03-30",
+        "periodStart": null,
+        "status": "verified",
+        "sourceIds": [
+          "pharm-country:SEC_FACT_1000228_000100022819000030"
+        ],
+        "notes": "Cash and equivalents only; reviewed investment aggregation not available",
+        "section": "Companywide financials"
+      },
+      "decision": "unresolved_no_current_verified_cash",
+      "errors": [],
+      "cik": 1000228,
+      "retainedIdentitySourceIds": [
+        "pharm-country:SEC_FACT_1000228_000100022819000030",
+        "pharm-country:SEC_FACT_1000228_000100022826000013",
+        "pharm-country:SEC_FACT_1000228_000100022826000045"
+      ],
+      "identity": {
+        "cik": 1000228,
+        "reportingEntity": "HENRY SCHEIN INC",
+        "companyfactsEntity": "HENRY SCHEIN, INC.",
+        "ticker": "HSIC",
+        "exchanges": [
+          "Nasdaq"
+        ],
+        "matchBasis": "Retained exact SEC_FACT CIK/source mapping plus same CIK in submissions and companyfacts and exact current listed ticker. No partial-name matching.",
+        "submissionsEvidence": {
+          "path": "scripts/v6-sec-cache/submissions-CIK0001000228.json",
+          "sha256": "736a23a4a1a894a544455b3c15303ab75208b1eba99d791f7eb728141acc3070",
+          "retrievedDate": "2026-11-04",
+          "reused": true
+        }
+      },
+      "companyfactsEvidence": {
+        "path": "scripts/v6-sec-cache/companyfacts-CIK0001000228.json",
+        "sha256": "2d06103449d4536e0bbe9c13243ea12802cbb23a6c21ca84169e54ffb62f8749",
+        "retrievedDate": "2026-11-04",
+        "reused": true
+      },
+      "standardTagLatest": {
+        "tag": "CashAndCashEquivalentsAtCarryingValue",
+        "end": "2019-03-30",
+        "val": 88115000,
+        "accn": "0001000228-19-000030",
+        "fy": 2019,
+        "fp": "Q1",
+        "form": "10-Q",
+        "filed": "2019-05-07",
+        "frame": "CY2019Q1I"
+      },
+      "gap": "No source-backed current cash-only USD instant. Retain historical observation; no zero or remembered-value promotion."
+    },
+    {
+      "companyId": "gco_5bc24ec7755fa981a6c4",
+      "name": "Illumina",
+      "before": {
+        "key": "cash_and_cash_equivalents",
+        "label": "Cash and cash equivalents",
+        "value": 1144.0,
+        "unit": "USD millions",
+        "scope": "Global reporting entity: ILLUMINA, INC.",
+        "asOf": "2018-12-30",
+        "periodStart": null,
+        "status": "verified",
+        "sourceIds": [
+          "biotech-beach:SEC_FACT_1110803_000111080319000013"
+        ],
+        "notes": "Cash and equivalents only; reviewed investment aggregation not available",
+        "section": "Companywide financials"
+      },
+      "decision": "correct_verified_current_cash",
+      "errors": [],
+      "cik": 1110803,
+      "retainedIdentitySourceIds": [
+        "biotech-beach:SEC_FACT_1110803_000111080319000013",
+        "biotech-beach:SEC_FACT_1110803_000111080326000024",
+        "biotech-beach:SEC_FACT_1110803_000111080326000160"
+      ],
+      "identity": {
+        "cik": 1110803,
+        "reportingEntity": "ILLUMINA, INC.",
+        "companyfactsEntity": "Illumina, Inc.",
+        "ticker": "ILMN",
+        "exchanges": [
+          "Nasdaq"
+        ],
+        "matchBasis": "Retained exact SEC_FACT CIK/source mapping plus same CIK in submissions and companyfacts and exact current listed ticker. No partial-name matching.",
+        "submissionsEvidence": {
+          "path": "scripts/v6-sec-cache/submissions-CIK0001110803.json",
+          "sha256": "f848b1369bc10a85c1e3d56a0b21fd4cdcfe8d27cf13962abededbeb4ad74a7c",
+          "retrievedDate": "2026-11-04",
+          "reused": true
+        }
+      },
+      "companyfactsEvidence": {
+        "path": "scripts/v6-sec-cache/companyfacts-CIK0001110803.json",
+        "sha256": "cf3644fa4d3398dbff32695db7b422a8ade2169b9442aeb9f9a0b368a5c8d47a",
+        "retrievedDate": "2026-11-04",
+        "reused": true
+      },
+      "standardTagLatest": {
+        "tag": "CashAndCashEquivalentsAtCarryingValue",
+        "end": "2018-12-30",
+        "val": 1144000000,
+        "accn": "0001110803-19-000013",
+        "fy": 2018,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2019-02-12",
+        "frame": "CY2018Q4I"
+      },
+      "after": {
+        "key": "cash_and_cash_equivalents",
+        "label": "Cash and cash equivalents",
+        "value": 1289.0,
+        "unit": "USD millions",
+        "scope": "Companywide consolidated SEC reporting entity: ILLUMINA, INC. (CIK 1110803); not local capital or lease credit",
+        "asOf": "2026-09-27",
+        "periodStart": null,
+        "status": "primary_filing_reported",
+        "sourceIds": [
+          "v6:SEC_CASH_1110803_000111080326000207"
+        ],
+        "notes": "Cash and cash equivalents only; investments excluded. Native CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents, USD instant, 10-Q filed 2026-10-30. Selected by latest calendar instant, filing date, then approved concept; retained original observations are preserved.",
+        "section": "Companywide financials"
+      },
+      "sources": [
+        {
+          "id": "v6:SEC_CASH_1110803_000111080326000207",
+          "title": "ILLUMINA, INC. 10-Q \u2014 consolidated cash and cash equivalents at 2026-09-27",
+          "url": "https://www.sec.gov/Archives/edgar/data/1110803/000111080326000207/ilmn-20260927.htm",
+          "publishedDate": "2026-10-30",
+          "retrievedDate": "2026-11-04",
+          "visibility": "public"
+        }
+      ],
+      "nativeEvidence": {
+        "namespace": "us-gaap",
+        "tag": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+        "val": 1289000000,
+        "end": "2026-09-27",
+        "unit": "USD",
+        "rowLabel": "Cash and cash equivalents",
+        "rowText": "Cash and cash equivalents $ 1,289 $ 1,418",
+        "contextId": "c-3",
+        "unitId": "usd",
+        "sourceWitness": "Entity-wide consolidated balance-sheet cash-only label in actual inline XBRL filing; investments/restricted cash are not admitted by tag fallback.",
+        "accn": "0001110803-26-000207",
+        "filed": "2026-10-30",
+        "form": "10-Q",
+        "reportingEntity": "ILLUMINA, INC.",
+        "cik": 1110803,
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/1110803/000111080326000207/ilmn-20260927.htm",
+        "filingEvidence": {
+          "path": "scripts/v6-sec-cache/1110803-0001110803-26-000207.html",
+          "sha256": "0fa9f51353792665a7f44aa38f9680148f9e99cb769a13ed5d6f6c47ee0b617b",
+          "retrievedDate": "2026-11-04",
+          "reused": true
+        },
+        "companyfactsEvidence": {
+          "path": "scripts/v6-sec-cache/companyfacts-CIK0001110803.json",
+          "sha256": "cf3644fa4d3398dbff32695db7b422a8ade2169b9442aeb9f9a0b368a5c8d47a",
+          "retrievedDate": "2026-11-04",
+          "reused": true
+        }
+      }
+    },
+    {
+      "companyId": "gco_91eb20eb09fbbcf3696a",
+      "name": "Insulet",
+      "before": {
+        "key": "cash_and_cash_equivalents",
+        "label": "Cash and cash equivalents",
+        "value": 856.6,
+        "unit": "USD millions",
+        "scope": "Global reporting entity: INSULET CORPORATION",
+        "asOf": "2021-09-30",
+        "periodStart": null,
+        "status": "verified",
+        "sourceIds": [
+          "genetown:SEC_FACT_1145197_000114519721000041"
+        ],
+        "notes": "Cash and equivalents only; reviewed investment aggregation not available",
+        "section": "Companywide financials"
+      },
+      "decision": "correct_verified_current_cash",
+      "errors": [],
+      "cik": 1145197,
+      "retainedIdentitySourceIds": [
+        "genetown:SEC_FACT_1145197_000114519721000041",
+        "genetown:SEC_FACT_1145197_000114519726000028",
+        "genetown:SEC_FACT_1145197_000114519726000169"
+      ],
+      "identity": {
+        "cik": 1145197,
+        "reportingEntity": "INSULET CORP",
+        "companyfactsEntity": "INSULET CORPORATION",
+        "ticker": "PODD",
+        "exchanges": [
+          "Nasdaq"
+        ],
+        "matchBasis": "Retained exact SEC_FACT CIK/source mapping plus same CIK in submissions and companyfacts and exact current listed ticker. No partial-name matching.",
+        "submissionsEvidence": {
+          "path": "scripts/v6-sec-cache/submissions-CIK0001145197.json",
+          "sha256": "aed367ec236c47f9d2c0f29e50aa4931bbbf4b05b9a10cba0356e0f081eb5854",
+          "retrievedDate": "2026-11-04",
+          "reused": true
+        }
+      },
+      "companyfactsEvidence": {
+        "path": "scripts/v6-sec-cache/companyfacts-CIK0001145197.json",
+        "sha256": "6584a0c4ea0b5c1a6bd593893ae4b27b3d0ac6340c3e20d635b8488d32e2ebea",
+        "retrievedDate": "2026-11-04",
+        "reused": true
+      },
+      "standardTagLatest": {
+        "tag": "CashAndCashEquivalentsAtCarryingValue",
+        "end": "2021-09-30",
+        "val": 856600000,
+        "accn": "0001145197-21-000041",
+        "fy": 2021,
+        "fp": "Q3",
+        "form": "10-Q",
+        "filed": "2021-11-05",
+        "frame": "CY2021Q3I"
+      },
+      "after": {
+        "key": "cash_and_cash_equivalents",
+        "label": "Cash and cash equivalents",
+        "value": 534.9,
+        "unit": "USD millions",
+        "scope": "Companywide consolidated SEC reporting entity: INSULET CORP (CIK 1145197); not local capital or lease credit",
+        "asOf": "2026-06-30",
+        "periodStart": null,
+        "status": "primary_filing_reported",
+        "sourceIds": [
+          "v6:SEC_CASH_1145197_000114519726000169"
+        ],
+        "notes": "Cash and cash equivalents only; investments excluded. Native CashCashEquivalentsAndRestrictedCashCurrent, USD instant, 10-Q filed 2026-08-05. Selected by latest calendar instant, filing date, then approved concept; retained original observations are preserved.",
+        "section": "Companywide financials"
+      },
+      "sources": [
+        {
+          "id": "v6:SEC_CASH_1145197_000114519726000169",
+          "title": "INSULET CORP 10-Q \u2014 consolidated cash and cash equivalents at 2026-06-30",
+          "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000169/podd-20260630.htm",
+          "publishedDate": "2026-08-05",
+          "retrievedDate": "2026-11-04",
+          "visibility": "public"
+        }
+      ],
+      "nativeEvidence": {
+        "namespace": "podd",
+        "tag": "CashCashEquivalentsAndRestrictedCashCurrent",
+        "val": 534900000,
+        "end": "2026-06-30",
+        "unit": "USD",
+        "rowLabel": "Cash and cash equivalents",
+        "rowText": "Cash and cash equivalents $ 534.9 $ 716.1",
+        "contextId": "c-3",
+        "unitId": "usd",
+        "sourceWitness": "Entity-wide consolidated balance-sheet cash-only label in actual inline XBRL filing; investments/restricted cash are not admitted by tag fallback.",
+        "accn": "0001145197-26-000169",
+        "filed": "2026-08-05",
+        "form": "10-Q",
+        "reportingEntity": "INSULET CORP",
+        "cik": 1145197,
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000169/podd-20260630.htm",
+        "filingEvidence": {
+          "path": "scripts/v6-sec-cache/1145197-0001145197-26-000169.html",
+          "sha256": "fb92068eee12017762f474f1a6c5643a82ecaaace6b67f0f5e4c32ccb09d21d9",
+          "retrievedDate": "2026-11-04",
+          "reused": true
+        },
+        "companyfactsEvidence": {
+          "path": "scripts/v6-sec-cache/companyfacts-CIK0001145197.json",
+          "sha256": "6584a0c4ea0b5c1a6bd593893ae4b27b3d0ac6340c3e20d635b8488d32e2ebea",
+          "retrievedDate": "2026-11-04",
+          "reused": true
+        }
+      }
+    },
+    {
+      "companyId": "gco_f13a8e4a9a5bdf015d14",
+      "name": "Soligenix",
+      "before": {
+        "key": "cash_and_cash_equivalents",
+        "label": "Cash and cash equivalents",
+        "value": 22.875679,
+        "unit": "USD millions",
+        "scope": "Global reporting entity: SOLIGENIX,\u00a0INC.",
+        "asOf": "2022-03-31",
+        "periodStart": null,
+        "status": "verified",
+        "sourceIds": [
+          "pharm-country:SEC_FACT_812796_000155837022008747"
+        ],
+        "notes": "Cash and equivalents only; reviewed investment aggregation not available",
+        "section": "Companywide financials"
+      },
+      "decision": "correct_verified_current_cash",
+      "errors": [],
+      "cik": 812796,
+      "retainedIdentitySourceIds": [
+        "pharm-country:SEC_FACT_812796_000110465926037701",
+        "pharm-country:SEC_FACT_812796_000110465926092681",
+        "pharm-country:SEC_FACT_812796_000155837022008747",
+        "pharm-country:SEC_FACT_812796_000155837025003459"
+      ],
+      "identity": {
+        "cik": 812796,
+        "reportingEntity": "SOLIGENIX, INC.",
+        "companyfactsEntity": "SOLIGENIX,\u00a0INC.",
+        "ticker": "SNGX",
+        "exchanges": [
+          "Nasdaq"
+        ],
+        "matchBasis": "Retained exact SEC_FACT CIK/source mapping plus same CIK in submissions and companyfacts and exact current listed ticker. No partial-name matching.",
+        "submissionsEvidence": {
+          "path": "scripts/v6-sec-cache/submissions-CIK0000812796.json",
+          "sha256": "dee5397fb85b462df52d5ae11d56fb58e666c49788c3dc1dcd8ca5b794488b62",
+          "retrievedDate": "2026-11-04",
+          "reused": true
+        }
+      },
+      "companyfactsEvidence": {
+        "path": "scripts/v6-sec-cache/companyfacts-CIK0000812796.json",
+        "sha256": "8629fd5cf775c1125cd5ba8089602df0d09016eba95e768aec70a78328c796d0",
+        "retrievedDate": "2026-11-04",
+        "reused": true
+      },
+      "standardTagLatest": {
+        "tag": "CashAndCashEquivalentsAtCarryingValue",
+        "end": "2022-03-31",
+        "val": 22875679,
+        "accn": "0001558370-22-008747",
+        "fy": 2022,
+        "fp": "Q1",
+        "form": "10-Q",
+        "filed": "2022-05-13",
+        "frame": "CY2022Q1I"
+      },
+      "after": {
+        "key": "cash_and_cash_equivalents",
+        "label": "Cash and cash equivalents",
+        "value": 9.811141,
+        "unit": "USD millions",
+        "scope": "Companywide consolidated SEC reporting entity: SOLIGENIX, INC. (CIK 812796); not local capital or lease credit",
+        "asOf": "2026-06-30",
+        "periodStart": null,
+        "status": "primary_filing_reported",
+        "sourceIds": [
+          "v6:SEC_CASH_812796_000110465926092681"
+        ],
+        "notes": "Cash and cash equivalents only; investments excluded. Native CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents, USD instant, 10-Q filed 2026-08-07. Selected by latest calendar instant, filing date, then approved concept; retained original observations are preserved.",
+        "section": "Companywide financials"
+      },
+      "sources": [
+        {
+          "id": "v6:SEC_CASH_812796_000110465926092681",
+          "title": "SOLIGENIX, INC. 10-Q \u2014 consolidated cash and cash equivalents at 2026-06-30",
+          "url": "https://www.sec.gov/Archives/edgar/data/812796/000110465926092681/sngx-20260630x10q.htm",
+          "publishedDate": "2026-08-07",
+          "retrievedDate": "2026-11-04",
+          "visibility": "public"
+        }
+      ],
+      "nativeEvidence": {
+        "namespace": "us-gaap",
+        "tag": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+        "val": 9811141,
+        "end": "2026-06-30",
+        "unit": "USD",
+        "rowLabel": "Cash and cash equivalents",
+        "rowText": "Cash and cash equivalents \u200b $ 9,811,141 \u200b $ 7,936,153",
+        "contextId": "As_Of_6_30_2026__Cv7UR1HK0mizMl2kIGJcQ",
+        "unitId": "Unit_Standard_USD_qQkwtKNUkE-N9KFMd_qRkg",
+        "sourceWitness": "Entity-wide consolidated balance-sheet cash-only label in actual inline XBRL filing; investments/restricted cash are not admitted by tag fallback.",
+        "accn": "0001104659-26-092681",
+        "filed": "2026-08-07",
+        "form": "10-Q",
+        "reportingEntity": "SOLIGENIX, INC.",
+        "cik": 812796,
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/812796/000110465926092681/sngx-20260630x10q.htm",
+        "filingEvidence": {
+          "path": "/home/ubuntu/life-science-atlas/assets/primary_logo_cache/668ec9d907549abbe506c8b910456413eceb3845949ab68621681b4c74951b05.gz",
+          "sha256": "bb78a91cc24b0c12fc24923ea83bcf41a48d3b4d55c96cbee1ef67081854e00b",
+          "retrievedDate": null,
+          "retained": true
+        },
+        "companyfactsEvidence": {
+          "path": "scripts/v6-sec-cache/companyfacts-CIK0000812796.json",
+          "sha256": "8629fd5cf775c1125cd5ba8089602df0d09016eba95e768aec70a78328c796d0",
+          "retrievedDate": "2026-11-04",
+          "reused": true
+        }
+      }
+    },
+    {
+      "companyId": "gco_bd1b78d7797bd2f6f201",
+      "name": "Vaxart, Inc.",
+      "before": {
+        "key": "cash_and_cash_equivalents",
+        "label": "Cash and cash equivalents",
+        "value": 22.035,
+        "unit": "USD millions",
+        "scope": "Global reporting entity: Vaxart, Inc.",
+        "asOf": "2024-09-30",
+        "periodStart": null,
+        "status": "verified",
+        "sourceIds": [
+          "biotech-bay:SEC_FACT_72444_000143774924034927"
+        ],
+        "notes": "Cash and equivalents only; reviewed investment aggregation not available",
+        "section": "Companywide financials"
+      },
+      "decision": "correct_verified_current_cash",
+      "errors": [],
+      "cik": 72444,
+      "retainedIdentitySourceIds": [
+        "biotech-bay:SEC_FACT_72444_000143774924034927",
+        "biotech-bay:SEC_FACT_72444_000143774926014245",
+        "biotech-bay:SEC_FACT_72444_000143774926026289"
+      ],
+      "identity": {
+        "cik": 72444,
+        "reportingEntity": "Vaxart, Inc.",
+        "companyfactsEntity": "Vaxart, Inc.",
+        "ticker": "VXRT",
+        "exchanges": [
+          "OTC"
+        ],
+        "matchBasis": "Retained exact SEC_FACT CIK/source mapping plus same CIK in submissions and companyfacts and exact current listed ticker. No partial-name matching.",
+        "submissionsEvidence": {
+          "path": "scripts/v6-sec-cache/submissions-CIK0000072444.json",
+          "sha256": "e25e5c4d88e691260f9a084f26ba2b266396793254553531091391dd948a7788",
+          "retrievedDate": "2026-11-04",
+          "reused": true
+        }
+      },
+      "companyfactsEvidence": {
+        "path": "scripts/v6-sec-cache/companyfacts-CIK0000072444.json",
+        "sha256": "3a40ad97a339cd683b535ca2b7d783cde7270191b35474c06402bd146ac25150",
+        "retrievedDate": "2026-11-04",
+        "reused": true
+      },
+      "standardTagLatest": {
+        "tag": "CashAndCashEquivalentsAtCarryingValue",
+        "end": "2024-09-30",
+        "val": 22035000,
+        "accn": "0001437749-24-034927",
+        "fy": 2024,
+        "fp": "Q3",
+        "form": "10-Q",
+        "filed": "2024-11-13",
+        "frame": "CY2024Q3I"
+      },
+      "after": {
+        "key": "cash_and_cash_equivalents",
+        "label": "Cash and cash equivalents",
+        "value": 50.929,
+        "unit": "USD millions",
+        "scope": "Companywide consolidated SEC reporting entity: Vaxart, Inc. (CIK 72444); not local capital or lease credit",
+        "asOf": "2026-06-30",
+        "periodStart": null,
+        "status": "primary_filing_reported",
+        "sourceIds": [
+          "v6:SEC_CASH_72444_000143774926026289"
+        ],
+        "notes": "Cash and cash equivalents only; investments excluded. Native CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents, USD instant, 10-Q filed 2026-08-06. Selected by latest calendar instant, filing date, then approved concept; retained original observations are preserved.",
+        "section": "Companywide financials"
+      },
+      "sources": [
+        {
+          "id": "v6:SEC_CASH_72444_000143774926026289",
+          "title": "Vaxart, Inc. 10-Q \u2014 consolidated cash and cash equivalents at 2026-06-30",
+          "url": "https://www.sec.gov/Archives/edgar/data/72444/000143774926026289/vxrt20260630_10q.htm",
+          "publishedDate": "2026-08-06",
+          "retrievedDate": "2026-11-04",
+          "visibility": "public"
+        }
+      ],
+      "nativeEvidence": {
+        "namespace": "us-gaap",
+        "tag": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+        "val": 50929000,
+        "end": "2026-06-30",
+        "unit": "USD",
+        "rowLabel": "Cash and cash equivalents",
+        "rowText": "Cash and cash equivalents $ 50,929 $ 53,814",
+        "contextId": "i_2026-06-30",
+        "unitId": "USD",
+        "sourceWitness": "Entity-wide consolidated balance-sheet cash-only label in actual inline XBRL filing; investments/restricted cash are not admitted by tag fallback.",
+        "accn": "0001437749-26-026289",
+        "filed": "2026-08-06",
+        "form": "10-Q",
+        "reportingEntity": "Vaxart, Inc.",
+        "cik": 72444,
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/72444/000143774926026289/vxrt20260630_10q.htm",
+        "filingEvidence": {
+          "path": "scripts/v6-sec-cache/72444-0001437749-26-026289.html",
+          "sha256": "2830e33eaab58e57bb65b4b120ac158a736e26abbfcefdb9978617b40378a653",
+          "retrievedDate": "2026-11-04",
+          "reused": true
+        },
+        "companyfactsEvidence": {
+          "path": "scripts/v6-sec-cache/companyfacts-CIK0000072444.json",
+          "sha256": "3a40ad97a339cd683b535ca2b7d783cde7270191b35474c06402bd146ac25150",
+          "retrievedDate": "2026-11-04",
+          "reused": true
+        }
+      }
+    },
+    {
+      "companyId": "gco_33285dd1a1daa755a881",
+      "name": "Viridian Therapeutics",
+      "before": {
+        "key": "cash_and_cash_equivalents",
+        "label": "Cash and cash equivalents",
+        "value": 24.857,
+        "unit": "USD millions",
+        "scope": "Global reporting entity: Viridian Therapeutics, Inc./DE",
+        "asOf": "2019-09-30",
+        "periodStart": null,
+        "status": "verified",
+        "sourceIds": [
+          "genetown:SEC_FACT_1590750_000159075019000059"
+        ],
+        "notes": "Cash and equivalents only; reviewed investment aggregation not available",
+        "section": "Companywide financials"
+      },
+      "decision": "correct_verified_current_cash",
+      "errors": [],
+      "cik": 1590750,
+      "retainedIdentitySourceIds": [
+        "genetown:SEC_FACT_1590750_000159075019000059",
+        "genetown:SEC_FACT_1590750_000159075026000007",
+        "genetown:SEC_FACT_1590750_000159075026000018"
+      ],
+      "identity": {
+        "cik": 1590750,
+        "reportingEntity": "Viridian Therapeutics, Inc.\\DE",
+        "companyfactsEntity": "Viridian Therapeutics, Inc./DE",
+        "ticker": "VRDN",
+        "exchanges": [
+          "Nasdaq"
+        ],
+        "matchBasis": "Retained exact SEC_FACT CIK/source mapping plus same CIK in submissions and companyfacts and exact current listed ticker. No partial-name matching.",
+        "submissionsEvidence": {
+          "path": "scripts/v6-sec-cache/submissions-CIK0001590750.json",
+          "sha256": "6c752f35f63991f86cd3b1d37818448dd4bd61f8922a1bc9e54dc8facf4e99de",
+          "retrievedDate": "2026-11-04",
+          "reused": true
+        }
+      },
+      "companyfactsEvidence": {
+        "path": "scripts/v6-sec-cache/companyfacts-CIK0001590750.json",
+        "sha256": "3626c752073e907067ef6d5bc5786d09e0fe95b7ac93de13978b92e7f6d12fb1",
+        "retrievedDate": "2026-11-04",
+        "reused": true
+      },
+      "standardTagLatest": {
+        "tag": "CashAndCashEquivalentsAtCarryingValue",
+        "end": "2026-09-30",
+        "val": 172860000,
+        "accn": "0001590750-26-000022",
+        "fy": 2026,
+        "fp": "Q3",
+        "form": "10-Q",
+        "filed": "2026-11-04",
+        "frame": "CY2026Q3I"
+      },
+      "after": {
+        "key": "cash_and_cash_equivalents",
+        "label": "Cash and cash equivalents",
+        "value": 172.86,
+        "unit": "USD millions",
+        "scope": "Companywide consolidated SEC reporting entity: Viridian Therapeutics, Inc.\\DE (CIK 1590750); not local capital or lease credit",
+        "asOf": "2026-09-30",
+        "periodStart": null,
+        "status": "primary_filing_reported",
+        "sourceIds": [
+          "v6:SEC_CASH_1590750_000159075026000022"
+        ],
+        "notes": "Cash and cash equivalents only; investments excluded. Native CashAndCashEquivalentsAtCarryingValue, USD instant, 10-Q filed 2026-11-04. Selected by latest calendar instant, filing date, then approved concept; retained original observations are preserved.",
+        "section": "Companywide financials"
+      },
+      "sources": [
+        {
+          "id": "v6:SEC_CASH_1590750_000159075026000022",
+          "title": "Viridian Therapeutics, Inc.\\DE 10-Q \u2014 consolidated cash and cash equivalents at 2026-09-30",
+          "url": "https://www.sec.gov/Archives/edgar/data/1590750/000159075026000022/vrdn-20260930.htm",
+          "publishedDate": "2026-11-04",
+          "retrievedDate": "2026-11-04",
+          "visibility": "public"
+        }
+      ],
+      "nativeEvidence": {
+        "namespace": "us-gaap",
+        "tag": "CashAndCashEquivalentsAtCarryingValue",
+        "val": 172860000,
+        "end": "2026-09-30",
+        "unit": "USD",
+        "rowLabel": "Cash and cash equivalents",
+        "rowText": "Cash and cash equivalents $ 172,860 $ 212,382",
+        "contextId": "c-3",
+        "unitId": "usd",
+        "sourceWitness": "Entity-wide consolidated balance-sheet cash-only label in actual inline XBRL filing; investments/restricted cash are not admitted by tag fallback.",
+        "accn": "0001590750-26-000022",
+        "filed": "2026-11-04",
+        "form": "10-Q",
+        "reportingEntity": "Viridian Therapeutics, Inc.\\DE",
+        "cik": 1590750,
+        "filingUrl": "https://www.sec.gov/Archives/edgar/data/1590750/000159075026000022/vrdn-20260930.htm",
+        "filingEvidence": {
+          "path": "scripts/v6-sec-cache/1590750-0001590750-26-000022.html",
+          "sha256": "b4727f263916a81f95958762da4854b3394e71fae40759a34f8a6de9096fc34c",
+          "retrievedDate": "2026-11-04",
+          "reused": true
+        },
+        "companyfactsEvidence": {
+          "path": "scripts/v6-sec-cache/companyfacts-CIK0001590750.json",
+          "sha256": "3626c752073e907067ef6d5bc5786d09e0fe95b7ac93de13978b92e7f6d12fb1",
+          "retrievedDate": "2026-11-04",
+          "reused": true
+        }
+      }
+    }
+  ]
+}

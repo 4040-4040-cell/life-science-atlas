@@ -1,0 +1,141 @@
+{
+  "format": 1,
+  "version": "V1",
+  "reviewedAt": "2026-11-04T17:45:44Z",
+  "project": "/home/ubuntu/bioatlas",
+  "scope": "Read-only narrow integration review. No business re-research, application tests, builds, browser, MCP, database writes, shared implementation edits, Git operations or publication.",
+  "decision": "Architecture review complete; final register availability assembly, UI integration, print outputs and offline edition are not certified because they were still being produced.",
+  "confirmedFindings": [
+    {
+      "id": "existing-source-archive-local-paths",
+      "severity": "medium",
+      "scope": "Pre-existing V3 intelligence source archive included in the delivered V8 offline package; not the Basel-only V4 evidence ZIP or the new pending corrected-register ZIP.",
+      "finding": "The existing V3 intelligence-sources ZIP contains local research filesystem paths in its raw data and review reports. Those paths are shipped inside the existing V8 offline edition, contrary to the documented no-local-source-path delivery boundary. No credential or original private-brochure leakage is asserted by this finding.",
+      "evidence": [
+        {
+          "path": "/home/ubuntu/life-science-atlas/market_intelligence_V2/source/render_intelligence.py",
+          "lines": "241-247",
+          "detail": "Copies entire source files, research review reports and raw marketIntelligence JSON into the source ZIP without path sanitization. Lines 248-252 remap selected map PNG/SVG fields only."
+        },
+        {
+          "path": "/home/ubuntu/life-science-atlas/market_intelligence_V2/render_V3/output/life-science-atlas_intelligence-sources_V3.zip",
+          "member": "data/marketIntelligence_V3.json",
+          "memberLines": "139081, 139084",
+          "detail": "Both snapshotPath fields contain /home/ubuntu/bioatlas/scripts/offline-cache/snapshot_V7.json.gz. Direct ZIP-member inspection confirmed these values, not merely the unarchived source file."
+        },
+        {
+          "path": "/home/ubuntu/life-science-atlas/market_intelligence_V2/render_V3/output/life-science-atlas_intelligence-sources_V3.zip",
+          "member": "research/final_applied_reviews/basel_review_V1.json",
+          "memberLines": "22",
+          "detail": "reportPath contains the absolute /home/ubuntu/life-science-atlas/market_intelligence_V2/research/final_applied_reviews/basel_review_V1.md path."
+        },
+        {
+          "path": "/home/ubuntu/life-science-atlas/offline_browser_atlas_V8/package-manifest.json",
+          "lines": "6533-6534",
+          "detail": "Confirms source archive is included at ./offline-assets/print/life-science-atlas_intelligence-sources_V3.zip; that file exists."
+        },
+        {
+          "path": "/home/ubuntu/bioatlas/scripts/offline-browser-package.mjs",
+          "lines": "131-137",
+          "detail": "Includes every PDF and ZIP found in the selected print output directory. The earlier companion-path privacy guard at line 39 does not inspect nested ZIP contents."
+        },
+        {
+          "path": "/home/ubuntu/bioatlas/README.md",
+          "lines": "51",
+          "detail": "Documents the no-local-source-path boundary for offline delivery."
+        }
+      ],
+      "requiredDisposition": "Do not carry this unsanitized old source archive into the new offline delivery. Exclude it, or create a new sanitized source-archive version while retaining the original privately. Inspect nested ZIP text contents if a new public source archive is included."
+    }
+  ],
+  "confirmedArchitectureChecks": [
+    {
+      "area": "Immutable JSON reachability in file-only esbuild bundle",
+      "status": "No confirmed architectural blocker; final new UI import was not yet present.",
+      "evidence": [
+        { "path": "/home/ubuntu/bioatlas/scripts/offline-browser-entry.tsx", "lines": "5, 13-15, 64-67", "detail": "Offline entry imports the actual App, installs embedded APIs and canton documents before rendering, and uses hash routes." },
+        { "path": "/home/ubuntu/bioatlas/scripts/offline-browser-package.mjs", "lines": "62-73, 139-157", "detail": "esbuild bundle uses browser platform, IIFE output, shared/client aliases and only a CSS interception plugin. Reachable static JSON imports are embedded by esbuild, rather than fetched from file URLs. Storage asset URLs in bundled code are remapped to relative local paths before classic inline script emission." },
+        { "path": "/home/ubuntu/bioatlas/client/src/App.tsx", "lines": "12-13, 53-58", "detail": "Canton pages and existing JSON print manifest are ordinary imports in the App graph. A new register must remain reachable through the real page/component graph; merely creating an unimported JSON file does not include it." }
+      ]
+    },
+    {
+      "area": "Persistent reviewed facts and imported lead preservation",
+      "status": "Confirmed safe in the generated draft and inspected existing data paths.",
+      "evidence": [
+        { "path": "/home/ubuntu/bioatlas/server/atlas/canton-detail/router.ts", "lines": "6-15", "detail": "Canton API is GET/HEAD-only with no-store responses and optional version selection." },
+        { "path": "/home/ubuntu/bioatlas/server/atlas/canton-detail/repository.ts", "lines": "13-21", "detail": "Reads the persistent immutable document and validates source/content hashes; no bundled client JSON replaces an unavailable live document." },
+        { "path": "/home/ubuntu/bioatlas/scripts/import-basel-canton-detail.ts", "lines": "68-80", "detail": "Exact existing versions are no-ops; different same-version content is rejected; new document versions are inserted rather than updating master companies or sites." },
+        { "path": "/home/ubuntu/bioatlas/scripts/build-basel-register-v1.py", "lines": "122-176, 245-265, 275-280, 288-293", "detail": "New source rows are reconciled separately to reviewed evidence. SourceRow/originalRow values and CSV bytes are retained; handoff may not alter original property provenance or IDs; completed V1 cannot be replaced with different content. Builder contains no database writes." },
+        { "path": "/home/ubuntu/bioatlas/client/src/lib/baselAvailabilityRegisterV1.json", "lines": "29674-29710", "detail": "Recorded hashes of scripts/offline-cache/snapshot_V8.json.gz and data/baselCantonDetail_offline_V3.json match the actual current files. Static multiset comparisons found every original field/value retained for all four input CSVs. No duplicate company record IDs or dangling company supportSourceIds were found; the public draft contains no absolute local filesystem paths." }
+      ],
+      "sourceRowCoverage": {
+        "asOf": "2026-11-04",
+        "scope": "Original rows in the four retained CSVs, not unique verified firms or buildings",
+        "source": "/home/ubuntu/bioatlas/data/basel-availability_V1/input",
+        "companyRows": { "BS": 138, "BL": 107 },
+        "propertyRows": { "BS": 57, "BL": 38 },
+        "originalRowValuesPreserved": true,
+        "originalCsvByteHashesPreserved": true
+      }
+    },
+    {
+      "area": "Native raster geometry and grouped marker displacement",
+      "status": "No confirmed remaining coordinate or co-located-click blocker in the inspected update.",
+      "evidence": [
+        { "path": "/home/ubuntu/bioatlas/client/src/lib/cantonAerialGeometry.ts", "lines": "4-13", "detail": "Uses postalPointNativePixel normalized by native pixel dimensions, with geographic imageBounds fallback. Producer labelNativePixel is never geographic geometry." },
+        { "path": "/home/ubuntu/bioatlas/client/src/lib/cantonMarkerGroups.ts", "lines": "7-14", "detail": "Groups nearby pointer targets and retains the first original postal anchor rather than averaging or inventing a rooftop position." },
+        { "path": "/home/ubuntu/bioatlas/client/src/components/atlas/BaselCantonAerial.tsx", "lines": "13-20, 33-49, 63-72", "detail": "Updated grouped marker opens a member list and each member opens its own source record. Native image bounds and full-image sizing remain retained; numbered marker denotes record count, not a surveyed building identity." },
+        { "path": "/home/ubuntu/bioatlas/client/src/components/atlas/BaselCantonAerial.css", "lines": "1-4", "detail": "44px targets and pointer-events:none on child labels/icons match the grouping design and prevent oversized label surfaces intercepting other markers." }
+      ]
+    },
+    {
+      "area": "File-only routing and prepared downloads",
+      "status": "Existing architecture is compatible; no final new download files were reviewed.",
+      "evidence": [
+        { "path": "/home/ubuntu/bioatlas/scripts/offline-browser-entry.tsx", "lines": "19-45, 47-62", "detail": "Converts CSV API anchors into Blob downloads and adapts wouter navigation for opaque file origins. Internal section anchors scroll locally." },
+        { "path": "/home/ubuntu/bioatlas/client/src/lib/offlineAtlas.ts", "lines": "11-24", "detail": "Accepts relative ./offline-assets paths only in explicit offline mode, with traversal rejection." },
+        { "path": "/home/ubuntu/bioatlas/scripts/offline-browser-package.mjs", "lines": "97-114, 139-157", "detail": "Creates relative local asset mapping, rewrites storage URLs and uses file/data/blob-only assets with connect-src none. No local JSON fetch is needed." },
+        { "path": "/home/ubuntu/bioatlas/scripts/bind-basel-register-release-v1.py", "lines": "50-67", "detail": "New corrected-register ZIP limits membership to exported CSVs, the register JSON and named PDFs, with a local-path check on the register. New PDFs and ZIP did not yet exist, so execution success and actual archive contents are unreviewed." },
+        { "path": "/home/ubuntu/bioatlas/scripts/upload-canton-print-v4.py", "lines": "23-34", "detail": "Existing Basel-only V4 ZIP is derived from the source-safe V3 companion. Direct inspection of its JSON and CSV text entries found no local filesystem path matches." }
+      ]
+    }
+  ],
+  "unfinishedConcurrentWorkAtReviewCutoff": [
+    {
+      "path": "/home/ubuntu/bioatlas/client/src/lib/baselAvailabilityRegisterV1.json",
+      "line": 5,
+      "state": "company_reconciliation_complete_availability_pending",
+      "sha256AtInspection": "44553d1d376bcb4b4194637199d83c73f2902bcbca94d5a146de78f2f2888864",
+      "detail": "Availability totals remain null and property rows remain explicitly excluded pending reviewed primary-source handoff. This is deliberate unfinished assembly, not a proven counting defect. Publication must await completion."
+    },
+    {
+      "paths": [
+        "/home/ubuntu/bioatlas/client/src/components/atlas/BaselAvailabilityRegister.tsx",
+        "/home/ubuntu/bioatlas/client/src/lib/baselRegisterDownloadV1.json",
+        "/home/ubuntu/bioatlas/scripts/offline-browser-package_V9.mjs"
+      ],
+      "detail": "Not present at inspection cutoff; final UI reachability and new offline assembler were not reviewed."
+    },
+    {
+      "path": "/home/ubuntu/life-science-atlas/basel_availability_V1/output",
+      "detail": "Empty at inspection cutoff; no review of nonexistent final PDF, PNG, ZIP or CSV outputs was attempted."
+    }
+  ],
+  "publicationControl": {
+    "currentConfigurationVerified": false,
+    "reason": "MCP and browser were explicitly prohibited for this subagent. Local documentation is not a live configuration read.",
+    "recordedState": "Private Preview; auto-publication disabled; no publication requested.",
+    "evidence": [
+      { "path": "/home/ubuntu/bioatlas/data/corrective-release_V2.json", "lines": "74", "asOf": "2026-11-02" },
+      { "path": "/home/ubuntu/bioatlas/README.md", "lines": "57" }
+    ],
+    "parentAction": "Use the parent-only connector to confirm publishing.auto_publish remains false before any checkpoint-triggering push. No publish authorization is inferred from this review."
+  },
+  "reportQualityGate": {
+    "status": "passed_for_this_scoped_report_only",
+    "newVersionedFile": true,
+    "priorReportOverwritten": false,
+    "findingsDistinguishConfirmedDefectsFromUnfinishedWork": true,
+    "noFinalProductCertificationClaimed": true
+  }
+}

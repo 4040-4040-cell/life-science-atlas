@@ -9,7 +9,7 @@
 .market-print-actions .print-primary { background: #c9262d; color: white; border-color: #c9262d; }
 .market-print-actions button:disabled { opacity: .45; cursor: wait; }
 .market-print-instructions { max-width: 1240px; margin: 18px auto; }
-.market-print-sheet { aspect-ratio: 11 / 8.5; width: min(100%, 1240px); margin: 0 auto; background: white; box-shadow: 0 2px 12px #00000015; }
+.market-print-sheet { aspect-ratio: 17 / 11; width: min(100%, 1440px); margin: 0 auto; background: white; box-shadow: 0 2px 12px #00000015; }
 .market-print-sheet img { display: block; width: 100%; height: 100%; object-fit: contain; }
 .market-print-sheet:not(.is-loaded) { opacity: .2; }
 .market-print-state { max-width: 1240px; margin: 12px auto; padding: 16px; background: white; font-size: 14px; }
@@ -20,11 +20,19 @@
   .market-print-toolbar > div:first-of-type { flex-basis: 100%; order: -1; }
   .market-print-actions { flex-wrap: wrap; }
 }
-@page { size: Letter landscape; margin: 0; }
+@page { size: 17in 11in; margin: 0; }
 @media print {
-  html, body.market-print-mode, .market-print-mode #root { width: 11in; height: 8.5in; margin: 0 !important; padding: 0 !important; background: white !important; }
+  html, body.market-print-mode, .market-print-mode #root { width: 17in; height: 11in; margin: 0 !important; padding: 0 !important; background: white !important; }
   .market-print-mode .market-print-page { margin: 0; padding: 0; }
   .market-print-mode .market-print-toolbar, .market-print-mode .market-print-instructions, .market-print-mode .market-print-state { display: none !important; }
-  .market-print-mode .market-print-sheet { width: 11in; height: 8.5in; margin: 0; box-shadow: none; break-inside: avoid; overflow: hidden; opacity: 1; }
-  .market-print-mode .market-print-sheet img { width: 11in; height: 8.5in; object-fit: contain; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+  .market-print-mode .market-print-sheet { width: 17in; height: 11in; margin: 0; box-shadow: none; break-inside: avoid; overflow: hidden; opacity: 1; }
+  .market-print-mode .market-print-sheet img { width: 17in; height: 11in; object-fit: contain; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+}
+
+@page cantonOverview { size: 17in 11in; margin: 0; }
+.canton-print-mode .market-print-sheet { aspect-ratio: 17 / 11; }
+@media print {
+  html:has(body.canton-print-mode), body.canton-print-mode, body.canton-print-mode #root { width: 17in !important; height: 11in !important; }
+  .canton-print-mode .market-print-sheet { page: cantonOverview; width: 17in; height: 11in; }
+  .canton-print-mode .market-print-sheet img { width: 17in; height: 11in; }
 }

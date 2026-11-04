@@ -1,0 +1,116 @@
+{
+  "id": "hortus",
+  "retrievedDate": "2026-11-04",
+  "sources": [
+    {
+      "url": "https://senn.com/projekt/hortus/",
+      "title": "HORTUS, Allschwil — SENN",
+      "publishedDate": null,
+      "retrievedDate": "2026-11-04",
+      "evidenceExcerpt": "Im Switzerland Innovation Park Basel Area Main Campus in Allschwil bei Basel entwickeln SENN, Herzog & de Meuron und ZPF Ingenieure gemeinsam ein Bürogebäude von ca. 10’000 m² Nutzfläche ... Eigentümerin: SENN Resources AG, St. Gallen. Nutzfläche: ca. 10’000 m². Fertigstellung: 2025. Das radikal nachhaltige Bürogebäude HORTUS wurde im Juni 2025 eröffnet."
+    },
+    {
+      "url": "https://sip-baselarea.com/hortus/",
+      "title": "Hortus — Switzerland Innovation Park Basel Area",
+      "publishedDate": null,
+      "retrievedDate": "2026-11-04",
+      "evidenceExcerpt": "HORTUS is fully booked. Discover other workspace options at our Main Campus and find the right fit for your team or contact us directly. ... At HORTUS, you can become neighbors with companies like Swiss-AS, BD (Becton, Dickinson and Company) and Phoenix Technologies."
+    },
+    {
+      "url": "https://hortus.ch/en/",
+      "title": "Welcome to Hortus",
+      "publishedDate": null,
+      "retrievedDate": "2026-11-04",
+      "evidenceExcerpt": "The HORTUS tenants: Becton Dickinson ... SIP Basel ... Swiss AS ... Rose Coffee Bar ... Hortus Kitchen ... CORPO ... Viatris. HORTUS, Rudolf Geigy-Strasse 3, 4123 Allschwil. HORTUS is a SENN development."
+    },
+    {
+      "url": "https://senn.com/wp-content/uploads/2025/06/SENN_Medienmitteilung-HORTUS-Opening_def_Layout-2.pdf",
+      "title": "Radikal nachhaltiges Gebäude HORTUS ist eröffnet und bereits voll vermietet — SENN media release",
+      "publishedDate": "2025-06-19",
+      "retrievedDate": "2026-11-04",
+      "evidenceExcerpt": "Allschwil, 19.06.2025. ... Es ist bereits komplett vermietet. Platz gibt es einzig noch im Coworking-Space. ... Das Bürogebäude HORTUS bietet rund 10'000 m² Nutzfläche für innovative Firmen aus den Bereichen ICT und Life Sciences. Zum Zeitpunkt der Eröffnung ist das Gebäude bereits komplett vermietet. Platz gibt es nur noch im Coworking-Space."
+    },
+    {
+      "url": "https://sip-baselarea.com/blog-post/switzerlands-greenest-office-opens-coworking-now-available-at-hortus/",
+      "title": "Switzerland's greenest office opens — coworking now available at HORTUS!",
+      "publishedDate": "2025-06-19",
+      "retrievedDate": "2026-11-04",
+      "evidenceExcerpt": "June 19, 2025. ... HORTUS, has just opened on the Main Campus in Basel/Allschwil—and it’s already fully leased. ... While all long-term leases are taken, a few fully equipped coworking desks and private offices are still open on the first floor."
+    },
+    {
+      "url": "https://sip-baselarea.com/maincampus/",
+      "title": "Main Campus — Switzerland Innovation Park Basel Area",
+      "publishedDate": null,
+      "retrievedDate": "2026-11-04",
+      "evidenceExcerpt": "Startup or Scaleup looking for space now? Discover our ready-made and fully fitted workspaces from hot-desk to private offices at Main Campus HQ or HORTUS. ... Hortus: Co-working & move-in ready offices 2025. Join Switzerland’s most sustainable workspace alongside Swiss-AS, Hovarth, Peleven, Viatris and BD ... View Hortus offers [links to https://sip-baselarea.com/hortus/]."
+    }
+  ],
+  "units": [
+    {
+      "building": "HORTUS",
+      "floor": "Whole building; long-term leasing status",
+      "address": "Rudolf Geigy-Strasse 3, 4123 Allschwil, Switzerland",
+      "areaM2": 10000,
+      "areaQualifier": "approximately; whole-building usable area, not an available-space quantity",
+      "useType": "office / coworking with amenities; no laboratory area established",
+      "areaBasis": "Nutzfläche reported by SENN; not fitted laboratory area or a tenant-specific occupied-area measurement",
+      "availabilityState": "fully_let",
+      "availableFrom": null,
+      "sourceUrl": "https://sip-baselarea.com/hortus/",
+      "overlapGroup": "sip-main-campus-hortus",
+      "includeInTotal": false,
+      "notes": "The dedicated primary park leasing page retrieved at the 2026-11-04 cutoff explicitly says HORTUS is fully booked and redirects prospective occupiers to other Main Campus options. SENN's project page supports the approximate building area and June 2025 opening, but gives no current available-area figure. SENN's dated 2025-06-19 release specifically confirms all long-term space was leased at opening, with a coworking exception; this is historical owner/developer evidence, not a fresh owner confirmation of physical vacancy in November 2026. No quantified currently available HORTUS leasing unit was found in this targeted pass. Do not add this building stock area to marketed availability or to an overlapping campus total. Tenant names on the HORTUS project website support tenancy but do not establish their individual occupied areas."
+    },
+    {
+      "building": "HORTUS",
+      "floor": "First floor",
+      "address": "Rudolf Geigy-Strasse 3, 4123 Allschwil, Switzerland",
+      "areaM2": null,
+      "areaQualifier": "coworking desks and serviced private offices; no area stated",
+      "useType": "coworking / serviced office",
+      "areaBasis": "No square-metre quantity published for the historical first-floor coworking offer",
+      "availabilityState": "unknown",
+      "availableFrom": null,
+      "sourceUrl": "https://sip-baselarea.com/blog-post/switzerlands-greenest-office-opens-coworking-now-available-at-hortus/",
+      "overlapGroup": "sip-main-campus-hortus",
+      "includeInTotal": false,
+      "notes": "The 2025-06-19 opening article advertised a few first-floor coworking desks and private offices, and SENN's release made the same coworking exception. The currently retrieved general Main Campus page still promotes HORTUS coworking and offices, but its HORTUS offer link leads to the dedicated page saying fully booked. The old article remains linked there. Preserve this inconsistency rather than assuming the historical desks remain available, asserting their availability is zero, or labeling an unquantified general invitation as confirmed current vacancy. This subspace overlaps the whole-building usable area."
+    }
+  ],
+  "excludedTotals": [
+    {
+      "building": "HORTUS",
+      "areaM2": 10000,
+      "areaQualifier": "approximately",
+      "areaBasis": "Whole-building Nutzfläche",
+      "sourceUrl": "https://senn.com/projekt/hortus/",
+      "overlapGroup": "sip-main-campus-hortus",
+      "reason": "Building stock, not currently marketed availability; the primary dedicated letting page reports fully booked."
+    },
+    {
+      "building": "Switzerland Innovation Park Basel Area Main Campus",
+      "areaM2": null,
+      "areaBasis": "Campus-wide existing and planned capacity totals",
+      "sourceUrl": "https://sip-baselarea.com/maincampus/",
+      "overlapGroup": "sip-main-campus",
+      "reason": "Campus totals include constituent buildings and are neither incremental HORTUS availability nor fitted laboratory area. Do not sum campus totals with HORTUS or other constituent building rows."
+    },
+    {
+      "building": "HORTUS first-floor coworking",
+      "areaM2": null,
+      "areaBasis": "Historical desk/private-office offer, no area disclosed",
+      "sourceUrl": "https://sip-baselarea.com/blog-post/switzerlands-greenest-office-opens-coworking-now-available-at-hortus/",
+      "overlapGroup": "sip-main-campus-hortus",
+      "reason": "Dated June 2025 opening availability is not evidence of November 2026 vacancy and overlaps the building's total usable area."
+    }
+  ],
+  "gaps": [
+    "Research cutoff and retrieval date are 2026-11-04. Undated live pages have publishedDate null; their publication or last-update date was not established. Do not infer recency from search indexing, copyright dates, or present-tense copy.",
+    "The defensible current advertised status is fully booked on the dedicated primary HORTUS page, with no quantified current marketed space established. This is not a fresh owner-confirmed physical vacancy measurement or a verified zero-square-metre vacancy figure.",
+    "The general Main Campus page and still-accessible June 2025 opening article retain coworking/office invitations inconsistent with the dedicated fully-booked status. Current coworking desk/private-office availability remains unresolved; it is excluded from availability totals.",
+    "The supplied available_m2 value of 0 is an imported interpretation of fully booked, not an explicit measured owner vacancy disclosure. It has not been promoted to a confirmed vacancy metric.",
+    "HORTUS is specifically described as an office building. Life-science tenants and its name do not establish fitted laboratories; no HORTUS lab square metres are counted.",
+    "Historical November 2025 brochure material is not used as current vacancy evidence. ALL and other Main Campus buildings are outside this exact HORTUS assignment and are not included in its availability units.",
+    "One targeted source-resolution pass was completed using primary owner/developer and park/project pages. No direct owner contact or lease-roll confirmation was obtained."
+  ]
+}

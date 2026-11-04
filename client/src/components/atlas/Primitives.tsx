@@ -9,6 +9,7 @@ import {
 } from "lucide-react";
 import type { CompanySummary, Fact, Source } from "@shared/atlas";
 import { dateLabel, factValue, humanize, safeUrl } from "@/lib/atlas";
+import { cashObservationWarning } from "@/lib/factFreshness";
 
 export function CompanyLogo({
   company,
@@ -172,6 +173,7 @@ export function FactRow({ fact, sources }: { fact: Fact; sources: Source[] }) {
   const missing = fact.value == null || fact.value === "";
   const value = missing ? "Not in release" : factValue(fact);
   const isDisclosure = value.length > 240;
+  const cashWarning = cashObservationWarning(fact);
   return (
     <div className={`fact-row ${missing ? "unknown-fact" : ""}`}>
       <div className="fact-label">{fact.label}</div>
@@ -190,6 +192,7 @@ export function FactRow({ fact, sources }: { fact: Fact; sources: Source[] }) {
           <span>Period from {dateLabel(fact.periodStart)}</span>
         )}
       </div>
+      {cashWarning && <p className="cash-age-warning">{cashWarning}</p>}
       <details className="fact-evidence">
         <summary>Evidence details</summary>
         <div>

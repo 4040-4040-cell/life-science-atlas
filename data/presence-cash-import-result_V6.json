@@ -1,0 +1,12 @@
+{
+  "version": "atlas-web-v6-20261104",
+  "skipped": false,
+  "summaryProjections": 21,
+  "cashCorrections": 12,
+  "newFactObservations": 27,
+  "sitesAdded": 4,
+  "siteCorrections": 6,
+  "regionCorrections": 1,
+  "zonesAdded": 1,
+  "guardsSkipped": []
+}

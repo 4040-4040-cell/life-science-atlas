@@ -1,0 +1,398 @@
+{
+  "version": "V3",
+  "complete": true,
+  "assets": [
+    {
+      "url": "/manus-storage/basel-allschwil-bachgraben-main-campus_swiss_aerial_bd659862.jpg",
+      "sha256": "bcc49a21aa9614a187c6b4063704becb306e4a2b388f3d13545b492b52d69e1c",
+      "bytes": 1579647,
+      "frameId": "basel-allschwil-bachgraben-main-campus",
+      "kind": "image",
+      "path": "/home/ubuntu/bioatlas/assets/basel-canton-V3/basel-allschwil-bachgraben-main-campus_swiss_aerial.jpg"
+    },
+    {
+      "url": "/manus-storage/basel-allschwil-bachgraben-main-campus_V2_92b3cbf3.pdf",
+      "sha256": "0bb2f8d0ffc6fd7db7366e24dbd1b426fa18c89712cede71152193e01200e2b0",
+      "bytes": 1650200,
+      "frameId": "basel-allschwil-bachgraben-main-campus",
+      "kind": "exhibit",
+      "path": "/home/ubuntu/bioatlas/assets/basel-canton-V3/basel-allschwil-bachgraben-main-campus_V2.pdf"
+    },
+    {
+      "url": "/manus-storage/basel-downtown-sbb-aeschen_swiss_aerial_6694d67d.jpg",
+      "sha256": "a8b7088594ed746c8c5de2e4a3177500e60c00720d98b2b36b42c639668ff54b",
+      "bytes": 1634001,
+      "frameId": "basel-downtown-sbb-aeschen",
+      "kind": "image",
+      "path": "/home/ubuntu/bioatlas/assets/basel-canton-V3/basel-downtown-sbb-aeschen_swiss_aerial.jpg"
+    },
+    {
+      "url": "/manus-storage/basel-downtown-sbb-aeschen_V2_49da4160.pdf",
+      "sha256": "c461f4581c998bafa20baaa26f7ed61b6ff272048da174bddc285e9214f1f1d1",
+      "bytes": 1740488,
+      "frameId": "basel-downtown-sbb-aeschen",
+      "kind": "exhibit",
+      "path": "/home/ubuntu/bioatlas/assets/basel-canton-V3/basel-downtown-sbb-aeschen_V2.pdf"
+    },
+    {
+      "url": "/manus-storage/basel-east-bubendorf_swiss_aerial_6f321f71.jpg",
+      "sha256": "2a54322ca837a959eeb186a03067e0b5e67954b3ec1f403548c12e7c1fb9c438",
+      "bytes": 1459223,
+      "frameId": "basel-east-bubendorf",
+      "kind": "image",
+      "path": "/home/ubuntu/bioatlas/assets/basel-canton-V3/basel-east-bubendorf_swiss_aerial.jpg"
+    },
+    {
+      "url": "/manus-storage/basel-east-bubendorf_V2_3b280639.pdf",
+      "sha256": "2d672f1e07c31dfe73a56bdceba9f17cc8027a341d45c629fcf67f90033d8ae6",
+      "bytes": 1500981,
+      "frameId": "basel-east-bubendorf",
+      "kind": "exhibit",
+      "path": "/home/ubuntu/bioatlas/assets/basel-canton-V3/basel-east-bubendorf_V2.pdf"
+    },
+    {
+      "url": "/manus-storage/basel-east-muttenz-pratteln_swiss_aerial_2ad0d7e2.jpg",
+      "sha256": "a24c23dec122a03ba83cf6cc5b6419b9e7bcc6e608439287171bff8e913f389c",
+      "bytes": 1435595,
+      "frameId": "basel-east-muttenz-pratteln",
+      "kind": "image",
+      "path": "/home/ubuntu/bioatlas/assets/basel-canton-V3/basel-east-muttenz-pratteln_swiss_aerial.jpg"
+    },
+    {
+      "url": "/manus-storage/basel-east-muttenz-pratteln_V2_873189f1.pdf",
+      "sha256": "930b023a0758847d95cf4636e5d3d949bced6bd17b355cf55fcedd00db1c297b",
+      "bytes": 1476721,
+      "frameId": "basel-east-muttenz-pratteln",
+      "kind": "exhibit",
+      "path": "/home/ubuntu/bioatlas/assets/basel-canton-V3/basel-east-muttenz-pratteln_V2.pdf"
+    },
+    {
+      "url": "/manus-storage/basel-klybeck-stucki-klybeck_swiss_aerial_f97a1ddc.jpg",
+      "sha256": "00078c175bca3cce920e38f1988bc2ff66f17c12c2026b2ae4f418668b340c9b",
+      "bytes": 1435831,
+      "frameId": "basel-klybeck-stucki-klybeck",
+      "kind": "image",
+      "path": "/home/ubuntu/bioatlas/assets/basel-canton-V3/basel-klybeck-stucki-klybeck_swiss_aerial.jpg"
+    },
+    {
+      "url": "/manus-storage/basel-klybeck-stucki-klybeck_V2_0f105747.pdf",
+      "sha256": "b7439338a870b681fecee87e555a5d85004ee85dd7964e8a05344fb05eb04a28",
+      "bytes": 1548170,
+      "frameId": "basel-klybeck-stucki-klybeck",
+      "kind": "exhibit",
+      "path": "/home/ubuntu/bioatlas/assets/basel-canton-V3/basel-klybeck-stucki-klybeck_V2.pdf"
+    },
+    {
+      "url": "/manus-storage/basel-klybeck-stucki-stuecki_swiss_aerial_0a5569e4.jpg",
+      "sha256": "4879da0054e9bd5b3996d5689a1ff3d9399845d6061725d74b14df94fb303524",
+      "bytes": 1369267,
+      "frameId": "basel-klybeck-stucki-stuecki",
+      "kind": "image",
+      "path": "/home/ubuntu/bioatlas/assets/basel-canton-V3/basel-klybeck-stucki-stuecki_swiss_aerial.jpg"
+    },
+    {
+      "url": "/manus-storage/basel-klybeck-stucki-stuecki_V2_94e572d6.pdf",
+      "sha256": "6420ac114367a880122b99320ddf1a5b126e1a749e979378fdca53aa583510b4",
+      "bytes": 1397440,
+      "frameId": "basel-klybeck-stucki-stuecki",
+      "kind": "exhibit",
+      "path": "/home/ubuntu/bioatlas/assets/basel-canton-V3/basel-klybeck-stucki-stuecki_V2.pdf"
+    },
+    {
+      "url": "/manus-storage/basel-research-campus-core_swiss_aerial_24c8cf5b.jpg",
+      "sha256": "13fbae897a1e2975b3bca8874c17e0aa0cb1cceff6f335b0b10ee6e3c5da65bd",
+      "bytes": 1604956,
+      "frameId": "basel-research-campus-core",
+      "kind": "image",
+      "path": "/home/ubuntu/bioatlas/assets/basel-canton-V3/basel-research-campus-core_swiss_aerial.jpg"
+    },
+    {
+      "url": "/manus-storage/basel-research-campus-core_V2_c4b55e74.pdf",
+      "sha256": "c3bf4d44bbcf1e8c1d6ccd94d2e9ae0f2b728097324d6bbfe30ec2fa445101d7",
+      "bytes": 1687626,
+      "frameId": "basel-research-campus-core",
+      "kind": "exhibit",
+      "path": "/home/ubuntu/bioatlas/assets/basel-canton-V3/basel-research-campus-core_V2.pdf"
+    },
+    {
+      "url": "/manus-storage/basel-roche-kleinbasel_swiss_aerial_50949aef.jpg",
+      "sha256": "9f1b59b756be85b46ec67b32fc6131ffd3aff7af31735b77f67b86b0e7404db7",
+      "bytes": 1388450,
+      "frameId": "basel-roche-kleinbasel",
+      "kind": "image",
+      "path": "/home/ubuntu/bioatlas/assets/basel-canton-V3/basel-roche-kleinbasel_swiss_aerial.jpg"
+    },
+    {
+      "url": "/manus-storage/basel-roche-kleinbasel_V2_925ad154.pdf",
+      "sha256": "9b4e35efa737ef89cce56bf9240d5ea5d3f77d5f0573a80e11638cbb56d66391",
+      "bytes": 1424037,
+      "frameId": "basel-roche-kleinbasel",
+      "kind": "exhibit",
+      "path": "/home/ubuntu/bioatlas/assets/basel-canton-V3/basel-roche-kleinbasel_V2.pdf"
+    },
+    {
+      "url": "/manus-storage/basel-rosental-mitte_swiss_aerial_f097bbd5.jpg",
+      "sha256": "98fc92bcd17e781c790a8185b06f9fd742b5472348509edbb53c4ddf7a1510ea",
+      "bytes": 1568341,
+      "frameId": "basel-rosental-mitte",
+      "kind": "image",
+      "path": "/home/ubuntu/bioatlas/assets/basel-canton-V3/basel-rosental-mitte_swiss_aerial.jpg"
+    },
+    {
+      "url": "/manus-storage/basel-rosental-mitte_V2_c7906b55.pdf",
+      "sha256": "ce15a2ffe77458045999e9d48adf80030f6067066870ef71adce748bb381dfba",
+      "bytes": 1632333,
+      "frameId": "basel-rosental-mitte",
+      "kind": "exhibit",
+      "path": "/home/ubuntu/bioatlas/assets/basel-canton-V3/basel-rosental-mitte_V2.pdf"
+    },
+    {
+      "url": "/manus-storage/basel-st-johann-novartis-campus_swiss_aerial_e1e77916.jpg",
+      "sha256": "5e0afc873c367d62077183632c5cbbf8d5245c923461fe4541083bc325b910b8",
+      "bytes": 1398060,
+      "frameId": "basel-st-johann-novartis-campus",
+      "kind": "image",
+      "path": "/home/ubuntu/bioatlas/assets/basel-canton-V3/basel-st-johann-novartis-campus_swiss_aerial.jpg"
+    },
+    {
+      "url": "/manus-storage/basel-st-johann-novartis-campus_V2_a6b87ce0.pdf",
+      "sha256": "e536f1a4a658dd6d144c34e2a416dc6355592bb0ed11de7bbac62cfa42f1688c",
+      "bytes": 1485537,
+      "frameId": "basel-st-johann-novartis-campus",
+      "kind": "exhibit",
+      "path": "/home/ubuntu/bioatlas/assets/basel-canton-V3/basel-st-johann-novartis-campus_V2.pdf"
+    },
+    {
+      "url": "/manus-storage/basel-supplemental-bioversys-basel_swiss_aerial_2ec80fdb.jpg",
+      "sha256": "3ea916bffb85874f2a4707ef1a4ecc06ea37f4b9bf8c039debca373aca93b68e",
+      "bytes": 1396040,
+      "frameId": "basel-supplemental-bioversys-basel",
+      "kind": "image",
+      "path": "/home/ubuntu/bioatlas/assets/basel-canton-V3/basel-supplemental-bioversys-basel_swiss_aerial.jpg"
+    },
+    {
+      "url": "/manus-storage/basel-supplemental-bioversys-basel_V2_43a1f08a.pdf",
+      "sha256": "5dfc0e2161345acb37e600965cd7ce30a6276fa634faa015df2a0fa9cf1479f4",
+      "bytes": 1487882,
+      "frameId": "basel-supplemental-bioversys-basel",
+      "kind": "exhibit",
+      "path": "/home/ubuntu/bioatlas/assets/basel-canton-V3/basel-supplemental-bioversys-basel_V2.pdf"
+    },
+    {
+      "url": "/manus-storage/basel-klybeck-stucki-stuecki-centered-current_swiss_aerial_c256c0e7.jpg",
+      "sha256": "64673357035b31138d62778b5777018e9bfe7be3d127619173735a235fcaf116",
+      "bytes": 1429622,
+      "frameId": "basel-klybeck-stucki-stuecki-centered-current",
+      "kind": "image",
+      "path": "/home/ubuntu/bioatlas/assets/basel-canton-V3/basel-klybeck-stucki-stuecki-centered-current_swiss_aerial.jpg"
+    },
+    {
+      "url": "/manus-storage/basel-klybeck-stucki-stuecki-centered-current_V2_eb4414e5.pdf",
+      "sha256": "311c13b8b35e5fb5ba1195a5bea83e3d96ebcdcc909f12821b724c9f65ef5403",
+      "bytes": 1501868,
+      "frameId": "basel-klybeck-stucki-stuecki-centered-current",
+      "kind": "exhibit",
+      "path": "/home/ubuntu/bioatlas/assets/basel-canton-V3/basel-klybeck-stucki-stuecki-centered-current_V2.pdf"
+    },
+    {
+      "url": "/manus-storage/sbb-downtown-basel-street-detail_swiss_aerial_5895365f.jpg",
+      "sha256": "6abc19d624769cfd31b91b82718f5641c99ebb87541b0960453faef73d881cd1",
+      "bytes": 1645971,
+      "frameId": "sbb-downtown-basel-street-detail",
+      "kind": "image",
+      "path": "/home/ubuntu/bioatlas/assets/basel-canton-V3/sbb-downtown-basel-street-detail_swiss_aerial.jpg"
+    },
+    {
+      "url": "/manus-storage/sbb-downtown-basel-street-detail_V2_7a9caa6a.pdf",
+      "sha256": "6e8c42d87bdd6acb56389a7a1b43e87c85e67d24d51661177d6ae4044071a582",
+      "bytes": 1752816,
+      "frameId": "sbb-downtown-basel-street-detail",
+      "kind": "exhibit",
+      "path": "/home/ubuntu/bioatlas/assets/basel-canton-V3/sbb-downtown-basel-street-detail_V2.pdf"
+    },
+    {
+      "url": "/manus-storage/allschwil-allschwil-street-detail_swiss_aerial_0a4cc560.jpg",
+      "sha256": "41ce87109db0463d9d16dc2b6418d4c25fe4bc77ae2cf6a86f733e8427c9d4fb",
+      "bytes": 1454985,
+      "frameId": "allschwil-allschwil-street-detail",
+      "kind": "image",
+      "path": "/home/ubuntu/bioatlas/assets/basel-canton-V3/allschwil-allschwil-street-detail_swiss_aerial.jpg"
+    },
+    {
+      "url": "/manus-storage/allschwil-allschwil-street-detail_V2_135452b6.pdf",
+      "sha256": "28e686771115364df78a859106af07d0817e498b5bfe748f6f74db45ca64aa89",
+      "bytes": 1524474,
+      "frameId": "allschwil-allschwil-street-detail",
+      "kind": "exhibit",
+      "path": "/home/ubuntu/bioatlas/assets/basel-canton-V3/allschwil-allschwil-street-detail_V2.pdf"
+    },
+    {
+      "url": "/manus-storage/muttenz-pratteln-muttenz-street-detail_swiss_aerial_0d6e1687.jpg",
+      "sha256": "acb3a7d34534594887d4c3caf55fa26d42f1cf7d3430504cfeeb26dcf6e0876d",
+      "bytes": 1393404,
+      "frameId": "muttenz-pratteln-muttenz-street-detail",
+      "kind": "image",
+      "path": "/home/ubuntu/bioatlas/assets/basel-canton-V3/muttenz-pratteln-muttenz-street-detail_swiss_aerial.jpg"
+    },
+    {
+      "url": "/manus-storage/muttenz-pratteln-muttenz-street-detail_V2_d1a85f07.pdf",
+      "sha256": "fef6d9d68310d495c6f7c04cac8d7f73706eb1486f9ebe16be45817075b42712",
+      "bytes": 1428615,
+      "frameId": "muttenz-pratteln-muttenz-street-detail",
+      "kind": "exhibit",
+      "path": "/home/ubuntu/bioatlas/assets/basel-canton-V3/muttenz-pratteln-muttenz-street-detail_V2.pdf"
+    },
+    {
+      "url": "/manus-storage/muttenz-pratteln-pratteln-street-detail_swiss_aerial_c07fb6df.jpg",
+      "sha256": "9a87b3e576a968da28fc6729c8b81d847fee3191e212246c2c5a7679b03c216d",
+      "bytes": 1297421,
+      "frameId": "muttenz-pratteln-pratteln-street-detail",
+      "kind": "image",
+      "path": "/home/ubuntu/bioatlas/assets/basel-canton-V3/muttenz-pratteln-pratteln-street-detail_swiss_aerial.jpg"
+    },
+    {
+      "url": "/manus-storage/muttenz-pratteln-pratteln-street-detail_V2_1a57a99c.pdf",
+      "sha256": "e63c21c174e040918a2beda2e808047514293279bd988542e910793cc30d5391",
+      "bytes": 1333398,
+      "frameId": "muttenz-pratteln-pratteln-street-detail",
+      "kind": "exhibit",
+      "path": "/home/ubuntu/bioatlas/assets/basel-canton-V3/muttenz-pratteln-pratteln-street-detail_V2.pdf"
+    },
+    {
+      "url": "/manus-storage/bubendorf-bubendorf-street-detail_swiss_aerial_63605369.jpg",
+      "sha256": "1d466310de906487547045ace54117dc723eae86acc7964281962a972ec559d5",
+      "bytes": 1325723,
+      "frameId": "bubendorf-bubendorf-street-detail",
+      "kind": "image",
+      "path": "/home/ubuntu/bioatlas/assets/basel-canton-V3/bubendorf-bubendorf-street-detail_swiss_aerial.jpg"
+    },
+    {
+      "url": "/manus-storage/bubendorf-bubendorf-street-detail_V2_8062116e.pdf",
+      "sha256": "4b7d7bcdeaa22abefad9bd1346ebc5d0af8d6bed3106d00db82d05e8832f0585",
+      "bytes": 1367482,
+      "frameId": "bubendorf-bubendorf-street-detail",
+      "kind": "exhibit",
+      "path": "/home/ubuntu/bioatlas/assets/basel-canton-V3/bubendorf-bubendorf-street-detail_V2.pdf"
+    },
+    {
+      "url": "/manus-storage/reinach-aesch-therwil-aesch-street-detail_swiss_aerial_016eb1d8.jpg",
+      "sha256": "a0a4ab90da206166bf4d102830e896c12be2a17e0d02f0ddb072fdea72aa8fe8",
+      "bytes": 1127768,
+      "frameId": "reinach-aesch-therwil-aesch-street-detail",
+      "kind": "image",
+      "path": "/home/ubuntu/bioatlas/assets/basel-canton-V3/reinach-aesch-therwil-aesch-street-detail_swiss_aerial.jpg"
+    },
+    {
+      "url": "/manus-storage/reinach-aesch-therwil-aesch-street-detail_V2_f03495ce.pdf",
+      "sha256": "0e136db4c533aa6af77e7690beb9211ca62710645d087c93e69d3dc0ed7f382a",
+      "bytes": 1165739,
+      "frameId": "reinach-aesch-therwil-aesch-street-detail",
+      "kind": "exhibit",
+      "path": "/home/ubuntu/bioatlas/assets/basel-canton-V3/reinach-aesch-therwil-aesch-street-detail_V2.pdf"
+    },
+    {
+      "url": "/manus-storage/reinach-aesch-therwil-reinach-street-detail_swiss_aerial_623de10b.jpg",
+      "sha256": "b9022f97b9a9f235d6f4cc208e78b28f00809cbab84fd3d11c0ab169858b4396",
+      "bytes": 1336739,
+      "frameId": "reinach-aesch-therwil-reinach-street-detail",
+      "kind": "image",
+      "path": "/home/ubuntu/bioatlas/assets/basel-canton-V3/reinach-aesch-therwil-reinach-street-detail_swiss_aerial.jpg"
+    },
+    {
+      "url": "/manus-storage/reinach-aesch-therwil-reinach-street-detail_V2_67f33c76.pdf",
+      "sha256": "7b79198a6ca6263bcc0a74fe2942f1afe189c9550ed10d21099ae6954b7e6aa4",
+      "bytes": 1392031,
+      "frameId": "reinach-aesch-therwil-reinach-street-detail",
+      "kind": "exhibit",
+      "path": "/home/ubuntu/bioatlas/assets/basel-canton-V3/reinach-aesch-therwil-reinach-street-detail_V2.pdf"
+    },
+    {
+      "url": "/manus-storage/reinach-aesch-therwil-therwil-street-detail_swiss_aerial_bac23c8b.jpg",
+      "sha256": "ed7ab1dbb767cd1693d475c2d9adcc9d96d3122fba86daf8707f5b7eb9a2840b",
+      "bytes": 1341038,
+      "frameId": "reinach-aesch-therwil-therwil-street-detail",
+      "kind": "image",
+      "path": "/home/ubuntu/bioatlas/assets/basel-canton-V3/reinach-aesch-therwil-therwil-street-detail_swiss_aerial.jpg"
+    },
+    {
+      "url": "/manus-storage/reinach-aesch-therwil-therwil-street-detail_V2_157369f0.pdf",
+      "sha256": "81961747833b4accbfa41f2eac7c007b4ff3964c00041295f33e2e7d506496e8",
+      "bytes": 1381098,
+      "frameId": "reinach-aesch-therwil-therwil-street-detail",
+      "kind": "exhibit",
+      "path": "/home/ubuntu/bioatlas/assets/basel-canton-V3/reinach-aesch-therwil-therwil-street-detail_V2.pdf"
+    },
+    {
+      "url": "/manus-storage/liestal-sissach-liestal-street-detail-1_swiss_aerial_78b0edda.jpg",
+      "sha256": "ca0730a43a95560dff4ca786f34017c22d4c55a59ddd371d6d15fd3a96a4aa8b",
+      "bytes": 1586921,
+      "frameId": "liestal-sissach-liestal-street-detail-1",
+      "kind": "image",
+      "path": "/home/ubuntu/bioatlas/assets/basel-canton-V3/liestal-sissach-liestal-street-detail-1_swiss_aerial.jpg"
+    },
+    {
+      "url": "/manus-storage/liestal-sissach-liestal-street-detail-1_V2_e316792d.pdf",
+      "sha256": "cc3658687a519da2fcbaba54a1f5917199d618ab04410b673ebe54abf2e00260",
+      "bytes": 1638818,
+      "frameId": "liestal-sissach-liestal-street-detail-1",
+      "kind": "exhibit",
+      "path": "/home/ubuntu/bioatlas/assets/basel-canton-V3/liestal-sissach-liestal-street-detail-1_V2.pdf"
+    },
+    {
+      "url": "/manus-storage/liestal-sissach-liestal-street-detail-2_swiss_aerial_36b2a634.jpg",
+      "sha256": "d4c9caf53a35d0d53b0fbd2faa83d0d26aaae483629e92e4ee34f158b2eb6ff6",
+      "bytes": 1495412,
+      "frameId": "liestal-sissach-liestal-street-detail-2",
+      "kind": "image",
+      "path": "/home/ubuntu/bioatlas/assets/basel-canton-V3/liestal-sissach-liestal-street-detail-2_swiss_aerial.jpg"
+    },
+    {
+      "url": "/manus-storage/liestal-sissach-liestal-street-detail-2_V2_d0afe5f4.pdf",
+      "sha256": "60d21fe3e426d99a1e6457eeb790311a67694bc59c6c40352cc34f46fc20554a",
+      "bytes": 1536815,
+      "frameId": "liestal-sissach-liestal-street-detail-2",
+      "kind": "exhibit",
+      "path": "/home/ubuntu/bioatlas/assets/basel-canton-V3/liestal-sissach-liestal-street-detail-2_V2.pdf"
+    },
+    {
+      "url": "/manus-storage/schonenbuch-schoenenbuch-street-detail_swiss_aerial_7d703289.jpg",
+      "sha256": "9e94cc7baaf6fc846870be4509dde440c15932e621586ff1055187f0e5be8188",
+      "bytes": 1363548,
+      "frameId": "schonenbuch-schoenenbuch-street-detail",
+      "kind": "image",
+      "path": "/home/ubuntu/bioatlas/assets/basel-canton-V3/schonenbuch-schoenenbuch-street-detail_swiss_aerial.jpg"
+    },
+    {
+      "url": "/manus-storage/schonenbuch-schoenenbuch-street-detail_V2_243759fc.pdf",
+      "sha256": "135941652f0cd120ed479a87ec1bfc63a68f5ef45ac5696361fa48b933588075",
+      "bytes": 1395343,
+      "frameId": "schonenbuch-schoenenbuch-street-detail",
+      "kind": "exhibit",
+      "path": "/home/ubuntu/bioatlas/assets/basel-canton-V3/schonenbuch-schoenenbuch-street-detail_V2.pdf"
+    },
+    {
+      "url": "/manus-storage/basel-liestal-sissach-sissach-orientation-context_swiss_aerial_404871d6.jpg",
+      "sha256": "11f3836e6a33dd56aa37bb63ae4aa86c883f23daebb73db9e97d66cad1052b17",
+      "bytes": 1373607,
+      "frameId": "basel-liestal-sissach-sissach-orientation-context",
+      "kind": "image",
+      "path": "/home/ubuntu/bioatlas/assets/basel-canton-V3/basel-liestal-sissach-sissach-orientation-context_swiss_aerial.jpg"
+    },
+    {
+      "url": "/manus-storage/basel-liestal-sissach-sissach-orientation-context_V2_1cdb50ac.pdf",
+      "sha256": "2db500fdae2e9d60034828f20be0729aef2765277cbf603e4d86e2fb2140c815",
+      "bytes": 1402309,
+      "frameId": "basel-liestal-sissach-sissach-orientation-context",
+      "kind": "exhibit",
+      "path": "/home/ubuntu/bioatlas/assets/basel-canton-V3/basel-liestal-sissach-sissach-orientation-context_V2.pdf"
+    }
+  ],
+  "nativeFrames": 24,
+  "individualExhibits": 24,
+  "previousRegistryEntries": 420,
+  "previousRegistryHash": "0a5ece9fe9c28c447f3780164482367c93936ac3f7e2c149b4e1da1ce9cd9c7d",
+  "registryEntriesAfterMerge": 468,
+  "registryByteHash": "ef0e9135f4a1b90c4f3678c05b68010dc04b5ed0c422251a6f46696a5cdfa230",
+  "producerHash": "24494b6369d0ba3cb9a6606b4874631a29416f8e1f9d91bbd0c5253383f39ce1",
+  "manifestHash": "d9cd022fffba088cb4be1ec527b712791a5cb326354bc279b2aa592178e11b2d"
+}

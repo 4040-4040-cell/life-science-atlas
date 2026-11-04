@@ -1,0 +1,43 @@
+{
+  "edition": "V5",
+  "asOf": "2026-11-04",
+  "paper": "Tabloid landscape",
+  "cantons": {
+    "basel-stadt": {
+      "title": "Basel-Stadt",
+      "imageUrl": "/manus-storage/basel-stadt_availability_V5_11d6ffb7.png",
+      "pdfUrl": "/manus-storage/basel-stadt_availability_V5_9cb06950.pdf",
+      "bookPdfUrl": "/manus-storage/basel_BS_building-book_V4_f341ed27.pdf",
+      "asOf": "2026-11-04",
+      "pages": 1,
+      "widthPoints": 1224,
+      "heightPoints": 792,
+      "paper": {
+        "widthInches": 17,
+        "heightInches": 11,
+        "name": "Tabloid"
+      },
+      "dataZipUrl": "/manus-storage/Basel_Corrected_Register_and_Print_V1_426d7928.zip"
+    },
+    "basel-landschaft": {
+      "title": "Basel-Landschaft",
+      "imageUrl": "/manus-storage/basel-landschaft_availability_V5_c7b22db8.png",
+      "pdfUrl": "/manus-storage/basel-landschaft_availability_V5_02d3127f.pdf",
+      "bookPdfUrl": "/manus-storage/basel_BL_building-book_V4_6297e042.pdf",
+      "asOf": "2026-11-04",
+      "pages": 1,
+      "widthPoints": 1224,
+      "heightPoints": 792,
+      "paper": {
+        "widthInches": 17,
+        "heightInches": 11,
+        "name": "Tabloid"
+      },
+      "dataZipUrl": "/manus-storage/Basel_Corrected_Register_and_Print_V1_426d7928.zip"
+    }
+  },
+  "combinedBookPdfUrl": "/manus-storage/basel_BS_BL_building-book_V4_9985da97.pdf",
+  "sourceDataZipUrl": "/manus-storage/Basel_Corrected_Register_and_Print_V1_426d7928.zip",
+  "priorEvidenceZipUrl": "/manus-storage/Basel_Cantons_Print_and_Data_V4_73d76a95.zip",
+  "allMarketsPdfUrl": "/manus-storage/life-science-atlas_all-markets-and-basel_V4_b12ab7e1.pdf"
+}

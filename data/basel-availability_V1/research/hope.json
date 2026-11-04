@@ -1,0 +1,155 @@
+{
+  "id": "hope",
+  "retrievedDate": "2026-11-04",
+  "researchCutoff": "2026-11-04",
+  "sources": [
+    {
+      "url": "https://senn.com/projekt/hope-allschwil/",
+      "title": "HOPE Allschwil: Gewerbe- und Büroflächen ab 2028 | SENN",
+      "publishedDate": null,
+      "retrievedDate": "2026-11-04",
+      "evidenceExcerpt": "Eigentümerin: SENN, St. Gallen; Nutzfläche: 10’250 m²; Fertigstellung: 2027/28. HOPE ist ab 2028 bezugsbereit. Ein Stockwerk kann in ein bis vier Mietparteien unterteilt werden. Zusätzlich zu den individuellen Arbeitsflächen erhalten Sie Anteile an den Gemeinschaftsflächen. Bei Bedarf können im Untergeschoss weitere eigene Nutzflächen angemietet werden. (Flächen ab 150 m2, Geschossfläche knapp 2’000 m2). Die Adresse lautet Hegenheimermattweg 165, 4123 Allschwil. Das Dachgeschoss ist an das Swiss TPH vergeben, darunter werden vier Bürogeschosse und ein attraktives, publikumsorientiertes Erdgeschoss vermietet (z. B. Café oder Kita). Das Gebäude HOPE ist noch im Bau."
+    },
+    {
+      "url": "https://sip-baselarea.com/maincampus/",
+      "title": "Main Campus | Switzerland Innovation Park Basel Area",
+      "publishedDate": null,
+      "retrievedDate": "2026-11-04",
+      "evidenceExcerpt": "Hope — Office space 2028. Opening end of 2028, HOPE is the result of an architectural competition: A beautifully sustainable and efficient office building by Felippi Wyssen Architects with the Swiss TPH as anchor tenant. Find out about the ready to move in office and service spaces from 130 to 8‘000 m² at HOPE!"
+    },
+    {
+      "url": "https://sip-baselarea.com/customizable-spaces/",
+      "title": "Customizable spaces | Switzerland Innovation Park Basel Area",
+      "publishedDate": null,
+      "retrievedDate": "2026-11-04",
+      "evidenceExcerpt": "HOPE — Turnkey offices (2028). HOPE is a sustainable office building designed by Felippi Wyssen Architects with Swiss TPH as anchor tenant. Move in fast, then tailor layouts, services and expansion paths as your team grows. FAQ: HOPE: Space available in 2028. You can contact Senn, our site developers, to secure a spot for the future buildings."
+    }
+  ],
+  "units": [
+    {
+      "building": "HOPE (House of Partnership and Engagement)",
+      "floor": "Unspecified marketed office/service space below the Swiss TPH top floor",
+      "address": "Hegenheimermattweg 165, 4123 Allschwil, Switzerland",
+      "areaM2": 8000,
+      "areaQualifier": "up_to; upper endpoint of the advertised 130–8,000 m² space range, not an explicit exact total of remaining inventory",
+      "useType": "office/service/commercial; no laboratory use stated",
+      "areaBasis": "Advertised space range on the primary campus marketing page; precise measurement standard and treatment of shared areas not stated",
+      "availabilityState": "future_marketed",
+      "availableFrom": "2028 (SENN); end of 2028 (SIP)",
+      "sourceUrl": "https://sip-baselarea.com/maincampus/",
+      "overlapGroup": "sip-main-campus-hope-leasing",
+      "includeInTotal": false,
+      "notes": "Preserves the current advertised upper bound rather than converting it into exact vacancy. A range of rentable spaces does not establish 8,000 m² of simultaneously available aggregate inventory; exclude from exact additive totals and retain as a separately labeled future-marketed upper bound. SENN's live owner/developer page corroborates active marketing and 2028 occupancy but does not publish an exact remaining-area total. SENN gives a minimum of approximately 150 m², whereas SIP advertises 130 m²; both claims are retained without assuming either undated webpage is newer. The building is still under construction, not under refurbishment. No specific confirmation of physical vacancy has been obtained. No fitted laboratory area is evidenced."
+    },
+    {
+      "building": "HOPE (House of Partnership and Engagement)",
+      "floor": "Ground floor",
+      "address": "Hegenheimermattweg 165, 4123 Allschwil, Switzerland",
+      "areaM2": null,
+      "areaQualifier": "Area not published for this floor",
+      "useType": "public-facing commercial/service, with café or daycare given as examples",
+      "areaBasis": "Floor-level marketing description, not a measured available-unit schedule",
+      "availabilityState": "future_marketed",
+      "availableFrom": "2028",
+      "sourceUrl": "https://senn.com/projekt/hope-allschwil/",
+      "overlapGroup": "sip-main-campus-hope-leasing",
+      "includeInTotal": false,
+      "notes": "SENN markets an attractive public-facing ground floor below the Swiss TPH top floor. No quantitative floor availability or exact suite allocation is supplied. May overlap the SIP office/service advertised range; do not add separately."
+    },
+    {
+      "building": "HOPE (House of Partnership and Engagement)",
+      "floor": "Basement",
+      "address": "Hegenheimermattweg 165, 4123 Allschwil, Switzerland",
+      "areaM2": null,
+      "areaQualifier": "Optional additional space; area unspecified",
+      "useType": "additional usable space; specific function unstated",
+      "areaBasis": "SENN states that additional private usable areas can be rented in the basement if required",
+      "availabilityState": "future_marketed",
+      "availableFrom": "2028",
+      "sourceUrl": "https://senn.com/projekt/hope-allschwil/",
+      "overlapGroup": "sip-main-campus-hope-leasing",
+      "includeInTotal": false,
+      "notes": "Marketing is conditional on tenant needs. No distinct measured unit, lab capability, or confirmation that basement space is additional to the SIP range is provided."
+    },
+    {
+      "building": "HOPE (House of Partnership and Engagement)",
+      "floor": "Top floor / Dachgeschoss",
+      "address": "Hegenheimermattweg 165, 4123 Allschwil, Switzerland",
+      "areaM2": null,
+      "areaQualifier": "Committed tenant space; area not published",
+      "useType": "office; Swiss TPH anchor tenancy",
+      "areaBasis": "SENN's explicit statement that Swiss TPH has secured the top floor",
+      "availabilityState": "fully_let",
+      "availableFrom": null,
+      "sourceUrl": "https://senn.com/projekt/hope-allschwil/",
+      "overlapGroup": "sip-main-campus-hope-building",
+      "includeInTotal": false,
+      "notes": "Fully let applies only to the committed top-floor unit, not to the whole HOPE building. This is a future tenant commitment in a building marketed for 2028 occupancy, not evidence of present physical occupation or owner occupation. No tenant area is inferred by subtracting marketed ranges from building size."
+    }
+  ],
+  "excludedTotals": [
+    {
+      "building": "HOPE",
+      "areaM2": 10250,
+      "areaQualifier": "SENN stated Nutzfläche",
+      "areaBasis": "Whole-building usable area, including committed and other space",
+      "sourceUrl": "https://senn.com/projekt/hope-allschwil/",
+      "overlapGroup": "sip-main-campus-hope-building",
+      "reason": "Building size is not remaining leasable inventory. Do not add it to marketed space or count it as vacancy."
+    },
+    {
+      "building": "HOPE",
+      "areaM2": 2000,
+      "areaQualifier": "less_than; source says knapp 2’000 m²",
+      "areaBasis": "Typical advertised Geschossfläche, not a confirmed available floor unit",
+      "sourceUrl": "https://senn.com/projekt/hope-allschwil/",
+      "overlapGroup": "sip-main-campus-hope-leasing",
+      "reason": "Do not treat 2,000 m² as an exact unit or multiply it by four office floors to manufacture an availability total. SENN also says each floor can be subdivided among one to four tenants and that shared-area allocations accompany private workspaces."
+    },
+    {
+      "building": "HOPE",
+      "areaM2": 150,
+      "areaQualifier": "from_approximately",
+      "areaBasis": "Minimum flexible rental size on the SENN page",
+      "sourceUrl": "https://senn.com/projekt/hope-allschwil/",
+      "overlapGroup": "sip-main-campus-hope-leasing",
+      "reason": "Minimum configurability is not a separately identified available unit or an additive inventory item. Conflicts with SIP's 130 m² minimum; neither source has a disclosed publication/update date."
+    },
+    {
+      "building": "HOPE",
+      "areaM2": 130,
+      "areaQualifier": "from",
+      "areaBasis": "Minimum advertised office/service size on the SIP Main Campus page",
+      "sourceUrl": "https://sip-baselarea.com/maincampus/",
+      "overlapGroup": "sip-main-campus-hope-leasing",
+      "reason": "Lower endpoint of the same marketed range, not additive to its 8,000 m² upper endpoint. Retain the discrepancy with SENN's approximately 150 m² minimum."
+    },
+    {
+      "building": "Switzerland Innovation Park Basel Area Main Campus",
+      "areaM2": 115000,
+      "areaQualifier": "more_than",
+      "areaBasis": "Campus-wide mixed laboratory and office area quoted in SENN's HOPE FAQ",
+      "sourceUrl": "https://senn.com/projekt/hope-allschwil/",
+      "overlapGroup": "sip-main-campus-all-buildings",
+      "reason": "Overlaps constituent buildings including HOPE, Main Campus HQ, HORTUS, ALL and SCALE. Campus capacity is not availability, must not be summed with building rows, and mixed office/lab area is not fitted lab area."
+    },
+    {
+      "building": "HOPE",
+      "areaM2": 8000,
+      "areaQualifier": "Imported historical brochure remaining-area claim; unverified in this pass",
+      "areaBasis": "Uploaded property row 5 refers to an October 2025 developer brochure; task instructions identify a historical November 2025 brochure",
+      "sourceUrl": null,
+      "overlapGroup": "sip-main-campus-hope-leasing",
+      "reason": "The historical brochure itself was not supplied or read in this pass and is not current vacancy evidence. The 8,000 m² range recorded in units is independently supported by the live primary SIP webpage, not by the brochure. Do not count the historical figure again."
+    }
+  ],
+  "gaps": [
+    "No exact remaining leasable-area total, floor-by-floor measured availability schedule, or specific physical-vacancy confirmation was found on the opened primary pages. The 8,000 m² advertised range ceiling is therefore not included in exact additive totals.",
+    "SENN's minimum configurable space is approximately 150 m², while SIP's marketed range begins at 130 m². Publication and update dates are not disclosed on the opened pages; retrieval on 2026-11-04 is not a claim of webpage recency.",
+    "SENN states completion in 2027/28 and occupancy from 2028; SIP specifies opening at the end of 2028. An exact handover date is unresolved; no January 2028 date is inferred.",
+    "No laboratory use, fitted laboratory inventory, or laboratory share is stated for HOPE. Generic campus references to laboratory-compatible customizable space do not establish HOPE laboratory capability.",
+    "The Homegate URL https://www.homegate.ch/rent/4003517742 was discovered through search, but fetch returned no extractable content. Its search-snippet date and unit details were not accepted as evidence. The primary SENN and SIP pages were successfully read; the targeted source-resolution pass stopped without further listing research.",
+    "The historical brochure date differs between the uploaded row and task wording. Neither historical version was used to establish current availability.",
+    "ALL's separate 5,100 m² leasing-page claim and the differing general SENN FAQ are outside this exact HOPE assignment. No ALL areas are entered or reconciled as HOPE space."
+  ]
+}

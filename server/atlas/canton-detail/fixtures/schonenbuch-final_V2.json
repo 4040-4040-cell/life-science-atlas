@@ -1,0 +1,290 @@
+{
+  "inputSha256": "aaa18b80a88edfa904a5c16857574e5edbec70d2e8342874dc26169331b2f07a",
+  "newCluster": {
+    "id": "schonenbuch",
+    "canton": "BL",
+    "name": "Schönenbuch diagnostics facilities",
+    "municipalities": [
+      "Schönenbuch"
+    ],
+    "researchCutoff": "2026-11-04",
+    "occupancyRead": "BÜHLMANN publishes a current facilities address at Baselstrasse 55. This is a separate diagnostics location, not an Allschwil campus tenant or a verified new-space event. Lease-level details and local employment remain unknown.",
+    "functions": [
+      "Diagnostic assay company facilities; specific on-site functional split undisclosed"
+    ],
+    "aerialIds": [],
+    "companySites": [
+      {
+        "name": "BÜHLMANN Laboratories AG",
+        "companyId": "gco_a188e36055bd76686fb9",
+        "siteId": null,
+        "location": "Schönenbuch, Basel-Landschaft, Switzerland",
+        "address": "Baselstrasse 55, 4124 Schönenbuch, Switzerland",
+        "municipality": "Schönenbuch",
+        "role": "Diagnostic-assay company; primary source explicitly identifies its facilities at this address. Specific production/lab/office division and leased demise are undisclosed.",
+        "parent": null,
+        "evidenceStatus": "current_primary_source_address",
+        "addressBasis": "company_published_facilities_address",
+        "sourceIds": [
+          "bl:schonenbuch:buhlmann_contact",
+          "bl:schonenbuch:buhlmann_portfolio"
+        ],
+        "gaps": [
+          "No disclosed occupied area, tenure, executed rent, lease term or local headcount. Address does not prove a particular leased suite or a site-specific production capacity."
+        ],
+        "suite": null,
+        "floor": null,
+        "companyOccupiedArea": null,
+        "localEmployees": null,
+        "leaseExpiry": null,
+        "renewalOptions": null,
+        "executedRent": null,
+        "currentLeaseCounterparty": null,
+        "tenure": null,
+        "observedAsOf": "2026-11-04",
+        "aerialUnitId": null,
+        "counting": "current_supported_existing_company_id"
+      }
+    ],
+    "companyIds": [
+      "gco_a188e36055bd76686fb9"
+    ],
+    "residentReferences": [],
+    "excludedOrUnresolvedLeads": [],
+    "institutions": [],
+    "propertyEvidence": [],
+    "buildingSchedule": [],
+    "developmentPipeline": [],
+    "availabilityEvidence": [],
+    "datedActions": [],
+    "nextChecks": [
+      "Confirm building/leased demise and local production/lab functions with occupier; obtain current tenure, area and lease details."
+    ],
+    "sources": [
+      {
+        "id": "bl:schonenbuch:buhlmann_contact",
+        "title": "BÜHLMANN official Swiss company contact and facilities address",
+        "url": "https://www.buhlmannlabs.ch/contact/",
+        "publishedDate": null,
+        "retrievedDate": "2026-11-04",
+        "visibility": "public_primary",
+        "publicationDateStatus": "publication_unknown",
+        "documentPage": null
+      },
+      {
+        "id": "bl:schonenbuch:buhlmann_portfolio",
+        "title": "BÜHLMANN official diagnostic assay portfolio",
+        "url": "https://www.buhlmannlabs.ch/",
+        "publishedDate": null,
+        "retrievedDate": "2026-11-04",
+        "visibility": "public_primary",
+        "publicationDateStatus": "publication_unknown",
+        "documentPage": null
+      },
+      {
+        "id": "bl:schonenbuch:municipal_authority",
+        "title": "Schönenbuch municipal authority and official map",
+        "url": "https://www.schoenenbuch.ch/",
+        "publishedDate": null,
+        "retrievedDate": "2026-11-04",
+        "visibility": "public_primary",
+        "publicationDateStatus": "publication_unknown",
+        "documentPage": null
+      }
+    ],
+    "metrics": {},
+    "gaps": [
+      "No disclosed site area or lease/availability evidence."
+    ],
+    "detailedNarrative": "The company contact page explicitly states its facilities are located in Schönenbuch and publishes Baselstr. 55, CH-4124 Schönenbuch. Product portfolio evidence supports diagnostic-assay company identity but not a site-specific manufacturing license, workforce or area. [bl:schonenbuch:buhlmann_contact] [bl:schonenbuch:buhlmann_portfolio]",
+    "assemblyProvenance": {
+      "reason": "Resolved known Schönenbuch inventory omission from current company primary sources; existing exact master ID, no new master admission."
+    }
+  },
+  "companyIds": [
+    "gco_1dc783a1c4c6e9b7b31b",
+    "gco_227531de5eb003ab5d9c",
+    "gco_3f314dfde5f2902e7d47",
+    "gco_3ff18fc6f69e8f2956b6",
+    "gco_4770f3a112b9769fac17",
+    "gco_5554a017a5a79fc7ba31",
+    "gco_57e609e8c4a0be3268cd",
+    "gco_6cf2212dff0779e17130",
+    "gco_711f5ce68856e14aa757",
+    "gco_7389682351a722140321",
+    "gco_7f19e0d05ed620345758",
+    "gco_9328b082a7756ed365fb",
+    "gco_da82f0a8321e0fb06fbe",
+    "gco_a188e36055bd76686fb9"
+  ],
+  "metrics": {
+    "currentSupportedCompanies": {
+      "value": 14,
+      "unit": "distinct V6 company IDs",
+      "label": "Current supported company IDs",
+      "scope": "Basel-Landschaft completed current company/site evidence",
+      "sourceIds": [
+        "assembly:v6-snapshot",
+        "assembly:completed-cluster-inputs"
+      ],
+      "sourceDate": null,
+      "sourceDateStatus": "snapshot and offline derivation, not independent publication",
+      "asOf": "2026-11-04",
+      "evidenceStatus": "deterministic_classified_input_count",
+      "notes": "Distinct existing IDs; repeat group/legal-entity/site rows counted once per canton. Null-ID additional leads excluded."
+    },
+    "completedClusters": {
+      "value": 6,
+      "unit": "records",
+      "label": "Completed cluster records",
+      "scope": "Basel-Landschaft completed input manifest",
+      "sourceIds": [
+        "assembly:v6-snapshot",
+        "assembly:completed-cluster-inputs"
+      ],
+      "sourceDate": null,
+      "sourceDateStatus": "snapshot and offline derivation, not independent publication",
+      "asOf": "2026-11-04",
+      "evidenceStatus": "deterministic_classified_input_count",
+      "notes": ""
+    },
+    "missingClusters": {
+      "value": 0,
+      "unit": "records",
+      "label": "Missing cluster records",
+      "scope": "Basel-Landschaft expected input manifest",
+      "sourceIds": [
+        "assembly:v6-snapshot",
+        "assembly:completed-cluster-inputs"
+      ],
+      "sourceDate": null,
+      "sourceDateStatus": "snapshot and offline derivation, not independent publication",
+      "asOf": "2026-11-04",
+      "evidenceStatus": "deterministic_classified_input_count",
+      "notes": ""
+    },
+    "retainedV6AnchorRecords": {
+      "value": 1,
+      "unit": "records",
+      "label": "Retained V6 anchor records",
+      "scope": "Basel-Landschaft retained V6 site records",
+      "sourceIds": [
+        "assembly:v6-snapshot",
+        "assembly:completed-cluster-inputs"
+      ],
+      "sourceDate": null,
+      "sourceDateStatus": "snapshot and offline derivation, not independent publication",
+      "asOf": "2026-11-04",
+      "evidenceStatus": "deterministic_classified_input_count",
+      "notes": "Institution and orientation references; not company counts."
+    },
+    "retainedV6PreciseCurrentCompanySiteRecords": {
+      "value": 9,
+      "unit": "records",
+      "label": "Retained V6 official-address-point company site records",
+      "scope": "Basel-Landschaft current-supported existing V6 site subset",
+      "sourceIds": [
+        "assembly:v6-snapshot",
+        "assembly:completed-cluster-inputs"
+      ],
+      "sourceDate": null,
+      "sourceDateStatus": "snapshot and offline derivation, not independent publication",
+      "asOf": "2026-11-04",
+      "evidenceStatus": "deterministic_classified_input_count",
+      "notes": "Counts site records, not distinct companies or new geocodes. Novartis/Roche campus references remain non-demise references; Noema legal address is excluded."
+    },
+    "companySiteInventoryRecords": {
+      "value": 38,
+      "unit": "records",
+      "label": "Uncapped company/operator site inventory records",
+      "scope": "Basel-Landschaft merged cluster companySites including transfers",
+      "sourceIds": [
+        "assembly:v6-snapshot",
+        "assembly:completed-cluster-inputs"
+      ],
+      "sourceDate": null,
+      "sourceDateStatus": "snapshot and offline derivation, not independent publication",
+      "asOf": "2026-11-04",
+      "evidenceStatus": "deterministic_classified_input_count",
+      "notes": "Includes repeated entities, null-ID leads, operators and qualified historical references; not a company count."
+    },
+    "nullIdCompanyOperatorRecords": {
+      "value": 15,
+      "unit": "records",
+      "label": "Null-ID company/operator inventory records",
+      "scope": "Basel-Landschaft merged companySites",
+      "sourceIds": [
+        "assembly:v6-snapshot",
+        "assembly:completed-cluster-inputs"
+      ],
+      "sourceDate": null,
+      "sourceDateStatus": "snapshot and offline derivation, not independent publication",
+      "asOf": "2026-11-04",
+      "evidenceStatus": "deterministic_classified_input_count",
+      "notes": "Record count includes property providers and internal programmes; not a distinct scientific-company census."
+    },
+    "institutionRecords": {
+      "value": 10,
+      "unit": "records",
+      "label": "Institution/operator/program reference records",
+      "scope": "Basel-Landschaft institution arrays",
+      "sourceIds": [
+        "assembly:v6-snapshot",
+        "assembly:completed-cluster-inputs"
+      ],
+      "sourceDate": null,
+      "sourceDateStatus": "snapshot and offline derivation, not independent publication",
+      "asOf": "2026-11-04",
+      "evidenceStatus": "deterministic_classified_input_count",
+      "notes": "Arrays contain institutional programmes and provider references; not distinct institutions or company count."
+    },
+    "propertyEvidenceRecords": {
+      "value": 44,
+      "unit": "records",
+      "label": "Detailed property-evidence records",
+      "scope": "Basel-Landschaft cluster propertyEvidence",
+      "sourceIds": [
+        "assembly:v6-snapshot",
+        "assembly:completed-cluster-inputs"
+      ],
+      "sourceDate": null,
+      "sourceDateStatus": "snapshot and offline derivation, not independent publication",
+      "asOf": "2026-11-04",
+      "evidenceStatus": "deterministic_classified_input_count",
+      "notes": "Multiple measures can describe one property; not distinct buildings or area."
+    },
+    "currentOccupiedArea": {
+      "value": null,
+      "unit": "m²",
+      "scope": "Basel-Landschaft company-exclusive occupied area",
+      "asOf": "2026-11-04",
+      "evidenceStatus": "not_established",
+      "sourceIds": [
+        "assembly:completed-cluster-inputs"
+      ],
+      "notes": "No common measured tenant-area denominator; incompatible areas not summed."
+    },
+    "currentMarketAvailableLabArea": {
+      "value": null,
+      "unit": "m²",
+      "scope": "Basel-Landschaft confirmed current marketable laboratory area",
+      "asOf": "2026-11-04",
+      "evidenceStatus": "not_established",
+      "sourceIds": [
+        "assembly:completed-cluster-inputs"
+      ],
+      "notes": "Operator ranges, future programmes and conflicting units do not establish additive vacancy."
+    },
+    "localWorkforce": {
+      "value": null,
+      "unit": "people/FTE basis unresolved",
+      "scope": "Basel-Landschaft current life-science local workforce",
+      "asOf": "2026-11-04",
+      "evidenceStatus": "not_established",
+      "sourceIds": [
+        "assembly:completed-cluster-inputs"
+      ],
+      "notes": "Historical company/site filing headcounts remain separate; no current canton estimate."
+    }
+  }
+}

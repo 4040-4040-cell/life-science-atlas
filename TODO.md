@@ -24,3 +24,47 @@ The initial visual certification was withdrawn. Real browser inspection found fa
 - [ ] Verify actual print pagination and offline interactions, run affected automated checks, preserve the prior source version and save the new canonical version. Permanent publication requires the user’s pending permission; do not infer that from print/download approval.
 
 Print generation, all-market paper checks, no-network offline browser proof and retained API/export checks passed. The offline V3 ZIP is durably stored. Final source save remains open until canonical push; permanent publication is not yet approved.
+
+## Claude benchmark improvements, 4 November 2026
+
+- [ ] Replace map-only sheets with one-page 11×17 market intelligence sheets for all hubs: a meaningful takeaway, six evidence-aware measures, submarket/primary-area comparison, company callouts and dated footprint actions with citations. Preserve previous Letter maps and all original evidence. Counts distinguish supported baseline, unchecked candidates, site records and anchors.
+- [ ] Deduplicate entity cash, keep USD unit/period/source coverage visible, state companywide scope and avoid lease-credit conclusions. Show model-tier assumptions and unscored records. Do not infer headquarters or double-count overlapping frames as independent submarkets.
+- [ ] Add the intelligence view to the website and print route, with clickable company/source links, actual paper pagination and no live-provider dependency in the print output.
+- [ ] Produce a smaller true double-click browser offline edition, retaining all profiles, local imagery, search/filter/export and print views. No Node, local server, remote fetch or cloud dependency; use file-safe local assets and hash routing. Test actual file:// operation with external requests blocked.
+- [ ] Inspect the final exports and browser behavior, preserve prior source versions, save the new canonical source and deliver only the improved working product and print files. Do not claim hosted publication before approval.
+
+- [ ] Apply all 59 product questions and 29 JLL design questions to final rendered files and working app; record concrete changes and unresolved data gaps internally, not as a substitute user deliverable. JLL palette is black, red, gray and white with high-quality real logos.
+- [ ] Correct the named critique items: Fricktal current plants versus planned Bachem site, UK extent, duplicate Boulder labels, regional attribution, San Diego submarket assignment and dense Genetown inset. Verify disputed Basel/Bay operating-status flags and refresh stale cash where a current matching filing supports it; preserve prior observations.
+
+## Basel-Stadt and Basel-Landschaft building-level extension
+
+- [ ] Separate canton views with every verified company/building address identified in reviewed sources, complete occupier and campus/building schedules, current vs planned space pipeline, property/availability evidence and explicit unknown lease/rent/workforce/area fields. New small operators stay in the extended address inventory, not a silently expanded global baseline. Aargau/Fricktal and French/German extensions remain separate.
+- [ ] Source-linked building/occupier rows open existing company profiles where exact IDs match; new operators retain meaningful source-detail records. No company suite, occupied area or verified tenancy inference from a campus address, roster logo or building aggregate.
+- [ ] Retained and newly prepared street-level aerials cover documented submarkets; each raster has native bounds, provider/date caveats and accepted address matches or separate campus references, never city-centroid building pins. Full data/CSV and printable canton overviews plus detailed building schedule/aerial book are linked into the website and no-install offline product.
+- [ ] Supplied JLL documents checked first; historical 2025 marketing offers are not current 2026 availability without confirmation. Record reviewed-source coverage and a gap inventory rather than claim every undiscovered entity is included.
+
+## Corrected Basel register integration, 4 November 2026
+
+- [ ] Integrate the supplied canton company lists with stable source-row IDs and conservative links to retained reviewed evidence. Source-supported operating, official contact and campus-resident evidence remain distinct from registry-only and unmatched leads. A supplied verified flag does not prove staffed offices, labs, suites or leased area.
+- [ ] Integrate a building/floor availability register with use, area basis, dates, source, current marketed versus owner-confirmed availability, future pipeline, owner-occupied and unknown states. Klybeck campus/component overlaps must not enter totals; retain ALL listing discrepancy and never divide mixed supply by regional forecast to claim years of vacancy.
+- [ ] Revise Basel hub and both canton one-page sheets and include them in the final all-market PDF set, with full register and company crosswalk in the no-install offline package. Preserve all prior editions and other market research.
+- [ ] Fix actual blocked map clicks and offline interaction defects; verify evidence gates, aggregate scope, complete one-page paper fit and file:// operation with external network blocked. Save canonical source; do not publish without separate approval.
+
+## Basel frontend corrective integration V1
+
+- [x] Shared DTO and JSON register integrated in `BaselAvailabilityRegister`. Full searchable canton availability/company tables, source dates and URLs, original rows, exact shared-profile links, unmatched evidence cards and all-field CSV downloads are present. Main Basel hub/brief use compact summaries and full-register links, never duplicate full company tables on mobile.
+- [x] Offer states, unknowns and history remain separate; contacts, campus residents and registry rows are not added to source-supported operating counts. Forecast is explicitly regional, not measured canton absorption or a years-supply denominator. Pending data assembly is visible and cannot be advertised as corrected current availability.
+- [x] Overlapping postal targets replaced by responsive numbered groups, keeping every coordinate and native raster bound. Unplotted rows remain accessible; no rooftop or vacancy inference. Native source-card and exact company-profile interactions and CSV downloads checked. Canton and Basel brief imagery are visible on the initial phone screen; Basel-only overflow corrected.
+- [x] TypeScript, static build, grouping/count/CSV program checks and 117 regression tests passed. Prior frontend files preserved outside the working tree and scoped diffs reviewed. No Git, publish, producer print renderer or data builder changes made.
+- [x] Exhaustive default-frame pointer and keyboard proof passed on desktop and phone for all 21 Basel-Stadt and 14 Basel-Landschaft source-address records, with no browser errors. Source-card modal state is isolated to avoid rerendering the complete long source page on close.
+- [ ] Parent final file-offline package/release gate. Shared JSON remains availability-pending at frontend handoff; final source data and download binding are owned by the parent/data agent.
+
+## Final corrected Basel release verified
+
+- [x] Building/floor register complete with 95 original property rows preserved and primary-source offer records added; marketed/current/future/refurbishment and aggregate exclusions remain separate.
+- [x] All 245 supplied company observations retained with operating/contact/resident/registry/unresolved evidence states; original company master and site records unchanged.
+- [x] Corrected Basel hub and separate Basel-Stadt/Basel-Landschaft one-page sheets integrated with the full 13-page all-market PDF set; ten other market PDFs preserved byte-for-byte.
+- [x] Same register, native aerials, source dialogs, company links, CSVs and print sheets included in tested file-only offline V9; no network dependencies.
+- [x] Real pointer and keyboard access to all grouped default-frame map records proven on desktop and phone; final register interactions and paper geometry checked online and offline.
+- [x] Type check, production build and affected client/server regression checks completed.
+- [ ] Final corrected source checkpoint recorded and permanent publication result confirmed.
